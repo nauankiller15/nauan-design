@@ -1,59 +1,39 @@
 $('#trabalhosAbrir').on('click', function() {
+    $(".fundoPreto").fadeIn('100');
     $("#trabalhos").fadeIn('600');
-    $('#contato').fadeOut('700');
+    $('#contato').fadeOut('600');
     $('#fechar').fadeIn('3200');
     $("#sobre").fadeOut('600');
 })
-
-// function trabalhosFechar() {
-//     $("#sobre").fadeOut('600');
-//     $('#trabalhos').fadeOut('600');
-//     $('#contato').fadeOut('700');
-//     $('#fechar').fadeOut('300');
-//     $(this).siblings().removeClass('active');
-// }
-
-$('#fechar').on('click', function() {
-    $("#sobre").fadeOut('600');
-    $('#trabalhos').fadeOut('600');
-    $('#contato').fadeOut('700');
-    $('#fechar').fadeOut('600');
-})
-
 
 $('#contatoAbrir').on('click', function() {
-    $("#contato").fadeIn('600');
-    $('#trabalhos').fadeOut('700');
+    $(".fundoPreto").fadeIn('100');
+    $('#contato').fadeIn('300');
     $("#sobre").fadeOut('600');
+    $("#trabalhos").fadeOut('600');
     $('#fechar').fadeIn('3200');
 })
 
-// function contatoFechar() {
-//     $("#sobre").fadeOut('600');
-//     $('#trabalhos').fadeOut('600');
-//     $('#contato').fadeOut('700');
-//     $('#fechar').fadeOut('300');
-// }
+$('#fechar').on('click', function() {
+    $(".fundoPreto").fadeOut('100');
+    $("#trabalhos").fadeOut('600');
+    $('#contato').fadeOut('600');
+    $('#fechar').fadeOut('1200');
+    $("#sobre").fadeOut('600');
+})
 
 $('#sobreAbrir').on('click', function() {
+    $(".fundoPreto").fadeIn('100');
     $("#sobre").fadeIn('600');
     $("#trabalhos").fadeOut('600');
     $('#contato').fadeOut('700');
     $('#fechar').fadeIn('3200');
 })
 
-
-// function sobreFechar() {
-//     $("#sobre").fadeOut('600');
-//     $('#trabalhos').fadeOut('600');
-//     $('#contato').fadeOut('700');
-//     $('#fechar').fadeOut('300');
-// }
-
-
 function fecharpopup() {
     $(document).on('keydown', function(e) {
         if (e.keyCode === 27) {
+            $(".fundoPreto").fadeOut('300');
             $("#sobre").fadeOut('300');
             $('#trabalhos').fadeOut('300');
             $('#contato').fadeOut('300');
