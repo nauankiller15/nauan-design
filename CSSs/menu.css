@@ -1,0 +1,61 @@
+.menu {
+    top: 305px;
+    right: 300px;
+    position: absolute;
+}
+
+@keyframes MenuAnim {
+    from {
+        transform: translateY(2350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.menu ul {
+    padding: 15px;
+    border: 2px #fff solid;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    width: 250px;
+    font-size: 26px;
+    font-weight: 400;
+    animation: MenuAnim 3.0s ease-in-out;
+    border-radius: 10px;
+}
+
+.menu li {
+    text-align: center;
+    margin: 5px auto 5px;
+    padding: 8px;
+    list-style: none;
+    transition-timing-function: ease-in-out;
+    cursor: pointer;
+    transition: 0.5s;
+    background: #000000;
+    color: #ffffff;
+}
+
+.menu li:hover {
+    background: #ffffff;
+    color: #000000;
+}
+
+@keyframes slideMenu {
+    from {
+        transform: translateY(-2350px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes glow1 {
+    from {
+        text-shadow: 0 0 3px #88b4ee, 0 0 5px #fff, 0 0 3px #88b4ee, 0 0 5px #88b4ee, 0 0 5px #88b4ee, 0 0 5px #88b4ee, 0 0 9px #88b4ee;
+    }
+    to {
+        text-shadow: 0 0 2px #88b4ee, 0 0 5px #88b4ee, 0 0 5px #88b4ee, 0 0 10px #88b4ee, 0 0 10px #88b4ee, 0 0 8px #88b4ee, 0 0 8px #88b4ee;
+    }
+}

@@ -1,0 +1,71 @@
+#trabalhos {
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    animation: fadeIn 0.4s;
+    display: none;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+.trabalhos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.trabalhos h2 {
+    top: 120px;
+    color: #ffffff;
+    font-family: Bahnschrift;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
+}
+
+#caixatrabalhos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Centrotrabalhos {
+    top: 245px;
+    width: 45%;
+    padding: 25px;
+    height: 500px;
+    animation: trabalhosCaixa 1.5s ease-in-out;
+    position: absolute;
+    font-size: 18px;
+}
+
+@keyframes trabalhosCaixa {
+    from {
+        transform: translateY(2350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+#fechar {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    font-size: 50px;
+    color: #ffffff;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#fechar:hover {
+    background: #ffff;
+    color: #000000;
+}

@@ -1,0 +1,69 @@
+#contato {
+    background: #000000;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    animation: fadeIn 0.4s;
+    display: none;
+    z-index: 1000;
+    font-family: sans-serif;
+}
+
+.contato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contato h2 {
+    top: 120px;
+    color: #ffffff;
+    font-family: Bahnschrift;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    position: absolute;
+}
+
+#caixaContato {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.CentroContato {
+    top: 245px;
+    width: 45%;
+    padding: 25px;
+    height: 500px;
+    border: #ffffff solid 4px;
+    animation: ContatoCaixa 1.5s ease-in-out;
+    position: absolute;
+    font-size: 18px;
+}
+
+@keyframes ContatoCaixa {
+    from {
+        transform: translateX(-2350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+#fechar {
+    position: fixed;
+    top: 50px;
+    right: 50px;
+    font-size: 50px;
+    color: #ffffff;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#fechar:hover {
+    background: #ffff;
+    color: #000000;
+}
