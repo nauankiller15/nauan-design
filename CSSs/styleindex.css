@@ -1,171 +1,176 @@
-        * {
-            margin: 0px;
-            padding: 0px;
-        }
-        
-        body {
-            font-size: 100%;
-            background: #000000;
-            height: 100%;
-            width: 100%;
-            overflow: hidden;
-            color: #fff;
-        }
-        
-        a {
-            color: #fff;
-            text-decoration: none;
-        }
-        
-        a:hover {
-            color: rgb(0, 0, 0);
-        }
-        
-        #quadrado-position {
-            position: absolute;
-            top: 250px;
-            left: 300px;
-        }
-        
-        .nauan {
-            font-size: 100px;
-            font-family: Bahnschrift;
-            font-style: inherit;
-            cursor: default;
-            position: absolute;
-            left: 17px;
-            top: 360px;
-            text-transform: uppercase;
-            animation: H2Slide 3.5s ease-in-out;
-        }
-        
-        .designn {
-            font-size: 60px;
-            font-family: Bahnschrift;
-            font-style: inherit;
-            cursor: default;
-            position: absolute;
-            left: 17px;
-            top: 450px;
-            text-transform: uppercase;
-            animation: H2Slide 5.5s ease-in-out;
-        }
-        
-        @keyframes H2Slide {
-            from {
-                transform: translateY(950px);
-            }
-            to {
-                transform: translateY(0);
-            }
-        }
-        
-        @keyframes fadeIn {
-            0% {
-                opacity: 0;
-            }
-            100% {
-                opacity: 1;
-            }
-        }
-        
-        .fadeInQuadrado {
-            -webkit-animation: fadeIn 2.7s ease-in-out;
-            -moz-animation: fadeIn 1.7s ease-in-out;
-            -o-animation: fadeIn 1.8s ease-in-out;
-            animation: fadeIn 3.0s ease-in-out;
-            opacity: 1.0;
-        }
-        
-        .quadrado-index {
-            background-image: url(../imagens/square-index.png);
-            background-size: 100%;
-            background-repeat: no-repeat;
-            padding: 300px;
-            position: absolute;
-            transition: 1.0s;
-            animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
-        }
-        
-        @keyframes quadradoAnim {
-            from {
-                transform: translateY(-2350px);
-            }
-            to {
-                transform: translateY(0);
-            }
-        }
-        
-        .quadradoUtilites {
-            top: 85px;
-            font-family: Bahnschrift;
-            text-transform: uppercase;
-            left: 325px;
-            position: absolute;
-            width: 450px;
-            font-size: 26px;
-            font-weight: 400;
-            cursor: default;
-        }
-        
-        @keyframes LiAnim {
-            from {
-                transform: translateX(12350px);
-            }
-            to {
-                transform: translateY(0);
-            }
-        }
-        
-        .quadradoUtilites li {
-            align-content: left;
-            margin: 1px auto 23px;
-            padding: 6px;
-            list-style: none;
-            width: 100%;
-            transition-timing-function: ease-in-out;
-        }
-        
-        .Infograficos::before {
-            font-size: 23px;
-            color: #9e4050;
-            content: "\f022";
-            font-family: FontAwesome;
-            display: inline-block;
-            margin-left: -1.3em;
-            width: 1.5em;
-            z-index: 99;
-        }
-        
-        .Web-Design::before {
-            font-size: 23px;
-            color: #629e40;
-            content: "\f53f";
-            font-family: FontAwesome;
-            display: inline-block;
-            margin-left: -1.3em;
-            width: 1.5em;
-            z-index: 99;
-        }
-        
-        .Web-Dev::before {
-            font-size: 23px;
-            color: #6f7fdb;
-            content: "\f1cd";
-            font-family: FontAwesome;
-            display: inline-block;
-            margin-left: -1.3em;
-            width: 1.5em;
-            z-index: 99;
-        }
-        
-        .Mockups::before {
-            font-size: 23px;
-            color: #9e8d40;
-            content: "\f5ee";
-            font-family: FontAwesome;
-            display: inline-block;
-            margin-left: -1.3em;
-            width: 1.5em;
-            z-index: 99;
-        }
+@font-face {
+    font-family: "Bahnschrift";
+    src: url("../fonts/bahnschrift.ttf") format("truetype");
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 100%;
+    background: #000000;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+}
+
+#quadrado-position {
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+
+.nauan {
+    font-size: 100px;
+    font-family: Bahnschrift;
+    font-style: inherit;
+    cursor: default;
+    position: absolute;
+    left: 17px;
+    top: 360px;
+    text-transform: uppercase;
+    animation: H2Slide 3.5s ease-in-out;
+}
+
+.designn {
+    font-size: 60px;
+    font-family: Bahnschrift;
+    font-style: inherit;
+    cursor: default;
+    position: absolute;
+    left: 17px;
+    top: 450px;
+    text-transform: uppercase;
+    animation: H2Slide 5.5s ease-in-out;
+}
+
+@keyframes H2Slide {
+    from {
+        transform: translateY(950px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeInQuadrado {
+    -webkit-animation: fadeIn 2.7s ease-in-out;
+    -moz-animation: fadeIn 1.7s ease-in-out;
+    -o-animation: fadeIn 1.8s ease-in-out;
+    animation: fadeIn 3.0s ease-in-out;
+    opacity: 1.0;
+}
+
+.quadrado-index {
+    background-image: url(../imagens/square-index.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 300px;
+    position: absolute;
+    transition: 1.0s;
+    animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+}
+
+@keyframes quadradoAnim {
+    from {
+        transform: translateY(-2350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.quadradoUtilites {
+    top: 85px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    left: 325px;
+    position: absolute;
+    width: 450px;
+    font-size: 26px;
+    font-weight: 400;
+    cursor: default;
+}
+
+@keyframes LiAnim {
+    from {
+        transform: translateX(12350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.quadradoUtilites li {
+    align-content: left;
+    margin: 1px auto 23px;
+    padding: 6px;
+    list-style: none;
+    width: 100%;
+    transition-timing-function: ease-in-out;
+}
+
+.Infograficos::before {
+    font-size: 23px;
+    color: #9e4050;
+    content: "\f022";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.5em;
+    z-index: 99;
+}
+
+.Web-Design::before {
+    font-size: 23px;
+    color: #629e40;
+    content: "\f53f";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.5em;
+    z-index: 99;
+}
+
+.Web-Dev::before {
+    font-size: 23px;
+    color: #6f7fdb;
+    content: "\f1cd";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.5em;
+    z-index: 99;
+}
+
+.Mockups::before {
+    font-size: 23px;
+    color: #9e8d40;
+    content: "\f5ee";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.5em;
+    z-index: 99;
+}
