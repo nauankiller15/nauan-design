@@ -1,7 +1,7 @@
 <div id="fundoPreto">
     <div id="trabalhos">
         <div class="trabalhos">
-            <h2 style="animation: TrabalhoIni 2.0s;">Meus Trabalhos<h2>
+            <h2 style="animation: TrabalhoIni 2.0s;">Meus Projetos<h2>
         </div>
         <div id="caixatrabalhos">
             <div class="Centrotrabalhos">

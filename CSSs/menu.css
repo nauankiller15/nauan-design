@@ -80,10 +80,9 @@
 
 #fechar {
     text-align: center;
-    position: absolute;
-    top: -54px;
-    left: 34px;
-    margin: 1px auto 5px;
+    position: fixed;
+    margin-top: -59px;
+    margin-left: 15px;
     font-size: 27 px;
     color: #ffffff;
     padding: 10px;

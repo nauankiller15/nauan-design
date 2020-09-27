@@ -159,7 +159,7 @@ a:hover {
 
 .Infograficos::before {
     font-size: 23px;
-    color: #a71830;
+    color: #cf3f57;
     content: "\f022";
     font-family: FontAwesome;
     display: inline-block;
