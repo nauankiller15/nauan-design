@@ -1,12 +1,12 @@
 #contato {
     background: #000000;
     position: fixed;
-    width: 100%;
     height: 100%;
-    animation: fadeIn 0.4s;
+    width: 100%;
     display: none;
     z-index: 1000;
     font-family: sans-serif;
+    box-sizing: border-box;
 }
 
 .contato {
@@ -14,9 +14,11 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
 }
 
 .contato h2 {
+    width: 45%;
     top: 120px;
     color: #ffffff;
     font-family: Bahnschrift;
@@ -24,6 +26,7 @@
     text-transform: uppercase;
     text-align: center;
     position: absolute;
+    cursor: default;
 }
 
 #caixaContato {
@@ -34,14 +37,14 @@
 }
 
 .CentroContato {
-    top: 245px;
-    width: 45%;
+    top: 210px;
+    width: 55%;
     padding: 25px;
-    height: 500px;
     border: #ffffff solid 4px;
     animation: ContatoCaixa 1.5s ease-in-out;
     position: absolute;
     font-size: 18px;
+    left: 100px;
 }
 
 @keyframes ContatoCaixa {
@@ -51,19 +54,4 @@
     to {
         transform: translateY(0);
     }
-}
-
-#fechar {
-    position: fixed;
-    top: 50px;
-    right: 50px;
-    font-size: 50px;
-    color: #ffffff;
-    padding: 10px;
-    transition: 0.5s;
-}
-
-#fechar:hover {
-    background: #ffff;
-    color: #000000;
 }

@@ -2,6 +2,8 @@
     top: 305px;
     right: 300px;
     position: absolute;
+    z-index: 1001;
+    box-sizing: border-box;
 }
 
 @keyframes MenuAnim {
@@ -23,6 +25,7 @@
     font-weight: 400;
     animation: MenuAnim 3.0s ease-in-out;
     border-radius: 10px;
+    background: #141414;
 }
 
 .menu li {
@@ -33,7 +36,7 @@
     transition-timing-function: ease-in-out;
     cursor: pointer;
     transition: 0.5s;
-    background: #000000;
+    background: #242424;
     color: #ffffff;
 }
 
@@ -58,4 +61,21 @@
     to {
         text-shadow: 0 0 2px #88b4ee, 0 0 5px #88b4ee, 0 0 5px #88b4ee, 0 0 10px #88b4ee, 0 0 10px #88b4ee, 0 0 8px #88b4ee, 0 0 8px #88b4ee;
     }
+}
+
+#fechar {
+    text-align: center;
+    position: absolute;
+    top: -54px;
+    margin: 1px auto 5px;
+    font-size: 27 px;
+    color: #ffffff;
+    padding: 10px;
+    transition: 0.5s;
+    display: none;
+}
+
+#fechar:hover {
+    background: #ffff;
+    color: #000000;
 }

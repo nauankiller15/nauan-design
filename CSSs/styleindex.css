@@ -6,15 +6,17 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 body {
     font-size: 100%;
     background: #000000;
-    height: 100%;
-    width: 100%;
+    height: 100% content-box;
+    width: 100% content-box;
     overflow: hidden;
     color: #fff;
+    box-sizing: border-box;
 }
 
 a {
@@ -173,4 +175,34 @@ a:hover {
     margin-left: -1.3em;
     width: 1.5em;
     z-index: 99;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    padding: 14px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: sans-serif;
+    overflow: hidden;
+    width: 100%;
+    z-index: 1002;
+    background: #242424;
+    color: #ffffff;
+}
+
+.footer ul {
+    bottom: 14px;
+    right: 40px;
+    position: absolute;
+}
+
+.footer p {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }

@@ -1,4 +1,4 @@
-#trabalhos {
+#sobre {
     background: #000000;
     position: fixed;
     height: 100%;
@@ -9,7 +9,7 @@
     box-sizing: border-box;
 }
 
-.trabalhos {
+.sobre {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -17,7 +17,7 @@
     box-sizing: border-box;
 }
 
-.trabalhos h2 {
+.sobre h2 {
     width: 45%;
     top: 120px;
     color: #ffffff;
@@ -29,25 +29,25 @@
     cursor: default;
 }
 
-#caixatrabalhos {
+#caixasobre {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
 
-.Centrotrabalhos {
+.Centrosobre {
     top: 245px;
     width: 45%;
     left: 100px;
     padding: 25px;
     height: 500px;
-    animation: trabalhosCaixa 1.5s ease-in-out;
+    animation: sobreCaixa 1.5s ease-in-out;
     position: absolute;
     font-size: 18px;
 }
 
-@keyframes trabalhosCaixa {
+@keyframes sobreCaixa {
     from {
         transform: translateY(2350px);
     }

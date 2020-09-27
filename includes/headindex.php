@@ -10,6 +10,9 @@
     <link rel="stylesheet" type="text/css" href="CSSs/menu.css">
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/trabalhos.css">
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/contato.css">
+    <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/sobre.css">
+    <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/formbox.css">
+
     <title>Nauan - Design</title>
 
 </head>
