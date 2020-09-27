@@ -13,14 +13,13 @@ $('#trabalhosAbrir').on('click', function() {
 //     $(this).siblings().removeClass('active');
 // }
 
-function FecharTudo() {
-    $('#fechar').on('click', function() {
-        $("#sobre").fadeOut('600');
-        $('#trabalhos').fadeOut('600');
-        $('#contato').fadeOut('700');
-        $('#fechar').fadeOut('600');
-    })
-}
+$('#fechar').on('click', function() {
+    $("#sobre").fadeOut('600');
+    $('#trabalhos').fadeOut('600');
+    $('#contato').fadeOut('700');
+    $('#fechar').fadeOut('600');
+})
+
 
 $('#contatoAbrir').on('click', function() {
     $("#contato").fadeIn('600');

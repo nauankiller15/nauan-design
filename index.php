@@ -4,6 +4,15 @@
     <?php include("includes/paginas/trabalhos.php"); ?>
     <?php include("includes/paginas/contato.php"); ?>
     <?php include("includes/paginas/sobre.php"); ?>
+    <div id="slider">
+        <figure>
+            <img src="imgsBackground/1.jpg">
+            <img src="imgsBackground/2.jpg">
+            <img src="imgsBackground/3.jpg">
+            <img src="imgsBackground/4.jpg">
+            <img src="imgsBackground/5.jpg">
+        </figure>
+    </div>
     <div id="quadrado-position">
         <div class="divSlide">
             <h2 class="nauan">Nauan</h2>

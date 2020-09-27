@@ -7,6 +7,7 @@
     z-index: 1000;
     font-family: sans-serif;
     box-sizing: border-box;
+    z-index: 1000;
 }
 
 .contato {
@@ -19,7 +20,7 @@
 
 .contato h2 {
     width: 45%;
-    top: 120px;
+    top: 70px;
     color: #ffffff;
     font-family: Bahnschrift;
     font-size: 60px;
@@ -37,7 +38,7 @@
 }
 
 .CentroContato {
-    top: 210px;
+    top: 156px;
     width: 55%;
     padding: 25px;
     border: #ffffff solid 3px;

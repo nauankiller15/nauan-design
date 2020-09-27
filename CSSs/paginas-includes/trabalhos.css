@@ -4,9 +4,9 @@
     height: 100%;
     width: 100%;
     display: none;
-    z-index: 1000;
     font-family: sans-serif;
     box-sizing: border-box;
+    z-index: 1000;
 }
 
 .trabalhos {
@@ -19,7 +19,7 @@
 
 .trabalhos h2 {
     width: 45%;
-    top: 120px;
+    top: 70px;
     color: #ffffff;
     font-family: Bahnschrift;
     font-size: 60px;
@@ -37,7 +37,7 @@
 }
 
 .Centrotrabalhos {
-    top: 245px;
+    top: 156px;
     width: 45%;
     left: 100px;
     padding: 25px;

@@ -19,7 +19,7 @@
 
 .sobre h2 {
     width: 45%;
-    top: 120px;
+    top: 70px;
     color: #ffffff;
     font-family: Bahnschrift;
     font-size: 60px;
@@ -27,6 +27,7 @@
     text-align: left;
     position: absolute;
     cursor: default;
+    z-index: 1000;
 }
 
 #caixasobre {
@@ -37,7 +38,7 @@
 }
 
 .Centrosobre {
-    top: 245px;
+    top: 156px;
     width: 45%;
     left: 100px;
     padding: 25px;
