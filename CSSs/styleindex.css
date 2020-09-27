@@ -46,6 +46,15 @@ a:hover {
     animation: H2Slide 3.5s ease-in-out;
 }
 
+@keyframes slideFooter {
+    from {
+        transform: translateY(2350px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}
+
 @keyframes go-back2 {
     from {
         transform: translateX(9px);
@@ -208,6 +217,7 @@ a:hover {
     z-index: 1002;
     background: #242424;
     color: #ffffff;
+    animation: slideFooter 3.5s;
 }
 
 .footer ul {
