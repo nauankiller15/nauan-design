@@ -55,3 +55,12 @@
         transform: translateY(0);
     }
 }
+
+@keyframes SobreIni {
+    from {
+        transform: translateX(-2350px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

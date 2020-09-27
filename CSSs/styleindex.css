@@ -46,6 +46,15 @@ a:hover {
     animation: H2Slide 3.5s ease-in-out;
 }
 
+@keyframes go-back2 {
+    from {
+        transform: translateX(9px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
 .designn {
     font-size: 60px;
     font-family: Bahnschrift;
@@ -55,7 +64,7 @@ a:hover {
     left: 17px;
     top: 450px;
     text-transform: uppercase;
-    animation: H2Slide 5.5s ease-in-out;
+    animation: go-back2 1.2s infinite alternate, H2Slide 5.5s ease-in-out;
 }
 
 @keyframes H2Slide {
@@ -175,6 +184,15 @@ a:hover {
     margin-left: -1.3em;
     width: 1.5em;
     z-index: 99;
+}
+
+@keyframes go-back1 {
+    from {
+        transform: translateX(5px);
+    }
+    to {
+        transform: translateX(0);
+    }
 }
 
 .footer {
