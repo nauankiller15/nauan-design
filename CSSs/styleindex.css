@@ -20,12 +20,13 @@ body {
 }
 
 a {
-    color: #fff;
+    color: #ffffff;
     text-decoration: none;
+    transition: 0.5s;
 }
 
 a:hover {
-    color: rgb(0, 0, 0);
+    color: #000000;
 }
 
 #quadrado-position {

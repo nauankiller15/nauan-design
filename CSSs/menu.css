@@ -47,6 +47,18 @@
     color: #000000;
 }
 
+.menu li.active {
+    background: #ffffff;
+    border-radius: 25px 0px 0px 25px;
+    color: #000000;
+}
+
+.menu a.active {
+    background: #ffffff;
+    border-radius: 25px 0px 0px 25px;
+    color: #000000;
+}
+
 @keyframes slideMenu {
     from {
         transform: translateY(-2350px);
