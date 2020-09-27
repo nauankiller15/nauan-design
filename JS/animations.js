@@ -13,13 +13,14 @@ $('#trabalhosAbrir').on('click', function() {
 //     $(this).siblings().removeClass('active');
 // }
 
-
-$('#fechar').on('click', function() {
-    $("#sobre").fadeOut('600');
-    $('#trabalhos').fadeOut('600');
-    $('#contato').fadeOut('700');
-    $('#fechar').fadeOut('600');
-})
+function FecharTudo() {
+    $('#fechar').on('click', function() {
+        $("#sobre").fadeOut('600');
+        $('#trabalhos').fadeOut('600');
+        $('#contato').fadeOut('700');
+        $('#fechar').fadeOut('600');
+    })
+}
 
 $('#contatoAbrir').on('click', function() {
     $("#contato").fadeIn('600');
@@ -58,7 +59,8 @@ function fecharpopup() {
             $('#trabalhos').fadeOut('300');
             $('#contato').fadeOut('300');
             $('#fechar').fadeOut('300');
-            $(this).removeClass('active');
+            $('.menu li.active').removeClass('active');
+            $('.menu a.active').removeClass('active');
         }
     });
 }
