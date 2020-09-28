@@ -55,3 +55,12 @@
         transform: translateY(0);
     }
 }
+
+@keyframes ContatoIni {
+    from {
+        transform: translateY(-2350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}

@@ -143,7 +143,7 @@ iframe {
     height: 100%;
     top: 0;
     left: 0;
-    background-color: rgba(41, 44, 51, 0.6);
+    background-color: #292c3399;
     pointer-events: none;
 }
 
@@ -153,7 +153,7 @@ iframe {
 .contact100-header {
     width: 100%;
     height: 80px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom: 1px solid #ffffff1a;
     padding: 10px 35px;
 }
 
@@ -182,39 +182,6 @@ iframe {
     color: #fff;
     background-color: #846add;
 }
-
-
-/*==================================================================
-[ Content container ]*/
-
-.container-contact100 {
-    width: 100%;
-    min-height: 100vh;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-    background: rgba(132, 106, 221, 0.8);
-    position: relative;
-    z-index: 10;
-}
-
-.wrap-contact100 {
-    width: 560px;
-    background: #fff;
-    border-radius: 3px;
-    position: relative;
-    margin-top: 40px;
-}
-
-
-/*==================================================================
-[ Title form ]*/
 
 .contact100-form-title {
     font-size: 22px;

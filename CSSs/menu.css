@@ -101,6 +101,48 @@
     color: #000000;
 }
 
+.slideOut {
+    animation: slideOut 1.0s;
+}
+
+.LogoMenu {
+    animation: TrabalhoIni 1.0s;
+    font-family: Bahnschrift;
+    right: 355px;
+    position: fixed;
+    z-index: 2300;
+    text-align: center;
+    background: #141414;
+    border: 2px #242424 solid;
+    box-shadow: 2px 2px 4px #000000;
+    padding: 25px;
+    border-radius: 0px 0px 10px 10px;
+    cursor: default;
+    display: none;
+}
+
+@keyframes slideOut {
+    from {
+        transform: translateY(2350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.nauan-sub {
+    font-size: 30px;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 2px #000000;
+}
+
+.design-sub {
+    font-size: 22px;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 2px #000000;
+    animation: go-back2 5.2s infinite alternate;
+}
+
 .fundoPreto {
     background: #000000;
     position: fixed;
@@ -108,5 +150,4 @@
     width: 100%;
     display: none;
     z-index: 1000;
-    overflow: hidden;
 }

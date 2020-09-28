@@ -20,9 +20,8 @@
                                             <li id="TodosFiltrar" class="filter filter-active" data-filter=".all">todos</li>
                                             <li class="filter" data-filter=".branding">branding</li>
                                             <li class="filter" data-filter=".mockups">mockups</li>
-                                            <li class="filter" data-filter=".uikits">ui kits</li>
+                                            <li class="filter" data-filter=".uiuxkits">ui/ux kits</li>
                                             <li class="filter" data-filter=".webdesign">web design</li>
-                                            <li class="filter" data-filter=".photography">fotográfia</li>
                                         </ul>
 
                                     </div>
@@ -40,7 +39,7 @@
                                             <img src=" imagens/portfolio/1.jpg" alt="img">
                                         </div>
 
-                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups photography">
+                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups">
                                             <div class="overlay">
                                                 <a class="popup-img" href="imagens/portfolio/2.jpg">
                                                     <div class="text"><i class="fas fa-search"></i></div>
@@ -49,7 +48,7 @@
                                             <img src="imagens/portfolio/2.jpg" alt="img">
                                         </div>
 
-                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesign photographyn">
+                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesign">
                                             <div class="overlay">
                                                 <a class="popup-img" href="imagens/portfolio/3.jpg">
                                                     <div class="text"><i class="fas fa-search"></i></div>
@@ -61,7 +60,7 @@
                                             <img src="imagens/portfolio/3.jpg" alt="img">
                                         </div>
 
-                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign photography">
+                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign">
                                             <div class="overlay">
                                                 <a class="popup-img" href="imagens/portfolio/4.jpg">
                                                     <div class="text"><i class="fas fa-search"></i></div>
@@ -73,7 +72,7 @@
                                             <img src="imagens/portfolio/4.jpg" alt="img">
                                         </div>
 
-                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uikits photography">
+                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uiuxkits">
                                             <div class="overlay">
                                                 <a class="popup-img" href="imagens/portfolio/5.jpg">
                                                     <div class="text"><i class="fas fa-search"></i></div>
@@ -82,7 +81,7 @@
                                             <img src="imagens/portfolio/5.jpg" alt="img">
                                         </div>
 
-                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uiuxkits webdesign">
                                             <div class="overlay">
                                                 <a class="popup-img" href="imagens/portfolio/6.jpg">
                                                     <div class="text"><i class="fas fa-search"></i></div>
@@ -94,7 +93,7 @@
                                             <img src="imagens/portfolio/6.jpg" alt="img">
                                         </div>
 
-                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uiuxkits webdesign">
                                             <div class="overlay">
                                                 <a class="popup-img" href="imagens/portfolio/6.jpg">
                                                     <div class="text"><i class="fas fa-search"></i></div>
@@ -103,7 +102,7 @@
                                             <img src="imagens/portfolio/6.jpg" alt="img">
                                         </div>
 
-                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uikits webdesign">
+                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups branding webdesign">
                                             <div class="overlay">
                                                 <a class="popup-img" href="imagens/portfolio/7.jpg">
                                                     <div class="text"><i class="fas fa-search"></i></div>

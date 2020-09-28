@@ -5,6 +5,7 @@
     display: none;
     font-family: sans-serif;
     z-index: 1900;
+    background: #000000;
 }
 
 .sobre {
@@ -12,7 +13,6 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
 }
 
 .sobre h2 {
@@ -39,30 +39,44 @@
     width: 58%;
     left: 100px;
     padding: 25px;
-    height: 500px;
+    margin-bottom: 80px;
     animation: sobreCaixa 1.5s ease-in-out;
     position: absolute;
     font-size: 18px;
 }
 
+.Centrosobre h2 {
+    margin-top: 30px;
+    width: 65%;
+    border-bottom: 1px #ffffff solid;
+    padding: 8px;
+    z-index: 600;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
 .Centrosobre p {
-    margin-top: 45px;
+    margin-top: 55px;
     text-align: justify;
+    text-transform: none;
+    padding-bottom: 10px;
 }
 
 #separarImg {
-    display: flex;
     float: right;
-    height: 675px;
+    height: 1200px;
+    z-index: 1000;
 }
 
 .Centrosobre img {
-    width: 100%;
+    width: 340px;
     height: 490px;
-    padding: 12px;
+    padding: 15px;
     margin-left: 35px;
     margin-bottom: 35px;
     border: 1px #ffffff solid;
+    animation: go-back1 6.0s infinite alternate;
 }
 
 @keyframes sobreCaixa {
@@ -86,12 +100,24 @@
 .MinhasUtilites {
     font-family: Bahnschrift;
     text-transform: uppercase;
-    width: 650px;
-    height: 500px;
-    font-size: 20px;
+    width: 660px;
+    font-size: 18px;
     font-weight: 400;
     cursor: default;
     margin-bottom: 20px;
+    color: #b9b9b9;
+}
+
+.MinhasUtilites b {
+    color: #e2e2e2;
+}
+
+.MinhasUtilites u {
+    color: #e2e2e2;
+}
+
+.MinhasUtilites i {
+    color: #e2e2e2;
 }
 
 @keyframes LiAnim2 {
@@ -109,7 +135,8 @@
     padding: 6px;
     list-style: none;
     width: 100%;
-    font-size: 26px;
+    color: #ffffff;
+    font-size: 28px;
     transition-timing-function: ease-in-out;
     text-shadow: 3px 2px 4px #000000;
     /* text-shadow: 1px 2px 4px var(--text-shadow); */
