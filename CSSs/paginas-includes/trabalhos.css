@@ -1,11 +1,11 @@
 #trabalhos {
-    position: fixed;
+    position: absolute;
     height: 100%;
     width: 100%;
     display: none;
     font-family: sans-serif;
     box-sizing: border-box;
-    z-index: 1000;
+    z-index: 998;
 }
 
 .trabalhos {

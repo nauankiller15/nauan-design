@@ -14,10 +14,28 @@ body {
     background: #000000;
     height: 100% content-box;
     width: 100% content-box;
-    overflow: hidden;
-    color: #fff;
+    color: #ffffff;
     box-sizing: border-box;
-    z-index: -1;
+    z-index: -2;
+}
+
+#esconder-menu {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10001;
+}
+
+#esconder {
+    overflow: hidden;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    min-height: 100%;
+    z-index: 100;
 }
 
 a {
@@ -31,9 +49,10 @@ a:hover {
 }
 
 #quadrado-position {
-    position: absolute;
+    position: fixed;
     top: 250px;
     left: 300px;
+    z-index: 999;
 }
 
 .nauan {
@@ -41,9 +60,9 @@ a:hover {
     font-family: Bahnschrift;
     font-style: inherit;
     cursor: default;
-    position: absolute;
-    left: 17px;
-    top: 360px;
+    position: fixed;
+    left: 315px;
+    top: 600px;
     text-transform: uppercase;
     animation: H2Slide 3.5s ease-in-out;
     text-shadow: 3px 2px 3px #000000;
@@ -72,9 +91,9 @@ a:hover {
     font-family: Bahnschrift;
     font-style: inherit;
     cursor: default;
-    position: absolute;
-    left: 17px;
-    top: 450px;
+    position: fixed;
+    left: 317px;
+    top: 700px;
     text-transform: uppercase;
     animation: go-back2 1.2s infinite alternate, H2Slide 5.5s ease-in-out;
     text-shadow: 2px 2px 2px #000000;
@@ -111,7 +130,7 @@ a:hover {
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 300px;
-    position: absolute;
+    position: fixed;
     transition: 1.0s;
     animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
 }
@@ -221,15 +240,18 @@ a:hover {
     overflow: hidden;
     width: 100%;
     z-index: 1002;
-    background: #242424;
+    background: #141414;
     color: #ffffff;
     animation: slideFooter 3.5s;
+    box-sizing: border-box;
+    border-top: 2px #242424 solid;
 }
 
 .footer ul {
     bottom: 14px;
     right: 40px;
     position: absolute;
+    box-sizing: border-box;
 }
 
 .footer p {

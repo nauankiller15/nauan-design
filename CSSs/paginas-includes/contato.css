@@ -5,7 +5,7 @@
     display: none;
     font-family: sans-serif;
     box-sizing: border-box;
-    z-index: 1000;
+    z-index: 999;
 }
 
 .contato {
@@ -39,7 +39,7 @@
     top: 156px;
     width: 55%;
     padding: 25px;
-    border: #ffffff solid 3px;
+    border: #ffffff solid 1px;
     animation: ContatoCaixa 1.5s ease-in-out;
     position: absolute;
     font-size: 18px;

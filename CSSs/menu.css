@@ -1,9 +1,10 @@
 .menu {
     top: 305px;
     right: 300px;
-    position: absolute;
-    z-index: 1001;
+    position: fixed;
+    z-index: 10001;
     box-sizing: border-box;
+    position: fixed;
 }
 
 @keyframes MenuAnim {
@@ -79,9 +80,10 @@
 }
 
 #fechar {
+    z-index: 1002;
     text-align: center;
     position: fixed;
-    margin-top: -59px;
+    margin-top: -67px;
     margin-left: 15px;
     font-size: 27 px;
     color: #ffffff;
@@ -91,6 +93,7 @@
     border-radius: 10px 10px 0px 0px;
     background: #242424;
     border: none;
+    box-sizing: border-box;
 }
 
 #fechar:hover {
@@ -104,5 +107,6 @@
     height: 100%;
     width: 100%;
     display: none;
-    z-index: 999;
+    z-index: 997;
+    overflow: hidden;
 }
