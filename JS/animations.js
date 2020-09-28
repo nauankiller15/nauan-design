@@ -36,7 +36,6 @@ $('#sobreAbrir').on('click', function() {
 
 function fecharpopup() {
     $(document).on('keydown', function(e) {
-        $('#contato').fadeIn('500');
         if (e.keyCode === 27) {
             $(".fundoPreto").fadeOut('600');
             $("#sobre").fadeOut('300');

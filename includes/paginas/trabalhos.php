@@ -10,7 +10,7 @@
 
                     <div class="container">
                         <div class="section-title text-center">
-                            <h2>My Portfolio</h2>
+                            <h2>Selecione por categoria:</h2>
                         </div>
                     </div>
 

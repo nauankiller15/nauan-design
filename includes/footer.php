@@ -5,10 +5,18 @@
 <script src="js/jquery-3.5.1.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://kit.fontawesome.com/13e0382c7c.js"></script>
+<script src="JS/main.js"></script>
 <script src="JS/animations.js"></script>
 <script src="JS/activemenu.js"></script>
 <script src="JS/contact-form.js"></script>
+<!-- Library -->
+<script src="Lib/typed/typed.js"></script>
+<script src="Lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="Lib/magnific-popup/magnific-popup.min.js"></script>
+<script src="Lib/isotope/isotope.pkgd.min.js"></script>
+
 <script>
+	PortfolioCarroulsel();
 	fecharpopup();
 	MenuAtivo();
 </script>
