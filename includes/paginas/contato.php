@@ -46,7 +46,7 @@
 
                         <div style="animation: H2Slide 4.1s ease-in-out;" class="container-contact100-form-btn">
                             <button class="contact100-form-btn">
-                                Send Now
+                                Enviar
                             </button>
                         </div>
                     </form>

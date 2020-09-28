@@ -54,7 +54,7 @@ $(document).ready(function() {
 
     $(function() {
         typed.typed({
-            strings: ["Nauan Alcântara.", "Designer.", "Desenvolvedor.", "Freelancer.", "Programador-Web"],
+            strings: ["Eu sou: Nauan Alcântara.", "Designer.", "Desenvolvedor.", "Freelancer.", "Programador-Web"],
             typeSpeed: 105,
             loop: true,
         });

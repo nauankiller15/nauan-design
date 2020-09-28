@@ -164,7 +164,7 @@ iframe {
 .btn-show-contact100 {
     font-family: Bahnschrift;
     font-size: 12px;
-    color: #846add;
+    color: #adadad;
     text-transform: uppercase;
     letter-spacing: 1px;
     display: block;
@@ -180,7 +180,7 @@ iframe {
 
 .btn-show-contact100:hover {
     color: #fff;
-    background-color: #846add;
+    background-color: #adadad;
 }
 
 .contact100-form-title {
