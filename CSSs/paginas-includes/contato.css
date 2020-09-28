@@ -1,11 +1,11 @@
 #contato {
-    position: fixed;
     height: 100%;
     width: 100%;
     display: none;
     font-family: sans-serif;
     box-sizing: border-box;
-    z-index: 999;
+    position: fixed;
+    z-index: 1000;
 }
 
 .contato {

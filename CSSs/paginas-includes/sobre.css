@@ -3,7 +3,7 @@
     height: 100%;
     width: 100%;
     display: none;
-    z-index: 999;
+    z-index: 1000;
     font-family: sans-serif;
     box-sizing: border-box;
 }

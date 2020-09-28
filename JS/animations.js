@@ -1,4 +1,5 @@
 $('#trabalhosAbrir').on('click', function() {
+    $('#contato').fadeOut('1300');
     $(".fundoPreto").fadeIn('500');
     $("#trabalhos").fadeIn('600');
     $('#contato').fadeOut('600');
@@ -7,6 +8,7 @@ $('#trabalhosAbrir').on('click', function() {
 })
 
 $('#contatoAbrir').on('click', function() {
+    $('#contato').fadeOut('1300');
     $(".fundoPreto").fadeIn('500');
     $('#contato').fadeIn('300');
     $("#sobre").fadeOut('600');
@@ -15,6 +17,7 @@ $('#contatoAbrir').on('click', function() {
 })
 
 $('#fechar').on('click', function() {
+    $('#contato').fadeIn('700');
     $(".fundoPreto").fadeOut('500');
     $("#trabalhos").fadeOut('600');
     $('#contato').fadeOut('600');
@@ -23,6 +26,7 @@ $('#fechar').on('click', function() {
 })
 
 $('#sobreAbrir').on('click', function() {
+    $('#contato').fadeOut('1300');
     $(".fundoPreto").fadeIn('500');
     $("#sobre").fadeIn('600');
     $("#trabalhos").fadeOut('600');
@@ -30,10 +34,9 @@ $('#sobreAbrir').on('click', function() {
     $('#fechar').fadeIn('3200');
 })
 
-$(".menu").draggable();
-
 function fecharpopup() {
     $(document).on('keydown', function(e) {
+        $('#contato').fadeIn('500');
         if (e.keyCode === 27) {
             $(".fundoPreto").fadeOut('600');
             $("#sobre").fadeOut('300');
