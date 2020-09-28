@@ -9,9 +9,8 @@ $('#trabalhosAbrir').on('click', function() {
 })
 
 $('#contatoAbrir').on('click', function() {
-    $('#contato').fadeOut('1300');
     $(".fundoPreto").fadeIn('500');
-    $('#contato').fadeIn('300');
+    $('#contato').fadeIn('400');
     $("#sobre").fadeOut('600');
     $("#trabalhos").fadeOut('600');
     $('#fechar').fadeIn('3200');

@@ -4,6 +4,7 @@
             <h2 style="animation: SobreIni 2.2s;">Sobre mim<h2>
         </div>
         <div id="caixasobre">
+            
             <div class="Centrosobre">
                 <div id="separarImg">
                     <img src="imagens/portfolio/me.jpg" alt="img">
@@ -20,15 +21,26 @@
                     Proin at gravida enim. Nunc ornare massa non urna mollis rhoncus. Morbi ut iaculis sem.
                     Etiam posuere ligula vel ornare efficitur. Etiam convallis ante volutpat pharetra sodales.
                     Proin laoreet sit amet magna in ullamcorper. In dignissim faucibus placerat.
-                    Ut sit amet arcu tristique, mollis eros vitae, iaculis lacus.
-                    Quisque at aliquet leo. Vestibulum vitae faucibus leo.
-                    Phasellus quis tortor nisl. Proin ut convallis elit.
-                    Donec fringilla erat lacus, ac imperdiet libero fringilla ac.
-                    Aliquam quis massa malesuada, placerat neque sed, condimentum purus.
-                    Proin luctus nibh non ipsum dapibus, non maximus odio tempus.
-                    Nunc sollicitudin vulputate ante sed porttitor.
+                 
+                  
+                    <div class="MinhasUtilites">
+                <li style="animation: go-back1 3.5s infinite alternate, LiAnim2 2.5s;" class="Infograficos">InfoGráficos</li>
+                <p style="animation: LiAnim2 4.5s;">Nunc sollicitudin vulputate ante sed porttitor.
                     Donec malesuada, nibh id efficitur congue, quam turpis scelerisque enim, non semper elit felis vitae eros.
-                    Vestibulum hendrerit lorem in massa suscipit, a mollis dui faucibus.
+                    Vestibulum hendrerit lorem in massa suscipit, a mollis dui faucibus.</p>
+                <li style="animation: go-back1 4.6s infinite alternate, LiAnim2 3.5s;" class="Web-Design">Web-Design</li>
+                <p style="animation: LiAnim2 5.5s;">Nunc sollicitudin vulputate ante sed porttitor.
+                    Donec malesuada, nibh id efficitur congue, quam turpis scelerisque enim, non semper elit felis vitae eros.
+                    Vestibulum hendrerit lorem in massa suscipit, a mollis dui faucibus.</p>
+                <li style="animation: go-back1 5.7s infinite alternate, LiAnim2 4.5s;" class="Mockups">Mockups</li>
+                <p style="animation: LiAnim2 6.5s;">Nunc sollicitudin vulputate ante sed porttitor.
+                    Donec malesuada, nibh id efficitur congue, quam turpis scelerisque enim, non semper elit felis vitae eros.
+                    Vestibulum hendrerit lorem in massa suscipit, a mollis dui faucibus.</p>
+                <li style="animation: go-back1 6.8s infinite alternate, LiAnim2 5.5s;" class="Web-Dev">Web-Dev</li>
+                <p style="animation: LiAnim2 7.5s;">Nunc sollicitudin vulputate ante sed porttitor.
+                    Donec malesuada, nibh id efficitur congue, quam turpis scelerisque enim, non semper elit felis vitae eros.
+                    Vestibulum hendrerit lorem in massa suscipit, a mollis dui faucibus.</p>
+            </div>
 
             </div>
         </div>

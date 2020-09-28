@@ -113,3 +113,10 @@ $(window).load(function() {
     });
 
 })
+
+function moveScroll() {
+    $('table').floatThead({
+        position: 'fixed',
+        scrollContainer: true
+    });
+}

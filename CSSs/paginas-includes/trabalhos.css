@@ -15,7 +15,7 @@
             }
             
             .trabalhos h2 {
-                width: 60%;
+                width: 45%;
                 top: 70px;
                 color: #ffffff;
                 font-family: Bahnschrift;
@@ -35,7 +35,7 @@
             
             .Centrotrabalhos {
                 top: 156px;
-                width: 60%;
+                width: 70%;
                 left: 100px;
                 padding: 25px;
                 animation: trabalhosCaixa 1.5s ease-in-out;
@@ -72,6 +72,7 @@
             
             #portfolio .portfolio-list {
                 margin-bottom: 10px;
+                z-index: 2000;
             }
             
             #portfolio .portfolio-list .nav {
@@ -138,7 +139,7 @@
                 bottom: 0;
                 left: 0;
                 right: 0;
-                height: 255px;
+                min-height: 265px;
                 width: 100%;
                 opacity: 0;
                 transition: .5s ease;
@@ -151,7 +152,7 @@
             
             .text {
                 color: #ffffff;
-                font-size: 32px;
+                font-size: 45px;
                 position: absolute;
                 top: 50%;
                 left: 50%;

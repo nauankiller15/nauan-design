@@ -4,7 +4,6 @@
     width: 100%;
     display: none;
     font-family: sans-serif;
-    box-sizing: border-box;
     z-index: 1900;
 }
 
@@ -37,7 +36,7 @@
 
 .Centrosobre {
     top: 156px;
-    width: 55%;
+    width: 58%;
     left: 100px;
     padding: 25px;
     height: 500px;
@@ -82,4 +81,84 @@
     to {
         transform: translateX(0);
     }
+}
+
+.MinhasUtilites {
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    width: 650px;
+    height: 500px;
+    font-size: 20px;
+    font-weight: 400;
+    cursor: default;
+    margin-bottom: 20px;
+}
+
+@keyframes LiAnim2 {
+    from {
+        transform: translateX(-8350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.MinhasUtilites li {
+    align-content: left;
+    margin: 15px auto 15px;
+    padding: 6px;
+    list-style: none;
+    width: 100%;
+    font-size: 26px;
+    transition-timing-function: ease-in-out;
+    text-shadow: 3px 2px 4px #000000;
+    /* text-shadow: 1px 2px 4px var(--text-shadow); */
+}
+
+.MinhasUtilites p {
+    margin-top: 15px;
+}
+
+.Infograficos::before {
+    font-size: 23px;
+    color: #cf3f57;
+    content: "\f022";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.5em;
+    z-index: 99;
+}
+
+.Web-Design::before {
+    font-size: 23px;
+    color: #629e40;
+    content: "\f53f";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.5em;
+    z-index: 99;
+}
+
+.Web-Dev::before {
+    font-size: 23px;
+    color: #6f7fdb;
+    content: "\f1cd";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.5em;
+    z-index: 99;
+}
+
+.Mockups::before {
+    font-size: 23px;
+    color: #9e8d40;
+    content: "\f5ee";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.5em;
+    z-index: 99;
 }
