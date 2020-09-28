@@ -89,12 +89,14 @@
 
 .portrait img {
     width: 100%;
+    padding: 15px;
 }
 
 .landscape img {
     height: 100%;
     position: absolute;
     left: -390px;
+    bottom: 1px;
 }
 
 @keyframes sobreCaixa {

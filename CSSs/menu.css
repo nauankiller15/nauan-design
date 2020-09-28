@@ -108,7 +108,7 @@
 .LogoMenu {
     animation: TrabalhoIni 1.0s;
     font-family: Bahnschrift;
-    right: 355px;
+    right: 318px;
     position: fixed;
     z-index: 2300;
     text-align: center;
@@ -121,23 +121,14 @@
     display: none;
 }
 
-@keyframes slideOut {
-    from {
-        transform: translateY(2350px);
-    }
-    to {
-        transform: translateY(0);
-    }
-}
-
 .nauan-sub {
-    font-size: 30px;
+    font-size: 45px;
     text-transform: uppercase;
     text-shadow: 2px 1px 2px #000000;
 }
 
 .design-sub {
-    font-size: 22px;
+    font-size: 30px;
     text-transform: uppercase;
     text-shadow: 2px 1px 2px #000000;
     animation: go-back2 5.2s infinite alternate;
