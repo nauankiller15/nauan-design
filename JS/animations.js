@@ -5,6 +5,7 @@ $('#trabalhosAbrir').on('click', function() {
     $('#contato').fadeOut('600');
     $('#fechar').fadeIn('3200');
     $("#sobre").fadeOut('600');
+    $('#TodosFiltrar').trigger('click');
 })
 
 $('#contatoAbrir').on('click', function() {

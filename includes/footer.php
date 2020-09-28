@@ -3,6 +3,8 @@
 </div>
 
 <script src="js/jquery-3.5.1.min.js"></script>
+<script src="Lib/jquery/jquery.min.js"></script>
+<script src="Lib/jquery/jquery-migrate.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <script src="https://kit.fontawesome.com/13e0382c7c.js"></script>
 <script src="JS/main.js"></script>
@@ -16,7 +18,6 @@
 <script src="Lib/isotope/isotope.pkgd.min.js"></script>
 
 <script>
-	PortfolioCarroulsel();
 	fecharpopup();
 	MenuAtivo();
 </script>

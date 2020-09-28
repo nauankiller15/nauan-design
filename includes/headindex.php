@@ -12,6 +12,7 @@
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/sobre.css">
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/formbox.css">
     <link rel="stylesheet" type="text/css" href="CSSs/slide.css">
+    <link rel="stylesheet" type="text/css" href="lib/magnific-popup/magnific-popup.css">
 
     <title>Nauan - Design</title>
 

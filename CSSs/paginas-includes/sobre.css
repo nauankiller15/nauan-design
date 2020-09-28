@@ -37,13 +37,33 @@
 
 .Centrosobre {
     top: 156px;
-    width: 45%;
+    width: 55%;
     left: 100px;
     padding: 25px;
     height: 500px;
     animation: sobreCaixa 1.5s ease-in-out;
     position: absolute;
     font-size: 18px;
+}
+
+.Centrosobre p {
+    margin-top: 45px;
+    text-align: justify;
+}
+
+#separarImg {
+    display: flex;
+    float: right;
+    height: 675px;
+}
+
+.Centrosobre img {
+    width: 100%;
+    height: 490px;
+    padding: 12px;
+    margin-left: 35px;
+    margin-bottom: 35px;
+    border: 1px #ffffff solid;
 }
 
 @keyframes sobreCaixa {
