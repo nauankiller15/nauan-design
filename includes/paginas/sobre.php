@@ -34,7 +34,7 @@
                         <li style="animation: go-back1 6.8s infinite alternate, LiAnim2 5.5s;" class="Web-Dev">Web-Dev</li>
                         <p style="animation: LiAnim2 7.5s;">Também trabalho com desenvolvimento de <b><u>Sistemas Web</u></b> em navegadores: <b><i style="margin-left:4px; margin-right:4px;" class="fab fa-chrome"></i><u>Google Chrome</u>/<i style="margin-left:4px; margin-right:4px;" class="fab fa-edge"></i><u>Microsoft-Edge</u>/<i style="margin-left:4px; margin-right:4px;" class="fab fa-firefox"></i><u>Firefox-Mozila</u>/<i style="margin-left:4px; margin-right:4px;" class="fab fa-opera"></i><u>Opera</u></b>.
                             Utilizo das ferramentas mais atualizadas para sua segurança, não comprometendo nenhum tipo de dados de sua empresa, mantendo seu banco de dados ou qualquer tipo
-                            de serviço utilizado para comunicação entre redes.
+                            de serviço utilizado o mais atualizado possível.
                         </p>
                     </div>
 
