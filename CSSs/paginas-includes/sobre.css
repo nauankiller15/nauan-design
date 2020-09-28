@@ -69,14 +69,32 @@
     z-index: 1000;
 }
 
-.Centrosobre img {
+.imagePotrait {
     width: 340px;
     height: 490px;
+    background-color: #141414;
     padding: 15px;
     margin-left: 35px;
     margin-bottom: 35px;
     border: 1px #ffffff solid;
     animation: go-back1 6.0s infinite alternate;
+    overflow: hidden;
+    margin: 20px;
+    float: left;
+}
+
+.imagePotrait img {
+    display: block;
+}
+
+.portrait img {
+    width: 100%;
+}
+
+.landscape img {
+    height: 100%;
+    position: absolute;
+    left: -390px;
 }
 
 @keyframes sobreCaixa {

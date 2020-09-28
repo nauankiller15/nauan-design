@@ -6,7 +6,9 @@
 
             <div class="Centrosobre">
                 <div id="separarImg">
-                    <img src="imagens/portfolio/me.jpg" alt="img">
+                    <div class="imagePotrait">
+                        <img src="imagens/portfolio/me.jpg" alt="img">
+                    </div>
                 </div>
                 <p> Desde que me conheço como gente, sou apaixonado por computador. Meu primeiro contato foi quando tinha 5 anos de idade.
                     Comecei a fuçar e aprender a programar quando tinha meus 12 anos de idade. Criava Websites sem mesmo ter alguma experiência na área.
