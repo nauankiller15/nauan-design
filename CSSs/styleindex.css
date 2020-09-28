@@ -16,26 +16,24 @@ body {
     width: 100% content-box;
     color: #ffffff;
     box-sizing: border-box;
-    z-index: -2;
+    z-index: 995;
 }
 
 #esconder-menu {
     overflow: hidden;
-    position: absolute;
     width: 100%;
     height: 100%;
-    z-index: 10001;
+    z-index: 1000;
 }
 
 #esconder {
     overflow: hidden;
-    position: absolute;
     box-sizing: border-box;
     width: 100%;
     height: 100%;
     max-width: 100%;
     min-height: 100%;
-    z-index: 100;
+    z-index: 999;
 }
 
 a {
@@ -237,9 +235,8 @@ a:hover {
     text-decoration: none;
     font-weight: bold;
     font-family: sans-serif;
-    overflow: hidden;
     width: 100%;
-    z-index: 1002;
+    z-index: 10002;
     background: #141414;
     color: #ffffff;
     animation: slideFooter 3.5s;

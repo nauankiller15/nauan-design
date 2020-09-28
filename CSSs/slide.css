@@ -1,6 +1,7 @@
 #slider {
+    position: fixed;
     overflow: hidden;
-    z-index: 999;
+    z-index: 900;
     animation: fadeIn 9s;
     top: 0;
 }
