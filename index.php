@@ -27,6 +27,10 @@
             <div class="divSlide">
                 <h2 class="nauan">Nauan</h2>
                 <h2 class="designn">Design</h2>
+                <div class="euSou">
+                <h1 style="animation: euSou 4.3s ease-in-out;">Eu sou: <span class="typed"></span></h1>
+                <p style="animation: animSou 2.3s ease-in-out;">Venha desenvolver junto comigo.</p>
+                </div>
             </div>
             <div class="quadrado-index">
             </div>

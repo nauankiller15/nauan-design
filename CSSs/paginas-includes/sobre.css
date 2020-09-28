@@ -189,3 +189,14 @@
     width: 1.5em;
     z-index: 99;
 }
+
+.exp {
+    background: #141414;
+    border: 2px #242424 solid;
+    box-shadow: 2px 2px 4px #000000;
+    padding: 15px;
+    font-size: 21px;
+    margin-top: 25px;
+    width: 535px;
+    text-align: center;
+}

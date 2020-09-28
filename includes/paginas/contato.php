@@ -9,7 +9,7 @@
                         <span>ENTRE EM CONTATO AQUI:</span>
                     </div>
 
-                    <form class="contact100-form validate-form">
+                    <form action="index.php" class="contact100-form validate-form">
                         <div style="animation: H2Slide 2.2s ease-in-out;" class="wrap-input100 validate-input">
                             <input id="name" class="input100" type="text" name="name" placeholder="Nome Completo">
                             <span class="focus-input100"></span>

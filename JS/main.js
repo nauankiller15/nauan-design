@@ -54,8 +54,8 @@ $(document).ready(function() {
 
     $(function() {
         typed.typed({
-            strings: ["Alex Smith.", "Designer.", "Developer.", "Freelancer.", "Photographer"],
-            typeSpeed: 100,
+            strings: ["Nauan Alcântara.", "Designer.", "Desenvolvedor.", "Freelancer.", "Programador-Web"],
+            typeSpeed: 105,
             loop: true,
         });
     });

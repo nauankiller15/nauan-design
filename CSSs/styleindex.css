@@ -63,7 +63,34 @@ a:hover {
     top: 600px;
     text-transform: uppercase;
     animation: H2Slide 3.5s ease-in-out;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.euSou {
+    position: fixed;
+    left: 335px;
+    top: 190px;
+    text-transform: uppercase;
     text-shadow: 3px 2px 3px #000000;
+    font-family: Bahnschrift;
+}
+
+@keyframes euSou {
+    from {
+        transform: translateX(-1250px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes animSou {
+    from {
+        transform: translateY(-1250px);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
 
 @keyframes slideFooter {
