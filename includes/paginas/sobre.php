@@ -23,20 +23,20 @@
                         <div class="exp" style="animation: SobreIni 5.2s; color:#ffffff;">
                             <b><i class="fab fa-js-square"></i> Jquery/Javascript, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3, <i class="fas fa-database"></i> MYSQL</b>.
                         </div>
-                        <li style="animation: go-back1 3.5s infinite alternate, LiAnim2 2.5s;" class="Infograficos">UI/UX Kits</li>
+                        <li style="animation: go-back1 3.5s infinite alternate, LiAnim2 2.5s;" class="Infograficos">UI/UX Kits:</li>
                         <p style="animation: LiAnim2 4.5s;">Umas das melhores <b>ferramentas</b> para apresentar seu <b>Serviço</b> ou seu <b>Projeto</b> para uma <b>Reunião</b>,
-                            <u><b>Web-site</b></u> ou qualquer <b><u>Plataforma Digital</u></b>. Sou especializado nessa área e tenho um prazer enorme em desenvolver
+                            <b><i style="margin-right:4px;" class="far fa-window-maximize"></i><u>Web-site</u></b> ou qualquer <b><u>Plataforma Digital</u></b>. Sou especializado nessa área e tenho um prazer enorme em desenvolver
                             esse serviço para compromisso visual.</p>
-                        <li style="animation: go-back1 4.6s infinite alternate, LiAnim2 3.5s;" class="Web-Design">Web-Design</li>
-                        <p style="animation: LiAnim2 5.5s;">Quer apresentar um <b><u>Web-Site</u></b> responsivo para sua <b>Empresa, Negócio ou um Portfolio para você?</b>
+                        <li style="animation: go-back1 4.6s infinite alternate, LiAnim2 3.5s;" class="Web-Design">Web-Design:</li>
+                        <p style="animation: LiAnim2 5.5s;">Quer apresentar um <b><i class="far fa-window-maximize"></i> <u>Web-Site</u></b> responsivo para sua <b>Empresa, Negócio ou um Portfolio para você?</b>
                             Pode falar comigo que eu facilito sua vida criando todo conteúdo representativo e então mostrar para o <b><i class="fas fa-globe-americas"></i> Mundo</b>.</p>
-                        <li style="animation: go-back1 5.7s infinite alternate, LiAnim2 4.5s;" class="Mockups">Mockups</li>
+                        <li style="animation: go-back1 5.7s infinite alternate, LiAnim2 4.5s;" class="Mockups">Mockups:</li>
                         <p style="animation: LiAnim2 6.5s;">Precisa de uma <u>Identidade-visual</u> <b>prática e eficaz</b> para ser mostrado para o seu cliente? Conte comigo
                             para criar sua <b>Representação virtual ou física</b> em vários tamanhos personalizados para identidade visual da sua <b>Empresa</b> ou <b>Négocio</b>.</p>
-                        <li style="animation: go-back1 6.8s infinite alternate, LiAnim2 5.5s;" class="Web-Dev">Web-Dev</li>
+                        <li style="animation: go-back1 6.8s infinite alternate, LiAnim2 5.5s;" class="Web-Dev">Web-Dev:</li>
                         <p style="animation: LiAnim2 7.5s;">Também trabalho com desenvolvimento de <b><u>Sistemas Web</u></b> em navegadores:
-                            <b><i style="margin-left:4px; margin-right:4px;" class="fab fa-chrome"></i><u>Google-Chrome</u>/<i style="margin-left:4px; margin-right:4px;" class="fab fa-edge"></i><u>Microsoft-Edge</u>/<i style="margin-left:4px; margin-right:4px;" class="fab fa-firefox"></i><u>Firefox-Mozila</u>/<i style="margin-left:4px; margin-right:4px;" class="fab fa-opera"></i><u>Opera</u></b>.
-                            Utilizo das ferramentas mais atualizadas para sua segurança, não comprometendo nenhum tipo de dados de sua empresa, mantendo seu banco de dados ou qualquer tipo
+                            <b><i style="margin-left:4px; margin-right:4px;" class="fab fa-chrome"></i>Google-Chrome/<i style="margin-left:4px; margin-right:4px;" class="fab fa-edge"></i>Microsoft-Edge/<i style="margin-left:4px; margin-right:4px;" class="fab fa-firefox"></i>Firefox-Mozila/<i style="margin-left:4px; margin-right:4px;" class="fab fa-opera"></i>Opera</b>.
+                            Utilizo das <b>ferramentas</b> mais atualizadas para sua <b><i class="fas fa-lock"></i> <u>segurança</u></b>, não comprometendo nenhum tipo de dados de sua empresa, mantendo seu <b><i class="fas fa-database"></i> banco de dados</b> ou qualquer tipo
                             de serviço utilizado o mais atualizado possível.
                         </p>
                     </div>

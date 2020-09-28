@@ -3,35 +3,25 @@
     <h2 class="nauan-sub404">Nauan</h2>
     <h2 class="design-sub404">Design</h2>
 </div>
+
 <body>
-    <div id="slider">
-        <figure>
-            <img src="imgsBackground/1.jpg">
-            <img src="imgsBackground/2.jpg">
-            <img src="imgsBackground/3.jpg">
-            <img src="imgsBackground/4.jpg">
-            <img src="imgsBackground/5.jpg">
-            <img src="imgsBackground/1.jpg">
-            <img src="imgsBackground/3.jpg">
-            <img src="imgsBackground/4.jpg">
-            <img src="imgsBackground/5.jpg">
-            <img src="imgsBackground/1.jpg">
-        </figure>
-    </div>
+    <?php include("includes/BackSlide.php"); ?>
     <div id="esconder">
         <div id="quadrado-position">
             <div class="divSlide">
                 <h2 class="esta">Está</h2>
                 <h2 class="perdido">Perdido?</h2>
                 <div class="euSou">
-                <h1 style="animation: euSou 3.3s ease-in-out;"><span class="typed"></span></h1>
-                <p style="animation: animSou 2.1s ease-in-out;">Venha desenvolver junto comigo.</p>
+                    <h1 style="animation: euSou 3.3s ease-in-out;"><span class="typed"></span></h1>
+                    <p style="animation: animSou 2.1s ease-in-out;">Venha desenvolver junto comigo.</p>
                 </div>
             </div>
             <div class="quadrado404-ent">
             </div>
             <div class="quadrado404error">
-                <a href="index.php"><li style="animation: go-back1 3.5s infinite alternate, LiAnim 2.5s;" class="Voltar">Clique aqui para voltar</li></a>
+                <a href="index.php">
+                    <li style="animation: go-back1 3.5s infinite alternate, LiAnim 2.5s;" class="Voltar">Clique aqui para voltar</li>
+                </a>
             </div>
         </div>
     </div>
