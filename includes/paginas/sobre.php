@@ -29,7 +29,7 @@
                             esse serviço para compromisso visual.</p>
                         <li style="animation: go-back1 4.6s infinite alternate, LiAnim2 3.5s;" class="Web-Design">Web-Design</li>
                         <p style="animation: LiAnim2 5.5s;">Quer apresentar um <b><u>Web-Site</u></b> responsivo para sua <b>Empresa, Negócio ou um Portfolio para você?</b>
-                            Pode falar comigo que eu facilito sua vida criando todo conteúdo representativo e então mostrar pro <b><i class="fas fa-globe-americas"></i> Mundo</b>.</p>
+                            Pode falar comigo que eu facilito sua vida criando todo conteúdo representativo e então mostrar para o <b><i class="fas fa-globe-americas"></i> Mundo</b>.</p>
                         <li style="animation: go-back1 5.7s infinite alternate, LiAnim2 4.5s;" class="Mockups">Mockups</li>
                         <p style="animation: LiAnim2 6.5s;">Precisa de uma <u>Identidade-visual</u> <b>prática e eficaz</b> para ser mostrado para o seu cliente? Conte comigo
                             para criar sua <b>Representação virtual ou física</b> em vários tamanhos personalizados para identidade visual da sua <b>Empresa</b> ou <b>Négocio</b>.</p>

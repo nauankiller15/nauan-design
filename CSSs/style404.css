@@ -27,7 +27,7 @@
 .Voltar {
     z-index: 1002;
     text-align: center;
-    font-size: 27px;
+    font-size: 37px;
     color: #000000;
     padding: 10px;
     transition: 0.5s;
@@ -36,6 +36,7 @@
     box-sizing: border-box;
     width: 200px;
     list-style: none;
+    box-shadow: 3px 2px 2px 3px #00000056;
 }
 
 .Voltar:hover {
@@ -44,7 +45,7 @@
 }
 
 .quadrado404error {
-    top: 155px;
+    top: 105px;
     font-family: Bahnschrift;
     text-transform: uppercase;
     left: 310px;
@@ -53,4 +54,51 @@
     font-size: 26px;
     font-weight: 400;
     cursor: default;
+}
+
+.quadrado404-ent {
+    background-image: url(../imagens/square-index-semfundo.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 300px;
+    position: fixed;
+    transition: 1.0s;
+    animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+}
+
+.LogoMenu404 {
+    animation: TrabalhoIni 2.2s;
+    font-family: Bahnschrift;
+    right: 318px;
+    position: fixed;
+    z-index: 2300;
+    text-align: center;
+    background: #141414;
+    border: 2px #242424 solid;
+    box-shadow: 2px 2px 4px #000000;
+    padding: 25px;
+    border-radius: 0px 0px 10px 10px;
+    cursor: default;
+}
+
+@keyframes TrabalhoIni {
+    from {
+        transform: translateY(-2350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+.nauan-sub404 {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 2px #000000;
+}
+
+.design-sub404 {
+    font-size: 27px;
+    text-transform: uppercase;
+    text-shadow: 2px 1px 2px #000000;
+    animation: go-back2 5.2s infinite alternate;
 }

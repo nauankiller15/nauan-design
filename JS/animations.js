@@ -46,7 +46,6 @@ function fecharpopup() {
             $("#sobre").fadeOut('300');
             $('#trabalhos').fadeOut('300');
             $('#fechar').fadeOut('1300');
-            $('#fechar').slideDown('3200');
             $('.menu li.active').removeClass('active');
             $('.menu a.active').removeClass('active');
         }
