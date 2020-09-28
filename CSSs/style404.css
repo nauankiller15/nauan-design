@@ -1,0 +1,56 @@
+.esta {
+    font-size: 100px;
+    font-family: Bahnschrift;
+    font-style: inherit;
+    cursor: default;
+    position: fixed;
+    left: 315px;
+    top: 600px;
+    text-transform: uppercase;
+    animation: H2Slide 1.8s ease-in-out;
+    text-shadow: 2px 2px 3px #000000;
+}
+
+.perdido {
+    font-size: 60px;
+    font-family: Bahnschrift;
+    font-style: inherit;
+    cursor: default;
+    position: fixed;
+    left: 317px;
+    top: 700px;
+    text-transform: uppercase;
+    animation: go-back2 1.2s infinite alternate, H2Slide 2.8s ease-in-out;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.Voltar {
+    z-index: 1002;
+    text-align: center;
+    font-size: 27px;
+    color: #000000;
+    padding: 10px;
+    transition: 0.5s;
+    border-radius: 10px;
+    background: #ffffff;
+    box-sizing: border-box;
+    width: 200px;
+    list-style: none;
+}
+
+.Voltar:hover {
+    background: #000000;
+    color: #ffffff;
+}
+
+.quadrado404error {
+    top: 155px;
+    font-family: Bahnschrift;
+    text-transform: uppercase;
+    left: 310px;
+    position: absolute;
+    width: 250px;
+    font-size: 26px;
+    font-weight: 400;
+    cursor: default;
+}
