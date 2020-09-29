@@ -1,6 +1,6 @@
 .menu {
     top: 305px;
-    right: 300px;
+    right: 210px;
     position: fixed;
     z-index: 4000;
     box-sizing: border-box;
@@ -108,7 +108,7 @@
 .LogoMenu {
     animation: TrabalhoIni 1.0s;
     font-family: Bahnschrift;
-    right: 318px;
+    right: 230px;
     position: fixed;
     z-index: 2300;
     text-align: center;

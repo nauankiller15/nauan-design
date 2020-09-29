@@ -20,8 +20,8 @@
     /* 100 / 10 pictures = 10% */
     float: left;
     /*  next 2 to continue responsive with the maximum height  */
-    max-width: 100%;
-    min-height: 100%;
+    max-width: 300%;
+    min-height: 300%;
     object-fit: cover;
 }
 

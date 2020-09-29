@@ -183,7 +183,7 @@ a:hover {
 
 @keyframes LiAnim {
     from {
-        transform: translateX(12350px);
+        transform: translateX(-12350px);
     }
     to {
         transform: translateY(0);
