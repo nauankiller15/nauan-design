@@ -13,7 +13,7 @@
                 <h2 class="perdido">Perdido?</h2>
                 <div class="euSou">
                     <h1 style="animation: euSou 3.3s ease-in-out;"><span class="typed"></span></h1>
-                    <p style="animation: animSou 2.1s ease-in-out;">Venha desenvolver junto comigo.</p>
+                    <p style="animation: animSou 2.1s ease-in-out;">ERRO 404.</p>
                 </div>
             </div>
             <div class="quadrado404-ent">
