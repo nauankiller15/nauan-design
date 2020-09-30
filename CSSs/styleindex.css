@@ -47,9 +47,9 @@ a:hover {
 }
 
 #quadrado-position {
-    position: fixed;
-    top: 250px;
-    left: 300px;
+    position: absolute;
+    top: 180px;
+    left: 230px;
     z-index: 999;
 }
 
@@ -58,21 +58,35 @@ a:hover {
     font-family: Bahnschrift;
     font-style: inherit;
     cursor: default;
-    position: fixed;
-    left: 315px;
-    top: 600px;
+    position: absolute;
+    left: 15px;
+    top: 346px;
     text-transform: uppercase;
     animation: H2Slide 3.5s ease-in-out;
     text-shadow: 2px 2px 3px #000000;
 }
 
+.designn {
+    font-size: 60px;
+    font-family: Bahnschrift;
+    font-style: inherit;
+    cursor: default;
+    position: absolute;
+    left: 15px;
+    top: 436px;
+    text-transform: uppercase;
+    animation: go-back2 1.2s infinite alternate, H2Slide 5.5s ease-in-out;
+    text-shadow: 2px 2px 2px #000000;
+}
+
 .euSou {
-    position: fixed;
-    left: 335px;
-    top: 190px;
+    position: absolute;
+    left: 23px;
+    top: -49px;
     text-transform: uppercase;
     text-shadow: 3px 2px 3px #000000;
     font-family: Bahnschrift;
+    width: 520px;
 }
 
 @keyframes euSou {
@@ -111,19 +125,6 @@ a:hover {
     }
 }
 
-.designn {
-    font-size: 60px;
-    font-family: Bahnschrift;
-    font-style: inherit;
-    cursor: default;
-    position: fixed;
-    left: 317px;
-    top: 700px;
-    text-transform: uppercase;
-    animation: go-back2 1.2s infinite alternate, H2Slide 5.5s ease-in-out;
-    text-shadow: 2px 2px 2px #000000;
-}
-
 @keyframes H2Slide {
     from {
         transform: translateY(950px);
@@ -155,7 +156,7 @@ a:hover {
     background-size: 100%;
     background-repeat: no-repeat;
     padding: 300px;
-    position: fixed;
+    position: absolute;
     transition: 1.0s;
     animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
 }

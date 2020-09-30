@@ -412,7 +412,7 @@ textarea.input100 {
 .contact100-form-btn {
     font-family: Bahnschrift;
     font-size: 15px;
-    color: #000000;
+    color: #ffffff;
     line-height: 1.2;
     text-transform: uppercase;
     display: -webkit-box;
@@ -422,17 +422,19 @@ textarea.input100 {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 20px;
+    padding: 0 9px;
     min-width: 160px;
     height: 42px;
     border-radius: 21px;
-    background: #ffffff;
+    background: #242424;
+    border: 1px solid #ffffff38;
     transition: all 0.4s;
 }
 
 .contact100-form-btn:hover {
-    background: #242424;
-    color: #ffffff;
+    background: #ffffff;
+    color: #242424;
+    border: 1px solid #ffffff38;
 }
 
 

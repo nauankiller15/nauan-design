@@ -3,9 +3,9 @@
     font-family: Bahnschrift;
     font-style: inherit;
     cursor: default;
-    position: fixed;
-    left: 315px;
-    top: 600px;
+    position: absolute;
+    left: 15px;
+    top: 346px;
     text-transform: uppercase;
     animation: H2Slide 1.8s ease-in-out;
     text-shadow: 2px 2px 3px #000000;
@@ -15,10 +15,9 @@
     font-size: 60px;
     font-family: Bahnschrift;
     font-style: inherit;
-    cursor: default;
-    position: fixed;
-    left: 317px;
-    top: 700px;
+    position: absolute;
+    left: 15px;
+    top: 436px;
     text-transform: uppercase;
     animation: go-back2 1.2s infinite alternate, H2Slide 2.8s ease-in-out;
     text-shadow: 2px 2px 2px #000000;

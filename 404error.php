@@ -8,13 +8,11 @@
     <?php include("includes/BackSlide.php"); ?>
     <div id="esconder">
         <div id="quadrado-position">
-            <div class="divSlide">
-                <h2 class="esta">Está</h2>
-                <h2 class="perdido">Perdido?</h2>
-                <div class="euSou">
-                    <h1 style="animation: euSou 3.3s ease-in-out;"><span class="typed"></span></h1>
-                    <p style="animation: animSou 2.1s ease-in-out;">ERRO 404.</p>
-                </div>
+            <h2 class="esta">Está</h2>
+            <h2 class="perdido">Perdido?</h2>
+            <div class="euSou">
+                <h1 style="animation: euSou 3.3s ease-in-out;"><span class="typed"></span></h1>
+                <p style="animation: animSou 2.1s ease-in-out;">ERRO 404.</p>
             </div>
             <div class="quadrado404-ent">
             </div>
