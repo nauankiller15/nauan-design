@@ -215,7 +215,7 @@ iframe {
     top: 0;
     left: 0;
     background-color: #242424;
-    margin-right: 50px;
+    border-radius: 5px;
 }
 
 
@@ -231,7 +231,7 @@ iframe {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding: 40px 55px 48px 55px;
+    padding: 30px 15px 15px 12px;
 }
 
 
