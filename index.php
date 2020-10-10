@@ -2,6 +2,22 @@
 <?php include("includes/paginas/trabalhos.php"); ?>
 <?php include("includes/paginas/sobre.php"); ?>
 <?php include("includes/paginas/contato.php"); ?>
+<!-- MENU PRINCIPAL  -->
+<?php include("includes/menu.php"); ?>
+<!-- fim -->
+<!-- MENU SIDE HAMBURGUER -->
+<div id="IA-MenuBar">
+    <input id="navbar" type='checkbox'>
+    <label for="navbar">
+        <div class='menuhambur'>
+            <span class='hamburger'></span>
+        </div>
+    </label>
+    <div class="mostrar-menu">
+        <?php include("includes/menu.php"); ?>
+    </div>
+</div>
+<!-- fim -->
 <div class="LogoMenu">
     <h2 class="nauan-sub">Nauan</h2>
     <h2 class="design-sub">Design</h2>
@@ -27,7 +43,6 @@
             </div>
         </div>
     </div>
-    <?php include("includes/menu.php"); ?>
     <?php include("includes/footer.php"); ?>
 </body>
 

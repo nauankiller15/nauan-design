@@ -1,0 +1,653 @@
+@media (max-width: 320px) {
+    /* FOOTER */
+    .footer {
+        padding: 12px;
+        font-size: 14px;
+    }
+    /* ------------ PÁGINA INICIAL ---------- */
+    #quadrado-position {
+        position: fixed;
+        top: 105px;
+        left: 2px;
+        z-index: 999;
+    }
+    .quadrado-index {
+        background-size: 65%;
+        padding: 300px;
+        position: absolute;
+        transition: 1.0s;
+        animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+    }
+    .quadradoUtilites {
+        top: 64px;
+        left: 219px;
+        width: 450px;
+        font-size: 19px;
+    }
+    /* ------ Typer Estilo */
+    .euSou {
+        left: 23px;
+        top: -49px;
+    }
+    .euSou h1 {
+        font-size: 20px;
+    }
+    /* ------- Dentro Quadrado */
+    .designn {
+        font-size: 39px;
+        left: 15px;
+        top: 285px;
+    }
+    .nauan {
+        font-size: 50px;
+        left: 14px;
+        top: 231px;
+    }
+    /*  */
+    .menu {
+        top: 456px;
+        right: 74px;
+    }
+    /* ---------- OUTRAS PÁGINAS -------- */
+    /* Logo Menu */
+    .LogoMenu {
+        right: 6px;
+        padding: 10px;
+    }
+    .nauan-sub {
+        font-size: 24px;
+    }
+    .design-sub {
+        font-size: 17px;
+    }
+    /* --------- MEUS PROJETOS ---------- */
+    /* DESIGN PROJETOS */
+    .Centrotrabalhos {
+        top: 156px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    /* ----- DESIGN PORTFOLIO */
+    #portfolio .portfolio-list .nav li {
+        float: none;
+        margin: 2px;
+        display: inline-block;
+    }
+    .portfolio-thumbnail {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        min-height: 30px;
+        width: 39%;
+    }
+    #portfolio .portfolio-list .nav li {
+        padding: 4px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    /* Titulo Trabalho */
+    .trabalhos h2 {
+        width: 50%;
+        top: 40px;
+        font-size: 42px;
+        text-align: center;
+    }
+    /* Texto Overlay */
+    .overlay {
+        min-height: 35px;
+    }
+    .text {
+        font-size: 22px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* FOOTER */
+    .footer {
+        padding: 12px;
+        font-size: 14px;
+    }
+    /* ------------ PÁGINA INICIAL ---------- */
+    #quadrado-position {
+        position: fixed;
+        top: 105px;
+        left: 2px;
+        z-index: 999;
+    }
+    .quadrado-index {
+        background-size: 65%;
+        padding: 300px;
+        position: absolute;
+        transition: 1.0s;
+        animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+    }
+    .quadradoUtilites {
+        top: 64px;
+        left: 219px;
+        width: 450px;
+        font-size: 19px;
+    }
+    /* ------ Typer Estilo */
+    .euSou {
+        left: 23px;
+        top: -49px;
+    }
+    .euSou h1 {
+        font-size: 20px;
+    }
+    /* ------- Dentro Quadrado */
+    .designn {
+        font-size: 39px;
+        left: 15px;
+        top: 285px;
+    }
+    .nauan {
+        font-size: 50px;
+        left: 14px;
+        top: 231px;
+    }
+    /*  */
+    .menu {
+        top: 456px;
+        right: 74px;
+    }
+    /* ---------- OUTRAS PÁGINAS -------- */
+    /* Logo Menu */
+    .LogoMenu {
+        right: 6px;
+        padding: 10px;
+    }
+    .nauan-sub {
+        font-size: 24px;
+    }
+    .design-sub {
+        font-size: 17px;
+    }
+    /* --------- MEUS PROJETOS ---------- */
+    /* DESIGN PROJETOS */
+    .Centrotrabalhos {
+        top: 156px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    /* portfolio */
+    #portfolio .portfolio-list .nav li {
+        float: none;
+        margin: 2px;
+        display: inline-block;
+    }
+    .portfolio-thumbnail {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        min-height: 30px;
+        width: 39%;
+    }
+    #portfolio .portfolio-list .nav li {
+        padding: 4px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    /* Titulo Trabalho */
+    .trabalhos h2 {
+        width: 50%;
+        top: 40px;
+        font-size: 42px;
+        text-align: center;
+    }
+    /* Texto Overlay */
+    .overlay {
+        min-height: 35px;
+    }
+    .text {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 767px) {
+    /* FOOTER */
+    .footer {
+        padding: 12px;
+        font-size: 14px;
+    }
+    /* ------------ PÁGINA INICIAL ---------- */
+    #quadrado-position {
+        position: fixed;
+        top: 105px;
+        left: 2px;
+        z-index: 999;
+    }
+    .quadrado-index {
+        background-size: 65%;
+        padding: 300px;
+        position: absolute;
+        transition: 1.0s;
+        animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+    }
+    .quadradoUtilites {
+        top: 64px;
+        left: 219px;
+        width: 450px;
+        font-size: 19px;
+    }
+    /* ------ Typer Estilo */
+    .euSou {
+        left: 23px;
+        top: -49px;
+    }
+    .euSou h1 {
+        font-size: 20px;
+    }
+    /* ------- Dentro Quadrado */
+    .designn {
+        font-size: 39px;
+        left: 15px;
+        top: 285px;
+    }
+    .nauan {
+        font-size: 50px;
+        left: 14px;
+        top: 231px;
+    }
+    /*  */
+    .menu {
+        top: 456px;
+        right: 74px;
+    }
+    /* ---------- OUTRAS PÁGINAS -------- */
+    /* Logo Menu */
+    .LogoMenu {
+        right: 6px;
+        padding: 10px;
+    }
+    .nauan-sub {
+        font-size: 24px;
+    }
+    .design-sub {
+        font-size: 17px;
+    }
+    /* --------- MEUS PROJETOS ---------- */
+    /* DESIGN PROJETOS */
+    .Centrotrabalhos {
+        top: 156px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    /* ----- DESIGN PORTFOLIO */
+    #portfolio .portfolio-list .nav li {
+        float: none;
+        margin: 2px;
+        display: inline-block;
+    }
+    .portfolio-thumbnail {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        min-height: 30px;
+        width: 39%;
+    }
+    #portfolio .portfolio-list .nav li {
+        padding: 4px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    /* Titulo Trabalho */
+    .trabalhos h2 {
+        width: 50%;
+        top: 40px;
+        font-size: 42px;
+        text-align: center;
+    }
+    /* Texto Overlay */
+    .overlay {
+        min-height: 35px;
+    }
+    .text {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 600px) {
+    /* FOOTER */
+    .footer {
+        padding: 12px;
+        font-size: 14px;
+    }
+    /* ------------ PÁGINA INICIAL ---------- */
+    #quadrado-position {
+        position: fixed;
+        top: 105px;
+        left: 2px;
+        z-index: 999;
+    }
+    .quadrado-index {
+        background-size: 65%;
+        padding: 300px;
+        position: absolute;
+        transition: 1.0s;
+        animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+    }
+    .quadradoUtilites {
+        top: 64px;
+        left: 219px;
+        width: 450px;
+        font-size: 19px;
+    }
+    /* ------ Typer Estilo */
+    .euSou {
+        left: 23px;
+        top: -49px;
+    }
+    .euSou h1 {
+        font-size: 20px;
+    }
+    /* ------- Dentro Quadrado */
+    .designn {
+        font-size: 39px;
+        left: 15px;
+        top: 285px;
+    }
+    .nauan {
+        font-size: 50px;
+        left: 14px;
+        top: 231px;
+    }
+    /*  */
+    .menu {
+        top: 456px;
+        right: 74px;
+    }
+    /* ---------- OUTRAS PÁGINAS -------- */
+    /* Logo Menu */
+    .LogoMenu {
+        right: 6px;
+        padding: 10px;
+    }
+    .nauan-sub {
+        font-size: 24px;
+    }
+    .design-sub {
+        font-size: 17px;
+    }
+    /* --------- MEUS PROJETOS ---------- */
+    /* DESIGN PROJETOS */
+    .Centrotrabalhos {
+        top: 156px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    /* ----- DESIGN PORTFOLIO */
+    #portfolio .portfolio-list .nav li {
+        float: none;
+        margin: 2px;
+        display: inline-block;
+    }
+    .portfolio-thumbnail {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        min-height: 30px;
+        width: 39%;
+    }
+    #portfolio .portfolio-list .nav li {
+        padding: 4px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    /* Titulo Trabalho */
+    .trabalhos h2 {
+        width: 50%;
+        top: 40px;
+        font-size: 42px;
+        text-align: center;
+    }
+    /* Texto Overlay */
+    .overlay {
+        min-height: 35px;
+    }
+    .text {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    /* FOOTER */
+    .footer {
+        padding: 12px;
+        font-size: 14px;
+    }
+    /* ------------ PÁGINA INICIAL ---------- */
+    #quadrado-position {
+        position: fixed;
+        top: 105px;
+        left: 2px;
+        z-index: 999;
+    }
+    .quadrado-index {
+        background-size: 65%;
+        padding: 300px;
+        position: absolute;
+        transition: 1.0s;
+        animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+    }
+    .quadradoUtilites {
+        top: 64px;
+        left: 219px;
+        width: 450px;
+        font-size: 19px;
+    }
+    /* ------ Typer Estilo */
+    .euSou {
+        left: 23px;
+        top: -49px;
+    }
+    .euSou h1 {
+        font-size: 20px;
+    }
+    /* ------- Dentro Quadrado */
+    .designn {
+        font-size: 39px;
+        left: 15px;
+        top: 285px;
+    }
+    .nauan {
+        font-size: 50px;
+        left: 14px;
+        top: 231px;
+    }
+    /*  */
+    .menu {
+        top: 456px;
+        right: 74px;
+    }
+    /* ---------- OUTRAS PÁGINAS -------- */
+    /* Logo Menu */
+    .LogoMenu {
+        right: 6px;
+        padding: 10px;
+    }
+    .nauan-sub {
+        font-size: 24px;
+    }
+    .design-sub {
+        font-size: 17px;
+    }
+    /* --------- MEUS PROJETOS ---------- */
+    /* DESIGN PROJETOS */
+    .Centrotrabalhos {
+        top: 156px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    /* ----- DESIGN PORTFOLIO */
+    #portfolio .portfolio-list .nav li {
+        float: none;
+        margin: 2px;
+        display: inline-block;
+    }
+    .portfolio-thumbnail {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        min-height: 30px;
+        width: 39%;
+    }
+    #portfolio .portfolio-list .nav li {
+        padding: 4px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    /* Titulo Trabalho */
+    .trabalhos h2 {
+        width: 50%;
+        top: 40px;
+        font-size: 42px;
+        text-align: center;
+    }
+    /* Texto Overlay */
+    .overlay {
+        min-height: 35px;
+    }
+    .text {
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 320px) {
+    /* FOOTER */
+    .footer {
+        padding: 12px;
+        font-size: 14px;
+    }
+    /* ------------ PÁGINA INICIAL ---------- */
+    #quadrado-position {
+        position: fixed;
+        top: 105px;
+        left: 2px;
+        z-index: 999;
+    }
+    .quadrado-index {
+        background-size: 65%;
+        padding: 300px;
+        position: absolute;
+        transition: 1.0s;
+        animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+    }
+    .quadradoUtilites {
+        top: 64px;
+        left: 219px;
+        width: 450px;
+        font-size: 19px;
+    }
+    /* ------ Typer Estilo */
+    .euSou {
+        left: 23px;
+        top: -49px;
+    }
+    .euSou h1 {
+        font-size: 20px;
+    }
+    /* ------- Dentro Quadrado */
+    .designn {
+        font-size: 39px;
+        left: 15px;
+        top: 285px;
+    }
+    .nauan {
+        font-size: 50px;
+        left: 14px;
+        top: 231px;
+    }
+    /*  */
+    .menu {
+        top: 456px;
+        right: 74px;
+    }
+    /* ---------- OUTRAS PÁGINAS -------- */
+    /* Logo Menu */
+    .LogoMenu {
+        right: 6px;
+        padding: 10px;
+    }
+    .nauan-sub {
+        font-size: 24px;
+    }
+    .design-sub {
+        font-size: 17px;
+    }
+    /* --------- MEUS PROJETOS ---------- */
+    /* DESIGN PROJETOS */
+    .Centrotrabalhos {
+        top: 156px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    /* ----- DESIGN PORTFOLIO */
+    #portfolio .portfolio-list .nav li {
+        float: none;
+        margin: 2px;
+        display: inline-block;
+    }
+    .portfolio-thumbnail {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        min-height: 30px;
+        width: 39%;
+    }
+    #portfolio .portfolio-list .nav li {
+        padding: 4px;
+        font-size: 15px;
+        line-height: 15px;
+    }
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
+        font-size: 16px;
+        line-height: 15px;
+    }
+    /* Titulo Trabalho */
+    .trabalhos h2 {
+        width: 50%;
+        top: 40px;
+        font-size: 42px;
+        text-align: center;
+    }
+    /* Texto Overlay */
+    .overlay {
+        min-height: 35px;
+    }
+    .text {
+        font-size: 22px;
+    }
+}
