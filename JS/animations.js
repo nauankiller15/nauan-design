@@ -71,6 +71,7 @@ function fecharpopup() {
             $('.menu a.active').removeClass('active');
             $('#esconder-menu').fadeIn('1200');
             $('#IA-MenuBar').fadeOut('1200');
+            $('#IA-MenuOpen').fadeOut('1100');
         }
     });
 }
