@@ -1,10 +1,62 @@
+@media screen and (max-width: 1100px) {
+    #IA-MenuBar {
+        display: none;
+        transition: 0.6s;
+    }
+    .menu {
+        top: 456px;
+        right: 102px;
+    }
+    #esconder-menu {
+        display: block;
+    }
+    .link-margem {
+        margin-top: 70px;
+    }
+    .clicarFechar {
+        display: none;
+    }
+    .menuhambur {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #esconder-menu {
+        display: block;
+    }
+    #IA-MenuBar {
+        display: none;
+        transition: 0.6s;
+    }
+    .menu {
+        top: 456px;
+        right: 2px;
+        display: block;
+    }
+    .link-margem {
+        margin-top: 70px;
+    }
+    .clicarFechar {
+        display: none;
+    }
+    .menuhambur {
+        display: none;
+    }
+}
+
 @media (max-width: 320px) {
-    /* FOOTER */
+    /* ----------- FOOTER ------------ */
     .footer {
         padding: 12px;
         font-size: 14px;
     }
     /* ------------ PÁGINA INICIAL ---------- */
+    /* ----- MENU */
+    .clicarFechar {
+        display: block;
+    }
+    /*  */
     #quadrado-position {
         position: fixed;
         top: 105px;
@@ -105,15 +157,23 @@
     .text {
         font-size: 22px;
     }
+    .link-margem {
+        margin-top: 40px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    /* FOOTER */
+    /* ----------- FOOTER ------------ */
     .footer {
         padding: 12px;
         font-size: 14px;
     }
     /* ------------ PÁGINA INICIAL ---------- */
+    /* ----- MENU */
+    .clicarFechar {
+        display: block;
+    }
+    /*  */
     #quadrado-position {
         position: fixed;
         top: 105px;
@@ -214,15 +274,23 @@
     .text {
         font-size: 22px;
     }
+    .link-margem {
+        margin-top: 40px;
+    }
 }
 
 @media (max-width: 767px) {
-    /* FOOTER */
+    /* ----------- FOOTER ------------ */
     .footer {
         padding: 12px;
         font-size: 14px;
     }
     /* ------------ PÁGINA INICIAL ---------- */
+    /* ----- MENU */
+    .clicarFechar {
+        display: block;
+    }
+    /*  */
     #quadrado-position {
         position: fixed;
         top: 105px;
@@ -322,16 +390,24 @@
     }
     .text {
         font-size: 22px;
+    }
+    .link-margem {
+        margin-top: 40px;
     }
 }
 
 @media (max-width: 600px) {
-    /* FOOTER */
+    /* ----------- FOOTER ------------ */
     .footer {
         padding: 12px;
         font-size: 14px;
     }
     /* ------------ PÁGINA INICIAL ---------- */
+    /* ----- MENU */
+    .clicarFechar {
+        display: block;
+    }
+    /*  */
     #quadrado-position {
         position: fixed;
         top: 105px;
@@ -431,16 +507,24 @@
     }
     .text {
         font-size: 22px;
+    }
+    .link-margem {
+        margin-top: 40px;
     }
 }
 
 @media (max-width: 480px) {
-    /* FOOTER */
+    /* ----------- FOOTER ------------ */
     .footer {
         padding: 12px;
         font-size: 14px;
     }
     /* ------------ PÁGINA INICIAL ---------- */
+    /* ----- MENU */
+    .clicarFechar {
+        display: block;
+    }
+    /*  */
     #quadrado-position {
         position: fixed;
         top: 105px;
@@ -540,16 +624,24 @@
     }
     .text {
         font-size: 22px;
+    }
+    .link-margem {
+        margin-top: 40px;
     }
 }
 
 @media (max-width: 320px) {
-    /* FOOTER */
+    /* ----------- FOOTER ------------ */
     .footer {
         padding: 12px;
         font-size: 14px;
     }
     /* ------------ PÁGINA INICIAL ---------- */
+    /* ----- MENU */
+    .clicarFechar {
+        display: block;
+    }
+    /*  */
     #quadrado-position {
         position: fixed;
         top: 105px;
@@ -649,5 +741,8 @@
     }
     .text {
         font-size: 22px;
+    }
+    .link-margem {
+        margin-top: 40px;
     }
 }

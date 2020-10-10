@@ -7,16 +7,12 @@
 <!-- fim -->
 <!-- MENU SIDE HAMBURGUER -->
 <div id="IA-MenuBar">
-    <input id="navbar" type='checkbox'>
-    <label for="navbar">
-        <div class='menuhambur'>
-            <span class='hamburger'></span>
-        </div>
-    </label>
-    <div class="mostrar-menu">
-        <?php include("includes/menu.php"); ?>
+    <input id="navbar" type='button'>
+    <div class='menuhambur'>
+        <span class='hamburger'></span>
     </div>
 </div>
+
 <!-- fim -->
 <div class="LogoMenu">
     <h2 class="nauan-sub">Nauan</h2>
