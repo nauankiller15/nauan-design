@@ -2,6 +2,7 @@
 <?php include("includes/paginas/trabalhos.php"); ?>
 <?php include("includes/paginas/sobre.php"); ?>
 <?php include("includes/paginas/contato.php"); ?>
+<?php include("includes/paginas/fundo-preto.php"); ?>
 <!-- MENU PRINCIPAL  -->
 <?php include("includes/menu.php"); ?>
 <!-- fim -->

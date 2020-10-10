@@ -15,15 +15,25 @@
         right: 131px;
     }
     .menuhambur2 {
-        top: 572px;
-        right: 131px;
+        top: 469px;
+        right: 16px;
     }
     #separarImg {
         float: right;
         height: 530px;
         z-index: 1000;
     }
+    .trabalhos h2 {
+        width: 70%;
+    }
+    .contato h2 {
+        width: 70%;
+        left: 10px;
+    }
 }
+
+
+/*  */
 
 @media (max-width: 1200px) {
     #separarImg {
@@ -42,8 +52,8 @@
         margin-top: 55px;
     }
     .menuhambur {
-        top: 422px;
-        right: 65px;
+        top: 442px;
+        right: 7px;
     }
     .menuhambur2 {
         top: 302px;
@@ -67,6 +77,24 @@
         z-index: 999;
     }
 }
+
+@media (max-width: 1000px) {
+    .menuhambur {
+        top: 437px;
+        right: 36px;
+    }
+    .trabalhos h2 {
+        width: 70%;
+        font-size: 45px;
+    }
+    .contato h2 {
+        width: 70%;
+        font-size: 55px;
+    }
+}
+
+
+/*  */
 
 @media (max-width: 320px) {
     /* ----------- FOOTER (max-width: 320px) ------------ */
@@ -272,6 +300,10 @@
         top: 231px;
     }
     /*  */
+    .menuhambur {
+        top: 473px;
+        right: 16px;
+    }
     .menu {
         top: 456px;
         right: 74px;
@@ -426,8 +458,8 @@
     }
     /*  */
     .menu {
-        top: 456px;
-        right: 74px;
+        top: 407px;
+        right: 94px;
     }
     /* ---------- OUTRAS PÁGINAS (max-width: 767px) -------- */
     /* Logo Menu */
@@ -580,7 +612,7 @@
     /*  */
     .menu {
         top: 407px;
-        right: 123px;
+        right: 94px;
     }
     /* ---------- OUTRAS PÁGINAS (max-width: 600px) -------- */
     /* Logo Menu */
@@ -598,7 +630,7 @@
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
         top: 156px;
-        width: 90%;
+        width: 93%;
         left: 21px;
         padding: 21px;
         font-size: 15px;
@@ -691,6 +723,10 @@
     }
     /* ------------ PÁGINA INICIAL (max-width: 480px) ---------- */
     /* ----- MENU */
+    .menuhambur {
+        top: 437px;
+        right: 65px;
+    }
     /*  */
     #quadrado-position {
         position: fixed;
@@ -815,9 +851,10 @@
         float: right;
         height: 525px;
         z-index: 1000;
+        margin-right: 20px;
     }
     .sobre h2 {
-        left: 21px;
+        left: 70px;
         width: 70%;
         top: 38px;
         font-size: 42px;
@@ -910,6 +947,10 @@
         font-size: 15px;
     }
     /* ----- DESIGN PORTFOLIO (max-width: 320px) */
+    #portfolio .portfolio-list {
+        margin-bottom: 3px;
+        z-index: 2000;
+    }
     #portfolio .portfolio-list .nav li {
         float: none;
         margin: 2px;
@@ -923,12 +964,12 @@
     }
     #portfolio .portfolio-list .nav li {
         padding: 1px;
-        font-size: 15px;
+        font-size: 16px;
         line-height: 26px;
     }
     #portfolio .portfolio-list .nav li:hover,
     #portfolio .portfolio-list .nav li.filter-active {
-        font-size: 16px;
+        font-size: 17px;
         line-height: 26px;
     }
     /* Titulo Trabalho (max-width: 320px) */
