@@ -169,3 +169,7 @@
                 transition: 0.5s;
                 z-index: 100;
             }
+            
+            .link-margem {
+                margin-top: 70px;
+            }

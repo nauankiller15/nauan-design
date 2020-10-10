@@ -39,7 +39,7 @@
         display: block;
     }
     .link-margem {
-        margin-top: 70px;
+        margin-top: 55px;
     }
     .menuhambur {
         top: 490px;
@@ -59,6 +59,12 @@
         width: 93%;
         padding: 25px;
         left: 23px;
+    }
+    #quadrado-position {
+        position: fixed;
+        top: 165px;
+        left: 78px;
+        z-index: 999;
     }
 }
 
