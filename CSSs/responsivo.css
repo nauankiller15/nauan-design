@@ -1,4 +1,8 @@
 @media (max-width: 1400px) {
+    .LogoMenu {
+        top: 0;
+        right: 62px;
+    }
     #esconder-menu {
         display: block;
     }
@@ -36,6 +40,10 @@
 /*  */
 
 @media (max-width: 1200px) {
+    .LogoMenu {
+        top: 0;
+        right: 89px;
+    }
     #separarImg {
         float: right;
         height: 520px;
