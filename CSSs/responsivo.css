@@ -32,8 +32,8 @@
         z-index: 1000;
     }
     .menu {
-        top: 456px;
-        right: 68px;
+        top: 422px;
+        right: 65px;
     }
     #esconder-menu {
         display: block;
@@ -42,12 +42,12 @@
         margin-top: 55px;
     }
     .menuhambur {
-        top: 490px;
-        right: 16px;
+        top: 422px;
+        right: 65px;
     }
     .menuhambur2 {
-        top: 490px;
-        right: 16px;
+        top: 422px;
+        right: 65px;
     }
     #separarImg {
         float: right;
@@ -695,7 +695,7 @@
     #quadrado-position {
         position: fixed;
         top: 60px;
-        left: 60px;
+        left: 25px;
         z-index: 999;
     }
     .quadrado-index {
