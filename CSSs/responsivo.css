@@ -541,8 +541,8 @@
     /*  */
     #quadrado-position {
         position: fixed;
-        top: 105px;
-        left: 2px;
+        top: 60px;
+        left: 60px;
         z-index: 999;
     }
     .quadrado-index {
@@ -579,8 +579,8 @@
     }
     /*  */
     .menu {
-        top: 456px;
-        right: 74px;
+        top: 407px;
+        right: 123px;
     }
     /* ---------- OUTRAS PÁGINAS (max-width: 600px) -------- */
     /* Logo Menu */
@@ -694,8 +694,8 @@
     /*  */
     #quadrado-position {
         position: fixed;
-        top: 105px;
-        left: 2px;
+        top: 60px;
+        left: 60px;
         z-index: 999;
     }
     .quadrado-index {
@@ -732,8 +732,8 @@
     }
     /*  */
     .menu {
-        top: 456px;
-        right: 74px;
+        top: 407px;
+        right: 123px;
     }
     /* ---------- OUTRAS PÁGINAS (max-width: 480px) -------- */
     /* Logo Menu */
