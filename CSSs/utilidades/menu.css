@@ -106,6 +106,7 @@
 }
 
 .LogoMenu {
+    top: 0;
     animation: TrabalhoIni 1.0s;
     font-family: Bahnschrift;
     right: 230px;

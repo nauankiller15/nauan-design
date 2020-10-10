@@ -1,3 +1,4 @@
+// Animação Menu
 $('#trabalhosAbrir').on('click', function() {
     $('#contato').fadeOut('1300');
     $(".fundoPreto").fadeIn('500');
@@ -32,27 +33,31 @@ $('#sobreAbrir').on('click', function() {
 })
 
 $('#fechar').on('click', function() {
-    $('#contato').fadeIn('700');
-    $(".fundoPreto").fadeOut('500');
-    $("#trabalhos").fadeOut('600');
-    $('#contato').fadeOut('600');
-    $('#fechar').fadeOut('1300');
-    $("#sobre").fadeOut('600');
-    $('.LogoMenu').slideUp('1300');
-    $('#IA-MenuBar').fadeIn('200');
-    $('#esconder-menu').fadeIn('300')
-})
+        $('#contato').fadeIn('700');
+        $(".fundoPreto").fadeOut('500');
+        $("#trabalhos").fadeOut('600');
+        $('#contato').fadeOut('600');
+        $('#fechar').fadeOut('1300');
+        $("#sobre").fadeOut('600');
+        $('.LogoMenu').slideUp('1300');
+        $('#IA-MenuBar').fadeOut('200');
+        $('#esconder-menu').fadeIn('1200')
+    })
+    // 
 
+// Responsivos
 $('#IA-MenuBar').on('click', function() {
-    $('#esconder-menu').fadeIn('300');
+    $('#IA-MenuBar').fadeOut('600');
+    $('#IA-MenuOpen').fadeIn('100');
+    $('#esconder-menu').fadeOut('500');
 })
 
-$('.clicarFechar').each(function() {
-    $(this).on('click', function() {
-        $('#esconder-menu').fadeOut('100');
-    });
-});
-
+$('#IA-MenuOpen').on('click', function() {
+        $('#esconder-menu').fadeIn('100');
+        $('#IA-MenuBar').fadeIn('600');
+        $('#IA-MenuOpen').fadeOut('100');
+    })
+    // 
 
 function fecharpopup() {
     $(document).on('keydown', function(e) {
@@ -64,7 +69,8 @@ function fecharpopup() {
             $('#fechar').fadeOut('1300');
             $('.menu li.active').removeClass('active');
             $('.menu a.active').removeClass('active');
-
+            $('#esconder-menu').fadeIn('1200');
+            $('#IA-MenuBar').fadeOut('1200');
         }
     });
 }

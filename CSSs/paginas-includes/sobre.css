@@ -67,6 +67,7 @@
     float: right;
     height: 1500px;
     z-index: 1000;
+    margin-left: 17px;
 }
 
 .imagePotrait {
@@ -79,7 +80,7 @@
     border: 1px #ffffff solid;
     animation: go-back1 6.0s infinite alternate;
     overflow: hidden;
-    margin: 20px;
+    margin: 20px 2px auto;
     float: left;
 }
 

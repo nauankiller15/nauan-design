@@ -5,15 +5,6 @@
 <!-- MENU PRINCIPAL  -->
 <?php include("includes/menu.php"); ?>
 <!-- fim -->
-<!-- MENU SIDE HAMBURGUER -->
-<div id="IA-MenuBar">
-    <input id="navbar" type='button'>
-    <div class='menuhambur'>
-        <span class='hamburger'></span>
-    </div>
-</div>
-
-<!-- fim -->
 <div class="LogoMenu">
     <h2 class="nauan-sub">Nauan</h2>
     <h2 class="design-sub">Design</h2>
