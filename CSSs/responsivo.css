@@ -18,6 +18,11 @@
         top: 572px;
         right: 131px;
     }
+    #separarImg {
+        float: right;
+        height: 530px;
+        z-index: 1000;
+    }
 }
 
 @media (max-width: 1200px) {
