@@ -43,7 +43,7 @@
     position: fixed;
     width: 60px;
     z-index: 6000;
-    animation: HamburAnim 0.1s;
+    animation: HamburAnim 1.2s;
     transition: 0.6s;
 }
 
