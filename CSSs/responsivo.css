@@ -227,7 +227,7 @@
     /* Titulo Trabalho (min-width: 768px) and (max-width: 991px) */
     .trabalhos h2 {
         width: 50%;
-        top: 40px;
+        top: 65px;
         font-size: 42px;
         text-align: center;
     }
@@ -263,9 +263,8 @@
         z-index: 1000;
     }
     .sobre h2 {
-        left: 21px;
         width: 70%;
-        top: 38px;
+        top: 60px;
         font-size: 42px;
     }
     /* --------- CONTATO (min-width: 768px) and (max-width: 991px) ---------- */
@@ -276,9 +275,9 @@
         left: 23px;
     }
     .contato h2 {
-        width: 61%;
+        width: 50%;
         top: 38px;
-        left: 20px;
+        text-align: center;
     }
 }
 
