@@ -104,162 +104,6 @@
 
 /*  */
 
-@media (max-width: 320px) {
-    /* ----------- FOOTER (max-width: 320px) ------------ */
-    .footer {
-        padding: 12px;
-        font-size: 14px;
-    }
-    /* ------------ PÁGINA INICIAL (max-width: 320px) ---------- */
-    /* ----- MENU */
-    .clicarFechar {
-        display: block;
-    }
-    /*  */
-    #quadrado-position {
-        position: fixed;
-        top: 105px;
-        left: 2px;
-        z-index: 999;
-    }
-    .quadrado-index {
-        background-size: 65%;
-        padding: 300px;
-        position: absolute;
-        transition: 1.0s;
-        animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
-    }
-    .quadradoUtilites {
-        top: 64px;
-        left: 219px;
-        width: 450px;
-        font-size: 19px;
-    }
-    /* ------ Typer Estilo (max-width: 320px) */
-    .euSou {
-        left: 23px;
-        top: -49px;
-    }
-    .euSou h1 {
-        font-size: 20px;
-    }
-    /* ------- Dentro Quadrado (max-width: 320px) */
-    .designn {
-        font-size: 39px;
-        left: 15px;
-        top: 285px;
-    }
-    .nauan {
-        font-size: 50px;
-        left: 14px;
-        top: 231px;
-    }
-    /*  */
-    .menu {
-        top: 456px;
-        right: 74px;
-    }
-    /* ---------- OUTRAS PÁGINAS (max-width: 320px) -------- */
-    /* Logo Menu */
-    .LogoMenu {
-        right: 6px;
-        padding: 10px;
-    }
-    .nauan-sub {
-        font-size: 24px;
-    }
-    .design-sub {
-        font-size: 17px;
-    }
-    /* --------- MEUS PROJETOS (max-width: 320px) ---------- */
-    /* DESIGN PROJETOS */
-    .Centrotrabalhos {
-        top: 156px;
-        width: 90%;
-        left: 21px;
-        padding: 21px;
-        font-size: 15px;
-    }
-    /* ----- DESIGN PORTFOLIO (max-width: 320px) */
-    #portfolio .portfolio-list .nav li {
-        float: none;
-        margin: 2px;
-        display: inline-block;
-    }
-    .portfolio-thumbnail {
-        margin-bottom: 10px;
-        margin-right: 10px;
-        min-height: 30px;
-        width: 39%;
-    }
-    #portfolio .portfolio-list .nav li {
-        padding: 1px;
-        font-size: 15px;
-        line-height: 26px;
-    }
-    #portfolio .portfolio-list .nav li:hover,
-    #portfolio .portfolio-list .nav li.filter-active {
-        font-size: 16px;
-        line-height: 26px;
-    }
-    /* Titulo Trabalho (max-width: 320px) */
-    .trabalhos h2 {
-        width: 50%;
-        top: 40px;
-        font-size: 42px;
-        text-align: center;
-    }
-    /* Texto Overlay (max-width: 320px) */
-    .overlay {
-        min-height: 35px;
-    }
-    .text {
-        font-size: 22px;
-    }
-    .link-margem {
-        margin-top: 28px;
-    }
-    /* --------- SOBRE MIM (max-width: 320px) ---------- */
-    .exp {
-        width: 100%;
-    }
-    .MinhasUtilites {
-        width: 100%;
-        font-size: 18px;
-    }
-    .Centrosobre {
-        top: 72px;
-        width: 90%;
-        left: 15px;
-        padding: 25px;
-        margin-bottom: 80px;
-        font-size: 18px;
-    }
-    #separarImg {
-        float: right;
-        height: 525px;
-        z-index: 1000;
-    }
-    .sobre h2 {
-        left: 21px;
-        width: 70%;
-        top: 38px;
-        font-size: 42px;
-    }
-    /* --------- CONTATO (max-width: 320px) ---------- */
-    .CentroContato {
-        top: 127px;
-        width: 93%;
-        padding: 25px;
-        left: 23px;
-    }
-    .contato h2 {
-        width: 61%;
-        top: 38px;
-        left: 20px;
-    }
-}
-
 @media (min-width: 768px) and (max-width: 991px) {
     /* ----------- FOOTER (min-width: 768px) and (max-width: 991px) ------------ */
     .footer {
@@ -881,35 +725,72 @@
     }
 }
 
-@media (max-width: 320px) {
-    /* ----------- FOOTER (max-width: 320px) ------------ */
+@media (max-width: 420px) {
+    /* ----------- FOOTER (max-width: 390px) ------------ */
     .footer {
         padding: 12px;
         font-size: 14px;
     }
-    /* ------------ PÁGINA INICIAL (max-width: 320px) ---------- */
+    /* ------------ PÁGINA INICIAL (max-width: 390px) ---------- */
     /* ----- MENU */
+    .menu {
+        top: 415px;
+        right: 80px;
+    }
+    .menu ul {
+        padding: 17px;
+        width: 245px;
+        font-size: 23px;
+    }
+    .clicarFechar {
+        display: block;
+    }
+    .menuhambur {
+        top: 432px;
+        right: 22px;
+    }
+    #fechar {
+        margin-top: -69px;
+        margin-left: 2px;
+        font-size: 23px;
+        padding: 12px;
+        transition: 0.5s;
+    }
+    /*  */
+    /* li util */
+    .Infograficos::before {
+        font-size: 20px;
+    }
+    .Web-Design::before {
+        font-size: 20px;
+    }
+    .Mockups::before {
+        font-size: 20px;
+    }
+    .Web-Dev::before {
+        font-size: 20px;
+    }
     /*  */
     #quadrado-position {
         position: fixed;
-        top: 105px;
-        left: 2px;
+        top: 85px;
+        left: 25px;
         z-index: 999;
     }
     .quadrado-index {
-        background-size: 65%;
+        background-size: 59%;
         padding: 300px;
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
     }
     .quadradoUtilites {
-        top: 64px;
-        left: 219px;
+        top: 48px;
+        left: 208px;
         width: 450px;
-        font-size: 19px;
+        font-size: 16px;
     }
-    /* ------ Typer Estilo (max-width: 320px) */
+    /* ------ Typer Estilo (max-width: 390px) */
     .euSou {
         left: 23px;
         top: -49px;
@@ -917,23 +798,19 @@
     .euSou h1 {
         font-size: 20px;
     }
-    /* ------- Dentro Quadrado (max-width: 320px) */
+    /* ------- Dentro Quadrado (max-width: 390px) */
     .designn {
         font-size: 39px;
         left: 15px;
-        top: 285px;
+        top: 254px;
     }
     .nauan {
         font-size: 50px;
         left: 14px;
-        top: 231px;
+        top: 207px;
     }
     /*  */
-    .menu {
-        top: 456px;
-        right: 74px;
-    }
-    /* ---------- OUTRAS PÁGINAS (max-width: 320px) -------- */
+    /* ---------- OUTRAS PÁGINAS (max-width: 390px) -------- */
     /* Logo Menu */
     .LogoMenu {
         right: 6px;
@@ -945,20 +822,16 @@
     .design-sub {
         font-size: 17px;
     }
-    /* --------- MEUS PROJETOS (max-width: 320px) ---------- */
+    /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
-        top: 156px;
+        top: 103px;
         width: 90%;
         left: 21px;
         padding: 21px;
         font-size: 15px;
     }
-    /* ----- DESIGN PORTFOLIO (max-width: 320px) */
-    #portfolio .portfolio-list {
-        margin-bottom: 3px;
-        z-index: 2000;
-    }
+    /* ----- DESIGN PORTFOLIO (max-width: 390px) */
     #portfolio .portfolio-list .nav li {
         float: none;
         margin: 2px;
@@ -972,22 +845,23 @@
     }
     #portfolio .portfolio-list .nav li {
         padding: 1px;
-        font-size: 16px;
+        font-size: 15px;
         line-height: 26px;
     }
     #portfolio .portfolio-list .nav li:hover,
     #portfolio .portfolio-list .nav li.filter-active {
-        font-size: 17px;
+        font-size: 16px;
         line-height: 26px;
     }
-    /* Titulo Trabalho (max-width: 320px) */
+    /* Titulo Trabalho (max-width: 390px) */
     .trabalhos h2 {
-        width: 50%;
-        top: 40px;
-        font-size: 42px;
+        left: 45px;
+        width: 60%;
+        top: 31px;
+        font-size: 34px;
         text-align: center;
     }
-    /* Texto Overlay (max-width: 320px) */
+    /* Texto Overlay (max-width: 390px) */
     .overlay {
         min-height: 35px;
     }
@@ -997,7 +871,7 @@
     .link-margem {
         margin-top: 28px;
     }
-    /* --------- SOBRE MIM (max-width: 320px) ---------- */
+    /* --------- SOBRE MIM (max-width: 390px) ---------- */
     .exp {
         width: 100%;
     }
@@ -1007,29 +881,236 @@
     }
     .Centrosobre {
         top: 72px;
-        width: 90%;
-        left: 15px;
-        padding: 25px;
+        width: 80%;
+        left: 42px;
+        padding: 1px;
         margin-bottom: 80px;
         font-size: 18px;
     }
     #separarImg {
         float: right;
-        height: 525px;
+        height: 405px;
         z-index: 1000;
     }
+    .imagePotrait {
+        width: 269px;
+        height: 375px;
+    }
+    .landscape img {
+        height: 100%;
+        position: absolute;
+        left: -283px;
+        bottom: 1px;
+    }
     .sobre h2 {
-        left: 21px;
+        left: 36px;
         width: 70%;
         top: 38px;
-        font-size: 42px;
+        font-size: 36px;
     }
-    /* --------- CONTATO (max-width: 320px) ---------- */
+    /* --------- CONTATO (max-width: 390px) ---------- */
     .CentroContato {
         top: 127px;
         width: 93%;
         padding: 25px;
+        left: 12px;
+    }
+    .contato h2 {
+        width: 61%;
+        top: 38px;
+        left: 20px;
+    }
+}
+
+@media (max-width: 390px) {
+    /* ----------- FOOTER (max-width: 390px) ------------ */
+    .footer {
+        padding: 12px;
+        font-size: 14px;
+    }
+    /* ------------ PÁGINA INICIAL (max-width: 390px) ---------- */
+    /* ----- MENU */
+    .menu {
+        top: 360px;
+        right: 76px;
+    }
+    .menu ul {
+        padding: 12px;
+        width: 220px;
+        font-size: 14px;
+    }
+    .clicarFechar {
+        display: block;
+    }
+    .menuhambur {
+        top: 368px;
+        right: 18px;
+    }
+    #fechar {
+        margin-top: -57px;
+        margin-left: 3px;
+        font-size: 21px;
+        padding: 10px;
+        transition: 0.5s;
+    }
+    /*  */
+    /* li util */
+    .Infograficos::before {
+        font-size: 20px;
+    }
+    .Web-Design::before {
+        font-size: 20px;
+    }
+    .Mockups::before {
+        font-size: 20px;
+    }
+    .Web-Dev::before {
+        font-size: 20px;
+    }
+    /*  */
+    #quadrado-position {
+        position: fixed;
+        top: 60px;
+        left: -1px;
+        z-index: 999;
+    }
+    .quadrado-index {
+        background-size: 59%;
+        padding: 300px;
+        position: absolute;
+        transition: 1.0s;
+        animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+    }
+    .quadradoUtilites {
+        top: 48px;
+        left: 208px;
+        width: 450px;
+        font-size: 16px;
+    }
+    /* ------ Typer Estilo (max-width: 390px) */
+    .euSou {
         left: 23px;
+        top: -49px;
+    }
+    .euSou h1 {
+        font-size: 20px;
+    }
+    /* ------- Dentro Quadrado (max-width: 390px) */
+    .designn {
+        font-size: 39px;
+        left: 15px;
+        top: 254px;
+    }
+    .nauan {
+        font-size: 50px;
+        left: 14px;
+        top: 207px;
+    }
+    /*  */
+    /* ---------- OUTRAS PÁGINAS (max-width: 390px) -------- */
+    /* Logo Menu */
+    .LogoMenu {
+        right: 6px;
+        padding: 10px;
+    }
+    .nauan-sub {
+        font-size: 24px;
+    }
+    .design-sub {
+        font-size: 17px;
+    }
+    /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
+    /* DESIGN PROJETOS */
+    .Centrotrabalhos {
+        top: 103px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    /* ----- DESIGN PORTFOLIO (max-width: 390px) */
+    #portfolio .portfolio-list .nav li {
+        float: none;
+        margin: 2px;
+        display: inline-block;
+    }
+    .portfolio-thumbnail {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        min-height: 30px;
+        width: 39%;
+    }
+    #portfolio .portfolio-list .nav li {
+        padding: 1px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* Titulo Trabalho (max-width: 390px) */
+    .trabalhos h2 {
+        left: 45px;
+        width: 60%;
+        top: 31px;
+        font-size: 34px;
+        text-align: center;
+    }
+    /* Texto Overlay (max-width: 390px) */
+    .overlay {
+        min-height: 35px;
+    }
+    .text {
+        font-size: 22px;
+    }
+    .link-margem {
+        margin-top: 28px;
+    }
+    /* --------- SOBRE MIM (max-width: 390px) ---------- */
+    .exp {
+        width: 100%;
+    }
+    .MinhasUtilites {
+        width: 100%;
+        font-size: 18px;
+    }
+    .Centrosobre {
+        top: 72px;
+        width: 80%;
+        left: 42px;
+        padding: 1px;
+        margin-bottom: 80px;
+        font-size: 18px;
+    }
+    #separarImg {
+        float: right;
+        height: 405px;
+        z-index: 1000;
+    }
+    .imagePotrait {
+        width: 269px;
+        height: 375px;
+    }
+    .landscape img {
+        height: 100%;
+        position: absolute;
+        left: -283px;
+        bottom: 1px;
+    }
+    .sobre h2 {
+        left: 36px;
+        width: 70%;
+        top: 38px;
+        font-size: 36px;
+    }
+    /* --------- CONTATO (max-width: 390px) ---------- */
+    .CentroContato {
+        top: 127px;
+        width: 93%;
+        padding: 25px;
+        left: 12px;
     }
     .contato h2 {
         width: 61%;
