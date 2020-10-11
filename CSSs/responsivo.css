@@ -582,8 +582,8 @@
     /*  */
     #quadrado-position {
         position: fixed;
-        top: 60px;
-        left: 25px;
+        top: 70px;
+        left: 45px;
         z-index: 999;
     }
     .quadrado-index {
@@ -620,7 +620,7 @@
     }
     /*  */
     .menu {
-        top: 407px;
+        top: 425px;
         right: 123px;
     }
     /* ---------- OUTRAS PÁGINAS (max-width: 480px) -------- */
@@ -699,6 +699,10 @@
         margin-bottom: 80px;
         font-size: 18px;
     }
+    .imagePotrait {
+        width: 358px;
+        height: 490px;
+    }
     #separarImg {
         float: right;
         height: 525px;
@@ -706,10 +710,13 @@
         margin-right: 20px;
     }
     .sobre h2 {
-        left: 70px;
+        left: 65px;
         width: 70%;
         top: 38px;
         font-size: 42px;
+    }
+    .Centrosobre h2 {
+        margin-top: 5px;
     }
     /* --------- CONTATO (max-width: 480px) ---------- */
     .CentroContato {
@@ -726,12 +733,12 @@
 }
 
 @media (max-width: 420px) {
-    /* ----------- FOOTER (max-width: 390px) ------------ */
+    /* ----------- FOOTER (max-width: 420px) ------------ */
     .footer {
         padding: 12px;
-        font-size: 14px;
+        font-size: 11px;
     }
-    /* ------------ PÁGINA INICIAL (max-width: 390px) ---------- */
+    /* ------------ PÁGINA INICIAL (max-width: 420px) ---------- */
     /* ----- MENU */
     .menu {
         top: 415px;
@@ -790,7 +797,7 @@
         width: 450px;
         font-size: 16px;
     }
-    /* ------ Typer Estilo (max-width: 390px) */
+    /* ------ Typer Estilo (max-width: 420px) */
     .euSou {
         left: 23px;
         top: -49px;
@@ -798,7 +805,7 @@
     .euSou h1 {
         font-size: 20px;
     }
-    /* ------- Dentro Quadrado (max-width: 390px) */
+    /* ------- Dentro Quadrado (max-width: 420px) */
     .designn {
         font-size: 39px;
         left: 15px;
@@ -810,7 +817,7 @@
         top: 207px;
     }
     /*  */
-    /* ---------- OUTRAS PÁGINAS (max-width: 390px) -------- */
+    /* ---------- OUTRAS PÁGINAS (max-width: 420px) -------- */
     /* Logo Menu */
     .LogoMenu {
         right: 6px;
@@ -822,7 +829,7 @@
     .design-sub {
         font-size: 17px;
     }
-    /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
+    /* --------- MEUS PROJETOS (max-width: 420px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
         top: 103px;
@@ -831,7 +838,7 @@
         padding: 21px;
         font-size: 15px;
     }
-    /* ----- DESIGN PORTFOLIO (max-width: 390px) */
+    /* ----- DESIGN PORTFOLIO (max-width: 420px) */
     #portfolio .portfolio-list .nav li {
         float: none;
         margin: 2px;
@@ -853,7 +860,7 @@
         font-size: 16px;
         line-height: 26px;
     }
-    /* Titulo Trabalho (max-width: 390px) */
+    /* Titulo Trabalho (max-width: 420px) */
     .trabalhos h2 {
         left: 45px;
         width: 60%;
@@ -861,7 +868,7 @@
         font-size: 34px;
         text-align: center;
     }
-    /* Texto Overlay (max-width: 390px) */
+    /* Texto Overlay (max-width: 420px) */
     .overlay {
         min-height: 35px;
     }
@@ -871,7 +878,7 @@
     .link-margem {
         margin-top: 28px;
     }
-    /* --------- SOBRE MIM (max-width: 390px) ---------- */
+    /* --------- SOBRE MIM (max-width: 420px) ---------- */
     .exp {
         width: 100%;
     }
@@ -881,8 +888,8 @@
     }
     .Centrosobre {
         top: 72px;
-        width: 80%;
-        left: 42px;
+        width: 88%;
+        left: 32px;
         padding: 1px;
         margin-bottom: 80px;
         font-size: 18px;
@@ -893,7 +900,7 @@
         z-index: 1000;
     }
     .imagePotrait {
-        width: 269px;
+        width: 337px;
         height: 375px;
     }
     .landscape img {
@@ -908,7 +915,7 @@
         top: 38px;
         font-size: 36px;
     }
-    /* --------- CONTATO (max-width: 390px) ---------- */
+    /* --------- CONTATO (max-width: 420px) ---------- */
     .CentroContato {
         top: 127px;
         width: 93%;
@@ -926,12 +933,12 @@
     /* ----------- FOOTER (max-width: 390px) ------------ */
     .footer {
         padding: 12px;
-        font-size: 14px;
+        font-size: 9px;
     }
     /* ------------ PÁGINA INICIAL (max-width: 390px) ---------- */
     /* ----- MENU */
     .menu {
-        top: 360px;
+        top: 370px;
         right: 76px;
     }
     .menu ul {
@@ -943,7 +950,7 @@
         display: block;
     }
     .menuhambur {
-        top: 368px;
+        top: 385px;
         right: 18px;
     }
     #fechar {
