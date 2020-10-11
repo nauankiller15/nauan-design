@@ -15,7 +15,7 @@
         margin-top: 70px;
     }
     .menuhambur {
-        top: 572px;
+        top: 551px;
         right: 131px;
     }
     .menuhambur2 {
@@ -84,6 +84,16 @@
         left: 78px;
         z-index: 999;
     }
+    #slider figure {
+        width: 1000%;
+        height: 400px;
+        /* 100% for each picture, 10 pictures = 1000% */
+    }
+    #slider figure img {
+        width: 10%;
+        max-width: 300%;
+        min-height: 300%;
+    }
 }
 
 @media (max-width: 1000px) {
@@ -98,6 +108,16 @@
     .contato h2 {
         width: 70%;
         font-size: 55px;
+    }
+    #slider figure {
+        width: 1000%;
+        height: 600px;
+        /* 100% for each picture, 10 pictures = 1000% */
+    }
+    #slider figure img {
+        width: 10%;
+        max-width: 300%;
+        min-height: 300%;
     }
 }
 
@@ -125,9 +145,10 @@
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+        background-image: url(../imagens/square-index-menor.png);
     }
     .quadradoUtilites {
-        top: 64px;
+        top: 47px;
         left: 219px;
         width: 450px;
         font-size: 19px;
@@ -142,14 +163,14 @@
     }
     /* ------- Dentro Quadrado (min-width: 768px) and (max-width: 991px) */
     .designn {
-        font-size: 39px;
+        font-size: 37px;
         left: 15px;
-        top: 285px;
+        top: 277px;
     }
     .nauan {
-        font-size: 50px;
-        left: 14px;
-        top: 231px;
+        font-size: 46px;
+        left: 10px;
+        top: 230px;
     }
     /*  */
     .menuhambur {
@@ -282,9 +303,10 @@
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+        background-image: url(../imagens/square-index-menor.png);
     }
     .quadradoUtilites {
-        top: 64px;
+        top: 46px;
         left: 219px;
         width: 450px;
         font-size: 19px;
@@ -299,14 +321,14 @@
     }
     /* ------- Dentro Quadrado (max-width: 767px) */
     .designn {
-        font-size: 39px;
+        font-size: 37px;
         left: 15px;
-        top: 285px;
+        top: 277px;
     }
     .nauan {
-        font-size: 50px;
-        left: 14px;
-        top: 231px;
+        font-size: 46px;
+        left: 10px;
+        top: 230px;
     }
     /*  */
     .menu {
@@ -435,9 +457,10 @@
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+        background-image: url(../imagens/square-index-menor.png);
     }
     .quadradoUtilites {
-        top: 64px;
+        top: 47px;
         left: 219px;
         width: 450px;
         font-size: 19px;
@@ -452,14 +475,14 @@
     }
     /* ------- Dentro Quadrado (max-width: 600px) */
     .designn {
-        font-size: 39px;
+        font-size: 37px;
         left: 15px;
-        top: 285px;
+        top: 277px;
     }
     .nauan {
-        font-size: 50px;
-        left: 14px;
-        top: 231px;
+        font-size: 46px;
+        left: 10px;
+        top: 230px;
     }
     /*  */
     .menu {
@@ -592,9 +615,10 @@
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+        background-image: url(../imagens/square-index-menor.png);
     }
     .quadradoUtilites {
-        top: 64px;
+        top: 47px;
         left: 219px;
         width: 450px;
         font-size: 19px;
@@ -609,14 +633,14 @@
     }
     /* ------- Dentro Quadrado (max-width: 480px) */
     .designn {
-        font-size: 39px;
+        font-size: 37px;
         left: 15px;
-        top: 285px;
+        top: 277px;
     }
     .nauan {
-        font-size: 50px;
-        left: 14px;
-        top: 231px;
+        font-size: 46px;
+        left: 10px;
+        top: 230px;
     }
     /*  */
     .menu {
@@ -790,9 +814,10 @@
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+        background-image: url(../imagens/square-index-menor.png);
     }
     .quadradoUtilites {
-        top: 48px;
+        top: 38px;
         left: 208px;
         width: 450px;
         font-size: 16px;
@@ -807,14 +832,18 @@
     }
     /* ------- Dentro Quadrado (max-width: 420px) */
     .designn {
-        font-size: 39px;
-        left: 15px;
-        top: 254px;
+        font-size: 33px;
+        left: 9px;
+        top: 249px;
     }
     .nauan {
-        font-size: 50px;
-        left: 14px;
+        font-size: 41px;
+        left: 10px;
         top: 207px;
+    }
+    .menu {
+        top: 403px;
+        right: 80px;
     }
     /*  */
     /* ---------- OUTRAS PÁGINAS (max-width: 420px) -------- */
@@ -989,7 +1018,7 @@
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
     }
     .quadradoUtilites {
-        top: 48px;
+        top: 37px;
         left: 208px;
         width: 450px;
         font-size: 16px;
@@ -1004,12 +1033,12 @@
     }
     /* ------- Dentro Quadrado (max-width: 390px) */
     .designn {
-        font-size: 39px;
+        font-size: 30px;
         left: 15px;
-        top: 254px;
+        top: 249px;
     }
     .nauan {
-        font-size: 50px;
+        font-size: 38px;
         left: 14px;
         top: 207px;
     }

@@ -54,8 +54,8 @@ $('#IA-MenuBar').on('click', function() {
 
 $('#IA-MenuOpen').on('click', function() {
         $('#esconder-menu').fadeIn('100');
-        $('#IA-MenuBar').fadeIn('600');
-        $('#IA-MenuOpen').fadeOut('100');
+        $('#IA-MenuBar').fadeIn('93000');
+        $('#IA-MenuOpen').fadeOut('300');
     })
     // 
 
