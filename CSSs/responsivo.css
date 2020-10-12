@@ -34,6 +34,16 @@
         width: 70%;
         left: 10px;
     }
+    /* SLIDE */
+    #slider figure {
+        width: 1000%;
+        height: 320px;
+    }
+    #slider figure img {
+        width: 10%;
+        max-width: 300%;
+        min-height: 300%;
+    }
 }
 
 
@@ -454,6 +464,21 @@
         width: 61%;
         top: 38px;
         left: 20px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+    /* ------------ PÁGINA INICIAL (min-width: 500px) and (max-width: 767px)---------- */
+    /* SLIDE */
+    #slider figure {
+        width: 1000%;
+        height: 310px;
+        /* 100% for each picture, 10 pictures = 1000% */
+    }
+    #slider figure img {
+        width: 10%;
+        max-width: 300%;
+        min-height: 300%;
     }
 }
 
