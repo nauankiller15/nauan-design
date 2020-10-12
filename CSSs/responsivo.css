@@ -84,6 +84,7 @@
         left: 78px;
         z-index: 999;
     }
+    /* SLIDE */
     #slider figure {
         width: 1000%;
         height: 400px;
@@ -109,6 +110,7 @@
         width: 70%;
         font-size: 55px;
     }
+    /* SLIDE */
     #slider figure {
         width: 1000%;
         height: 600px;
@@ -131,12 +133,22 @@
         font-size: 14px;
     }
     /* ------------ PÁGINA INICIAL (min-width: 768px) and (max-width: 991px)---------- */
-    /* ----- MENU  */
+    /* Slide */
+    #slider figure {
+        width: 1000%;
+        height: 600px;
+        /* 100% for each picture, 10 pictures = 1000% */
+    }
+    #slider figure {
+        width: 1000%;
+        height: 345px;
+    }
     /*  */
+    /* ----- MENU  */
     #quadrado-position {
         position: fixed;
         top: 105px;
-        left: 2px;
+        left: 15px;
         z-index: 999;
     }
     .quadrado-index {
@@ -288,8 +300,18 @@
         font-size: 14px;
     }
     /* ------------ PÁGINA INICIAL (max-width: 767px) ---------- */
-    /* ----- MENU */
+    /* Slide */
+    #slider figure {
+        width: 1000%;
+        height: 600px;
+        /* 100% for each picture, 10 pictures = 1000% */
+    }
+    #slider figure {
+        width: 1000%;
+        height: 264px;
+    }
     /*  */
+    /* ----- MENU */
     #quadrado-position {
         position: fixed;
         top: 105px;
@@ -964,6 +986,17 @@
         font-size: 9px;
     }
     /* ------------ PÁGINA INICIAL (max-width: 390px) ---------- */
+    /* Slide */
+    #slider figure {
+        width: 1000%;
+        height: 600px;
+        /* 100% for each picture, 10 pictures = 1000% */
+    }
+    #slider figure {
+        width: 1000%;
+        height: 195px;
+    }
+    /*  */
     /* ----- MENU */
     .menu {
         top: 370px;
@@ -1005,8 +1038,8 @@
     /*  */
     #quadrado-position {
         position: fixed;
-        top: 60px;
-        left: -1px;
+        top: 67px;
+        left: 6px;
         z-index: 999;
     }
     .quadrado-index {
@@ -1151,5 +1184,241 @@
         width: 61%;
         top: 38px;
         left: 20px;
+    }
+}
+
+@media (max-width: 375px) {
+    /* ----------- FOOTER (max-width: 375px) ------------ */
+    .footer {
+        padding: 12px;
+        font-size: 10px;
+    }
+    /* ------------ PÁGINA INICIAL (max-width: 375px) ---------- */
+    #quadrado-position {
+        position: fixed;
+        top: 67px;
+        left: 11px;
+        z-index: 999;
+    }
+    /* ----- MENU */
+    /* Slide */
+    #slider figure {
+        width: 1000%;
+        height: 600px;
+        /* 100% for each picture, 10 pictures = 1000% */
+    }
+    #slider figure {
+        width: 1000%;
+        height: 270px;
+    }
+    /*  */
+}
+
+@media (max-width: 320px) {
+    /* ----------- FOOTER (max-width: 320px) ------------ */
+    .footer {
+        padding: 12px;
+        font-size: 8px;
+    }
+    /* ------------ PÁGINA INICIAL (max-width: 320px) ---------- */
+    /* Slide */
+    #slider figure {
+        width: 1000%;
+        height: 600px;
+        /* 100% for each picture, 10 pictures = 1000% */
+    }
+    #slider figure {
+        width: 1000%;
+        height: 195px;
+    }
+    /* ----- MENU */
+    .menu {
+        top: 340px;
+        right: 62px;
+    }
+    .menu ul {
+        padding: 10px;
+        width: 195px;
+        font-size: 15px;
+    }
+    .clicarFechar {
+        display: block;
+    }
+    .menuhambur {
+        top: 385px;
+        right: 4px;
+    }
+    #fechar {
+        margin-top: -51px;
+        margin-left: 14px;
+        font-size: 16px;
+        padding: 10px;
+        transition: 0.5s;
+    }
+    /*  */
+    /* li util */
+    .Infograficos::before {
+        font-size: 17px;
+    }
+    .Web-Design::before {
+        font-size: 17px;
+    }
+    .Mockups::before {
+        font-size: 17px;
+    }
+    .Web-Dev::before {
+        font-size: 17px;
+    }
+    /*  */
+    #quadrado-position {
+        position: fixed;
+        top: 67px;
+        left: -5px;
+        z-index: 999;
+    }
+    .quadrado-index {
+        background-size: 55%;
+        padding: 300px;
+        position: absolute;
+        transition: 1.0s;
+        animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+        background-image: url(../imagens/square-index-menor.png);
+    }
+    .quadradoUtilites {
+        top: 33px;
+        left: 190px;
+        width: 450px;
+        font-size: 16px;
+    }
+    /* ------ Typer Estilo (max-width: 320px) */
+    .euSou {
+        left: 23px;
+        top: -49px;
+    }
+    .euSou h1 {
+        font-size: 20px;
+    }
+    /* ------- Dentro Quadrado (max-width: 320px) */
+    .designn {
+        font-size: 30px;
+        left: 24px;
+        top: 236px;
+    }
+    .nauan {
+        font-size: 38px;
+        left: 10px;
+        top: 196px;
+    }
+    /*  */
+    /* ---------- OUTRAS PÁGINAS (max-width: 320px) -------- */
+    /* Logo Menu */
+    .LogoMenu {
+        right: 6px;
+        padding: 10px;
+    }
+    .nauan-sub {
+        font-size: 24px;
+    }
+    .design-sub {
+        font-size: 17px;
+    }
+    /* --------- MEUS PROJETOS (max-width: 320px) ---------- */
+    /* DESIGN PROJETOS */
+    .Centrotrabalhos {
+        top: 103px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    /* ----- DESIGN PORTFOLIO (max-width: 320px) */
+    #portfolio .portfolio-list .nav li {
+        float: none;
+        margin: 2px;
+        display: inline-block;
+    }
+    .portfolio-thumbnail {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        min-height: 30px;
+        width: 39%;
+    }
+    #portfolio .portfolio-list .nav li {
+        padding: 1px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* Titulo Trabalho (max-width: 320px) */
+    .trabalhos h2 {
+        left: 24px;
+        width: 60%;
+        top: 31px;
+        font-size: 32px;
+        text-align: center;
+    }
+    /* Texto Overlay (max-width: 320px) */
+    .overlay {
+        min-height: 35px;
+    }
+    .text {
+        font-size: 22px;
+    }
+    .link-margem {
+        margin-top: 28px;
+    }
+    /* --------- SOBRE MIM (max-width: 320px) ---------- */
+    .exp {
+        width: 100%;
+    }
+    .MinhasUtilites {
+        width: 100%;
+        font-size: 18px;
+    }
+    .Centrosobre {
+        top: 72px;
+        width: 80%;
+        left: 42px;
+        padding: 1px;
+        margin-bottom: 80px;
+        font-size: 18px;
+    }
+    #separarImg {
+        float: right;
+        height: 380px;
+        z-index: 1000;
+    }
+    .imagePotrait {
+        width: 238px;
+        height: 348px;
+    }
+    .landscape img {
+        height: 100%;
+        position: absolute;
+        left: -267px;
+        bottom: 1px;
+    }
+    .sobre h2 {
+        left: 37px;
+        width: 70%;
+        top: 38px;
+        font-size: 31px;
+    }
+    /* --------- CONTATO (max-width: 320px) ---------- */
+    .CentroContato {
+        top: 82px;
+        width: 93%;
+        padding: 5px;
+        left: 12px;
+    }
+    .contato h2 {
+        width: 61%;
+        top: 16px;
+        left: 4px;
+        font-size: 39px;
     }
 }
