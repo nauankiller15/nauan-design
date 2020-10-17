@@ -237,6 +237,10 @@
         margin-top: 7px;
         padding: 6px;
     }
+    .call-buttons {
+        width: 73%;
+        margin: 35px auto;
+    }
     /* --------- MEUS PROJETOS (min-width: 768px) and (max-width: 991px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
@@ -423,6 +427,10 @@
         margin-top: 7px;
         padding: 6px;
     }
+    .call-buttons {
+        width: 73%;
+        margin: 35px auto;
+    }
     /* --------- MEUS PROJETOS (max-width: 767px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
@@ -593,16 +601,16 @@
     }
     /* --------- SERVIÇOS (max-width: 600px) ---------- */
     .CentroServico {
-        top: 120px;
+        top: 99px;
         width: 90%;
         left: 21px;
         padding: 21px;
         font-size: 15px;
     }
     .servico h2 {
-        width: 75%;
-        top: 25px;
-        font-size: 38px;
+        width: 79%;
+        top: 58px;
+        font-size: 37px;
     }
     .separarCima {
         width: 80%;
@@ -614,6 +622,10 @@
         font-size: 14px;
         margin-top: 7px;
         padding: 6px;
+    }
+    .call-buttons {
+        width: 73%;
+        margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 600px) ---------- */
     /* DESIGN PROJETOS */
@@ -795,6 +807,10 @@
         font-size: 14px;
         margin-top: 7px;
         padding: 6px;
+    }
+    .call-buttons {
+        width: 73%;
+        margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 480px) ---------- */
     /* DESIGN PROJETOS */
@@ -1017,6 +1033,10 @@
         font-size: 14px;
         margin-top: 7px;
         padding: 6px;
+    }
+    .call-buttons {
+        width: 73%;
+        margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 420px) ---------- */
     /* DESIGN PROJETOS */
@@ -1242,6 +1262,10 @@
         font-size: 14px;
         margin-top: 7px;
         padding: 6px;
+    }
+    .call-buttons {
+        width: 73%;
+        margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 440px) ---------- */
     /* DESIGN PROJETOS */
@@ -1474,6 +1498,10 @@
         font-size: 14px;
         margin-top: 7px;
         padding: 6px;
+    }
+    .call-buttons {
+        width: 73%;
+        margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
     /* DESIGN PROJETOS */
@@ -1732,6 +1760,10 @@
         font-size: 13px;
         margin-top: 7px;
         padding: 6px;
+    }
+    .call-buttons {
+        width: 73%;
+        margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 320px) ---------- */
     /* DESIGN PROJETOS */
