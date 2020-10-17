@@ -142,4 +142,14 @@
     width: 100%;
     display: none;
     z-index: 1000;
+    animation: FundoPreto 1.1s ease-in-out;
+}
+
+@keyframes FundoPreto {
+    from {
+        transform: translateY(1350px);
+    }
+    to {
+        transform: translateY(0);
+    }
 }
