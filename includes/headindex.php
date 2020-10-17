@@ -17,7 +17,7 @@
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/formbox.css">
     <link rel="stylesheet" type="text/css" href="CSSs/slide.css">
     <link rel="stylesheet" type="text/css" href="CSSs/responsivo.css">
-    <link rel="stylesheet" type="text/css" href="lib/magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" type="text/css" href="Lib/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
 
