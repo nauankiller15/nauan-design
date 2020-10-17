@@ -2,7 +2,7 @@
 	<p>© COPYRIGHT - Todos os direitos reservados. Nauan-Design - CSS3 <i style="margin-left:5px; color:#b82d2d;" class="fas fa-heart"></i></p>
 </div>
 
-<script src="js/jquery-3.5.1.min.js"></script>
+<script src="JS/jquery-3.5.1.min.js"></script>
 <script src="Lib/jquery/jquery.min.js"></script>
 <script src="Lib/jquery/jquery-migrate.min.js"></script>
 <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -17,6 +17,6 @@
 <script src="Lib/magnific-popup/magnific-popup.min.js"></script>
 <script src="Lib/isotope/isotope.pkgd.min.js"></script>
 <script>
-	fecharpopup();
 	MenuAtivo();
+	// fecharpopup();
 </script>

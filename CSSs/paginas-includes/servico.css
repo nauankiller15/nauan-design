@@ -16,6 +16,25 @@
     box-sizing: border-box;
 }
 
+.separarCima {
+    width: 80%;
+    background: #141414;
+    font-size: 25px;
+    border-bottom: #242424 solid 1px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.separarT {
+    background: #141414;
+    width: 80%;
+    font-size: 16px;
+    margin-top: 7px;
+    border-bottom: 1px solid #242424;
+    padding: 6px;
+    border-radius: 5px;
+}
+
 .servico h2 {
     width: 45%;
     top: 70px;
@@ -37,10 +56,10 @@
 
 .CentroServico {
     top: 156px;
-    width: 70%;
+    width: 60%;
     left: 100px;
     padding: 25px;
-    animation: servicoCaixa 1.5s ease-in-out;
+    animation: servicoCaixa 1.9s ease-in-out;
     position: absolute;
     font-size: 18px;
     margin-bottom: 15px;

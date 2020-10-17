@@ -1,9 +1,9 @@
 <?php include("includes/headindex.php"); ?>
+<?php include("includes/paginas/fundo-preto.php"); ?>
 <?php include("includes/paginas/servico.php"); ?>
 <?php include("includes/paginas/trabalhos.php"); ?>
 <?php include("includes/paginas/sobre.php"); ?>
 <?php include("includes/paginas/contato.php"); ?>
-<?php include("includes/paginas/fundo-preto.php"); ?>
 <!-- MENU PRINCIPAL  -->
 <?php include("includes/menu.php"); ?>
 <!-- fim -->
@@ -23,7 +23,7 @@
                 <p style="animation: animSou 2.3s ease-in-out;">Venha desenvolver junto comigo.</p>
             </div>
             <div class="quadrado-index">
-           
+
             </div>
             <div class="quadradoUtilites">
                 <li style="animation: go-back1 3.5s infinite alternate, LiAnim 3.5s;" class="Infograficos">UI/UX Kits</li>
