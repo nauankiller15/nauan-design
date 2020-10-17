@@ -1,4 +1,5 @@
-// Animação Menu
+// // *****
+// Animação Menu -------------- ****
 $('#trabalhosAbrir').on('click', function () {
     $("#trabalhos").fadeIn('600');
     $('#TodosFiltrar').trigger('click');
@@ -6,7 +7,7 @@ $('#trabalhosAbrir').on('click', function () {
     $('#servico').fadeOut("700");
     $('#contato').fadeOut('600');
     $(".fundoPreto").fadeIn('500');
-    $('#fechar').fadeIn('1200');
+    $('#fechar').fadeIn('13000');
     $("#sobre").fadeOut('600');
     $('.LogoMenu').fadeIn('1300');
     $('#IA-MenuBar').fadeIn('200');
@@ -18,7 +19,7 @@ $('#contatoAbrir').on('click', function () {
     $("#sobre").fadeOut('600');
     $("#trabalhos").fadeOut('600');
     $(".fundoPreto").fadeIn('500');
-    $('#fechar').fadeIn('1200');
+    $('#fechar').fadeIn('13000');
     $('.LogoMenu').fadeIn('1300');
     $('#IA-MenuBar').fadeIn('200');
 })
@@ -29,7 +30,7 @@ $('#sobreAbrir').on('click', function () {
     $("#contato").fadeOut('600');
     $("#trabalhos").fadeOut('600');
     $(".fundoPreto").fadeIn('500');
-    $('#fechar').fadeIn('1200');
+    $('#fechar').fadeIn('13000');
     $('.LogoMenu').fadeIn('1300');
     $('#IA-MenuBar').fadeIn('200');
 })
@@ -41,7 +42,7 @@ $('#servicoAbrir').on('click', function () {
     $("#trabalhos").fadeOut('600');
     $('#contato').fadeOut('700');
     $(".fundoPreto").fadeIn('500');
-    $('#fechar').fadeIn('1200');
+    $('#fechar').fadeIn('13000');
     $('.LogoMenu').fadeIn('1200');
     $('#IA-MenuBar').fadeIn('200');
 })
@@ -60,7 +61,7 @@ $('#fechar').on('click', function () {
 })
 // 
 
-// Responsivos
+// Responsivos -------------- ****
 $('#IA-MenuBar').on('click', function () {
     $('#IA-MenuBar').fadeOut('900');
     $('#IA-MenuOpen').fadeIn('900');

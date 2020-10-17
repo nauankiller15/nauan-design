@@ -94,6 +94,7 @@
     background: #242424;
     border: none;
     box-sizing: border-box;
+    animation: 1.0s fadeIn ease-in-out;
 }
 
 #fechar:hover {
