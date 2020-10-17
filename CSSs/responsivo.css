@@ -222,18 +222,18 @@
         font-size: 15px;
     }
     .servico h2 {
-        width: 75%;
-        top: 25px;
-        font-size: 38px;
+        width: 60%;
+        top: 34px;
+        font-size: 50px;
     }
     .separarCima {
         width: 80%;
-        font-size: 21px;
+        font-size: 25px;
         padding: 12px;
     }
     .separarT {
         width: 80%;
-        font-size: 14px;
+        font-size: 17px;
         margin-top: 7px;
         padding: 6px;
     }
@@ -1711,7 +1711,7 @@
     }
     /* --------- SERVIÇOS (max-width: 320px) ---------- */
     .CentroServico {
-        top: 120px;
+        top: 84px;
         width: 90%;
         left: 21px;
         padding: 21px;
@@ -1719,17 +1719,17 @@
     }
     .servico h2 {
         width: 75%;
-        top: 25px;
-        font-size: 38px;
+        top: 26px;
+        font-size: 33px;
     }
     .separarCima {
-        width: 80%;
-        font-size: 21px;
+        width: 93%;
+        font-size: 17px;
         padding: 12px;
     }
     .separarT {
-        width: 80%;
-        font-size: 14px;
+        width: 93%;
+        font-size: 13px;
         margin-top: 7px;
         padding: 6px;
     }
