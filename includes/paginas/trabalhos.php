@@ -36,7 +36,7 @@
                                                 <div class="text link-margem"><i class="fas fa-link"></i></div>
                                             </a>
                                         </div>
-                                        <img src="https://1.bp.blogspot.com/-wEMNiWK6QNM/X4pL1QALxpI/AAAAAAAAGYU/LPSAaUwLJ0gkue5tSG3iiypj0tWlOOArwCLcBGAsYHQ/s0/1.jpg" alt="img">
+                                        <img src="imagens/portfolio/1.jpg" alt="img">
                                     </div>
 
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups">
