@@ -1,0 +1,92 @@
+#servico {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    z-index: 3900;
+}
+
+.servico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.servico h2 {
+    width: 45%;
+    top: 70px;
+    color: #ffffff;
+    font-family: Bahnschrift;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
+    cursor: default;
+}
+
+#caixaServico {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.CentroServico {
+    top: 156px;
+    width: 70%;
+    left: 100px;
+    padding: 25px;
+    animation: servicoCaixa 1.5s ease-in-out;
+    position: absolute;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+@keyframes servicoCaixa {
+    from {
+        transform: translateX(-2350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+/**
+ * ----------------------------------------
+ * animation flip-2-hor-top
+ * ----------------------------------------
+ */
+
+@-webkit-keyframes flip-2-hor-top {
+    0% {
+        -webkit-transform: translateY(0) rotateX(0);
+        transform: translateY(0) rotateX(0);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+    }
+    100% {
+        -webkit-transform: translateY(-100%) rotateX(-180deg);
+        transform: translateY(-100%) rotateX(-180deg);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+}
+
+@keyframes flip-2-hor-top {
+    0% {
+        -webkit-transform: translateY(0) rotateX(0);
+        transform: translateY(0) rotateX(0);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+    }
+    100% {
+        -webkit-transform: translateY(-100%) rotateX(-180deg);
+        transform: translateY(-100%) rotateX(-180deg);
+        -webkit-transform-origin: 50% 100%;
+        transform-origin: 50% 100%;
+    }
+}

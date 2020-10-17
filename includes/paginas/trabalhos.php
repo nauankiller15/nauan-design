@@ -30,10 +30,10 @@
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesign">
                                         <div class="overlay">
                                             <a class="popup-img" href="imagens/portfolio/1.jpg">
-                                                <div class="text"><i class="fas fa-search"></i></div>
+                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </a>
                                             <a href="#">
-                                                <div class="text link-margem"><i class="fas fa-link"></i></div>
+                                                <div class="text"><i class="fas fa-link"></i></div>
                                             </a>
                                         </div>
                                         <img src="imagens/portfolio/1.jpg" alt="img">
@@ -42,7 +42,7 @@
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups">
                                         <div class="overlay">
                                             <a class="popup-img" href="imagens/portfolio/2.jpg">
-                                                <div class="text"><i class="fas fa-search"></i></div>
+                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </a>
                                         </div>
                                         <img src="imagens/portfolio/2.jpg" alt="img">
@@ -51,10 +51,10 @@
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesign">
                                         <div class="overlay">
                                             <a class="popup-img" href="imagens/portfolio/3.jpg">
-                                                <div class="text"><i class="fas fa-search"></i></div>
+                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </a>
                                             <a href="#">
-                                                <div class="text link-margem"><i class="fas fa-link"></i></div>
+                                                <div class="text"><i class="fas fa-link"></i></div>
                                             </a>
                                         </div>
                                         <img src="imagens/portfolio/3.jpg" alt="img">
@@ -63,10 +63,10 @@
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign">
                                         <div class="overlay">
                                             <a class="popup-img" href="imagens/portfolio/4.jpg">
-                                                <div class="text"><i class="fas fa-search"></i></div>
+                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </a>
                                             <a href="#">
-                                                <div class="text link-margem"><i class="fas fa-link"></i></div>
+                                                <div class="text"><i class="fas fa-link"></i></div>
                                             </a>
                                         </div>
                                         <img src="imagens/portfolio/4.jpg" alt="img">
@@ -75,7 +75,7 @@
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uiuxkits">
                                         <div class="overlay">
                                             <a class="popup-img" href="imagens/portfolio/5.jpg">
-                                                <div class="text"><i class="fas fa-search"></i></div>
+                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </a>
                                         </div>
                                         <img src="imagens/portfolio/5.jpg" alt="img">
@@ -84,10 +84,10 @@
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uiuxkits webdesign">
                                         <div class="overlay">
                                             <a class="popup-img" href="imagens/portfolio/6.jpg">
-                                                <div class="text"><i class="fas fa-search"></i></div>
+                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </a>
                                             <a href="#">
-                                                <div class="text link-margem"><i class="fas fa-link"></i></div>
+                                                <div class="text"><i class="fas fa-link"></i></div>
                                             </a>
                                         </div>
                                         <img src="imagens/portfolio/6.jpg" alt="img">
@@ -96,7 +96,7 @@
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uiuxkits webdesign">
                                         <div class="overlay">
                                             <a class="popup-img" href="imagens/portfolio/6.jpg">
-                                                <div class="text"><i class="fas fa-search"></i></div>
+                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </a>
                                         </div>
                                         <img src="imagens/portfolio/6.jpg" alt="img">
@@ -105,10 +105,10 @@
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups branding webdesign">
                                         <div class="overlay">
                                             <a class="popup-img" href="imagens/portfolio/7.jpg">
-                                                <div class="text"><i class="fas fa-search"></i></div>
+                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </a>
                                             <a href="#">
-                                                <div class="text link-margem"><i class="fas fa-link"></i></div>
+                                                <div class="text"><i class="fas fa-link"></i></div>
                                             </a>
                                         </div>
                                         <img src="imagens/portfolio/7.jpg" alt="img">

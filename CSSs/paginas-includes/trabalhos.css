@@ -6,14 +6,14 @@
                 font-family: sans-serif;
                 z-index: 2000;
             }
-            
+
             .trabalhos {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
                 align-items: center;
             }
-            
+
             .trabalhos h2 {
                 width: 45%;
                 top: 70px;
@@ -25,14 +25,14 @@
                 position: absolute;
                 cursor: default;
             }
-            
+
             #caixatrabalhos {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
                 align-items: center;
             }
-            
+
             .Centrotrabalhos {
                 top: 156px;
                 width: 70%;
@@ -41,8 +41,9 @@
                 animation: trabalhosCaixa 1.5s ease-in-out;
                 position: absolute;
                 font-size: 18px;
+                margin-bottom: 75px;
             }
-            
+
             @keyframes trabalhosCaixa {
                 from {
                     transform: translateY(2350px);
@@ -51,7 +52,7 @@
                     transform: translateY(0);
                 }
             }
-            
+
             @keyframes TrabalhoIni {
                 from {
                     transform: translateY(-2350px);
@@ -60,21 +61,24 @@
                     transform: translateY(0);
                 }
             }
+
             /* PORTFOLIO */
+
             /*-----------------------------------------------------------------------------------*/
+
             /*  Portfolio
 /*-----------------------------------------------------------------------------------*/
-            
+
             #portfolio {
                 position: relative;
                 padding-bottom: 10px;
             }
-            
+
             #portfolio .portfolio-list {
                 margin-bottom: 10px;
                 z-index: 2000;
             }
-            
+
             #portfolio .portfolio-list .nav {
                 display: inline-block;
                 margin-top: 15px;
@@ -83,7 +87,7 @@
                 border-radius: 10px 10px 0px 0px;
                 background: #0a0a0a;
             }
-            
+
             #portfolio .portfolio-list .nav li {
                 padding: 15px;
                 border: 2px #242424 solid;
@@ -104,9 +108,8 @@
                 -webkit-transition: all 0.5s ease-in-out 0s;
                 transition: all 0.5s ease-in-out 0s;
             }
-            
-            #portfolio .portfolio-list .nav li:hover,
-            #portfolio .portfolio-list .nav li.filter-active {
+
+            #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
                 color: #000000;
                 font-size: 23px;
                 border-radius: 10px 10px 0px 0px;
@@ -117,14 +120,14 @@
                 -webkit-transition: all 0.5s ease-in-out 0s;
                 transition: all 0.5s ease-in-out 0s;
             }
-            
+
             #portfolio .portfolio-container {
                 margin-bottom: 10px;
                 width: 100%;
                 display: inline-block;
                 position: absolute;
             }
-            
+
             .portfolio-thumbnail {
                 margin-bottom: 10px;
                 margin-right: 10px;
@@ -132,7 +135,7 @@
                 width: 39%;
                 display: inline-block;
             }
-            
+
             .overlay {
                 position: absolute;
                 top: 0;
@@ -145,23 +148,23 @@
                 transition: .5s ease;
                 background-color: #000000c9;
             }
-            
+
             .overlay:hover {
                 opacity: 1;
             }
-            
+
             .text {
                 color: #ffffff;
                 font-size: 45px;
                 position: absolute;
                 top: 50%;
                 left: 50%;
-                -webkit-transform: translate(-50%, -50%);
-                -ms-transform: translate(-50%, -50%);
-                transform: translate(-50%, -50%);
+                -webkit-transform: translate(224%, 36%);
+                -ms-transform: translate(224%, 36%);
+                transform: translate(258%, 35%);
                 text-align: center;
             }
-            
+
             .portfolio-thumbnail img {
                 max-width: 100%;
                 max-height: 50%;
@@ -169,7 +172,7 @@
                 transition: 0.5s;
                 z-index: 100;
             }
-            
+
             .link-margem {
                 margin-top: 70px;
             }

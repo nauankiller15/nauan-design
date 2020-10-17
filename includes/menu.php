@@ -19,7 +19,7 @@
             <li id="trabalhosAbrir" style="animation: fadeIn 12.0s, slideMenu 2.2s;">Projetos</li>
             <li id="contatoAbrir" style="animation: fadeIn 12.0s, slideMenu 3.2s;">Contato</li>
             <li id="sobreAbrir" style="animation: fadeIn 12.1s, slideMenu 4.2s;">Experiências</li>
-            <li style="animation: fadeIn 10.0s, slideMenu 5.1s;">Solicitar Serviço</li>
+            <li id="servicoAbrir" style="animation: fadeIn 10.0s, slideMenu 4.7s;">Solicitar Serviço</li>
            
         </ul>
     </div>

@@ -46,7 +46,6 @@
     }
 }
 
-
 /*  */
 
 @media (max-width: 1200px) {
@@ -132,7 +131,6 @@
         min-height: 300%;
     }
 }
-
 
 /*  */
 
@@ -241,8 +239,7 @@
         font-size: 15px;
         line-height: 26px;
     }
-    #portfolio .portfolio-list .nav li:hover,
-    #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
         line-height: 26px;
     }
@@ -404,8 +401,7 @@
         font-size: 15px;
         line-height: 26px;
     }
-    #portfolio .portfolio-list .nav li:hover,
-    #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
         line-height: 26px;
     }
@@ -573,8 +569,7 @@
         font-size: 15px;
         line-height: 26px;
     }
-    #portfolio .portfolio-list .nav li:hover,
-    #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
         line-height: 26px;
     }
@@ -731,8 +726,7 @@
         font-size: 15px;
         line-height: 26px;
     }
-    #portfolio .portfolio-list .nav li:hover,
-    #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
         line-height: 26px;
     }
@@ -930,8 +924,7 @@
         font-size: 15px;
         line-height: 26px;
     }
-    #portfolio .portfolio-list .nav li:hover,
-    #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
         line-height: 26px;
     }
@@ -1112,6 +1105,21 @@
     .design-sub {
         font-size: 17px;
     }
+    /* --------- Solicitar Servicos (max-width: 390px) ---------- */
+    .CentroServico {
+        top: 103px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .Servico h2 {
+        left: 45px;
+        width: 60%;
+        top: 31px;
+        font-size: 34px;
+        text-align: center;
+    }
     /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
@@ -1138,8 +1146,7 @@
         font-size: 15px;
         line-height: 26px;
     }
-    #portfolio .portfolio-list .nav li:hover,
-    #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
         line-height: 26px;
     }
@@ -1373,8 +1380,7 @@
         font-size: 15px;
         line-height: 26px;
     }
-    #portfolio .portfolio-list .nav li:hover,
-    #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
         line-height: 26px;
     }

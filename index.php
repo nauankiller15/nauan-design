@@ -1,4 +1,5 @@
 <?php include("includes/headindex.php"); ?>
+<?php include("includes/paginas/servico.php"); ?>
 <?php include("includes/paginas/trabalhos.php"); ?>
 <?php include("includes/paginas/sobre.php"); ?>
 <?php include("includes/paginas/contato.php"); ?>
