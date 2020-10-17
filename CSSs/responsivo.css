@@ -213,6 +213,30 @@
     .design-sub {
         font-size: 17px;
     }
+    /* --------- SERVIÇOS (min-width: 768px) and (max-width: 991px) ---------- */
+    .CentroServico {
+        top: 120px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .servico h2 {
+        width: 75%;
+        top: 25px;
+        font-size: 38px;
+    }
+    .separarCima {
+        width: 80%;
+        font-size: 21px;
+        padding: 12px;
+    }
+    .separarT {
+        width: 80%;
+        font-size: 14px;
+        margin-top: 7px;
+        padding: 6px;
+    }
     /* --------- MEUS PROJETOS (min-width: 768px) and (max-width: 991px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
@@ -374,6 +398,30 @@
     }
     .design-sub {
         font-size: 17px;
+    }
+    /* --------- SERVIÇOS (max-width: 767px) ---------- */
+    .CentroServico {
+        top: 120px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .servico h2 {
+        width: 75%;
+        top: 25px;
+        font-size: 38px;
+    }
+    .separarCima {
+        width: 80%;
+        font-size: 21px;
+        padding: 12px;
+    }
+    .separarT {
+        width: 80%;
+        font-size: 14px;
+        margin-top: 7px;
+        padding: 6px;
     }
     /* --------- MEUS PROJETOS (max-width: 767px) ---------- */
     /* DESIGN PROJETOS */
@@ -543,6 +591,30 @@
     .design-sub {
         font-size: 17px;
     }
+    /* --------- SERVIÇOS (max-width: 600px) ---------- */
+    .CentroServico {
+        top: 120px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .servico h2 {
+        width: 75%;
+        top: 25px;
+        font-size: 38px;
+    }
+    .separarCima {
+        width: 80%;
+        font-size: 21px;
+        padding: 12px;
+    }
+    .separarT {
+        width: 80%;
+        font-size: 14px;
+        margin-top: 7px;
+        padding: 6px;
+    }
     /* --------- MEUS PROJETOS (max-width: 600px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
@@ -699,6 +771,30 @@
     }
     .design-sub {
         font-size: 17px;
+    }
+    /* --------- SERVIÇOS (max-width: 480px) ---------- */
+    .CentroServico {
+        top: 120px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .servico h2 {
+        width: 75%;
+        top: 25px;
+        font-size: 38px;
+    }
+    .separarCima {
+        width: 80%;
+        font-size: 21px;
+        padding: 12px;
+    }
+    .separarT {
+        width: 80%;
+        font-size: 14px;
+        margin-top: 7px;
+        padding: 6px;
     }
     /* --------- MEUS PROJETOS (max-width: 480px) ---------- */
     /* DESIGN PROJETOS */
@@ -898,6 +994,30 @@
     .design-sub {
         font-size: 17px;
     }
+    /* --------- SERVIÇOS (max-width: 420px) ---------- */
+    .CentroServico {
+        top: 120px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .servico h2 {
+        width: 75%;
+        top: 25px;
+        font-size: 38px;
+    }
+    .separarCima {
+        width: 80%;
+        font-size: 21px;
+        padding: 12px;
+    }
+    .separarT {
+        width: 80%;
+        font-size: 14px;
+        margin-top: 7px;
+        padding: 6px;
+    }
     /* --------- MEUS PROJETOS (max-width: 420px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
@@ -997,6 +1117,231 @@
     }
 }
 
+@media (max-width: 440px) {
+    /* ----------- FOOTER (max-width: 440px) ------------ */
+    .footer {
+        padding: 12px;
+        font-size: 11px;
+    }
+    /* ------------ PÁGINA INICIAL (max-width: 440px) ---------- */
+    /* ----- MENU */
+    .menu {
+        top: 415px;
+        right: 80px;
+    }
+    .menu ul {
+        padding: 17px;
+        width: 245px;
+        font-size: 23px;
+    }
+    .clicarFechar {
+        display: block;
+    }
+    .menuhambur {
+        top: 432px;
+        right: 22px;
+    }
+    #fechar {
+        margin-top: -69px;
+        margin-left: 2px;
+        font-size: 23px;
+        padding: 12px;
+        transition: 0.5s;
+    }
+    /*  */
+    /* li util */
+    .Infograficos::before {
+        font-size: 20px;
+    }
+    .Web-Design::before {
+        font-size: 20px;
+    }
+    .Mockups::before {
+        font-size: 20px;
+    }
+    .Web-Dev::before {
+        font-size: 20px;
+    }
+    /*  */
+    #quadrado-position {
+        position: fixed;
+        top: 85px;
+        left: 25px;
+        z-index: 999;
+    }
+    .quadrado-index {
+        background-size: 59%;
+        padding: 300px;
+        position: absolute;
+        transition: 1.0s;
+        animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
+        background-image: url('https://1.bp.blogspot.com/-4u7w9U7sw2I/X4riNOP0fGI/AAAAAAAAGYw/rg316jkMvXo641MmzBgCu5eOcZgjJyBoQCLcBGAsYHQ/s0/square-index-menor.png');
+    }
+    .quadradoUtilites {
+        top: 38px;
+        left: 208px;
+        width: 450px;
+        font-size: 16px;
+    }
+    /* ------ Typer Estilo (max-width: 440px) */
+    .euSou {
+        left: 23px;
+        top: -49px;
+    }
+    .euSou h1 {
+        font-size: 20px;
+    }
+    /* ------- Dentro Quadrado (max-width: 440px) */
+    .designn {
+        font-size: 33px;
+        left: 9px;
+        top: 249px;
+    }
+    .nauan {
+        font-size: 41px;
+        left: 10px;
+        top: 207px;
+    }
+    .menu {
+        top: 403px;
+        right: 80px;
+    }
+    /*  */
+    /* ---------- OUTRAS PÁGINAS (max-width: 440px) -------- */
+    /* Logo Menu */
+    .LogoMenu {
+        right: 6px;
+        padding: 10px;
+    }
+    .nauan-sub {
+        font-size: 24px;
+    }
+    .design-sub {
+        font-size: 17px;
+    }
+    /* --------- SERVIÇOS (max-width: 440px) ---------- */
+    .CentroServico {
+        top: 120px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .servico h2 {
+        width: 75%;
+        top: 25px;
+        font-size: 38px;
+    }
+    .separarCima {
+        width: 80%;
+        font-size: 21px;
+        padding: 12px;
+    }
+    .separarT {
+        width: 80%;
+        font-size: 14px;
+        margin-top: 7px;
+        padding: 6px;
+    }
+    /* --------- MEUS PROJETOS (max-width: 440px) ---------- */
+    /* DESIGN PROJETOS */
+    .Centrotrabalhos {
+        top: 91px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    /* ----- DESIGN PORTFOLIO (max-width: 440px) */
+    #portfolio .portfolio-list .nav li {
+        float: none;
+        margin: 2px;
+        display: inline-block;
+    }
+    .portfolio-thumbnail {
+        margin-bottom: 10px;
+        margin-right: 10px;
+        min-height: 30px;
+        width: 39%;
+    }
+    #portfolio .portfolio-list .nav li {
+        padding: 1px;
+        font-size: 15px;
+        line-height: 26px;
+    }
+    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    /* Titulo Trabalho (max-width: 440px) */
+    .trabalhos h2 {
+        left: 45px;
+        width: 60%;
+        top: 44px;
+        font-size: 34px;
+        text-align: center;
+    }
+    /* Texto Overlay (max-width: 440px) */
+    .overlay {
+        min-height: 35px;
+    }
+    .text {
+        font-size: 22px;
+    }
+    .link-margem {
+        margin-top: 28px;
+    }
+    /* --------- SOBRE MIM (max-width: 440px) ---------- */
+    .exp {
+        width: 100%;
+    }
+    .MinhasUtilites {
+        width: 100%;
+        font-size: 18px;
+    }
+    .Centrosobre {
+        top: 72px;
+        width: 88%;
+        left: 32px;
+        padding: 1px;
+        margin-bottom: 80px;
+        font-size: 18px;
+    }
+    #separarImg {
+        float: right;
+        height: 405px;
+        z-index: 1000;
+    }
+    .imagePotrait {
+        width: 355px;
+        height: 375px;
+    }
+    .landscape img {
+        height: 100%;
+        position: absolute;
+        left: -283px;
+        bottom: 1px;
+    }
+    .sobre h2 {
+        left: 36px;
+        width: 70%;
+        top: 38px;
+        font-size: 36px;
+    }
+    /* --------- CONTATO (max-width: 440px) ---------- */
+    .CentroContato {
+        top: 127px;
+        width: 93%;
+        padding: 25px;
+        left: 12px;
+    }
+    .contato h2 {
+        width: 61%;
+        top: 38px;
+        left: 20px;
+    }
+}
+
 @media (max-width: 390px) {
     /* ----------- FOOTER (max-width: 390px) ------------ */
     .footer {
@@ -1018,7 +1363,7 @@
     /* ----- MENU */
     .menu {
         top: 370px;
-        right: 76px;
+        right: 95px;
     }
     .menu ul {
         padding: 12px;
@@ -1056,8 +1401,8 @@
     /*  */
     #quadrado-position {
         position: fixed;
-        top: 67px;
-        left: 6px;
+        top: 70px;
+        left: 19px;
         z-index: 999;
     }
     .quadrado-index {
@@ -1105,20 +1450,30 @@
     .design-sub {
         font-size: 17px;
     }
-    /* --------- Solicitar Servicos (max-width: 390px) ---------- */
+    /*  */
+    /* --------- SERVIÇOS (max-width: 390px) ---------- */
     .CentroServico {
-        top: 103px;
+        top: 120px;
         width: 90%;
         left: 21px;
         padding: 21px;
         font-size: 15px;
     }
-    .Servico h2 {
-        left: 45px;
-        width: 60%;
-        top: 31px;
-        font-size: 34px;
-        text-align: center;
+    .servico h2 {
+        width: 75%;
+        top: 25px;
+        font-size: 38px;
+    }
+    .separarCima {
+        width: 80%;
+        font-size: 21px;
+        padding: 12px;
+    }
+    .separarT {
+        width: 80%;
+        font-size: 14px;
+        margin-top: 7px;
+        padding: 6px;
     }
     /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
     /* DESIGN PROJETOS */
@@ -1353,6 +1708,30 @@
     }
     .design-sub {
         font-size: 17px;
+    }
+    /* --------- SERVIÇOS (max-width: 320px) ---------- */
+    .CentroServico {
+        top: 120px;
+        width: 90%;
+        left: 21px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .servico h2 {
+        width: 75%;
+        top: 25px;
+        font-size: 38px;
+    }
+    .separarCima {
+        width: 80%;
+        font-size: 21px;
+        padding: 12px;
+    }
+    .separarT {
+        width: 80%;
+        font-size: 14px;
+        margin-top: 7px;
+        padding: 6px;
     }
     /* --------- MEUS PROJETOS (max-width: 320px) ---------- */
     /* DESIGN PROJETOS */
