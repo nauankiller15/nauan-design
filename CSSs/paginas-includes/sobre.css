@@ -5,7 +5,7 @@
     display: none;
     font-family: sans-serif;
     z-index: 1900;
-    background: #000000;
+    box-sizing: border-box;
 }
 
 .sobre {
@@ -40,7 +40,7 @@
     left: 100px;
     padding: 25px;
     margin-bottom: 80px;
-    animation: sobreCaixa 1.5s ease-in-out;
+    animation: sobreCaixa 1.9s ease-in-out;
     position: absolute;
     font-size: 18px;
 }

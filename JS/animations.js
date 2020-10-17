@@ -1,14 +1,14 @@
 // Animação Menu
 $('#trabalhosAbrir').on('click', function () {
+    $("#trabalhos").fadeIn('600');
+    $('#TodosFiltrar').trigger('click');
     $('#contato').fadeOut('1300');
     $('#servico').fadeOut("700");
-    $("#trabalhos").fadeIn('600');
     $('#contato').fadeOut('600');
     $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('1200');
     $("#sobre").fadeOut('600');
     $('.LogoMenu').fadeIn('1300');
-    $('#TodosFiltrar').trigger('click');
     $('#IA-MenuBar').fadeIn('200');
 })
 
@@ -24,14 +24,13 @@ $('#contatoAbrir').on('click', function () {
 })
 
 $('#sobreAbrir').on('click', function () {
-    $('#contato').fadeOut('1300');
+    $('#sobre').fadeIn('400');
     $('#servico').fadeOut("700");
-    $("#sobre").fadeIn('1300');
+    $("#contato").fadeOut('600');
     $("#trabalhos").fadeOut('600');
-    $('#contato').fadeOut('700');
     $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('1200');
-    $('.LogoMenu').fadeIn('1200');
+    $('.LogoMenu').fadeIn('1300');
     $('#IA-MenuBar').fadeIn('200');
 })
 
