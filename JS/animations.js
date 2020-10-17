@@ -1,10 +1,10 @@
 // Animação Menu
 $('#trabalhosAbrir').on('click', function () {
     $('#contato').fadeOut('1300');
-    $(".fundoPreto").fadeIn('500');
     $('#servico').fadeOut("700");
     $("#trabalhos").fadeIn('600');
     $('#contato').fadeOut('600');
+    $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('1200');
     $("#sobre").fadeOut('600');
     $('.LogoMenu').fadeIn('1300');
@@ -13,11 +13,11 @@ $('#trabalhosAbrir').on('click', function () {
 })
 
 $('#contatoAbrir').on('click', function () {
-    $(".fundoPreto").fadeIn('500');
     $('#contato').fadeIn('400');
     $('#servico').fadeOut("700");
     $("#sobre").fadeOut('600');
     $("#trabalhos").fadeOut('600');
+    $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('1200');
     $('.LogoMenu').fadeIn('1300');
     $('#IA-MenuBar').fadeIn('200');
@@ -26,10 +26,10 @@ $('#contatoAbrir').on('click', function () {
 $('#sobreAbrir').on('click', function () {
     $('#contato').fadeOut('1300');
     $('#servico').fadeOut("700");
-    $(".fundoPreto").fadeIn('500');
     $("#sobre").fadeIn('1300');
     $("#trabalhos").fadeOut('600');
     $('#contato').fadeOut('700');
+    $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('1200');
     $('.LogoMenu').fadeIn('1200');
     $('#IA-MenuBar').fadeIn('200');
@@ -39,9 +39,9 @@ $('#servicoAbrir').on('click', function () {
     $("#servico").fadeIn('1300');
     $('#contato').fadeOut('1300');
     $('#sobre').fadeOut('1300');
-    $(".fundoPreto").fadeIn('500');
     $("#trabalhos").fadeOut('600');
     $('#contato').fadeOut('700');
+    $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('1200');
     $('.LogoMenu').fadeIn('1200');
     $('#IA-MenuBar').fadeIn('200');
@@ -50,9 +50,9 @@ $('#servicoAbrir').on('click', function () {
 $('#fechar').on('click', function () {
     $('#servico').fadeOut("700");
     $('#contato').fadeIn('700');
-    $(".fundoPreto").fadeOut('500');
     $("#trabalhos").fadeOut('600');
     $('#contato').fadeOut('600');
+    $(".fundoPreto").fadeOut('500');
     $('#fechar').fadeOut('1300');
     $("#sobre").fadeOut('600');
     $('.LogoMenu').slideUp('1300');
