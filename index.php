@@ -12,7 +12,7 @@
 </div>
 
 <body>
-
+    <?php include("includes/BackSlide.php"); ?>
     <div id="esconder">
         <div id="quadrado-position">
             <h2 class="nauan">Nauan</h2>
