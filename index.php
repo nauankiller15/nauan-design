@@ -12,7 +12,7 @@
 </div>
 
 <body>
-    <?php include("includes/BackSlide.php"); ?>
+
     <div id="esconder">
         <div id="quadrado-position">
             <h2 class="nauan">Nauan</h2>
@@ -22,7 +22,7 @@
                 <p style="animation: animSou 2.3s ease-in-out;">Venha desenvolver junto comigo.</p>
             </div>
             <div class="quadrado-index">
-            <img src="imagens/square-index.png">
+           
             </div>
             <div class="quadradoUtilites">
                 <li style="animation: go-back1 3.5s infinite alternate, LiAnim 3.5s;" class="Infograficos">UI/UX Kits</li>
