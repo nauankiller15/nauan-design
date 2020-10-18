@@ -106,7 +106,37 @@
     }
 }
 
+@media (max-width: 1024px) {
+    /* OUTRAS PÁGINAS */
+    .LogoMenu {
+        top: 0;
+        right: 90px;
+        padding: 10px;
+    }
+    /*  */
+    /* Meus Projetos .Overlay > Text ------ */
+    .text {
+        color: #ffffff;
+        font-size: 43px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(224%, 36%);
+        -ms-transform: translate(224%, 36%);
+        transform: translate(165%, -91%);
+        text-align: center;
+    }
+    /*  */
+}
+
 @media (max-width: 1000px) {
+     /* OUTRAS PÁGINAS */
+     .LogoMenu {
+        top: 0;
+        right: 90px;
+        padding: 10px;
+    }
+    /*  */
     .menuhambur {
         top: 437px;
         right: 36px;
@@ -130,6 +160,7 @@
         max-width: 300%;
         min-height: 300%;
     }
+    /*  */
 }
 
 /*  */
@@ -283,7 +314,15 @@
         min-height: 35px;
     }
     .text {
-        font-size: 35px;
+        color: #ffffff;
+        font-size: 36px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(224%, 36%);
+        -ms-transform: translate(224%, 36%);
+        transform: translate(233%, -9%);
+        text-align: center;
     }
     .link-margem {
         margin-top: 56px;
@@ -434,7 +473,7 @@
     /* --------- MEUS PROJETOS (max-width: 767px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
-        top: 156px;
+        top: 98px;
         width: 90%;
         left: 21px;
         padding: 21px;
@@ -473,7 +512,12 @@
         min-height: 35px;
     }
     .text {
-        font-size: 22px;
+        font-size: 25px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(224%, 36%);
+        -ms-transform: translate(224%, 36%);
+        transform: translate(180%, 29%);
     }
     .link-margem {
         margin-top: 28px;
@@ -669,7 +713,12 @@
         min-height: 35px;
     }
     .text {
-        font-size: 22px;
+        font-size: 24px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(224%, 36%);
+        -ms-transform: translate(224%, 36%);
+        transform: translate(166%, -11%);
     }
     .link-margem {
         margin-top: 28px;
@@ -815,7 +864,7 @@
     /* --------- MEUS PROJETOS (max-width: 480px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
-        top: 156px;
+        top: 65px;
         width: 90%;
         left: 21px;
         padding: 21px;
@@ -844,9 +893,10 @@
     }
     /* Titulo Trabalho (max-width: 480px) */
     .trabalhos h2 {
-        width: 50%;
-        top: 40px;
-        font-size: 42px;
+        left: 45px;
+        width: 60%;
+        top: 21px;
+        font-size: 34px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 480px) */
@@ -854,7 +904,12 @@
         min-height: 35px;
     }
     .text {
-        font-size: 22px;
+        font-size: 23px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(224%, 36%);
+        -ms-transform: translate(224%, 36%);
+        transform: translate(166%, -11%);
     }
     .link-margem {
         margin-top: 28px;
@@ -1072,7 +1127,7 @@
     .trabalhos h2 {
         left: 45px;
         width: 60%;
-        top: 31px;
+        top: 21px;
         font-size: 34px;
         text-align: center;
     }
@@ -1082,6 +1137,11 @@
     }
     .text {
         font-size: 22px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(224%, 36%);
+        -ms-transform: translate(224%, 36%);
+        transform: translate(166%, -11%);
     }
     .link-margem {
         margin-top: 28px;
@@ -1301,7 +1361,7 @@
     .trabalhos h2 {
         left: 45px;
         width: 60%;
-        top: 44px;
+        top: 21px;
         font-size: 34px;
         text-align: center;
     }
@@ -1311,6 +1371,11 @@
     }
     .text {
         font-size: 22px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(224%, 36%);
+        -ms-transform: translate(224%, 36%);
+        transform: translate(166%, -11%);
     }
     .link-margem {
         margin-top: 28px;
@@ -1547,6 +1612,11 @@
     }
     .text {
         font-size: 22px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(224%, 36%);
+        -ms-transform: translate(224%, 36%);
+        transform: translate(136%, -55%);
     }
     .link-margem {
         margin-top: 28px;
@@ -1808,7 +1878,12 @@
         min-height: 35px;
     }
     .text {
-        font-size: 22px;
+        font-size: 20px;
+        top: 50%;
+        left: 50%;
+        -webkit-transform: translate(224%, 36%);
+        -ms-transform: translate(224%, 36%);
+        transform: translate(118%, -64%);
     }
     .link-margem {
         margin-top: 28px;
