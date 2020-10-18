@@ -52,7 +52,7 @@ $('#fechar').on('click', function () {
     $('#contato').fadeIn('700');
     $("#trabalhos").fadeOut('600');
     $('#contato').fadeOut('600');
-    $(".fundoPreto").fadeOut('500');
+    $('.fundoPreto').slideUp('35530');
     $('#fechar').fadeOut('1300');
     $("#sobre").fadeOut('600');
     $('.LogoMenu').slideUp('1300');

@@ -263,13 +263,13 @@
         width: 39%;
     }
     #portfolio .portfolio-list .nav li {
-        padding: 1px;
-        font-size: 15px;
-        line-height: 26px;
+        padding: 8px;
+        font-size: 21px;
+        line-height: 27px;
     }
     #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 22px;
+        line-height: 27px;
     }
     /* Titulo Trabalho (min-width: 768px) and (max-width: 991px) */
     .trabalhos h2 {
@@ -283,10 +283,10 @@
         min-height: 35px;
     }
     .text {
-        font-size: 22px;
+        font-size: 35px;
     }
     .link-margem {
-        margin-top: 28px;
+        margin-top: 56px;
     }
     /* --------- SOBRE MIM (min-width: 768px) and (max-width: 991px) ---------- */
     .exp {
@@ -453,13 +453,13 @@
         width: 39%;
     }
     #portfolio .portfolio-list .nav li {
-        padding: 1px;
-        font-size: 15px;
-        line-height: 26px;
+        padding: 8px;
+        font-size: 21px;
+        line-height: 27px;
     }
     #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 22px;
+        line-height: 27px;
     }
     /* Titulo Trabalho (max-width: 767px) */
     .trabalhos h2 {
@@ -649,13 +649,13 @@
         width: 39%;
     }
     #portfolio .portfolio-list .nav li {
-        padding: 1px;
-        font-size: 15px;
-        line-height: 26px;
+        padding: 3px;
+        font-size: 16px;
+        line-height: 21px;
     }
     #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
-        font-size: 16px;
-        line-height: 26px;
+        font-size: 17px;
+        line-height: 21px;
     }
     /* Titulo Trabalho (max-width: 600px) */
     .trabalhos h2 {
