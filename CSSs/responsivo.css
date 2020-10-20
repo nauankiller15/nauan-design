@@ -47,6 +47,23 @@
 }
 
 /*  */
+@media (max-width: 1366px) {
+    .LogoMenu {
+    top: 0;
+    right: 100px;
+}
+    #quadrado-position {
+    top: 108px;
+    left: 137px;
+}
+.menu {
+    top: 275px;
+    right: 80px;
+}
+.CentroContato {
+    margin-bottom: 50px;
+}
+}
 
 @media (max-width: 1200px) {
     .LogoMenu {
