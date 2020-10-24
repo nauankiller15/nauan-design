@@ -167,6 +167,7 @@ $("#projeto8").on('click', function() {
 // fechar proejetos
 $("#fechar-projeto").on('click', function() {
     $("#trabalhos").fadeIn('300');
+    $('#TodosFiltrar').trigger('click');
     $('#fechar-projeto').fadeOut('200');
     $('#primeiro-projeto').fadeOut('1300');
     $('#segundo-projeto').fadeOut('1300');

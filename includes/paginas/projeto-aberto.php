@@ -1,6 +1,6 @@
 <div id="fechar-projeto" class="fechar-projeto">
-        <i style="position: absolute;top: 10px;left: 14px;;font-size:40px;" class="fas fa-times"></i>
-    </div>
+    <i style="position: absolute;top: 10px;left: 14px;;font-size:40px;" class="fas fa-times"></i>
+</div>
 
 <!-- Primeiro Projeto -->
 <div id="primeiro-projeto">
@@ -9,8 +9,8 @@
             <h2 style="animation: TrabalhoIni 3.0s;">Primeiro Projeto</h2>
             <div class="posicionar-centro">
                 <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                    <a class="popup-img" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                        <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg" alt="img">
+                    <a class="popup-img1" title="Primeiro Projeto" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                        <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
                     </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
@@ -36,6 +36,30 @@
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
                     </div>
                 </div>
+                <div id="posicao-outras-imagens">
+                    <h2>Galeria</h2>
+                    <div class="outras-imagens">
+                        <a class="popup-img1" title="Continuação1" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                            <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                        </a>
+                        <a class="popup-img1" title="Continuação2" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                            <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                        </a>
+                        <a class="popup-img1" title="Continuação3" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                            <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                        </a>
+                        <a class="popup-img1" title="Continuação4" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                            <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                        </a>
+                        <a class="popup-img1" title="Continuação5" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                            <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                        </a>
+                        <a class="popup-img1" title="Continuação6" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                            <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
+                        </a>
+                    </div>
+                </div>
+            </div>
         </ul>
     </div>
 </div>
@@ -47,9 +71,11 @@
             <h2 style="animation: TrabalhoIni 3.0s;">Segundo Projeto</h2>
             <div class="posicionar-centro">
                 <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                    <a class="popup-img" href="https://1.bp.blogspot.com/-QRtwV7wqQI4/X4ylM_fIoFI/AAAAAAAAGZE/wxpf3Bpe_YIST95YeSoNcXpNiGFnvPWDwCLcBGAsYHQ/s0/2.jpg">
+
+                    <a class="popup-img2" title="Segundo Projeto" href="https://1.bp.blogspot.com/-QRtwV7wqQI4/X4ylM_fIoFI/AAAAAAAAGZE/wxpf3Bpe_YIST95YeSoNcXpNiGFnvPWDwCLcBGAsYHQ/s0/2.jpg">
                         <img src="https://1.bp.blogspot.com/-QRtwV7wqQI4/X4ylM_fIoFI/AAAAAAAAGZE/wxpf3Bpe_YIST95YeSoNcXpNiGFnvPWDwCLcBGAsYHQ/s0/2.jpg" alt="img">
                     </a>
+
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
@@ -85,7 +111,7 @@
             <h2 style="animation: TrabalhoIni 3.0s;">Terceiro Projeto</h2>
             <div class="posicionar-centro">
                 <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                    <a class="popup-img" href="https://1.bp.blogspot.com/-aAVZA7HJ408/X4ylMwSoHjI/AAAAAAAAGY8/_ZDJvZsqbnEyLMylIqQysPsgot6F7ySUQCLcBGAsYHQ/s0/3.jpg">
+                    <a class="popup-img3" title="Terceiro Projeto" href="https://1.bp.blogspot.com/-aAVZA7HJ408/X4ylMwSoHjI/AAAAAAAAGY8/_ZDJvZsqbnEyLMylIqQysPsgot6F7ySUQCLcBGAsYHQ/s0/3.jpg">
                         <img src="https://1.bp.blogspot.com/-aAVZA7HJ408/X4ylMwSoHjI/AAAAAAAAGY8/_ZDJvZsqbnEyLMylIqQysPsgot6F7ySUQCLcBGAsYHQ/s0/3.jpg" alt="img">
                     </a>
                 </div>
@@ -123,7 +149,7 @@
             <h2 style="animation: TrabalhoIni 3.0s;">Quarto Projeto</h2>
             <div class="posicionar-centro">
                 <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                    <a class="popup-img" href="https://1.bp.blogspot.com/-Xp2OKy4wGQQ/X4ylNR4DN0I/AAAAAAAAGZM/1Fv8hsGzmlcM3-jNQqcKxjIL0WEOXj5UwCLcBGAsYHQ/s0/4.jpg">
+                    <a class="popup-img4" title="Quarto Projeto" href="https://1.bp.blogspot.com/-Xp2OKy4wGQQ/X4ylNR4DN0I/AAAAAAAAGZM/1Fv8hsGzmlcM3-jNQqcKxjIL0WEOXj5UwCLcBGAsYHQ/s0/4.jpg">
                         <img src="https://1.bp.blogspot.com/-Xp2OKy4wGQQ/X4ylNR4DN0I/AAAAAAAAGZM/1Fv8hsGzmlcM3-jNQqcKxjIL0WEOXj5UwCLcBGAsYHQ/s0/4.jpg" alt="img">
                     </a>
                 </div>
@@ -161,7 +187,7 @@
             <h2 style="animation: TrabalhoIni 3.0s;">Quinto Projeto</h2>
             <div class="posicionar-centro">
                 <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                    <a class="popup-img" href="https://1.bp.blogspot.com/-ElOFepd4Cq4/X4ylNSfXmbI/AAAAAAAAGZI/l1Q2KX_i5x8z_Yxh930T4m_cSKCJCaPCwCLcBGAsYHQ/s0/5.jpg">
+                    <a class="popup-img5" title="Quinto Projeto" href="https://1.bp.blogspot.com/-ElOFepd4Cq4/X4ylNSfXmbI/AAAAAAAAGZI/l1Q2KX_i5x8z_Yxh930T4m_cSKCJCaPCwCLcBGAsYHQ/s0/5.jpg">
                         <img src="https://1.bp.blogspot.com/-ElOFepd4Cq4/X4ylNSfXmbI/AAAAAAAAGZI/l1Q2KX_i5x8z_Yxh930T4m_cSKCJCaPCwCLcBGAsYHQ/s0/5.jpg" alt="img">
                     </a>
                 </div>
@@ -199,7 +225,7 @@
             <h2 style="animation: TrabalhoIni 3.0s;">Sexto Projeto</h2>
             <div class="posicionar-centro">
                 <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                    <a class="popup-img" href="https://1.bp.blogspot.com/-IYDsnUzxQro/X4ylNbfVaDI/AAAAAAAAGZQ/Nj-pJPut8P0w1Q_JTtELH2Xu7bf4C2hKQCLcBGAsYHQ/s0/6.jpg">
+                    <a class="popup-img6" title="Sexto Projeto" href="https://1.bp.blogspot.com/-IYDsnUzxQro/X4ylNbfVaDI/AAAAAAAAGZQ/Nj-pJPut8P0w1Q_JTtELH2Xu7bf4C2hKQCLcBGAsYHQ/s0/6.jpg">
                         <img src="https://1.bp.blogspot.com/-IYDsnUzxQro/X4ylNbfVaDI/AAAAAAAAGZQ/Nj-pJPut8P0w1Q_JTtELH2Xu7bf4C2hKQCLcBGAsYHQ/s0/6.jpg" alt="img">
                     </a>
                 </div>
@@ -237,7 +263,7 @@
             <h2 style="animation: TrabalhoIni 3.0s;">Sétimo Projeto</h2>
             <div class="posicionar-centro">
                 <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                    <a class="popup-img" href="https://1.bp.blogspot.com/-zKJVg4MLwSA/X5RlwiY8dwI/AAAAAAAAGZ8/RG55qBtNKr03RurBG2ze3Gsa4Wx8GBUkQCLcBGAsYHQ/s0/7.jpg">
+                    <a class="popup-img7" title="Setimo Projeto" href="https://1.bp.blogspot.com/-zKJVg4MLwSA/X5RlwiY8dwI/AAAAAAAAGZ8/RG55qBtNKr03RurBG2ze3Gsa4Wx8GBUkQCLcBGAsYHQ/s0/7.jpg">
                         <img src="https://1.bp.blogspot.com/-zKJVg4MLwSA/X5RlwiY8dwI/AAAAAAAAGZ8/RG55qBtNKr03RurBG2ze3Gsa4Wx8GBUkQCLcBGAsYHQ/s0/7.jpg" alt="img">
                     </a>
                 </div>
@@ -297,7 +323,7 @@
             <h2 style="animation: TrabalhoIni 3.0s;">Oitavo Projeto</h2>
             <div class="posicionar-centro">
                 <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                    <a class="popup-img" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                    <a class="popup-img8" title="Oitavo Projeto" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
                         <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg" alt="img">
                     </a>
                 </div>
@@ -322,6 +348,29 @@
                 <div class="utilizados">
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
+                    </div>
+                </div>
+                <div id="posicao-outras-imagens">
+                    <h2>Galeria</h2>
+                    <div class="outras-imagens">
+                        <a class="popup-img8" title="Continuação1" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                        </a>
+                        <a class="popup-img8" title="Continuação2" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                        </a>
+                        <a class="popup-img8" title="Continuação3" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                        </a>
+                        <a class="popup-img8" title="Continuação4" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                        </a>
+                        <a class="popup-img8" title="Continuação5" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                        </a>
+                        <a class="popup-img8" title="Continuação6" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                        </a>
                     </div>
                 </div>
         </ul>
