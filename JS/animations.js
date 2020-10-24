@@ -1,6 +1,6 @@
 // // *****
 // Animação Menu -------------- ****
-$('#trabalhosAbrir').on('click', function () {
+$('#trabalhosAbrir').on('click', function() {
     $("#trabalhos").fadeIn('600');
     $('#TodosFiltrar').trigger('click');
     $('#contato').fadeOut('1300');
@@ -13,7 +13,7 @@ $('#trabalhosAbrir').on('click', function () {
     $('#IA-MenuBar').fadeIn('200');
 })
 
-$('#contatoAbrir').on('click', function () {
+$('#contatoAbrir').on('click', function() {
     $('#contato').fadeIn('400');
     $('#servico').fadeOut("700");
     $("#sobre").fadeOut('600');
@@ -24,7 +24,7 @@ $('#contatoAbrir').on('click', function () {
     $('#IA-MenuBar').fadeIn('200');
 })
 
-$('#sobreAbrir').on('click', function () {
+$('#sobreAbrir').on('click', function() {
     $('#sobre').fadeIn('400');
     $('#servico').fadeOut("700");
     $("#contato").fadeOut('600');
@@ -35,7 +35,7 @@ $('#sobreAbrir').on('click', function () {
     $('#IA-MenuBar').fadeIn('200');
 })
 
-$('#servicoAbrir').on('click', function () {
+$('#servicoAbrir').on('click', function() {
     $("#servico").fadeIn('1300');
     $('#contato').fadeOut('1300');
     $('#sobre').fadeOut('1300');
@@ -47,33 +47,33 @@ $('#servicoAbrir').on('click', function () {
     $('#IA-MenuBar').fadeIn('200');
 })
 
-$('#fechar').on('click', function () {
-    $('#servico').fadeOut("700");
-    $('#contato').fadeIn('700');
-    $("#trabalhos").fadeOut('600');
-    $('#contato').fadeOut('600');
-    $('.fundoPreto').slideUp('35530');
-    $('#fechar').fadeOut('1300');
-    $("#sobre").fadeOut('600');
-    $('.LogoMenu').slideUp('1300');
-    $('#IA-MenuBar').fadeOut('200');
-    $('#esconder-menu').fadeIn('1200')
-})
-// 
+$('#fechar').on('click', function() {
+        $('#servico').fadeOut("700");
+        $('#contato').fadeIn('700');
+        $("#trabalhos").fadeOut('600');
+        $('#contato').fadeOut('600');
+        $('.fundoPreto').slideUp('35530');
+        $('#fechar').fadeOut('1300');
+        $("#sobre").fadeOut('600');
+        $('.LogoMenu').slideUp('1300');
+        $('#IA-MenuBar').fadeOut('200');
+        $('#esconder-menu').fadeIn('1200')
+    })
+    // 
 
 // Responsivos -------------- ****
-$('#IA-MenuBar').on('click', function () {
+$('#IA-MenuBar').on('click', function() {
     $('#IA-MenuBar').fadeOut('900');
     $('#IA-MenuOpen').fadeIn('900');
     $('#esconder-menu').fadeOut('900');
 })
 
-$('#IA-MenuOpen').on('click', function () {
-    $('#esconder-menu').fadeIn('900');
-    $('#IA-MenuBar').fadeIn('9000');
-    $('#IA-MenuOpen').fadeOut('900');
-})
-// 
+$('#IA-MenuOpen').on('click', function() {
+        $('#esconder-menu').fadeIn('900');
+        $('#IA-MenuBar').fadeIn('9000');
+        $('#IA-MenuOpen').fadeOut('900');
+    })
+    // 
 
 // function fecharpopup() {
 //     $(document).on('keydown', function(e) {
@@ -94,7 +94,7 @@ $('#IA-MenuOpen').on('click', function () {
 //     });
 // }
 
-$(".imagePotrait").each(function () {
+$(".imagePotrait").each(function() {
     // Uncomment the following if you need to make this dynamic
     //var refH = $(this).height();
     //var refW = $(this).width();
@@ -111,4 +111,69 @@ $(".imagePotrait").each(function () {
     } else {
         $(this).addClass("landscape");
     }
+})
+
+
+// Abrir projetos
+
+$("#projeto1").on('click', function() {
+    $('#primeiro-projeto').fadeIn('600');
+    $('#fechar-projeto').fadeIn('600');
+    $("#trabalhos").fadeOut('600');
+})
+
+$("#projeto2").on('click', function() {
+    $('#segundo-projeto').fadeIn('600');
+    $('#fechar-projeto').fadeIn('600');
+    $("#trabalhos").fadeOut('600');
+})
+
+$("#projeto3").on('click', function() {
+    $('#terceiro-projeto').fadeIn('600');
+    $('#fechar-projeto').fadeIn('600');
+    $("#trabalhos").fadeOut('600');
+})
+
+$("#projeto4").on('click', function() {
+    $('#quarto-projeto').fadeIn('600');
+    $('#fechar-projeto').fadeIn('600');
+    $("#trabalhos").fadeOut('600');
+})
+
+$("#projeto5").on('click', function() {
+    $('#quinto-projeto').fadeIn('600');
+    $('#fechar-projeto').fadeIn('600');
+    $("#trabalhos").fadeOut('600');
+})
+
+$("#projeto6").on('click', function() {
+    $('#sexto-projeto').fadeIn('600');
+    $('#fechar-projeto').fadeIn('600');
+    $("#trabalhos").fadeOut('600');
+})
+
+$("#projeto7").on('click', function() {
+    $('#setimo-projeto').fadeIn('600');
+    $('#fechar-projeto').fadeIn('600');
+    $("#trabalhos").fadeOut('600');
+})
+
+$("#projeto8").on('click', function() {
+    $('#oitavo-projeto').fadeIn('600');
+    $('#fechar-projeto').fadeIn('600');
+    $("#trabalhos").fadeOut('600');
+})
+
+// fechar proejetos
+$("#fechar-projeto").on('click', function() {
+    $("#trabalhos").fadeIn('300');
+    $('#fechar-projeto').fadeOut('200');
+    $('#primeiro-projeto').fadeOut('1300');
+    $('#segundo-projeto').fadeOut('1300');
+    $('#terceiro-projeto').fadeOut('1300');
+    $('#quarto-projeto').fadeOut('1300');
+    $('#quinto-projeto').fadeOut('1300');
+    $('#sexto-projeto').fadeOut('1300');
+    $('#setimo-projeto').fadeOut('1300');
+    $('#oitavo-projeto').fadeOut('1300');
 })

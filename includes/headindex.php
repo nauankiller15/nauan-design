@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/sobre.css">
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/contato.css">
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/formbox.css">
+    <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/projeto-aberto.css">
     <link rel="stylesheet" type="text/css" href="CSSs/slide.css">
     <link rel="stylesheet" type="text/css" href="CSSs/responsivo.css">
     <link rel="stylesheet" type="text/css" href="Lib/magnific-popup/magnific-popup.css">

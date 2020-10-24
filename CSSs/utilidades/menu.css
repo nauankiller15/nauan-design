@@ -144,6 +144,7 @@
     display: none;
     z-index: 1000;
     animation: FundoPreto 1.1s ease-in-out;
+    overflow: hidden;
 }
 
 @keyframes FundoPreto {
