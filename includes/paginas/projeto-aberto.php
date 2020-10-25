@@ -9,7 +9,7 @@
             <h2 style="animation: TrabalhoIni 3.0s;">Primeiro Projeto</h2>
             <div class="posicionar-centro">
                 <div class="posicao-aprs-img">
-                    <div id ="abrir-IMG-Gal" class="apresentacao-img">
+                    <div id="abrir-IMG-Gal8" class="apresentacao-img">
                         <i style="margin-top: 17px;width: 100%;text-align: center;font-size: 80px;" class="fas fa-image" aria-hidden="true"></i>
                     </div>
                 </div>
@@ -45,7 +45,9 @@
                 <div class="margem-div"></div>
                 <div class="texto-ver-info" id="abrir-apresentacao"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
                 <div class="texto-galeria"><i style="margin-right:9px;" class="fas fa-images"></i>Galeria</div>
-                <div class="hover-gal-abrir reposicionar" id="esconder-apresentacao"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                <div class="posicao-gal-abrir">
+                    <div class="hover-gal-abrir" id="esconder-apresentacao"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                </div>
                 <div class="row">
                     <div class="col-md-12">
                         <div id="abrir-menu-gal" class="abrir-menu-gal">
@@ -386,18 +388,21 @@
     </div>
 </div>
 
-<!-- Oitavo Proejto -->
+<!-- Oitavo Projeto -->
 <div id="oitavo-projeto">
     <div class="entrada-projeto">
         <ul>
             <h2 style="animation: TrabalhoIni 3.0s;">Oitavo Projeto</h2>
             <div class="posicionar-centro">
-                <div class="posicionar-grande">
-                    <div class="posicaoimagem-grande" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                        <a class="popup-img8" title="Oitavo Projeto" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg" alt="img">
-                        </a>
+                <div class="posicao-aprs-img">
+                    <div id="abrir-IMG-Gal" class="apresentacao-img">
+                        <i style="margin-top: 17px;width: 100%;text-align: center;font-size: 80px;" class="fas fa-image" aria-hidden="true"></i>
                     </div>
+                </div>
+                <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
+                    <a class="popup-img8" title="Primeiro Projeto" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                        <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                    </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
@@ -417,26 +422,40 @@
                     Suspendisse eu nisl eget tortor lobortis vestibulum. Proin dictum elementum rutrum.
                     Sed eu nunc molestie, lobortis ex non, pulvinar neque.
                 </div>
+
                 <div class="utilizados">
-                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-grande-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
                     </div>
                 </div>
+                <div class="margem-div"></div>
+                <div class="texto-ver-info" id="abrir-apresentacao8"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
+                <div class="texto-galeria"><i style="margin-right:9px;" class="fas fa-images"></i>Galeria</div>
+                <div class="posicao-gal-abrir">
+                    <div class="hover-gal-abrir" id="esconder-apresentacao8"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                </div>
                 <div class="row">
                     <div class="col-md-12">
+                        <div id="abrir-menu-gal8" class="abrir-menu-gal">
+                            <i style="position: absolute;top: 8px;left: 11px;font-size:40px;" class="fas fa-bars" aria-hidden="true"></i>
+                        </div>
                         <div class="portfolio-list-galeria">
-                            <ul style="padding-top:80px; left: 0px;width: 14%; overflow:hidden;" class="nav list-unstyled" id="portfolio-flters-galera">
+                            <ul style="padding-top: 17px;left: 0px;width: 240px;overflow:hidden;" class="nav list-unstyled" id="portfolio-flters-galera">
+                                <div id="fechar-menu-gal8" class="fechar-menu-gal">
+                                    <i class="fas fa-times" aria-hidden="true" style="padding-left: 9px;padding-top: 6px;font-size: 23px;"></i>
+                                </div>
+                                <div class="menu-galeria"><i style="margin-right:5px" class="fas fa-bars"></i>Menu</div>
+                                <div class="FiltroGal"><i style="margin-right:5px;" class="fas fa-images"></i>Galeria <p style="margin-left:26px;">Filtrar:</p>
+                                </div>
                                 <li id="FiltrarGaleria8" class="filter filter-active galeria-animation" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
-                                <li class="filter" data-filter=".jquery"><i class="fab fa-js-square galeria-animation"></i> Jquery</li>
-                                <li class="filter" data-filter=".html5"><i class="fab fa-html5 galeria-animation"></i> HTML5</li>
-                                <li class="filter" data-filter=".css3"><i class="fab fa-css3-alt galeria-animation"></i> CSS3</li>
+                                <li class="filter" data-filter=".jquery"><i class="galeria-animation fab fa-js-square"></i> Jquery</li>
+                                <li class="filter" data-filter=".html5"><i class="galeria-animation fab fa-html5"></i> HTML5</li>
+                                <li class="filter" data-filter=".css3"><i class="galeria-animation fab fa-css3-alt"></i> CSS3</li>
                             </ul>
                         </div>
                     </div>
                     <div id="posicao-outras-imagens">
-                        <h2><i class="fas fa-images"></i> Galeria</h2>
-                        <div class="to-galeria galeria-imagens">
+                        <div class="galeria-imagens">
                             <div class="thumbnail all html5 jquery">
                                 <div class="overlay-galeria">
                                     <a class="popup-img8" title="Continuação 2" href="https://1.bp.blogspot.com/-QRtwV7wqQI4/X4ylM_fIoFI/AAAAAAAAGZE/wxpf3Bpe_YIST95YeSoNcXpNiGFnvPWDwCLcBGAsYHQ/s0/2.jpg">
@@ -492,7 +511,7 @@
                         </div>
                     </div>
                 </div>
+            </div>
         </ul>
     </div>
-</div>
 </div>

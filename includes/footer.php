@@ -10,6 +10,7 @@
 <script src="JS/main.js"></script>
 <script src="JS/contact-form.js"></script>
 <script src="JS/animations.js"></script>
+<script src="JS/projetos-anim.js"></script>
 <script src="JS/activemenu.js"></script>
 <!-- Library -->
 <script src="Lib/typed/typed.js"></script>

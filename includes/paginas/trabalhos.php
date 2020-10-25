@@ -13,7 +13,7 @@
                         </div>
                     </div>
                     <div class="container">
-                        <div class="row">
+                        <div class="row2">
                             <div class="col-md-12">
                                 <div class="portfolio-list">
                                     <ul class="nav list-unstyled" id="portfolio-flters">

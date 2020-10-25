@@ -6,7 +6,7 @@
         height: 100%;
         position: fixed;
         z-index: 10003;
-        display: block;
+        display: none;
         overflow: hidden;
     }
     
@@ -322,7 +322,7 @@
     }
     
     .margem-div {
-        margin-bottom: 200px;
+        margin-bottom: 250px;
     }
     /* ----------- */
     
@@ -401,16 +401,23 @@
     }
     /* ----------- */
     
+    .posicao-gal-abrir {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    
     .hover-gal-abrir {
         border: 1px solid #fff;
         background: #242424;
-        width: 33%;
-        font-size: 35px;
+        width: 26%;
+        font-size: 30px;
         padding: 15px;
-        margin-bottom: 25px;
+        bottom: 2px;
+        border-radius: 9px;
+        position: fixed;
         text-align: center;
-        margin-left: auto;
-        margin-right: auto;
         transition: 0.5s;
         cursor: pointer;
         color: #ffffff;
@@ -423,13 +430,6 @@
         color: #000000;
         border-radius: 9px;
     }
-    /* #posicao-outras-imagens h2 {
-        font-size: 49px;
-        width: 100%;
-        padding: 15px;
-        text-align: center;
-        margin-top: 200px;
-    } */
     
     @keyframes galeriaAnim {
         from {}
@@ -453,8 +453,8 @@
     .thumbnail {
         margin-bottom: 10px;
         margin-right: 10px;
-        min-height: 265px;
-        width: 48%;
+        min-height: 170px;
+        width: 30%;
         display: inline-block;
     }
     
