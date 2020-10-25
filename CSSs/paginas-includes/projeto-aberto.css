@@ -226,6 +226,13 @@
     overflow: hidden;
 }
 
+#posicao-outras-imagens h2 {
+    font-size: 49px;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+}
+
 @keyframes galeriaAnim {
     from {}
     to {
