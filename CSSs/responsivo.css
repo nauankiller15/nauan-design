@@ -1,32 +1,15 @@
 @media (min-width: 1600px) {
+    /* GALERIA PROJETOS ------------*/
     #posicao-outras-imagens {
-        left: 295px;
-        top: 835px;
-        width: 1200px;
-    }
-    .galeria-imagens {
-        margin-bottom: 50px;
         width: 1300px;
     }
     .thumbnail {
-        min-height: 265px;
-        width: 28%;
-    }
-}
-
-@media (max-width: 1500px) {
-    #posicao-outras-imagens {
-        left: 295px;
-        top: 865px;
+        min-height: 170px;
+        width: 30%;
     }
 }
 
 @media (max-width: 1400px) {
-    #posicao-outras-imagens {
-        left: 250px;
-        top: 873px;
-    }
-    /*  */
     .LogoMenu {
         top: 0;
         right: 62px;
@@ -78,9 +61,11 @@
 /*  */
 
 @media (max-width: 1366px) {
+    /* GALERIA PROJETOS ------------*/
     #posicao-outras-imagens {
-        left: 250px;
-        top: 873px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 1300px;
     }
     .texto-projeto {
         top: 565px;
@@ -106,9 +91,11 @@
 }
 
 @media (max-width: 1200px) {
+    /* GALERIA PROJETOS ------------*/
     #posicao-outras-imagens {
-        left: 149px;
-        top: 816px;
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 1300px;
     }
     /*  */
     .texto-projeto {
@@ -183,15 +170,11 @@
         padding: 10px;
     }
     /*  */
-    /* PROJETOS ABERTOS */
+    /* GALERIA PROJETOS ------------*/
     #posicao-outras-imagens {
-        left: 77px;
-        top: 863px;
-        width: 820px;
-    }
-    .galeria-imagens {
+        margin-top: 20px;
         margin-bottom: 50px;
-        width: 840px;
+        width: 820px;
     }
     .thumbnail {
         min-height: 265px;
@@ -370,6 +353,26 @@
         margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (min-width: 768px) and (max-width: 991px) ---------- */
+    /* GALERIA PROJETOS ------------*/
+    #posicao-outras-imagens {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 780px;
+    }
+    .thumbnail {
+        min-height: 160px;
+        width: 30%;
+    }
+    .overlay-galeria {
+        height: 192px;
+    }
+    #posicao-outras-imagens h2 {
+        font-size: 37px;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+    /*  */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
         top: 156px;
@@ -569,6 +572,42 @@
         margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 767px) ---------- */
+    /* GALERIA PROJETOS ------------*/
+    #posicao-outras-imagens {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 685px;
+    }
+    .thumbnail {
+        min-height: 160px;
+        width: 31%;
+    }
+    .overlay-galeria {
+        height: 70px;
+    }
+    #posicao-outras-imagens h2 {
+        font-size: 37px;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+    /* POSIÇOES MISC ------*/
+    .utilizados {
+        font-size: 17px;
+        top: 308px;
+        position: absolute;
+    }
+    .expProjetos {
+        padding: 15px;
+        font-size: 17px;
+        max-width: 450px;
+    }
+    .texto-projeto {
+        top: 376px;
+        width: 80%;
+        padding: 20px;
+    }
+    /*  */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
         top: 98px;
@@ -677,6 +716,84 @@
     }
 }
 
+@media (max-width: 695px) {
+    /* GALERIA PROJETOS (max-width: 695px)------------*/
+    #posicao-outras-imagens {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 645px;
+    }
+    .thumbnail {
+        min-height: 160px;
+        width: 31%;
+    }
+    .overlay-galeria {
+        height: 70px;
+    }
+    #posicao-outras-imagens h2 {
+        font-size: 37px;
+        width: 100%;
+        padding: 15px;
+        text-align: center;
+    }
+    /* POSIÇOES MISC (max-width: 695px) -------------*/
+    .utilizados {
+        font-size: 17px;
+        top: 308px;
+        position: absolute;
+    }
+    .expProjetos {
+        padding: 15px;
+        font-size: 17px;
+        max-width: 450px;
+    }
+    .texto-projeto {
+        top: 376px;
+        width: 80%;
+        padding: 20px;
+    }
+    /*  */
+}
+
+@media (max-width: 640px) {
+    /* GALERIA PROJETOS (max-width: 625px)------------*/
+    #posicao-outras-imagens {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 585px;
+    }
+    .thumbnail {
+        min-height: 160px;
+        width: 33%;
+    }
+    .overlay-galeria {
+        height: 70px;
+    }
+    #posicao-outras-imagens h2 {
+        font-size: 37px;
+        width: 70%;
+        padding: 15px;
+        text-align: center;
+    }
+    /* POSIÇOES MISC (max-width: 625px) -------------*/
+    .utilizados {
+        font-size: 17px;
+        top: 308px;
+        position: absolute;
+    }
+    .expProjetos {
+        padding: 15px;
+        font-size: 17px;
+        max-width: 450px;
+    }
+    .texto-projeto {
+        top: 376px;
+        width: 80%;
+        padding: 20px;
+    }
+    /*  */
+}
+
 @media (max-width: 600px) {
     /* ----------- FOOTER (max-width: 600px) ------------ */
     .footer {
@@ -771,6 +888,43 @@
         margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 600px) ---------- */
+    /* GALERIA PROJETOS (max-width: 600px)------------*/
+    #posicao-outras-imagens {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 585px;
+    }
+    .thumbnail {
+        min-height: 160px;
+        width: 33%;
+    }
+    .overlay-galeria {
+        height: 70px;
+    }
+    #posicao-outras-imagens h2 {
+        font-size: 37px;
+        width: 70%;
+        padding: 15px;
+        text-align: center;
+    }
+    /* POSIÇOES MISC (max-width: 600px) -------------*/
+    .utilizados {
+        font-size: 17px;
+        top: 308px;
+        position: absolute;
+    }
+    .expProjetos {
+        padding: 15px;
+        font-size: 17px;
+        max-width: 450px;
+    }
+    .texto-projeto {
+        top: 376px;
+        width: 80%;
+        padding: 20px;
+        font-size: 14px;
+    }
+    /*  */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
         top: 156px;
@@ -862,6 +1016,80 @@
         top: 38px;
         left: 20px;
     }
+}
+
+@media (max-width: 558px) {
+    /* --------- MEUS PROJETOS (max-width: 558px) ---------- */
+    /* GALERIA PROJETOS (max-width: 558px)------------*/
+    #posicao-outras-imagens {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 585px;
+    }
+    .thumbnail {
+        min-height: 160px;
+        width: 33%;
+    }
+    .overlay-galeria {
+        height: 70px;
+    }
+    #posicao-outras-imagens h2 {
+        font-size: 37px;
+        width: 70%;
+        padding: 15px;
+        text-align: center;
+    }
+    /*  */
+}
+
+@media (max-width: 506px) {
+    /* --------- MEUS PROJETOS (max-width: 506px) ---------- */
+    /* GALERIA PROJETOS (max-width: 506px)------------*/
+    #posicao-outras-imagens {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 585px;
+    }
+    .thumbnail {
+        min-height: 160px;
+        width: 33%;
+    }
+    .overlay-galeria {
+        height: 70px;
+    }
+    #posicao-outras-imagens h2 {
+        font-size: 37px;
+        width: 70%;
+        padding: 15px;
+        text-align: center;
+    }
+    /*  */
+    /* POSIÇOES MISC (max-width: 506px) -------------*/
+    /* CABEÇALHO */
+    .entrada-projeto h2 {
+        font-size: 38px;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+    /*  */
+    .utilizados {
+        font-size: 17px;
+        top: 269px;
+        position: absolute;
+    }
+    .expProjetos {
+        padding: 15px;
+        font-size: 17px;
+        max-width: 450px;
+    }
+    .texto-projeto {
+        top: 334px;
+        width: 80%;
+        padding: 20px;
+        font-size: 14px;
+    }
+    /* ---------------------- */
 }
 
 @media (max-width: 480px) {
@@ -962,6 +1190,52 @@
         margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 480px) ---------- */
+    /* GALERIA PROJETOS (max-width: 480px)------------*/
+    #posicao-outras-imagens {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 585px;
+    }
+    .thumbnail {
+        min-height: 160px;
+        width: 33%;
+    }
+    .overlay-galeria {
+        height: 70px;
+    }
+    #posicao-outras-imagens h2 {
+        font-size: 37px;
+        width: 70%;
+        padding: 15px;
+        text-align: center;
+    }
+    /*  */
+    /* POSIÇOES MISC (max-width: 480px) -------------*/
+    /* CABEÇALHO */
+    .entrada-projeto h2 {
+        font-size: 38px;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+    /*  */
+    .utilizados {
+        font-size: 17px;
+        top: 269px;
+        position: absolute;
+    }
+    .expProjetos {
+        padding: 15px;
+        font-size: 17px;
+        max-width: 450px;
+    }
+    .texto-projeto {
+        top: 334px;
+        width: 80%;
+        padding: 20px;
+        font-size: 14px;
+    }
+    /* ---------------------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
         top: 65px;
@@ -1062,6 +1336,55 @@
         top: 38px;
         left: 20px;
     }
+}
+
+@media (max-width: 458px) {
+    /* GALERIA PROJETOS (max-width: 458px)------------*/
+    #posicao-outras-imagens {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 585px;
+    }
+    .thumbnail {
+        min-height: 160px;
+        width: 33%;
+    }
+    .overlay-galeria {
+        height: 70px;
+    }
+    #posicao-outras-imagens h2 {
+        font-size: 37px;
+        width: 70%;
+        padding: 15px;
+        text-align: center;
+    }
+    /*  */
+    /* POSIÇOES MISC (max-width: 458px) -------------*/
+    /* CABEÇALHO */
+    .entrada-projeto h2 {
+        font-size: 38px;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+    /*  */
+    .utilizados {
+        font-size: 17px;
+        top: 269px;
+        position: absolute;
+    }
+    .expProjetos {
+        padding: 15px;
+        font-size: 17px;
+        max-width: 450px;
+    }
+    .texto-projeto {
+        top: 334px;
+        width: 80%;
+        padding: 20px;
+        font-size: 14px;
+    }
+    /* ---------------------- */
 }
 
 @media (max-width: 420px) {
@@ -1195,6 +1518,52 @@
         margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 420px) ---------- */
+    /* GALERIA PROJETOS (max-width: 420px)------------*/
+    #posicao-outras-imagens {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 585px;
+    }
+    .thumbnail {
+        min-height: 160px;
+        width: 33%;
+    }
+    .overlay-galeria {
+        height: 70px;
+    }
+    #posicao-outras-imagens h2 {
+        font-size: 37px;
+        width: 70%;
+        padding: 15px;
+        text-align: center;
+    }
+    /*  */
+    /* POSIÇOES MISC (max-width: 420px) -------------*/
+    /* CABEÇALHO */
+    .entrada-projeto h2 {
+        font-size: 38px;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+    /*  */
+    .utilizados {
+        font-size: 17px;
+        top: 269px;
+        position: absolute;
+    }
+    .expProjetos {
+        padding: 15px;
+        font-size: 17px;
+        max-width: 450px;
+    }
+    .texto-projeto {
+        top: 334px;
+        width: 80%;
+        padding: 20px;
+        font-size: 14px;
+    }
+    /* ---------------------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
         top: 103px;

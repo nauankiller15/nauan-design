@@ -32,7 +32,6 @@
                     Sed eu nunc molestie, lobortis ex non, pulvinar neque.
                 </div>
                 <div class="utilizados">
-                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
                     </div>
@@ -57,8 +56,11 @@
                             </ul>
                         </div>
                     </div>
+                    <div class="margem-div"></div>
+                    <div class="texto-ver-info" id="abrir-apresentacao"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
+                    <div class="texto-galeria"><i style="margin-right:9px;" class="fas fa-images"></i>Galeria</div>
+                    <div class="hover-gal-abrir" id="esconder-apresentacao"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
                     <div id="posicao-outras-imagens">
-                        <h2><i class="fas fa-images"></i> Galeria</h2>
                         <div class="to-galeria galeria-imagens">
                             <div class="thumbnail all html5 jquery">
                                 <div class="overlay-galeria">

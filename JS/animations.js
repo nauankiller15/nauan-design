@@ -71,10 +71,21 @@ $('#IA-MenuBar').on('click', function() {
 })
 
 $('#IA-MenuOpen').on('click', function() {
-        $('#esconder-menu').fadeIn('900');
-        $('#IA-MenuBar').fadeIn('9000');
-        $('#IA-MenuOpen').fadeOut('900');
+    $('#esconder-menu').fadeIn('900');
+    $('#IA-MenuBar').fadeIn('9000');
+    $('#IA-MenuOpen').fadeOut('900');
+})
+
+// menu sidebar
+$("#fechar-menu-gal").on('click', function() {
+    $(".portfolio-list-galeria").fadeOut('600');
+    $(".abrir-menu-gal").fadeIn('600');
+})
+$("#abrir-menu-gal").on('click', function() {
+        $(".portfolio-list-galeria").fadeIn('600');
+        $(".abrir-menu-gal").fadeOut('600');
     })
+    // -------------
     // 
 
 // function fecharpopup() {
@@ -97,24 +108,25 @@ $('#IA-MenuOpen').on('click', function() {
 // }
 
 $(".imagePotrait").each(function() {
-    // Uncomment the following if you need to make this dynamic
-    //var refH = $(this).height();
-    //var refW = $(this).width();
-    //var refRatio = refW/refH;
+        // Uncomment the following if you need to make this dynamic
+        //var refH = $(this).height();
+        //var refW = $(this).width();
+        //var refRatio = refW/refH;
+        // Hard coded value...
+        var refRatio = 240 / 300;
 
-    // Hard coded value...
-    var refRatio = 240 / 300;
+        var imgH = $(this).children("img").height();
+        var imgW = $(this).children("img").width();
 
-    var imgH = $(this).children("img").height();
-    var imgW = $(this).children("img").width();
+        if ((imgW / imgH) < refRatio) {
+            $(this).addClass("portrait");
+        } else {
+            $(this).addClass("landscape");
+        }
+    })
+    // -------------------
 
-    if ((imgW / imgH) < refRatio) {
-        $(this).addClass("portrait");
-    } else {
-        $(this).addClass("landscape");
-    }
-})
-
+// Abrir telas de PROJETOS
 $("#projeto1").on('click', function() {
     $('#primeiro-projeto').fadeIn('600');
     $(window).scrollTop(0);
@@ -160,22 +172,43 @@ $("#projeto7").on('click', function() {
 })
 
 $("#projeto8").on('click', function() {
-    $('#oitavo-projeto').fadeIn('600');
-    $(window).scrollTop(0);
-    $('#FiltrarGaleria8').trigger('click');
-    $('#fechar-projeto').fadeIn('600');
-    $("#trabalhos").fadeOut('600');
-})
+        $('#oitavo-projeto').fadeIn('600');
+        $(window).scrollTop(0);
+        $('#FiltrarGaleria8').trigger('click');
+        $('#fechar-projeto').fadeIn('600');
+        $("#trabalhos").fadeOut('600');
+    })
+    // -------------
 
-// menu sidebar
-$("#fechar-menu-gal").on('click', function() {
-    $(".portfolio-list-galeria").fadeOut('600');
-    $(".abrir-menu-gal").fadeIn('600');
-})
-$("#abrir-menu-gal").on('click', function() {
-    $(".portfolio-list-galeria").fadeIn('600');
-    $(".abrir-menu-gal").fadeOut('600');
-})
+
+// APRESENTAÇAO >>>>--------
+
+// abrir apresentacao ----
+$("#esconder-apresentacao").on('click', function() {
+        $(".margem-div").fadeOut('600');
+        $(".hover-gal-abrir").fadeOut('600');
+        $(".texto-ver-info").fadeIn('600');
+        $(".texto-galeria").fadeIn('600');
+        $(".texto-projeto").fadeOut('600');
+        $(".utilizados").fadeOut('600');
+        $(".portfolio-list-galeria").fadeIn('600');
+        $(".galeria-imagens").fadeIn('600');
+        $('#FiltrarGaleria1').trigger('click');
+    })
+    // -------------
+
+// fechar apresentacao ----
+$("#abrir-apresentacao").on('click', function() {
+        $(".margem-div").fadeIn('600');
+        $(".hover-gal-abrir").fadeIn('600');
+        $(".texto-ver-info").fadeOut('600');
+        $(".texto-galeria").fadeOut('600');
+        $(".texto-projeto").fadeIn('600');
+        $(".utilizados").fadeIn('600');
+        $(".portfolio-list-galeria").fadeOut('600');
+        $(".galeria-imagens").fadeOut('600');
+    })
+    // -------------
 
 // fechar proejetos
 $("#fechar-projeto").on('click', function() {
