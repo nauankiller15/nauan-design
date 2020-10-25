@@ -118,7 +118,7 @@ $(".imagePotrait").each(function() {
 
 $("#projeto1").on('click', function() {
     $('#primeiro-projeto').fadeIn('600');
-    $('#FiltrarGaleria').trigger('click');
+    $('#FiltrarGaleria1').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
 })
@@ -161,6 +161,7 @@ $("#projeto7").on('click', function() {
 
 $("#projeto8").on('click', function() {
     $('#oitavo-projeto').fadeIn('600');
+    $('#FiltrarGaleria8').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
 })

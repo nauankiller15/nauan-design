@@ -339,13 +339,27 @@
 .texto-projeto-lup {
     top: -570%;
     color: #ffffff;
-    font-size: 209%;
+    font-size: 190%;
     position: absolute;
     font-size: 149%;
     left: 130%;
     text-align: center;
     background-color: #000000c9;
-    padding: 14px;
+    padding: 11px;
+    border: 1px #ffffff solid;
+    z-index: 400;
+}
+
+.texto-projeto-grande-lup {
+    top: -570%;
+    color: #ffffff;
+    font-size: 190%;
+    position: absolute;
+    font-size: 149%;
+    left: -120%;
+    text-align: center;
+    background-color: #000000c9;
+    padding: 11px;
     border: 1px #ffffff solid;
     z-index: 400;
 }
