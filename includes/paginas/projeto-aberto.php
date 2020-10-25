@@ -8,6 +8,11 @@
         <ul>
             <h2 style="animation: TrabalhoIni 3.0s;">Primeiro Projeto</h2>
             <div class="posicionar-centro">
+                <div class="posicao-aprs-img">
+                    <div id ="abrir-IMG-Gal" class="apresentacao-img">
+                        <i style="margin-top: 17px;width: 100%;text-align: center;font-size: 80px;" class="fas fa-image" aria-hidden="true"></i>
+                    </div>
+                </div>
                 <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
                     <a class="popup-img1" title="Primeiro Projeto" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
                         <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
@@ -31,11 +36,16 @@
                     Suspendisse eu nisl eget tortor lobortis vestibulum. Proin dictum elementum rutrum.
                     Sed eu nunc molestie, lobortis ex non, pulvinar neque.
                 </div>
+
                 <div class="utilizados">
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
                     </div>
                 </div>
+                <div class="margem-div"></div>
+                <div class="texto-ver-info" id="abrir-apresentacao"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
+                <div class="texto-galeria"><i style="margin-right:9px;" class="fas fa-images"></i>Galeria</div>
+                <div class="hover-gal-abrir reposicionar" id="esconder-apresentacao"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
                 <div class="row">
                     <div class="col-md-12">
                         <div id="abrir-menu-gal" class="abrir-menu-gal">
@@ -56,12 +66,8 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="margem-div"></div>
-                    <div class="texto-ver-info" id="abrir-apresentacao"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
-                    <div class="texto-galeria"><i style="margin-right:9px;" class="fas fa-images"></i>Galeria</div>
-                    <div class="hover-gal-abrir" id="esconder-apresentacao"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
                     <div id="posicao-outras-imagens">
-                        <div class="to-galeria galeria-imagens">
+                        <div class="galeria-imagens">
                             <div class="thumbnail all html5 jquery">
                                 <div class="overlay-galeria">
                                     <a class="popup-img1" title="Continuação 2" href="https://1.bp.blogspot.com/-QRtwV7wqQI4/X4ylM_fIoFI/AAAAAAAAGZE/wxpf3Bpe_YIST95YeSoNcXpNiGFnvPWDwCLcBGAsYHQ/s0/2.jpg">

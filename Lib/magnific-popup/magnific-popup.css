@@ -205,6 +205,7 @@ button::-moz-focus-inner {
     width: 90px;
     height: 110px;
     -webkit-tap-highlight-color: transparent;
+    transition: 0.5s;
 }
 
 .mfp-arrow:active {

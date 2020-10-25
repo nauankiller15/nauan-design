@@ -182,10 +182,11 @@ $("#projeto8").on('click', function() {
 
 
 // APRESENTAÇAO >>>>--------
-
 // abrir apresentacao ----
 $("#esconder-apresentacao").on('click', function() {
         $(".margem-div").fadeOut('600');
+        $(".posicaoimagem").fadeOut('600');
+        $(".apresentacao-img").fadeIn('600');
         $(".hover-gal-abrir").fadeOut('600');
         $(".texto-ver-info").fadeIn('600');
         $(".texto-galeria").fadeIn('600');
@@ -194,11 +195,19 @@ $("#esconder-apresentacao").on('click', function() {
         $(".portfolio-list-galeria").fadeIn('600');
         $(".galeria-imagens").fadeIn('600');
         $('#FiltrarGaleria1').trigger('click');
+        $(".abrir-menu-gal").fadeOut('600');
     })
     // -------------
 
+$("#abrir-IMG-Gal").on('click', function() {
+    $(".posicaoimagem").fadeIn('600');
+    $(".apresentacao-img").fadeOut('600');
+})
+
 // fechar apresentacao ----
 $("#abrir-apresentacao").on('click', function() {
+        $(".posicaoimagem").fadeIn('600');
+        $(".apresentacao-img").fadeOut('600');
         $(".margem-div").fadeIn('600');
         $(".hover-gal-abrir").fadeIn('600');
         $(".texto-ver-info").fadeOut('600');
@@ -207,6 +216,7 @@ $("#abrir-apresentacao").on('click', function() {
         $(".utilizados").fadeIn('600');
         $(".portfolio-list-galeria").fadeOut('600');
         $(".galeria-imagens").fadeOut('600');
+        $(".abrir-menu-gal").fadeOut('600');
     })
     // -------------
 
