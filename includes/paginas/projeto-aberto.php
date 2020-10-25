@@ -41,16 +41,16 @@
                     <div class="col-md-12">
                         <div class="portfolio-list-galeria">
                             <ul style="padding-top:80px; right: 0px;width: 16%;" class="nav list-unstyled" id="portfolio-flters-galera">
-                                <li id="FiltrarGaleria1" class="filter filter-active" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
-                                <li class="filter" data-filter=".jquery"><i class="fab fa-js-square"></i> Jquery</li>
-                                <li class="filter" data-filter=".html5"><i class="fab fa-html5"></i> HTML5</li>
-                                <li class="filter" data-filter=".css3"><i class="fab fa-css3-alt"></i> CSS3</li>
+                                <li id="FiltrarGaleria1" class="filter filter-active galeria-animation" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
+                                <li class="filter" data-filter=".jquery"><i class="galeria-animation fab fa-js-square"></i> Jquery</li>
+                                <li class="filter" data-filter=".html5"><i class="galeria-animation fab fa-html5"></i> HTML5</li>
+                                <li class="filter" data-filter=".css3"><i class="galeria-animation fab fa-css3-alt"></i> CSS3</li>
                             </ul>
                         </div>
                     </div>
                     <div id="posicao-outras-imagens">
                         <h2>Galeria</h2>
-                        <div class="galeria-imagens">
+                        <div class="to-galeria galeria-imagens">
                             <div class="thumbnail all html5 jquery">
                                 <div class="overlay-galeria">
                                     <a class="popup-img1" title="Continuação 2" href="https://1.bp.blogspot.com/-QRtwV7wqQI4/X4ylM_fIoFI/AAAAAAAAGZE/wxpf3Bpe_YIST95YeSoNcXpNiGFnvPWDwCLcBGAsYHQ/s0/2.jpg">
@@ -314,7 +314,7 @@
         <ul>
             <h2 style="animation: TrabalhoIni 3.0s;">Sétimo Projeto</h2>
             <div class="posicionar-centro">
-                <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
+                <div class="posicaoimagem-grande" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
                     <a class="popup-img7" title="Setimo Projeto" href="https://1.bp.blogspot.com/-zKJVg4MLwSA/X5RlwiY8dwI/AAAAAAAAGZ8/RG55qBtNKr03RurBG2ze3Gsa4Wx8GBUkQCLcBGAsYHQ/s0/7.jpg">
                         <img src="https://1.bp.blogspot.com/-zKJVg4MLwSA/X5RlwiY8dwI/AAAAAAAAGZ8/RG55qBtNKr03RurBG2ze3Gsa4Wx8GBUkQCLcBGAsYHQ/s0/7.jpg" alt="img">
                     </a>
@@ -375,7 +375,7 @@
         <ul>
             <h2 style="animation: TrabalhoIni 3.0s;">Oitavo Projeto</h2>
             <div class="posicionar-centro">
-                <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
+                <div class="posicaoimagem-grande" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
                     <a class="popup-img8" title="Oitavo Projeto" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
                         <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg" alt="img">
                     </a>
@@ -408,16 +408,16 @@
                     <div class="col-md-12">
                         <div class="portfolio-list-galeria">
                             <ul style="padding-top:80px; right: 0px;width: 16%;" class="nav list-unstyled" id="portfolio-flters-galera">
-                                <li id="FiltrarGaleria8" class="filter filter-active" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
-                                <li class="filter" data-filter=".jquery"><i class="fab fa-js-square"></i> Jquery</li>
-                                <li class="filter" data-filter=".html5"><i class="fab fa-html5"></i> HTML5</li>
-                                <li class="filter" data-filter=".css3"><i class="fab fa-css3-alt"></i> CSS3</li>
+                                <li id="FiltrarGaleria8" class="filter filter-active galeria-animation" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
+                                <li class="filter" data-filter=".jquery"><i class="fab fa-js-square galeria-animation"></i> Jquery</li>
+                                <li class="filter" data-filter=".html5"><i class="fab fa-html5 galeria-animation"></i> HTML5</li>
+                                <li class="filter" data-filter=".css3"><i class="fab fa-css3-alt galeria-animation"></i> CSS3</li>
                             </ul>
                         </div>
                     </div>
                     <div id="posicao-outras-imagens">
                         <h2>Galeria</h2>
-                        <div class="galeria-imagens">
+                        <div class="to-galeria galeria-imagens">
                             <div class="thumbnail all html5 jquery">
                                 <div class="overlay-galeria">
                                     <a class="popup-img8" title="Continuação 2" href="https://1.bp.blogspot.com/-QRtwV7wqQI4/X4ylM_fIoFI/AAAAAAAAGZE/wxpf3Bpe_YIST95YeSoNcXpNiGFnvPWDwCLcBGAsYHQ/s0/2.jpg">

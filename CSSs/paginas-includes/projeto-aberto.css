@@ -156,6 +156,25 @@
     z-index: 100;
 }
 
+.posicaoimagem-grande {
+    width: 75%;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.posicaoimagem-grande img {
+    border: 1px #fff solid;
+    padding: 10px;
+    max-width: 95%;
+    max-height: 50%;
+    display: inline-block;
+    transition: 0.5s;
+    z-index: 100;
+}
+
 
 /* GALERIA ------------*/
 
@@ -356,7 +375,7 @@
     font-size: 190%;
     position: absolute;
     font-size: 149%;
-    left: -120%;
+    left: -130%;
     text-align: center;
     background-color: #000000c9;
     padding: 11px;

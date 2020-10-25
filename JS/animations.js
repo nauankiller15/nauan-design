@@ -1,6 +1,7 @@
 // // *****
 // Animação Menu -------------- ****
 $('#trabalhosAbrir').on('click', function() {
+    $(window).scrollTop(0);
     $("#trabalhos").fadeIn('600');
     $('#TodosFiltrar').trigger('click');
     $('#contato').fadeOut('1300');
@@ -26,6 +27,7 @@ $('#contatoAbrir').on('click', function() {
 
 $('#sobreAbrir').on('click', function() {
     $('#sobre').fadeIn('400');
+    $(window).scrollTop(0);
     $('#servico').fadeOut("700");
     $("#contato").fadeOut('600');
     $("#trabalhos").fadeOut('600');
@@ -113,11 +115,9 @@ $(".imagePotrait").each(function() {
     }
 })
 
-
-// Abrir projetos
-
 $("#projeto1").on('click', function() {
     $('#primeiro-projeto').fadeIn('600');
+    $(window).scrollTop(0);
     $('#FiltrarGaleria1').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
@@ -161,6 +161,7 @@ $("#projeto7").on('click', function() {
 
 $("#projeto8").on('click', function() {
     $('#oitavo-projeto').fadeIn('600');
+    $(window).scrollTop(0);
     $('#FiltrarGaleria8').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
@@ -169,6 +170,7 @@ $("#projeto8").on('click', function() {
 // fechar proejetos
 $("#fechar-projeto").on('click', function() {
     $("#trabalhos").fadeIn('300');
+    $(window).scrollTop(0);
     $('#TodosFiltrar').trigger('click');
     $('#fechar-projeto').fadeOut('200');
     $('#primeiro-projeto').fadeOut('1300');
