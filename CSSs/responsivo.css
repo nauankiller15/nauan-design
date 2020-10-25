@@ -1,4 +1,32 @@
+@media (min-width: 1600px) {
+    #posicao-outras-imagens {
+        left: 295px;
+        top: 835px;
+        width: 1200px;
+    }
+    .galeria-imagens {
+        margin-bottom: 10px;
+        width: 1300px;
+    }
+    .thumbnail {
+        min-height: 265px;
+        width: 28%;
+    }
+}
+
+@media (max-width: 1500px) {
+    #posicao-outras-imagens {
+        left: 295px;
+        top: 865px;
+    }
+}
+
 @media (max-width: 1400px) {
+    #posicao-outras-imagens {
+        left: 250px;
+        top: 873px;
+    }
+    /*  */
     .LogoMenu {
         top: 0;
         right: 62px;
@@ -46,26 +74,49 @@
     }
 }
 
+
 /*  */
+
 @media (max-width: 1366px) {
+    #posicao-outras-imagens {
+        left: 250px;
+        top: 873px;
+    }
+    .texto-projeto {
+        top: 565px;
+        width: 80%;
+        padding: 20px;
+    }
+    /*  */
     .LogoMenu {
-    top: 0;
-    right: 100px;
-}
+        top: 0;
+        right: 100px;
+    }
     #quadrado-position {
-    top: 108px;
-    left: 137px;
-}
-.menu {
-    top: 275px;
-    right: 80px;
-}
-.CentroContato {
-    margin-bottom: 50px;
-}
+        top: 108px;
+        left: 137px;
+    }
+    .menu {
+        top: 275px;
+        right: 80px;
+    }
+    .CentroContato {
+        margin-bottom: 50px;
+    }
 }
 
 @media (max-width: 1200px) {
+    #posicao-outras-imagens {
+        left: 149px;
+        top: 816px;
+    }
+    /*  */
+    .texto-projeto {
+        top: 565px;
+        width: 80%;
+        padding: 20px;
+    }
+    /*  */
     .LogoMenu {
         top: 0;
         right: 89px;
@@ -124,6 +175,7 @@
 }
 
 @media (max-width: 1024px) {
+    /*  */
     /* OUTRAS PÁGINAS */
     .LogoMenu {
         top: 0;
@@ -131,9 +183,26 @@
         padding: 10px;
     }
     /*  */
+    /* PROJETOS ABERTOS */
+    #posicao-outras-imagens {
+        left: 77px;
+        top: 863px;
+        width: 820px;
+    }
+    .galeria-imagens {
+        margin-bottom: 10px;
+        width: 840px;
+    }
+    .thumbnail {
+        min-height: 265px;
+        width: 30%;
+    }
+    .overlay-galeria {
+        height: 192px;
+    }
+    /*  */
     /* Meus Projetos .Overlay > Text ------ */
     .text {
-        color: #ffffff;
         font-size: 43px;
         position: absolute;
         top: 50%;
@@ -143,12 +212,22 @@
         transform: translate(165%, -91%);
         text-align: center;
     }
+    .text-galeria {
+        font-size: 315%;
+        position: absolute;
+        top: 17%;
+        left: 29%;
+        -webkit-transform: translate(50%, 50%);
+        -ms-transform: translate(50, 50%);
+        transform: translate(50%, 50%);
+        text-align: center;
+    }
     /*  */
 }
 
 @media (max-width: 1000px) {
-     /* OUTRAS PÁGINAS */
-     .LogoMenu {
+    /* OUTRAS PÁGINAS */
+    .LogoMenu {
         top: 0;
         right: 90px;
         padding: 10px;
@@ -179,6 +258,7 @@
     }
     /*  */
 }
+
 
 /*  */
 
@@ -315,7 +395,8 @@
         font-size: 21px;
         line-height: 27px;
     }
-    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
         font-size: 22px;
         line-height: 27px;
     }
@@ -513,7 +594,8 @@
         font-size: 21px;
         line-height: 27px;
     }
-    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
         font-size: 22px;
         line-height: 27px;
     }
@@ -714,7 +796,8 @@
         font-size: 16px;
         line-height: 21px;
     }
-    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
         font-size: 17px;
         line-height: 21px;
     }
@@ -904,7 +987,8 @@
         font-size: 15px;
         line-height: 26px;
     }
-    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
         line-height: 26px;
     }
@@ -1136,7 +1220,8 @@
         font-size: 15px;
         line-height: 26px;
     }
-    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
         line-height: 26px;
     }
@@ -1370,7 +1455,8 @@
         font-size: 15px;
         line-height: 26px;
     }
-    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
         line-height: 26px;
     }
@@ -1611,7 +1697,8 @@
         font-size: 15px;
         line-height: 26px;
     }
-    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
         line-height: 26px;
     }
@@ -1878,7 +1965,8 @@
         font-size: 15px;
         line-height: 26px;
     }
-    #portfolio .portfolio-list .nav li:hover, #portfolio .portfolio-list .nav li.filter-active {
+    #portfolio .portfolio-list .nav li:hover,
+    #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
         line-height: 26px;
     }

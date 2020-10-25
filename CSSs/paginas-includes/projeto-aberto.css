@@ -6,7 +6,7 @@
     height: 100%;
     position: fixed;
     z-index: 10003;
-    display: block;
+    display: none;
     overflow: hidden;
 }
 
@@ -157,50 +157,133 @@
 }
 
 
-/* gallery */
+/* GALERIA ------------*/
+
+.portfolio-list-galeria {
+    margin: 0;
+}
+
+.portfolio-list-galeria .nav li:hover,
+.portfolio-list-galeria .nav li.filter-active {
+    color: #000000;
+    font-size: 18px;
+    border-radius: 9px;
+    background: #ffffff;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+    padding: 10px;
+}
+
+.portfolio-list-galeria li {
+    cursor: pointer;
+    padding: 9px;
+    font-size: 17px;
+    margin-top: 7px;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.portfolio-list-galeria li:hover {
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 10px;
+    color: rgb(129, 129, 129);
+}
+
+.posicaoLista {
+    right: 0px;
+    top: 355px;
+    width: 19%;
+}
 
 #posicao-outras-imagens {
     position: absolute;
-    left: 260px;
+    left: 330px;
     top: 865px;
-    display: inline-block;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
     animation: galeriaAnim 2.5s ease-in-out;
     overflow: hidden;
 }
 
 @keyframes galeriaAnim {
-    from {
-        transform: translateX(-7350px);
-    }
+    from {}
     to {
         transform: translateX(0);
     }
 }
 
-.outras-imagens {
-    width: auto;
-    margin-bottom: 85px;
+
+/* GALERIA IMAGENS */
+
+.popup-img1,
+.popup-img2,
+.popup-img3,
+.popup-img4,
+.popup-img5,
+.popup-img6,
+.popup-img7,
+.popup-img8 {
+    cursor: zoom-in;
 }
 
-#posicao-outras-imagens h2 {
-    font-size: 49px;
-    width: 80%;
-    padding: 5px;
-    text-align: center;
-    margin-bottom: 5px;
+.galeria-imagens {
+    margin-bottom: 55px;
+    width: 900px;
+    display: inline-block;
+    position: absolute;
 }
 
-.outras-imagens img {
-    border: 1px #fff solid;
-    padding: 5px;
-    max-width: 26%;
-    max-height: 13%;
+.thumbnail {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    min-height: 265px;
+    width: 48%;
+    display: inline-block;
+}
+
+.thumbnail img {
+    max-width: 100%;
+    max-height: 50%;
     display: inline-block;
     transition: 0.5s;
     z-index: 100;
+}
+
+
+/*  */
+
+
+/* HOVER IMAGENS GALERIA --------- */
+
+.overlay-galeria {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 265px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000c9;
+}
+
+.overlay-galeria:hover {
+    opacity: 1;
+}
+
+.text-galeria {
+    color: #ffffff;
+    font-size: 420%;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    -webkit-transform: translate(50%, 50%);
+    -ms-transform: translate(50, 50%);
+    transform: translate(50%, 50%);
+    text-align: center;
 }
 
 
@@ -222,19 +305,17 @@
     box-shadow: 2px 2px 4px #000000;
     padding: 15px;
     font-size: 21px;
-    margin-top: 25px;
-    max-width: 335px;
+    max-width: 450px;
     text-align: left;
 }
 
 .utilizados {
     font-family: Bahnschrift;
     text-transform: uppercase;
-    width: 660px;
     font-size: 18px;
     font-weight: 400;
     cursor: default;
-    top: 465px;
+    top: 490px;
     color: #b9b9b9;
     z-index: 200;
     position: absolute;
@@ -253,38 +334,27 @@
 }
 
 
-/* hover imagem */
-
-.overlay-projeto {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #000000c9;
-}
-
-.overlay-projeto:hover {
-    opacity: 1;
-}
+/* HOVER IMAGEM CENTRAL ------------- */
 
 .texto-projeto-lup {
+    top: -570%;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 209%;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(50%, 50%);
-    -ms-transform: translate(50%, 50%);
-    transform: translate(50%, 50%);
+    font-size: 149%;
+    left: 130%;
     text-align: center;
+    background-color: #000000c9;
+    padding: 14px;
+    border: 1px #ffffff solid;
+    z-index: 400;
 }
 
 
-/* Utilitários */
+/*  */
+
+
+/* Utilitários ------------ */
 
 .lupa-abrir {
     cursor: pointer;

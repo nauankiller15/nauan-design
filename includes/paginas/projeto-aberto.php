@@ -32,31 +32,79 @@
                     Sed eu nunc molestie, lobortis ex non, pulvinar neque.
                 </div>
                 <div class="utilizados">
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
                     </div>
                 </div>
-                <div id="posicao-outras-imagens">
-                    <h2>Galeria</h2>
-                    <div class="outras-imagens">
-                        <a class="popup-img1" title="Continuação1" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                            <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                        </a>
-                        <a class="popup-img1" title="Continuação2" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                            <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                        </a>
-                        <a class="popup-img1" title="Continuação3" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                            <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                        </a>
-                        <a class="popup-img1" title="Continuação4" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                            <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                        </a>
-                        <a class="popup-img1" title="Continuação5" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                            <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                        </a>
-                        <a class="popup-img1" title="Continuação6" href="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                            <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg">
-                        </a>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="portfolio-list-galeria">
+                            <ul style="padding-top:80px; right: 0px;width: 16%;" class="nav list-unstyled" id="portfolio-flters-galera">
+                                <li id="FiltrarGaleria" class="filter filter-active" data-filter=".all">todos</li>
+                                <li class="filter" data-filter=".branding">branding</li>
+                                <li class="filter" data-filter=".mockups">mockups</li>
+                                <li class="filter" data-filter=".uiuxkits">ui/ux kits</li>
+                                <li class="filter" data-filter=".webdesign">web design</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="posicao-outras-imagens">
+                        <h2>Galeria</h2>
+                        <div class="galeria-imagens">
+                            <div class="thumbnail all branding webdesign">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img1" title="Continuação 2" href="https://1.bp.blogspot.com/-QRtwV7wqQI4/X4ylM_fIoFI/AAAAAAAAGZE/wxpf3Bpe_YIST95YeSoNcXpNiGFnvPWDwCLcBGAsYHQ/s0/2.jpg">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-QRtwV7wqQI4/X4ylM_fIoFI/AAAAAAAAGZE/wxpf3Bpe_YIST95YeSoNcXpNiGFnvPWDwCLcBGAsYHQ/s0/2.jpg" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding webdesign">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img1" title="Continuação 3" href="https://1.bp.blogspot.com/-aAVZA7HJ408/X4ylMwSoHjI/AAAAAAAAGY8/_ZDJvZsqbnEyLMylIqQysPsgot6F7ySUQCLcBGAsYHQ/s0/3.jpg">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-aAVZA7HJ408/X4ylMwSoHjI/AAAAAAAAGY8/_ZDJvZsqbnEyLMylIqQysPsgot6F7ySUQCLcBGAsYHQ/s0/3.jpg" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img1" title="Continuação 4" href="https://1.bp.blogspot.com/-Xp2OKy4wGQQ/X4ylNR4DN0I/AAAAAAAAGZM/1Fv8hsGzmlcM3-jNQqcKxjIL0WEOXj5UwCLcBGAsYHQ/s0/4.jpg">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-Xp2OKy4wGQQ/X4ylNR4DN0I/AAAAAAAAGZM/1Fv8hsGzmlcM3-jNQqcKxjIL0WEOXj5UwCLcBGAsYHQ/s0/4.jpg" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding uiuxkits">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img1" title="Continuação 5" href="https://1.bp.blogspot.com/-ElOFepd4Cq4/X4ylNSfXmbI/AAAAAAAAGZI/l1Q2KX_i5x8z_Yxh930T4m_cSKCJCaPCwCLcBGAsYHQ/s0/5.jpg">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-ElOFepd4Cq4/X4ylNSfXmbI/AAAAAAAAGZI/l1Q2KX_i5x8z_Yxh930T4m_cSKCJCaPCwCLcBGAsYHQ/s0/5.jpg" alt="img">
+                            </div>
+
+                            <div class="thumbnail all uiuxkits webdesign">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img1" title="Continuação 6" href="https://1.bp.blogspot.com/-IYDsnUzxQro/X4ylNbfVaDI/AAAAAAAAGZQ/Nj-pJPut8P0w1Q_JTtELH2Xu7bf4C2hKQCLcBGAsYHQ/s0/6.jpg">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-IYDsnUzxQro/X4ylNbfVaDI/AAAAAAAAGZQ/Nj-pJPut8P0w1Q_JTtELH2Xu7bf4C2hKQCLcBGAsYHQ/s0/6.jpg" alt="img">
+                            </div>
+                            <div class="thumbnail all branding webdesign uiuxkits">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img1" title="Continuação 7" href="https://1.bp.blogspot.com/-zKJVg4MLwSA/X5RlwiY8dwI/AAAAAAAAGZ8/RG55qBtNKr03RurBG2ze3Gsa4Wx8GBUkQCLcBGAsYHQ/s0/7.jpg">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-zKJVg4MLwSA/X5RlwiY8dwI/AAAAAAAAGZ8/RG55qBtNKr03RurBG2ze3Gsa4Wx8GBUkQCLcBGAsYHQ/s0/7.jpg" alt="img">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -96,6 +144,7 @@
                     Sed eu nunc molestie, lobortis ex non, pulvinar neque.
                 </div>
                 <div class="utilizados">
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
                     </div>
@@ -134,6 +183,7 @@
                     Sed eu nunc molestie, lobortis ex non, pulvinar neque.
                 </div>
                 <div class="utilizados">
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
                     </div>
@@ -172,6 +222,7 @@
                     Sed eu nunc molestie, lobortis ex non, pulvinar neque.
                 </div>
                 <div class="utilizados">
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
                     </div>
@@ -210,6 +261,7 @@
                     Sed eu nunc molestie, lobortis ex non, pulvinar neque.
                 </div>
                 <div class="utilizados">
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
                     </div>
@@ -248,6 +300,7 @@
                     Sed eu nunc molestie, lobortis ex non, pulvinar neque.
                 </div>
                 <div class="utilizados">
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
                     </div>
@@ -308,6 +361,7 @@
                     Suspendisse eu nisl eget tortor lobortis vestibulum. Proin dictum elementum rutrum.
                 </div>
                 <div class="utilizados">
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
                     </div>
@@ -346,32 +400,14 @@
                     Sed eu nunc molestie, lobortis ex non, pulvinar neque.
                 </div>
                 <div class="utilizados">
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
                     </div>
                 </div>
                 <div id="posicao-outras-imagens">
                     <h2>Galeria</h2>
-                    <div class="outras-imagens">
-                        <a class="popup-img8" title="Continuação1" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                        </a>
-                        <a class="popup-img8" title="Continuação2" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                        </a>
-                        <a class="popup-img8" title="Continuação3" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                        </a>
-                        <a class="popup-img8" title="Continuação4" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                        </a>
-                        <a class="popup-img8" title="Continuação5" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                        </a>
-                        <a class="popup-img8" title="Continuação6" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                        </a>
-                    </div>
+
                 </div>
         </ul>
     </div>

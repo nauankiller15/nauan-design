@@ -118,6 +118,7 @@ $(".imagePotrait").each(function() {
 
 $("#projeto1").on('click', function() {
     $('#primeiro-projeto').fadeIn('600');
+    $('#FiltrarGaleria').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
 })
