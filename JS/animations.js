@@ -15,6 +15,7 @@ $('#trabalhosAbrir').on('click', function() {
 })
 
 $('#contatoAbrir').on('click', function() {
+    $(window).scrollTop(0);
     $('#contato').fadeIn('400');
     $('#servico').fadeOut("700");
     $("#sobre").fadeOut('600');
@@ -26,8 +27,8 @@ $('#contatoAbrir').on('click', function() {
 })
 
 $('#sobreAbrir').on('click', function() {
-    $('#sobre').fadeIn('400');
     $(window).scrollTop(0);
+    $('#sobre').fadeIn('400');
     $('#servico').fadeOut("700");
     $("#contato").fadeOut('600');
     $("#trabalhos").fadeOut('600');
@@ -38,6 +39,7 @@ $('#sobreAbrir').on('click', function() {
 })
 
 $('#servicoAbrir').on('click', function() {
+    $(window).scrollTop(0);
     $("#servico").fadeIn('1300');
     $('#contato').fadeOut('1300');
     $('#sobre').fadeOut('1300');
@@ -127,36 +129,42 @@ $("#projeto1").on('click', function() {
 })
 
 $("#projeto2").on('click', function() {
+    $(window).scrollTop(0);
     $('#segundo-projeto').fadeIn('600');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
 })
 
 $("#projeto3").on('click', function() {
+    $(window).scrollTop(0);
     $('#terceiro-projeto').fadeIn('600');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
 })
 
 $("#projeto4").on('click', function() {
+    $(window).scrollTop(0);
     $('#quarto-projeto').fadeIn('600');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
 })
 
 $("#projeto5").on('click', function() {
+    $(window).scrollTop(0);
     $('#quinto-projeto').fadeIn('600');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
 })
 
 $("#projeto6").on('click', function() {
+    $(window).scrollTop(0);
     $('#sexto-projeto').fadeIn('600');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
 })
 
 $("#projeto7").on('click', function() {
+    $(window).scrollTop(0);
     $('#setimo-projeto').fadeIn('600');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
