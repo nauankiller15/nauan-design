@@ -167,6 +167,16 @@ $("#projeto8").on('click', function() {
     $("#trabalhos").fadeOut('600');
 })
 
+// menu sidebar
+$("#fechar-menu-gal").on('click', function() {
+    $(".portfolio-list-galeria").fadeOut('600');
+    $(".abrir-menu-gal").fadeIn('600');
+})
+$("#abrir-menu-gal").on('click', function() {
+    $(".portfolio-list-galeria").fadeIn('600');
+    $(".abrir-menu-gal").fadeOut('600');
+})
+
 // fechar proejetos
 $("#fechar-projeto").on('click', function() {
     $("#trabalhos").fadeIn('300');

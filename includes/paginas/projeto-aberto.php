@@ -39,8 +39,17 @@
                 </div>
                 <div class="row">
                     <div class="col-md-12">
+                        <div id="abrir-menu-gal" class="abrir-menu-gal">
+                            <i style="position: absolute;top: 8px;left: 11px;font-size:40px;" class="fas fa-bars" aria-hidden="true"></i>
+                        </div>
                         <div class="portfolio-list-galeria">
-                            <ul style="padding-top:80px; right: 0px;width: 16%;" class="nav list-unstyled" id="portfolio-flters-galera">
+                            <ul style="padding-top: 17px;left: 0px;width: 240px;overflow:hidden;" class="nav list-unstyled" id="portfolio-flters-galera">
+                                <div id="fechar-menu-gal" class="fechar-menu-gal">
+                                    <i class="fas fa-times" aria-hidden="true" style="padding-left: 9px;padding-top: 6px;font-size: 23px;"></i>
+                                </div>
+                                <div class="menu-galeria"><i style="margin-right:5px" class="fas fa-bars"></i>Menu</div>
+                                <div class="FiltroGal"><i style="margin-right:5px;" class="fas fa-images"></i>Galeria <p style="margin-left:26px;">Filtrar:</p>
+                                </div>
                                 <li id="FiltrarGaleria1" class="filter filter-active galeria-animation" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
                                 <li class="filter" data-filter=".jquery"><i class="galeria-animation fab fa-js-square"></i> Jquery</li>
                                 <li class="filter" data-filter=".html5"><i class="galeria-animation fab fa-html5"></i> HTML5</li>
@@ -49,7 +58,7 @@
                         </div>
                     </div>
                     <div id="posicao-outras-imagens">
-                        <h2>Galeria</h2>
+                        <h2><i class="fas fa-images"></i> Galeria</h2>
                         <div class="to-galeria galeria-imagens">
                             <div class="thumbnail all html5 jquery">
                                 <div class="overlay-galeria">
@@ -375,10 +384,12 @@
         <ul>
             <h2 style="animation: TrabalhoIni 3.0s;">Oitavo Projeto</h2>
             <div class="posicionar-centro">
-                <div class="posicaoimagem-grande" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                    <a class="popup-img8" title="Oitavo Projeto" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
-                        <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg" alt="img">
-                    </a>
+                <div class="posicionar-grande">
+                    <div class="posicaoimagem-grande" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
+                        <a class="popup-img8" title="Oitavo Projeto" href="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg">
+                            <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg" alt="img">
+                        </a>
+                    </div>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
@@ -407,7 +418,7 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div class="portfolio-list-galeria">
-                            <ul style="padding-top:80px; right: 0px;width: 16%;" class="nav list-unstyled" id="portfolio-flters-galera">
+                            <ul style="padding-top:80px; left: 0px;width: 14%; overflow:hidden;" class="nav list-unstyled" id="portfolio-flters-galera">
                                 <li id="FiltrarGaleria8" class="filter filter-active galeria-animation" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
                                 <li class="filter" data-filter=".jquery"><i class="fab fa-js-square galeria-animation"></i> Jquery</li>
                                 <li class="filter" data-filter=".html5"><i class="fab fa-html5 galeria-animation"></i> HTML5</li>
@@ -416,7 +427,7 @@
                         </div>
                     </div>
                     <div id="posicao-outras-imagens">
-                        <h2>Galeria</h2>
+                        <h2><i class="fas fa-images"></i> Galeria</h2>
                         <div class="to-galeria galeria-imagens">
                             <div class="thumbnail all html5 jquery">
                                 <div class="overlay-galeria">
@@ -475,4 +486,5 @@
                 </div>
         </ul>
     </div>
+</div>
 </div>
