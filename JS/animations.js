@@ -121,53 +121,59 @@ $(".imagePotrait").each(function() {
 // Abrir telas de PROJETOS
 $("#projeto1").on('click', function() {
     $('#primeiro-projeto').fadeIn('600');
-    $(window).scrollTop(0);
     $('#FiltrarGaleria1').trigger('click');
     $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
+    $(window).scrollTop(0);
 })
 
 $("#projeto2").on('click', function() {
     $('#segundo-projeto').fadeIn('600');
-    $(window).scrollTop(0);
+    $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
+    $(window).scrollTop(0);
 })
 
 $("#projeto3").on('click', function() {
     $('#terceiro-projeto').fadeIn('600');
-    $(window).scrollTop(0);
+    $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
+    $(window).scrollTop(0);
 })
 
 $("#projeto4").on('click', function() {
     $('#quarto-projeto').fadeIn('600');
-    $(window).scrollTop(0);
+    $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
+    $(window).scrollTop(0);
 })
 
 $("#projeto5").on('click', function() {
     $('#quinto-projeto').fadeIn('600');
-    $(window).scrollTop(0);
+    $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
+    $(window).scrollTop(0);
 })
 
 $("#projeto6").on('click', function() {
     $('#sexto-projeto').fadeIn('600');
-    $(window).scrollTop(0);
+    $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
+    $(window).scrollTop(0);
 })
 
 $("#projeto7").on('click', function() {
     $('#setimo-projeto').fadeIn('600');
-    $(window).scrollTop(0);
+    $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
+    $(window).scrollTop(0);
 })
 
 $("#projeto8").on('click', function() {
