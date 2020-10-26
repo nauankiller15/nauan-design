@@ -343,9 +343,9 @@
     .texto-ver-info {
         border: 1px solid #fff;
         background: #242424;
-        width: 33%;
-        font-size: 35px;
-        padding: 15px;
+        width: 23%;
+        font-size: 24px;
+        padding: 14px;
         margin-bottom: 15px;
         text-align: center;
         margin-left: auto;
@@ -411,10 +411,10 @@
     .hover-gal-abrir {
         border: 1px solid #fff;
         background: #242424;
-        width: 26%;
-        font-size: 30px;
+        width: 23%;
+        font-size: 25px;
         padding: 15px;
-        bottom: 2px;
+        bottom: 20px;
         border-radius: 9px;
         position: fixed;
         text-align: center;
