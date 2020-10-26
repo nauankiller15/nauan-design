@@ -17,11 +17,11 @@
                             <div class="col-md-12">
                                 <div class="portfolio-list">
                                     <ul class="nav list-unstyled" id="portfolio-flters">
-                                        <li id="TodosFiltrar" class="filter filter-active" data-filter=".all">todos</li>
-                                        <li class="filter" data-filter=".branding">branding</li>
-                                        <li class="filter" data-filter=".mockups">mockups</li>
-                                        <li class="filter" data-filter=".uiuxkits">ui/ux kits</li>
-                                        <li class="filter" data-filter=".webdesign">web design</li>
+                                        <li id="TodosFiltrar" class="filter filter-active" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
+                                        <li class="filter" data-filter=".branding"><i class="fas fa-brush"></i> branding</li>
+                                        <li class="filter" data-filter=".mockups"><i class="fas fa-draw-polygon"></i> mockups</li>
+                                        <li class="filter" data-filter=".uiuxkits"><i class="fas fa-list-alt"></i> ui/ux kits</li>
+                                        <li class="filter" data-filter=".webdesign"><i class="fas fa-palette"></i> web design</li>
                                     </ul>
 
                                 </div>
@@ -50,7 +50,7 @@
 
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesign">
                                         <div class="overlay">
-                                        <li class="lupa-abrir" id="projeto3">
+                                            <li class="lupa-abrir" id="projeto3">
                                                 <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </li>
                                             <a href="#">
@@ -62,7 +62,7 @@
 
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign">
                                         <div class="overlay">
-                                        <li class="lupa-abrir" id="projeto4">
+                                            <li class="lupa-abrir" id="projeto4">
                                                 <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </li>
                                             <a href="#">
@@ -74,7 +74,7 @@
 
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uiuxkits">
                                         <div class="overlay">
-                                        <li class="lupa-abrir" id="projeto5">
+                                            <li class="lupa-abrir" id="projeto5">
                                                 <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </li>
                                         </div>
@@ -83,7 +83,7 @@
 
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uiuxkits webdesign">
                                         <div class="overlay">
-                                        <li class="lupa-abrir" id="projeto6">
+                                            <li class="lupa-abrir" id="projeto6">
                                                 <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </li>
                                             <a href="#">
@@ -95,7 +95,7 @@
 
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uiuxkits webdesign">
                                         <div class="overlay">
-                                        <li class="lupa-abrir" id="projeto7">
+                                            <li class="lupa-abrir" id="projeto7">
                                                 <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </li>
                                         </div>
@@ -104,7 +104,7 @@
 
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups branding webdesign">
                                         <div class="overlay">
-                                        <li class="lupa-abrir" id="projeto8">
+                                            <li class="lupa-abrir" id="projeto8">
                                                 <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </li>
                                             <a href="#">

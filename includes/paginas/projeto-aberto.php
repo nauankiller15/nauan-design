@@ -425,7 +425,7 @@
 
                 <div class="utilizados">
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
-                        <b><i class="galeria-animation fab fa-js-square"></i> Jquery, <i class="fas fa-list-alt"></i> Photoshop, <i class="fas fa-draw-polygon"></i> Branding, <i class="fas fa-paint-brush"></i> Ilustrator.
+                        <b><i class="galeria-animation fab fa-js-square"></i> Jquery, <i class="fas fa-list-alt"></i> Photoshop, <i class="fas fa-brush"></i> Branding, <i class="fas fa-paint-brush"></i> Ilustrator.
                     </div>
                 </div>
                 <div class="margem-div"></div>
@@ -450,7 +450,7 @@
                                 <li id="FiltrarGaleria8" class="filter filter-active galeria-animation" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
                                 <li class="filter" data-filter=".jquery"><i class="galeria-animation fab fa-js-square"></i> Jquery</li>
                                 <li class="filter" data-filter=".photoshop"><i class="galeria-animation fas fa-list-alt"></i> Photoshop</li>
-                                <li class="filter" data-filter=".branding"><i class="galeria-animation fas fa-draw-polygon"></i> Branding</li>
+                                <li class="filter" data-filter=".branding"><i class="galeria-animation fas fa-brush"></i> Branding</li>
                                 <li class="filter" data-filter=".ilustrator"><i class="galeria-animation fas fa-paint-brush"></i> Ilustrator</li>
                             </ul>
                         </div>
