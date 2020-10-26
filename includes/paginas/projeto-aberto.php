@@ -425,7 +425,7 @@
 
                 <div class="utilizados">
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
-                        <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.
+                        <b><i class="galeria-animation fab fa-js-square"></i> Jquery, <i class="fas fa-list-alt"></i> Photoshop, <i class="fas fa-draw-polygon"></i> Branding, <i class="fas fa-paint-brush"></i> Ilustrator.
                     </div>
                 </div>
                 <div class="margem-div"></div>
@@ -449,14 +449,15 @@
                                 </div>
                                 <li id="FiltrarGaleria8" class="filter filter-active galeria-animation" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
                                 <li class="filter" data-filter=".jquery"><i class="galeria-animation fab fa-js-square"></i> Jquery</li>
-                                <li class="filter" data-filter=".html5"><i class="galeria-animation fab fa-html5"></i> HTML5</li>
-                                <li class="filter" data-filter=".css3"><i class="galeria-animation fab fa-css3-alt"></i> CSS3</li>
+                                <li class="filter" data-filter=".photoshop"><i class="galeria-animation fas fa-list-alt"></i> Photoshop</li>
+                                <li class="filter" data-filter=".branding"><i class="galeria-animation fas fa-draw-polygon"></i> Branding</li>
+                                <li class="filter" data-filter=".ilustrator"><i class="galeria-animation fas fa-paint-brush"></i> Ilustrator</li>
                             </ul>
                         </div>
                     </div>
                     <div id="posicao-outras-imagens">
                         <div class="galeria-imagens">
-                            <div class="thumbnail all html5 jquery">
+                            <div class="thumbnail all jquery branding photoshop">
                                 <div class="overlay-galeria">
                                     <a class="popup-img8" title="Continuação 2" href="https://1.bp.blogspot.com/-QRtwV7wqQI4/X4ylM_fIoFI/AAAAAAAAGZE/wxpf3Bpe_YIST95YeSoNcXpNiGFnvPWDwCLcBGAsYHQ/s0/2.jpg">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
@@ -465,7 +466,7 @@
                                 <img src="https://1.bp.blogspot.com/-QRtwV7wqQI4/X4ylM_fIoFI/AAAAAAAAGZE/wxpf3Bpe_YIST95YeSoNcXpNiGFnvPWDwCLcBGAsYHQ/s0/2.jpg" alt="img">
                             </div>
 
-                            <div class="thumbnail all html5 css3">
+                            <div class="thumbnail all ilustrator branding photoshop">
                                 <div class="overlay-galeria">
                                     <a class="popup-img8" title="Continuação 3" href="https://1.bp.blogspot.com/-aAVZA7HJ408/X4ylMwSoHjI/AAAAAAAAGY8/_ZDJvZsqbnEyLMylIqQysPsgot6F7ySUQCLcBGAsYHQ/s0/3.jpg">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
@@ -474,7 +475,7 @@
                                 <img src="https://1.bp.blogspot.com/-aAVZA7HJ408/X4ylMwSoHjI/AAAAAAAAGY8/_ZDJvZsqbnEyLMylIqQysPsgot6F7ySUQCLcBGAsYHQ/s0/3.jpg" alt="img">
                             </div>
 
-                            <div class="thumbnail all html5 jquery">
+                            <div class="thumbnail all ilustrator">
                                 <div class="overlay-galeria">
                                     <a class="popup-img8" title="Continuação 4" href="https://1.bp.blogspot.com/-Xp2OKy4wGQQ/X4ylNR4DN0I/AAAAAAAAGZM/1Fv8hsGzmlcM3-jNQqcKxjIL0WEOXj5UwCLcBGAsYHQ/s0/4.jpg">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
@@ -483,7 +484,7 @@
                                 <img src="https://1.bp.blogspot.com/-Xp2OKy4wGQQ/X4ylNR4DN0I/AAAAAAAAGZM/1Fv8hsGzmlcM3-jNQqcKxjIL0WEOXj5UwCLcBGAsYHQ/s0/4.jpg" alt="img">
                             </div>
 
-                            <div class="thumbnail all css3">
+                            <div class="thumbnail all photoshop">
                                 <div class="overlay-galeria">
                                     <a class="popup-img8" title="Continuação 5" href="https://1.bp.blogspot.com/-ElOFepd4Cq4/X4ylNSfXmbI/AAAAAAAAGZI/l1Q2KX_i5x8z_Yxh930T4m_cSKCJCaPCwCLcBGAsYHQ/s0/5.jpg">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
@@ -492,7 +493,7 @@
                                 <img src="https://1.bp.blogspot.com/-ElOFepd4Cq4/X4ylNSfXmbI/AAAAAAAAGZI/l1Q2KX_i5x8z_Yxh930T4m_cSKCJCaPCwCLcBGAsYHQ/s0/5.jpg" alt="img">
                             </div>
 
-                            <div class="thumbnail all html5 css3 jquery">
+                            <div class="thumbnail all jquery branding">
                                 <div class="overlay-galeria">
                                     <a class="popup-img8" title="Continuação 6" href="https://1.bp.blogspot.com/-IYDsnUzxQro/X4ylNbfVaDI/AAAAAAAAGZQ/Nj-pJPut8P0w1Q_JTtELH2Xu7bf4C2hKQCLcBGAsYHQ/s0/6.jpg">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
@@ -500,7 +501,7 @@
                                 </div>
                                 <img src="https://1.bp.blogspot.com/-IYDsnUzxQro/X4ylNbfVaDI/AAAAAAAAGZQ/Nj-pJPut8P0w1Q_JTtELH2Xu7bf4C2hKQCLcBGAsYHQ/s0/6.jpg" alt="img">
                             </div>
-                            <div class="thumbnail all jquery">
+                            <div class="thumbnail all ilustrator phostohop">
                                 <div class="overlay-galeria">
                                     <a class="popup-img8" title="Continuação 7" href="https://1.bp.blogspot.com/-zKJVg4MLwSA/X5RlwiY8dwI/AAAAAAAAGZ8/RG55qBtNKr03RurBG2ze3Gsa4Wx8GBUkQCLcBGAsYHQ/s0/7.jpg">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
