@@ -75,7 +75,6 @@ $("#abrir-apresentacao8").on('click', function() {
 // fechar proejetos
 $("#fechar-projeto").on('click', function() {
     $("#trabalhos").fadeIn('300');
-    $(window).scrollTop(0);
     $('#TodosFiltrar').trigger('click');
     $('#fechar-projeto').fadeOut('200');
     $('#primeiro-projeto').fadeOut('1300');
@@ -86,6 +85,7 @@ $("#fechar-projeto").on('click', function() {
     $('#sexto-projeto').fadeOut('1300');
     $('#setimo-projeto').fadeOut('1300');
     $('#oitavo-projeto').fadeOut('1300');
+    $(window).scrollTop(0);
 })
 
 
