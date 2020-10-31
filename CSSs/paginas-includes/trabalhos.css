@@ -83,6 +83,7 @@
     padding: 3px;
     border-radius: 10px 10px 0px 0px;
     background: #0a0a0a;
+    width: 105%;
 }
 
 #portfolio .portfolio-list .nav li {
@@ -130,7 +131,7 @@
     margin-bottom: 10px;
     margin-right: 10px;
     min-height: 265px;
-    width: 39%;
+    width: 42%;
     display: inline-block;
 }
 
