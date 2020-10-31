@@ -1,80 +1,64 @@
     /* Quando Clicar no projeto carregar CSSs */
     
     #primeiro-projeto {
-        background: rgba(0, 0, 0, 0.747);
         width: 100%;
         height: 100%;
-        position: fixed;
         z-index: 10003;
         display: none;
         overflow: hidden;
     }
     
     #segundo-projeto {
-        background: rgba(0, 0, 0, 0.747);
         width: 100%;
         height: 100%;
-        position: fixed;
         z-index: 10003;
         display: none;
         overflow: hidden;
     }
     
     #terceiro-projeto {
-        background: rgba(0, 0, 0, 0.747);
         width: 100%;
         height: 100%;
-        position: fixed;
         z-index: 10003;
         display: none;
         overflow: hidden;
     }
     
     #quarto-projeto {
-        background: rgba(0, 0, 0, 0.747);
         width: 100%;
         height: 100%;
-        position: fixed;
         z-index: 10003;
         display: none;
         overflow: hidden;
     }
     
     #quinto-projeto {
-        background: rgba(0, 0, 0, 0.747);
         width: 100%;
         height: 100%;
-        position: fixed;
         z-index: 10003;
         display: none;
         overflow: hidden;
     }
     
     #sexto-projeto {
-        background: rgba(0, 0, 0, 0.747);
         width: 100%;
         height: 100%;
-        position: fixed;
         z-index: 10003;
         display: none;
         overflow: hidden;
     }
     
     #setimo-projeto {
-        background: rgba(0, 0, 0, 0.747);
         width: 100%;
         height: 100%;
-        position: fixed;
         z-index: 10003;
         display: none;
         overflow: hidden;
     }
     
     #oitavo-projeto {
-        background: rgba(0, 0, 0, 0.747);
         width: 100%;
         height: 100%;
-        position: fixed;
         z-index: 10003;
         display: none;
         overflow: hidden;
@@ -95,22 +79,36 @@
         cursor: default;
     }
     
+    .fundo-ul {
+        position: fixed;
+        background: #181818;
+        height: 100%;
+        width: 100%;
+        z-index: 10002;
+        animation: Fundo-ul 1.2s ease-in-out;
+        overflow: hidden;
+        display: none;
+    }
+    
+    @keyframes Fundo-ul {
+        from {
+            transform: translateY(1750px);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+    
     .entrada-projeto ul {
         top: 0;
-        padding: 40px;
-        border: 2px #242424 solid;
+        padding: 33px;
         font-family: Bahnschrift;
         text-transform: uppercase;
         width: 100%;
         height: 100%;
         font-size: 15px;
         border-radius: 10px;
-        background: #181818;
-        z-index: 11000;
-        position: fixed;
-        animation: projetoAberto 1.1s ease-in-out;
-        overflow-y: scroll;
-        overflow-x: hidden;
+        z-index: 11100;
     }
     
     @keyframes projetoAberto {
@@ -197,8 +195,15 @@
     }
     
     .portfolio-list-galeria {
+        position: fixed;
         margin: 0;
         display: none;
+        top: 0;
+        z-index: 11000;
+        left: -1px;
+        border: 2px #242424 solid;
+        background: #181818;
+        height: 100%;
     }
     
     .fechar-menu-gal {
@@ -212,7 +217,7 @@
         transition: 0.6s;
         z-index: 11000;
         display: block;
-        margin-left: 148px;
+        margin-left: 140px;
     }
     
     .fechar-menu-gal:hover {
@@ -224,7 +229,7 @@
     /* abrir menu */
     
     .abrir-menu-gal {
-        border: 2px #292929 solid;
+        border: 2px #242424 solid;
         background: #181818;
         box-shadow: 2px 2px 4px #000000;
         top: 5px;
@@ -422,6 +427,16 @@
         cursor: pointer;
         color: #ffffff;
         border-radius: 9px;
+        animation: gal-abrir 1.9s ease-in-out;
+    }
+    
+    @keyframes gal-abrir {
+        from {
+            transform: translateY(1350px);
+        }
+        to {
+            transform: translateY(0);
+        }
     }
     
     .hover-gal-abrir:hover {
@@ -581,16 +596,15 @@
         border: 2px #292929 solid;
         background: #181818;
         box-shadow: 2px 2px 4px #000000;
-        top: 5px;
-        right: 26px;
+        top: 3px;
+        right: 3px;
         cursor: pointer;
         height: 60px;
         position: fixed;
         width: 60px;
-        z-index: 4500;
         animation: HamburAnim 1.5s ease-in-out;
         transition: 0.6s;
-        z-index: 11000;
+        z-index: 12003;
         display: none;
     }
     

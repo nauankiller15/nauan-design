@@ -122,6 +122,7 @@ $(".imagePotrait").each(function() {
 $("#projeto1").on('click', function() {
     $('#primeiro-projeto').fadeIn('600');
     $(window).scrollTop(0);
+    $(".fundo-ul").fadeIn('500');
     $('#FiltrarGaleria1').trigger('click');
     $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
@@ -131,6 +132,7 @@ $("#projeto1").on('click', function() {
 $("#projeto2").on('click', function() {
     $('#segundo-projeto').fadeIn('600');
     $(window).scrollTop(0);
+    $(".fundo-ul").fadeIn('500');
     $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
@@ -139,6 +141,7 @@ $("#projeto2").on('click', function() {
 $("#projeto3").on('click', function() {
     $('#terceiro-projeto').fadeIn('600');
     $(window).scrollTop(0);
+    $(".fundo-ul").fadeIn('500');
     $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
@@ -147,6 +150,7 @@ $("#projeto3").on('click', function() {
 $("#projeto4").on('click', function() {
     $('#quarto-projeto').fadeIn('600');
     $(window).scrollTop(0);
+    $(".fundo-ul").fadeIn('500');
     $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
@@ -155,6 +159,7 @@ $("#projeto4").on('click', function() {
 $("#projeto5").on('click', function() {
     $('#quinto-projeto').fadeIn('600');
     $(window).scrollTop(0);
+    $(".fundo-ul").fadeIn('500');
     $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
@@ -163,6 +168,7 @@ $("#projeto5").on('click', function() {
 $("#projeto6").on('click', function() {
     $('#sexto-projeto').fadeIn('600');
     $(window).scrollTop(0);
+    $(".fundo-ul").fadeIn('500');
     $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
@@ -171,6 +177,7 @@ $("#projeto6").on('click', function() {
 $("#projeto7").on('click', function() {
     $('#setimo-projeto').fadeIn('600');
     $(window).scrollTop(0);
+    $(".fundo-ul").fadeIn('500');
     $('#abrir-apresentacao').trigger('click');
     $('#fechar-projeto').fadeIn('600');
     $("#trabalhos").fadeOut('600');
@@ -180,6 +187,7 @@ $("#projeto8").on('click', function() {
         $('#oitavo-projeto').fadeIn('600');
         $('#abrir-apresentacao8').trigger('click');
         $(window).scrollTop(0);
+        $(".fundo-ul").fadeIn('500');
         $('#FiltrarGaleria8').trigger('click');
         $('#fechar-projeto').fadeIn('600');
         $("#trabalhos").fadeOut('600');

@@ -54,7 +54,7 @@
                             <i style="position: absolute;top: 8px;left: 11px;font-size:40px;" class="fas fa-bars" aria-hidden="true"></i>
                         </div>
                         <div class="portfolio-list-galeria">
-                            <ul style="padding-top: 17px;left: 0px;width: 240px;overflow:hidden;" class="nav list-unstyled" id="portfolio-flters-galera">
+                            <ul style="padding-top: 17px;left: 0px;width: 222px;overflow:hidden;" class="nav list-unstyled" id="portfolio-flters-galera">
                                 <div id="fechar-menu-gal" class="fechar-menu-gal">
                                     <i class="fas fa-times" aria-hidden="true" style="padding-left: 9px;padding-top: 6px;font-size: 23px;"></i>
                                 </div>

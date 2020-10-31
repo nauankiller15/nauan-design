@@ -74,6 +74,7 @@ $("#abrir-apresentacao8").on('click', function() {
 
 // fechar proejetos
 $("#fechar-projeto").on('click', function() {
+    $(".fundo-ul").fadeOut('500');
     $("#trabalhos").fadeIn('300');
     $('#TodosFiltrar').trigger('click');
     $('#fechar-projeto').fadeOut('200');

@@ -278,7 +278,7 @@ a:hover {
     font-weight: bold;
     font-family: sans-serif;
     width: 100%;
-    z-index: 10002;
+    z-index: 10000;
     background: #141414;
     color: #ffffff;
     animation: slideFooter 3.5s;
