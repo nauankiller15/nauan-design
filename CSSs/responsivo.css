@@ -33,7 +33,6 @@
     }
     /* ---- */
     .hover-gal-abrir {
-        width: 23%;
         font-size: 25px;
         padding: 15px;
     }
@@ -43,7 +42,6 @@
 @media (max-width: 1400px) {
     /* GALERIA PROJETOS -------- */
     .hover-gal-abrir {
-        width: 23%;
         font-size: 23px;
         padding: 15px;
     }
@@ -106,7 +104,7 @@
         width: 1300px;
     }
     .texto-projeto {
-        top: 565px;
+        top: 601px;
         width: 80%;
         padding: 20px;
     }
@@ -137,7 +135,7 @@
     }
     /* ------------------ */
     .texto-projeto {
-        top: 565px;
+        top: 605px;
         width: 80%;
         padding: 20px;
     }
@@ -249,7 +247,6 @@
 @media (max-width: 1000px) {
     /* GALERIA PROJETOS ------------*/
     .hover-gal-abrir {
-        width: 33%;
         font-size: 35px;
         padding: 15px;
     }
@@ -399,7 +396,6 @@
     /* --------- MEUS PROJETOS (min-width: 768px) and (max-width: 991px) ---------- */
     /* GALERIA PROJETOS ------------*/
     .hover-gal-abrir {
-        width: 22%;
         font-size: 23px;
         padding: 12px;
     }
@@ -434,7 +430,7 @@
         max-width: 450px;
     }
     .texto-projeto {
-        top: 465px;
+        top: 522px;
         width: 83%;
         padding: 20px;
     }
@@ -639,7 +635,6 @@
     /* --------- MEUS PROJETOS (max-width: 767px) ---------- */
     /* GALERIA PROJETOS ------------*/
     .hover-gal-abrir {
-        width: 25%;
         font-size: 23px;
         padding: 13px;
     }
@@ -673,7 +668,7 @@
         max-width: 450px;
     }
     .texto-projeto {
-        top: 376px;
+        top: 437px;
         width: 80%;
         padding: 20px;
     }
@@ -789,7 +784,6 @@
 @media (max-width: 695px) {
     /* GALERIA PROJETOS (max-width: 695px)------------*/
     .hover-gal-abrir {
-        width: 27%;
         font-size: 17px;
         padding: 12px;
     }
@@ -823,7 +817,7 @@
         max-width: 450px;
     }
     .texto-projeto {
-        top: 376px;
+        top: 437px;
         width: 80%;
         padding: 20px;
     }
@@ -833,7 +827,6 @@
 @media (max-width: 640px) {
     /* GALERIA PROJETOS (max-width: 625px)------------*/
     .hover-gal-abrir {
-        width: 27%;
         font-size: 17px;
         padding: 12px;
     }
@@ -867,7 +860,7 @@
         max-width: 450px;
     }
     .texto-projeto {
-        top: 376px;
+        top: 437px;
         width: 80%;
         padding: 20px;
     }
@@ -970,7 +963,6 @@
     /* --------- MEUS PROJETOS (max-width: 600px) ---------- */
     /* GALERIA PROJETOS (max-width: 600px)------------*/
     .hover-gal-abrir {
-        width: 27%;
         font-size: 17px;
         padding: 12px;
     }
@@ -1004,7 +996,7 @@
         max-width: 450px;
     }
     .texto-projeto {
-        top: 376px;
+        top: 409px;
         width: 80%;
         padding: 20px;
         font-size: 14px;
@@ -1107,7 +1099,6 @@
     /* --------- MEUS PROJETOS (max-width: 558px) ---------- */
     /* GALERIA PROJETOS (max-width: 558px)------------*/
     .hover-gal-abrir {
-        width: 27%;
         font-size: 17px;
         padding: 12px;
     }
@@ -1136,14 +1127,14 @@
     /* --------- MEUS PROJETOS (max-width: 506px) ---------- */
     /* GALERIA PROJETOS (max-width: 506px)------------*/
     .hover-gal-abrir {
-        width: 27%;
+        width: 191px;
         font-size: 17px;
         padding: 12px;
     }
     #posicao-outras-imagens {
         margin-top: 20px;
         margin-bottom: 50px;
-        width: 585px;
+        width: 558px;
     }
     .thumbnail {
         min-height: 160px;
@@ -1179,7 +1170,7 @@
         max-width: 450px;
     }
     .texto-projeto {
-        top: 334px;
+        top: 369px;
         width: 80%;
         padding: 20px;
         font-size: 14px;
@@ -1287,7 +1278,7 @@
     /* --------- MEUS PROJETOS (max-width: 480px) ---------- */
     /* GALERIA PROJETOS (max-width: 480px)------------*/
     .hover-gal-abrir {
-        width: 27%;
+        width: 191px;
         font-size: 17px;
         padding: 12px;
     }
@@ -1441,7 +1432,7 @@
 @media (max-width: 458px) {
     /* GALERIA PROJETOS (max-width: 458px)------------*/
     .hover-gal-abrir {
-        width: 27%;
+        width: 191px;
         font-size: 17px;
         padding: 12px;
     }
@@ -1625,7 +1616,7 @@
     /* --------- MEUS PROJETOS (max-width: 420px) ---------- */
     /* GALERIA PROJETOS (max-width: 420px)------------*/
     .hover-gal-abrir {
-        width: 22%;
+        width: 191px;
         font-size: 23px;
         padding: 12px;
     }

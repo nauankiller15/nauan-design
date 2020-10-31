@@ -1,5 +1,6 @@
 // APRESENTAÇAO >>>>--------
-// abrir apresentacao ----
+// abrir GALERIA ----
+// PRIMEIRO PROJETO
 $("#esconder-apresentacao").on('click', function() {
         $(".margem-div").fadeOut('600');
         $(".posicaoimagem").fadeOut('600');
@@ -15,6 +16,8 @@ $("#esconder-apresentacao").on('click', function() {
         $(".abrir-menu-gal").fadeOut('600');
     })
     // 
+    // 
+    // OITAVO PROJETO
 $("#esconder-apresentacao8").on('click', function() {
         $(".margem-div").fadeOut('600');
         $(".posicaoimagem").fadeOut('600');
@@ -42,7 +45,7 @@ $("#abrir-IMG-Gal8").on('click', function() {
         $(".apresentacao-img").fadeOut('600');
     })
     // 
-    // fechar apresentacao ----
+    // FECHAR GALERIA ----
 $("#abrir-apresentacao").on('click', function() {
         $(".posicaoimagem").fadeIn('600');
         $(".apresentacao-img").fadeOut('600');
@@ -72,7 +75,7 @@ $("#abrir-apresentacao8").on('click', function() {
     })
     // -------------
 
-// fechar proejetos
+// FECHAR TODOS PROJETOS
 $("#fechar-projeto").on('click', function() {
     $(".fundo-ul").fadeOut('500');
     $("#trabalhos").fadeIn('300');

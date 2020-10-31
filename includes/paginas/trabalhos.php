@@ -27,16 +27,13 @@
                                 </div>
 
                                 <div class="portfolio-container">
-                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesign">
+                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesign uiuxkits">
                                         <div class="overlay">
                                             <li class="lupa-abrir" id="projeto1">
                                                 <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </li>
-                                            <a href="#">
-                                                <div class="text"><i class="fas fa-link"></i></div>
-                                            </a>
                                         </div>
-                                        <img src="https://1.bp.blogspot.com/-Xj9pJaEtdAs/X4ylM_bhoZI/AAAAAAAAGZA/iyp0vn3e5WYnMHY7OmlNC-S_dX91lbD8QCLcBGAsYHQ/s0/1.jpg" alt="img">
+                                        <img src="https://1.bp.blogspot.com/-q-Vhw8oxVo8/X52e_drIPgI/AAAAAAAAGdM/kxS0iZMdEX42VreFhoO8EW77LZ3aoiS3QCLcBGAsYHQ/s0/trabalho1.png" alt="img">
                                     </div>
 
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups">
