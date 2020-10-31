@@ -14,7 +14,7 @@
                     </div>
                 </div>
                 <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                    <a class="popup-img1" title="Primeiro Projeto" href="https://1.bp.blogspot.com/-VtmJDbgiLss/X52dlDb-gII/AAAAAAAAGdA/fKm9DFQfWOUSyxVQ7bGYGkYUCCyMkn5ywCLcBGAsYHQ/s0/Nauan-Design-Entrada.png">
+                    <a class="popup-img1" title="Nauan-Design - Tela inicial" href="https://1.bp.blogspot.com/-VtmJDbgiLss/X52dlDb-gII/AAAAAAAAGdA/fKm9DFQfWOUSyxVQ7bGYGkYUCCyMkn5ywCLcBGAsYHQ/s0/Nauan-Design-Entrada.png">
                         <img src="https://1.bp.blogspot.com/-VtmJDbgiLss/X52dlDb-gII/AAAAAAAAGdA/fKm9DFQfWOUSyxVQ7bGYGkYUCCyMkn5ywCLcBGAsYHQ/s0/Nauan-Design-Entrada.png">
                     </a>
                 </div>
