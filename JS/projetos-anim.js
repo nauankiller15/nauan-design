@@ -6,7 +6,7 @@ $("#esconder-apresentacao").on('click', function() {
         $(".posicaoimagem").fadeOut('600');
         $(".apresentacao-img").fadeIn('600');
         $(".hover-gal-abrir").fadeOut('600');
-        $(".texto-ver-info").fadeIn('600');
+        $(".posicao-info").fadeIn('600');
         $(".texto-galeria").fadeIn('600');
         $(".texto-projeto").fadeOut('600');
         $(".utilizados").fadeOut('600');
@@ -23,7 +23,7 @@ $("#esconder-apresentacao8").on('click', function() {
         $(".posicaoimagem").fadeOut('600');
         $(".apresentacao-img").fadeIn('600');
         $(".hover-gal-abrir").fadeOut('600');
-        $(".texto-ver-info").fadeIn('600');
+        $(".posicao-info").fadeIn('600');
         $(".texto-galeria").fadeIn('600');
         $(".texto-projeto").fadeOut('600');
         $(".utilizados").fadeOut('600');
@@ -51,7 +51,7 @@ $("#abrir-apresentacao").on('click', function() {
         $(".apresentacao-img").fadeOut('600');
         $(".margem-div").fadeIn('600');
         $(".hover-gal-abrir").fadeIn('600');
-        $(".texto-ver-info").fadeOut('600');
+        $(".posicao-info").fadeOut('600');
         $(".texto-galeria").fadeOut('600');
         $(".texto-projeto").fadeIn('600');
         $(".utilizados").fadeIn('600');
@@ -65,7 +65,7 @@ $("#abrir-apresentacao8").on('click', function() {
         $(".apresentacao-img").fadeOut('600');
         $(".margem-div").fadeIn('600');
         $(".hover-gal-abrir").fadeIn('600');
-        $(".texto-ver-info").fadeOut('600');
+        $(".posicao-info").fadeOut('600');
         $(".texto-galeria").fadeOut('600');
         $(".texto-projeto").fadeIn('600');
         $(".utilizados").fadeIn('600');

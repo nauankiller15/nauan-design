@@ -345,10 +345,20 @@
     }
     /* ---------- */
     
+    .posicao-info {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        display: none;
+    }
+    
     .texto-ver-info {
         border: 1px solid #fff;
         background: #242424;
-        width: 30%;
         font-size: 24px;
         padding: 14px;
         margin-bottom: 15px;
@@ -356,11 +366,11 @@
         margin-left: auto;
         margin-right: auto;
         transition: 0.5s;
-        display: none;
         cursor: pointer;
         color: #ffffff;
         margin-top: 21px;
         border-radius: 9px;
+        width: 33%;
     }
     
     .texto-ver-info:hover {
@@ -416,7 +426,6 @@
     .hover-gal-abrir {
         border: 1px solid #fff;
         background: #242424;
-        width: 60%;
         font-size: 25px;
         padding: 15px;
         margin-top: 7px;
