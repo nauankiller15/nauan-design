@@ -197,13 +197,24 @@
     }
 }
 
-@media (max-width: 1024px) {
+@media (min-width: 1001px) and (max-width: 1024px) {
     /*  */
     /* OUTRAS PÁGINAS */
+    #portfolio .portfolio-list .nav {
+        width: 120%;
+    }
     .LogoMenu {
         top: 0;
         right: 90px;
         padding: 10px;
+        position: absolute;
+    }
+    .Centrotrabalhos {
+        top: 156px;
+        width: 80%;
+        left: 25px;
+        padding: 25px;
+        margin-bottom: 75px;
     }
     /*  */
     /* GALERIA PROJETOS ------------*/
@@ -255,6 +266,7 @@
         top: 0;
         right: 90px;
         padding: 10px;
+        position: absolute;
     }
     /*  */
     .menuhambur {
@@ -358,6 +370,7 @@
     .LogoMenu {
         right: 6px;
         padding: 10px;
+        position: absolute;
     }
     .nauan-sub {
         font-size: 24px;
@@ -597,6 +610,7 @@
     .LogoMenu {
         right: 6px;
         padding: 10px;
+        position: absolute;
     }
     .nauan-sub {
         font-size: 24px;
@@ -925,6 +939,7 @@
     .LogoMenu {
         right: 6px;
         padding: 10px;
+        position: absolute;
     }
     .nauan-sub {
         font-size: 24px;
@@ -1255,6 +1270,7 @@
     .LogoMenu {
         right: 6px;
         padding: 10px;
+        position: absolute;
     }
     .nauan-sub {
         font-size: 24px;
@@ -1608,6 +1624,7 @@
     .LogoMenu {
         right: 6px;
         padding: 10px;
+        position: absolute;
     }
     .nauan-sub {
         font-size: 24px;
@@ -1843,6 +1860,7 @@
     .LogoMenu {
         right: 6px;
         padding: 10px;
+        position: absolute;
     }
     .nauan-sub {
         font-size: 24px;
@@ -1906,11 +1924,14 @@
         padding: 15px;
         text-align: center;
     }
+    .posicaoimagem {
+        width: 100%;
+    }
     /*  */
     /* POSIÇOES MISC (max-width: 420px) -------------*/
     /* CABEÇALHO */
     .entrada-projeto h2 {
-        font-size: 38px;
+        font-size: 31px;
         width: 100%;
         padding: 5px;
         text-align: center;
@@ -1923,18 +1944,18 @@
     }
     .expProjetos {
         padding: 15px;
-        font-size: 17px;
+        font-size: 13px;
         max-width: 450px;
     }
     .texto-projeto {
-        top: 371px;
+        top: 373px;
         width: 80%;
         padding: 20px;
         font-size: 14px;
     }
     .texto-projeto-lup {
-        font-size: 95%;
-        bottom: 115px;
+        font-size: 81%;
+        bottom: 110px;
         right: 0px;
         padding: 11px;
     }
@@ -2144,6 +2165,7 @@
     .LogoMenu {
         right: 6px;
         padding: 10px;
+        position: absolute;
     }
     .nauan-sub {
         font-size: 24px;
@@ -2473,6 +2495,7 @@
     .LogoMenu {
         right: 6px;
         padding: 10px;
+        position: absolute;
     }
     .nauan-sub {
         font-size: 24px;
