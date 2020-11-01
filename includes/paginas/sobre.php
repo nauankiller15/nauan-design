@@ -17,7 +17,7 @@
                     Minha paixão é <b><i class="fas fa-mug-hot"></i> Café </b>, nas horas vagas arranho <b><i class="fas fa-guitar"></i> Violão, Guitarra</b> e me arrisco um pouquinho a <b><i class="fas fa-microphone-alt"></i> Cantar</b> também.
                     Sempre busco realizar meus compromissos, por mais que tenha dificuldade sempre busco resolver a situação. Adoro desafios e experiências novas também.
 
-                    <h2 style="animation: SobreIni 2.7s ease-in-out;">Experiências:</h2>
+                    <h2 style="animation: SobreIni 2.7s ease-in-out;"><i style="margin-right:6px;" class="fas fa-comments"></i>Experiências:</h2>
 
                     <div class="MinhasUtilites">
                         <div class="exp" style="animation: SobreIni 5.2s; color:#ffffff;">
