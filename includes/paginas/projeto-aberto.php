@@ -1,5 +1,5 @@
 <div id="fechar-projeto" class="fechar-projeto">
-    <i style="position: absolute;top: 10px;left: 14px;;font-size:40px;" class="fas fa-times"></i>
+    <i style="position: absolute;top: 6px;left: 9px;font-size: 28px;" class="fas fa-times"></i>
 </div>
 
 <!-- Primeiro Projeto -->
@@ -45,10 +45,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div id="abrir-menu-gal" class="abrir-menu-gal">
-                            <i style="position: absolute;top: 8px;left: 11px;font-size:40px;" class="fas fa-bars" aria-hidden="true"></i>
+                            <i style="position: absolute;top: 7px;left: 8px;font-size: 28px;" class="fas fa-bars" aria-hidden="true"></i>
                         </div>
                         <div class="portfolio-list-galeria">
-                            <ul style="padding-top: 17px;left: 0px;width: 240px;overflow:hidden;" class="nav list-unstyled" id="portfolio-flters-galera">
+                            <ul class="nav list-unstyled" id="portfolio-flters-galera">
                                 <div id="fechar-menu-gal" class="fechar-menu-gal">
                                     <i class="fas fa-times" aria-hidden="true" style="padding-left: 9px;padding-top: 6px;font-size: 23px;"></i>
                                 </div>
@@ -519,10 +519,10 @@
                 <div class="row">
                     <div class="col-md-12">
                         <div id="abrir-menu-gal8" class="abrir-menu-gal">
-                            <i style="position: absolute;top: 8px;left: 11px;font-size:40px;" class="fas fa-bars" aria-hidden="true"></i>
+                            <i style="position: absolute;top: 7px;left: 8px;font-size: 28px;" class="fas fa-bars" aria-hidden="true"></i>
                         </div>
                         <div class="portfolio-list-galeria">
-                            <ul style="padding-top: 17px;left: 0px;width: 240px;overflow:hidden;" class="nav list-unstyled" id="portfolio-flters-galera">
+                            <ul id="portfolio-flters-galera">
                                 <div id="fechar-menu-gal8" class="fechar-menu-gal">
                                     <i class="fas fa-times" aria-hidden="true" style="padding-left: 9px;padding-top: 6px;font-size: 23px;"></i>
                                 </div>

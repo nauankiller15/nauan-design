@@ -62,7 +62,7 @@
     animation: fadeIn 3.9s ease-in-out;
     position: absolute;
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 52px;
 }
 
 .call-buttons {
@@ -103,6 +103,7 @@
     border: 1px #ffffff solid;
 }
 
+
 /**
  * ----------------------------------------
  * animation flip2
@@ -120,6 +121,7 @@
     }
 }
 
+
 /*  */
 
 @keyframes servicoCaixa {
@@ -130,6 +132,7 @@
         transform: translateY(0);
     }
 }
+
 
 /**
  * ----------------------------------------

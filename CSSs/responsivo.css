@@ -1005,7 +1005,6 @@
         font-size: 96%;
         bottom: 144px;
         right: 0px;
-        background-color: #000000c9;
         padding: 11px;
     }
     /*  */
@@ -1189,7 +1188,6 @@
         font-size: 96%;
         bottom: 144px;
         right: 0px;
-        background-color: #000000c9;
         padding: 11px;
     }
     /* ---------------------- */
@@ -1350,7 +1348,6 @@
         font-size: 96%;
         bottom: 144px;
         right: 0px;
-        background-color: #000000c9;
         padding: 11px;
     }
     /* ---------------------- */
@@ -1511,7 +1508,6 @@
         font-size: 96%;
         bottom: 144px;
         right: 0px;
-        background-color: #000000c9;
         padding: 11px;
     }
     /* ---------------------- */
@@ -1885,7 +1881,7 @@
     /* --------- MEUS PROJETOS (max-width: 420px) ---------- */
     /* GALERIA PROJETOS (max-width: 420px)------------*/
     .hover-gal-abrir {
-        width: 191px;
+        width: 212px;
         font-size: 23px;
         padding: 12px;
     }
@@ -1931,16 +1927,15 @@
         max-width: 450px;
     }
     .texto-projeto {
-        top: 405px;
+        top: 371px;
         width: 80%;
         padding: 20px;
         font-size: 14px;
     }
     .texto-projeto-lup {
         font-size: 95%;
-        bottom: 144px;
+        bottom: 115px;
         right: 0px;
-        background-color: #000000c9;
         padding: 11px;
     }
     /* ---------------------- */
@@ -2081,7 +2076,7 @@
     }
     .menuhambur {
         top: 385px;
-        right: 18px;
+        right: 36px;
     }
     #fechar {
         margin-top: -57px;
@@ -2186,12 +2181,72 @@
         margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
+    /* GALERIA PROJETOS (max-width: 390px)------------*/
+    .hover-gal-abrir {
+        width: 195px;
+        font-size: 18px;
+        padding: 10px;
+    }
+    .row {
+        margin-left: 172px;
+    }
+    #posicao-outras-imagens {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 550px;
+    }
+    .thumbnail {
+        min-height: 130px;
+        width: 33%;
+    }
+    .overlay-galeria {
+        height: 70px;
+    }
+    #posicao-outras-imagens h2 {
+        font-size: 37px;
+        width: 70%;
+        padding: 15px;
+        text-align: center;
+    }
+    /*  */
+    /* POSIÇOES MISC (max-width: 390px) -------------*/
+    /* CABEÇALHO */
+    .entrada-projeto h2 {
+        font-size: 38px;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+    /*  */
+    .utilizados {
+        font-size: 17px;
+        top: 269px;
+        position: absolute;
+    }
+    .expProjetos {
+        padding: 15px;
+        font-size: 15px;
+        max-width: 455px;
+    }
+    .texto-projeto {
+        top: 363px;
+        width: 80%;
+        padding: 20px;
+        font-size: 14px;
+    }
+    .texto-projeto-lup {
+        font-size: 95%;
+        bottom: 102px;
+        right: 0px;
+        padding: 11px;
+    }
+    /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
-        top: 103px;
-        width: 90%;
-        left: 21px;
-        padding: 21px;
+        top: 101px;
+        width: 98%;
+        left: 0px;
+        padding: 19px;
         font-size: 15px;
     }
     /* ----- DESIGN PORTFOLIO (max-width: 390px) */
@@ -2201,10 +2256,10 @@
         display: inline-block;
     }
     .portfolio-thumbnail {
-        margin-bottom: 10px;
-        margin-right: 10px;
-        min-height: 30px;
-        width: 47%;
+        margin-bottom: 8px;
+        margin-right: 8px;
+        min-height: 32px;
+        width: 44%;
     }
     #portfolio .portfolio-list .nav li {
         padding: 1px;
@@ -2293,8 +2348,8 @@
 @media (max-width: 375px) {
     /* ----------- FOOTER (max-width: 375px) ------------ */
     .footer {
-        padding: 12px;
-        font-size: 10px;
+        padding: 10px;
+        font-size: 9px;
     }
     /* ------------ PÁGINA INICIAL (max-width: 375px) ---------- */
     #quadrado-position {
@@ -2454,13 +2509,110 @@
         margin: 35px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 320px) ---------- */
+    /* GALERIA PROJETOS (max-width: 320px)------------*/
+    .hover-gal-abrir {
+        width: 179px;
+        font-size: 15px;
+        padding: 10px;
+    }
+    .row {
+        margin-left: 136px;
+    }
+    #posicao-outras-imagens {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        width: 435px;
+    }
+    .thumbnail {
+        min-height: 130px;
+        width: 33%;
+    }
+    .overlay-galeria {
+        height: 70px;
+    }
+    #posicao-outras-imagens h2 {
+        font-size: 37px;
+        width: 70%;
+        padding: 15px;
+        text-align: center;
+    }
+    .posicaoimagem {
+        width: 100%;
+        margin-bottom: 15px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    /*  */
+    /* POSIÇOES MISC (max-width: 320px) -------------*/
+    /* MENU SIDEBAR */
+    .menu-galeria {
+        margin-left: 4px;
+        font-size: 20px;
+        padding: 17px;
+    }
+    .fechar-menu-gal {
+        height: 38px;
+        width: 37px;
+        margin-left: 105px;
+    }
+    .portfolio-list-galeria ul {
+        padding-top: 17px;
+        left: 0px;
+        width: 184px;
+    }
+    /*  */
+    /* CABEÇALHO */
+    .entrada-projeto h2 {
+        font-size: 29px;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }
+    /*  */
+    .utilizados {
+        font-size: 17px;
+        top: 269px;
+        position: absolute;
+    }
+    .expProjetos {
+        padding: 15px;
+        font-size: 12px;
+        max-width: 455px;
+    }
+    .texto-projeto {
+        top: 351px;
+        width: 88%;
+        padding: 20px;
+        font-size: 13px;
+    }
+    .texto-projeto-lup {
+        font-size: 80%;
+        bottom: 98px;
+        right: 0px;
+        padding: 11px;
+    }
+    .texto-ver-info {
+        font-size: 16px;
+        padding: 14px;
+        margin-top: 21px;
+        border-radius: 9px;
+        width: 32%;
+    }
+    .texto-galeria {
+        width: 50%;
+        font-size: 30px;
+        padding: 15px;
+    }
+    /* --------- MEUS PROJETOS (max-width: 320px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
-        top: 103px;
-        width: 90%;
-        left: 21px;
-        padding: 21px;
-        font-size: 15px;
+        top: 99px;
+        width: 99%;
+        left: 0px;
+        padding: 19px;
+        font-size: 14px;
     }
     /* ----- DESIGN PORTFOLIO (max-width: 320px) */
     #portfolio .portfolio-list .nav li {
@@ -2469,10 +2621,10 @@
         display: inline-block;
     }
     .portfolio-thumbnail {
-        margin-bottom: 10px;
-        margin-right: 10px;
-        min-height: 30px;
-        width: 47%;
+        margin-bottom: 8px;
+        margin-right: 8px;
+        min-height: 28px;
+        width: 46%;
     }
     #portfolio .portfolio-list .nav li {
         padding: 1px;
