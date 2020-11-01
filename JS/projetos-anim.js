@@ -17,7 +17,9 @@ $("#esconder-apresentacao").on('click', function() {
     })
     // 
     // 
-    // OITAVO PROJETO
+
+
+// OITAVO PROJETO
 $("#esconder-apresentacao8").on('click', function() {
         $(".margem-div").fadeOut('600');
         $(".posicaoimagem").fadeOut('600');

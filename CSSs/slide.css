@@ -24,7 +24,7 @@
     /* 100% for each picture, 10 pictures = 1000% */
     margin: 0;
     left: 0;
-    animation: 80s sliderIMG infinite;
+    animation: 80s sliderIMG infinite ease-in-out;
 }
 
 #slider figure img {

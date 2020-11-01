@@ -70,6 +70,7 @@ $('#IA-MenuBar').on('click', function() {
     $('#IA-MenuBar').fadeOut('900');
     $('#IA-MenuOpen').fadeIn('900');
     $('#esconder-menu').fadeOut('900');
+
 })
 
 $('#IA-MenuOpen').on('click', function() {
