@@ -466,12 +466,12 @@
         cursor: pointer;
         color: #ffffff;
         border-radius: 9px;
-        animation: gal-abrir 1.9s ease-in-out;
+        animation: gal-abrir 3.2s ease-in-out;
     }
     
     @keyframes gal-abrir {
         from {
-            transform: translateY(1350px);
+            transform: translateY(5350px);
         }
         to {
             transform: translateY(0);
