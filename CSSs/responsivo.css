@@ -1523,7 +1523,7 @@
     }
     .menu ul {
         padding: 17px;
-        width: 245px;
+        width: 257px;
         font-size: 23px;
     }
     .clicarFechar {
@@ -1759,7 +1759,7 @@
     }
     .menu ul {
         padding: 17px;
-        width: 245px;
+        width: 265px;
         font-size: 23px;
     }
     .clicarFechar {
@@ -2063,9 +2063,31 @@
     }
     .menu ul {
         padding: 12px;
-        width: 220px;
+        width: 235px;
         font-size: 14px;
     }
+    /* NAVEGADORES LI */
+    .li-servico::before {
+        font-size: 18px;
+        margin-left: -26px;
+        width: 45px;
+    }
+    .li-experiencias::before {
+        font-size: 18px;
+        margin-left: -59px;
+        width: 46px;
+    }
+    .li-contato::before {
+        font-size: 18px;
+        margin-left: -93px;
+        width: 44px;
+    }
+    .li-projetos::before {
+        font-size: 19px;
+        margin-left: -86px;
+        width: 45px;
+    }
+    /*  */
     .clicarFechar {
         display: block;
     }
@@ -2386,9 +2408,31 @@
     }
     .menu ul {
         padding: 10px;
-        width: 195px;
+        width: 215px;
         font-size: 15px;
     }
+    /* NAVEGADORES LI */
+    .li-servico::before {
+        font-size: 18px;
+        margin-left: -26px;
+        width: 45px;
+    }
+    .li-experiencias::before {
+        font-size: 18px;
+        margin-left: -59px;
+        width: 46px;
+    }
+    .li-contato::before {
+        font-size: 18px;
+        margin-left: -93px;
+        width: 44px;
+    }
+    .li-projetos::before {
+        font-size: 19px;
+        margin-left: -86px;
+        width: 45px;
+    }
+    /*  */
     .clicarFechar {
         display: block;
     }

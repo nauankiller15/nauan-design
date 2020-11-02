@@ -290,7 +290,7 @@
                     </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
-                <div class="posicao-gal-abrir">
+                    <div class="posicao-gal-abrir">
                         <div class="hover-gal-abrir" id="esconder-apresentacao4"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
                     </div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
@@ -374,7 +374,7 @@
                     </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
-                <div class="posicao-gal-abrir">
+                    <div class="posicao-gal-abrir">
                         <div class="hover-gal-abrir" id="esconder-apresentacao6"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
                     </div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
@@ -416,7 +416,7 @@
                     </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
-                <div class="posicao-gal-abrir">
+                    <div class="posicao-gal-abrir">
                         <div class="hover-gal-abrir" id="esconder-apresentacao7"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
                     </div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
@@ -485,7 +485,7 @@
                     </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
-                <div class="posicao-gal-abrir">
+                    <div class="posicao-gal-abrir">
                         <div class="hover-gal-abrir" id="esconder-apresentacao8"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
                     </div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
@@ -513,7 +513,7 @@
                     </div>
                 </div>
                 <div class="posicao-info">
-                    <div class="texto-ver-info" id="abrir-apresentacao8"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
+                    <div class="texto-ver-info" id="abrir-apresentacao"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
                 </div>
                 <div class="texto-galeria"><i style="margin-right:9px;" class="fas fa-images"></i>Galeria</div>
                 <div class="row">
@@ -522,7 +522,7 @@
                             <i style="position: absolute;top: 7px;left: 8px;font-size: 28px;" class="fas fa-bars" aria-hidden="true"></i>
                         </div>
                         <div class="portfolio-list-galeria">
-                            <ul id="portfolio-flters-galera">
+                            <ul class="nav list-unstyled" id="portfolio-flters-galera">
                                 <div id="fechar-menu-gal8" class="fechar-menu-gal">
                                     <i class="fas fa-times" aria-hidden="true" style="padding-left: 9px;padding-top: 6px;font-size: 23px;"></i>
                                 </div>
