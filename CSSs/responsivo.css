@@ -256,6 +256,10 @@
 }
 
 @media (max-width: 1000px) {
+    /* PÁGINA SOBRE */
+    .Centrosobre h2 {
+        width: 100%;
+    }
     /* GALERIA PROJETOS ------------*/
     .hover-gal-abrir {
         font-size: 35px;

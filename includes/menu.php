@@ -16,10 +16,10 @@
     <div class="menu">
         <ul class="dropdown-menu">
             <li id="fechar" href="javascript: FecharTudo();"><i style="margin-right:6px;" class="fas fa-home"></i>Voltar Inicio</li>
-            <li id="trabalhosAbrir" style="animation: fadeIn 12.0s, slideMenu 2.2s;"><i style="margin-right:6px;" class="fas fa-briefcase"></i>Projetos</li>
-            <li id="contatoAbrir" style="animation: fadeIn 12.0s, slideMenu 3.2s;"><i style="margin-right:6px;" class="fas fa-id-badge"></i>Contato</li>
-            <li id="sobreAbrir" style="animation: fadeIn 12.1s, slideMenu 4.2s;"><i style="margin-right:6px;" class="fas fa-book-open"></i>Experiências</li>
-            <li id="servicoAbrir" style="animation: fadeIn 10.0s, slideMenu 4.7s;"><i style="margin-right:6px;" class="fas fa-comments"></i>Solicitar Serviço</li>
+            <li class="li-projetos" id="trabalhosAbrir" style="animation: fadeIn 12.0s, slideMenu 2.2s;">Projetos</li>
+            <li class="li-contato" id="contatoAbrir" style="animation: fadeIn 12.0s, slideMenu 3.2s;">Contato</li>
+            <li class="li-experiencias" id="sobreAbrir" style="animation: fadeIn 12.1s, slideMenu 4.2s;">Experiências</li>
+            <li class="li-servico" id="servicoAbrir" style="animation: fadeIn 10.0s, slideMenu 4.7s;">Solicitar Serviço</li>
 
         </ul>
     </div>

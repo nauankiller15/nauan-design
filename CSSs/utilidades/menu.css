@@ -61,6 +61,46 @@
     color: #000000;
 }
 
+.li-projetos::before {
+    font-size: 23px;
+    content: "\f0b1";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -52px;
+    width: 47px;
+    z-index: 99;
+}
+
+.li-contato::before {
+    font-size: 23px;
+    content: "\f2c1";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -67px;
+    width: 45px;
+    z-index: 99;
+}
+
+.li-experiencias::before {
+    font-size: 23px;
+    content: "\f518";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -3px;
+    width: 43px;
+    z-index: 99;
+}
+
+.li-servico::before {
+    font-size: 23px;
+    content: "\f086";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -46px;
+    width: 61px;
+    z-index: 99;
+}
+
 @keyframes slideMenu {
     from {
         transform: translateY(-2350px);
