@@ -19,6 +19,9 @@
                     </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
+                    <div class="posicao-gal-abrir">
+                        <div class="hover-gal-abrir" id="esconder-apresentacao"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                    </div>
                     <p>Meu Portfolio de Apresentação para meus trabalhos, projetos envolvidos diante de parcerias e terceiros.
                         Venho aqui mostrar os recursos utilizados através de uma apresentação por galeria.</p>
                     <p>------------------------</p>
@@ -34,12 +37,9 @@
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3, <i class="fas fa-brush"></i> Branding.
                     </div>
-                    <div class="posicao-gal-abrir">
-                        <div class="hover-gal-abrir" id="esconder-apresentacao"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
-                    </div>
                 </div>
                 <div class="posicao-info">
-                <div class="texto-ver-info" id="abrir-apresentacao"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
+                    <div class="texto-ver-info" id="abrir-apresentacao"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
                 </div>
                 <div class="texto-galeria"><i style="margin-right:9px;" class="fas fa-images"></i>Galeria</div>
                 <div class="row">
@@ -206,6 +206,9 @@
 
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
+                    <div class="posicao-gal-abrir">
+                        <div class="hover-gal-abrir" id="esconder-apresentacao2"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                    </div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
                     pellentesque at nibh et, pulvinar dapibus leo. Nullam ac urna a ante vestibulum consequat eget eget magna.
                     Suspendisse placerat risus arcu, a rhoncus leo efficitur eget. Vivamus vulputate scelerisque tellus,
@@ -226,10 +229,7 @@
                 <div class="utilizados">
                     <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup">Abrir Imagem: <i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
-                    <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.</b>
-                    </div>
-                    <div class="posicao-gal-abrir">
-                        <div class="hover-gal-abrir" id="esconder-apresentacao2"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                        <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3.</b>
                     </div>
                 </div>
         </ul>
@@ -248,6 +248,9 @@
                     </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
+                    <div class="posicao-gal-abrir">
+                        <div class="hover-gal-abrir" id="esconder-apresentacao3"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                    </div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
                     pellentesque at nibh et, pulvinar dapibus leo. Nullam ac urna a ante vestibulum consequat eget eget magna.
                     Suspendisse placerat risus arcu, a rhoncus leo efficitur eget. Vivamus vulputate scelerisque tellus,
@@ -270,9 +273,6 @@
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="galeria-animation fab fa-js-square"></i> Jquery, <i class="fas fa-list-alt"></i> Photoshop, <i class="fas fa-brush"></i> Branding, <i class="fas fa-paint-brush"></i> Ilustrator.
                     </div>
-                    <div class="posicao-gal-abrir">
-                        <div class="hover-gal-abrir" id="esconder-apresentacao3"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
-                    </div>
                 </div>
         </ul>
     </div>
@@ -290,6 +290,9 @@
                     </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
+                <div class="posicao-gal-abrir">
+                        <div class="hover-gal-abrir" id="esconder-apresentacao4"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                    </div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
                     pellentesque at nibh et, pulvinar dapibus leo. Nullam ac urna a ante vestibulum consequat eget eget magna.
                     Suspendisse placerat risus arcu, a rhoncus leo efficitur eget. Vivamus vulputate scelerisque tellus,
@@ -311,9 +314,6 @@
                     <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup">Abrir Imagem: <i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="galeria-animation fab fa-js-square"></i> Jquery, <i class="fas fa-list-alt"></i> Photoshop, <i class="fas fa-brush"></i> Branding, <i class="fas fa-paint-brush"></i> Ilustrator.</b>
-                    </div>
-                    <div class="posicao-gal-abrir">
-                        <div class="hover-gal-abrir" id="esconder-apresentacao4"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
                     </div>
                 </div>
         </ul>
@@ -374,6 +374,9 @@
                     </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
+                <div class="posicao-gal-abrir">
+                        <div class="hover-gal-abrir" id="esconder-apresentacao6"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                    </div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
                     pellentesque at nibh et, pulvinar dapibus leo. Nullam ac urna a ante vestibulum consequat eget eget magna.
                     Suspendisse placerat risus arcu, a rhoncus leo efficitur eget. Vivamus vulputate scelerisque tellus,
@@ -396,9 +399,6 @@
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="galeria-animation fab fa-js-square"></i> Jquery, <i class="fas fa-list-alt"></i> Photoshop, <i class="fas fa-brush"></i> Branding, <i class="fas fa-paint-brush"></i> Ilustrator.</b>
                     </div>
-                    <div class="posicao-gal-abrir">
-                        <div class="hover-gal-abrir" id="esconder-apresentacao6"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
-                    </div>
                 </div>
         </ul>
     </div>
@@ -416,6 +416,9 @@
                     </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
+                <div class="posicao-gal-abrir">
+                        <div class="hover-gal-abrir" id="esconder-apresentacao7"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                    </div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
                     pellentesque at nibh et, pulvinar dapibus leo. Nullam ac urna a ante vestibulum consequat eget eget magna.
                     Suspendisse placerat risus arcu, a rhoncus leo efficitur eget. Vivamus vulputate scelerisque tellus,
@@ -460,9 +463,6 @@
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="galeria-animation fab fa-js-square"></i> Jquery, <i class="fas fa-list-alt"></i> Photoshop, <i class="fas fa-brush"></i> Branding.</b>
                     </div>
-                    <div class="posicao-gal-abrir">
-                        <div class="hover-gal-abrir" id="esconder-apresentacao7"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
-                    </div>
                 </div>
         </ul>
     </div>
@@ -485,6 +485,9 @@
                     </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
+                <div class="posicao-gal-abrir">
+                        <div class="hover-gal-abrir" id="esconder-apresentacao8"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                    </div>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc viverra viverra pulvinar. Aliquam erat mauris,
                     pellentesque at nibh et, pulvinar dapibus leo. Nullam ac urna a ante vestibulum consequat eget eget magna.
                     Suspendisse placerat risus arcu, a rhoncus leo efficitur eget. Vivamus vulputate scelerisque tellus,
@@ -508,12 +511,9 @@
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="galeria-animation fab fa-js-square"></i> Jquery, <i class="fas fa-list-alt"></i> Photoshop, <i class="fas fa-brush"></i> Branding, <i class="fas fa-paint-brush"></i> Ilustrator.</b>
                     </div>
-                    <div class="posicao-gal-abrir">
-                        <div class="hover-gal-abrir" id="esconder-apresentacao8"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
-                    </div>
                 </div>
                 <div class="posicao-info">
-                <div class="texto-ver-info" id="abrir-apresentacao8"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
+                    <div class="texto-ver-info" id="abrir-apresentacao8"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
                 </div>
                 <div class="texto-galeria"><i style="margin-right:9px;" class="fas fa-images"></i>Galeria</div>
                 <div class="row">

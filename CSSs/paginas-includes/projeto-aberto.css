@@ -458,7 +458,8 @@
         background: #242424;
         font-size: 25px;
         padding: 15px;
-        margin-top: 7px;
+        margin-top: -53px;
+        margin-bottom: 10px;
         border-radius: 9px;
         text-align: center;
         transition: 0.5s;
@@ -607,7 +608,7 @@
         color: #ffffff;
         position: absolute;
         font-size: 96%;
-        bottom: 127px;
+        bottom: 58px;
         right: 0px;
         text-align: center;
         background-color: #000000c9;

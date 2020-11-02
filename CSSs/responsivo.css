@@ -1020,12 +1020,6 @@
         padding: 20px;
         font-size: 14px;
     }
-    .texto-projeto-lup {
-        font-size: 96%;
-        bottom: 144px;
-        right: 0px;
-        padding: 11px;
-    }
     /*  */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
@@ -1198,16 +1192,10 @@
         max-width: 450px;
     }
     .texto-projeto {
-        top: 405px;
+        top: 361px;
         width: 80%;
         padding: 20px;
         font-size: 14px;
-    }
-    .texto-projeto-lup {
-        font-size: 96%;
-        bottom: 144px;
-        right: 0px;
-        padding: 11px;
     }
     /* ---------------------- */
 }
@@ -1364,12 +1352,6 @@
         padding: 20px;
         font-size: 14px;
     }
-    .texto-projeto-lup {
-        font-size: 96%;
-        bottom: 144px;
-        right: 0px;
-        padding: 11px;
-    }
     /* ---------------------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
@@ -1523,12 +1505,6 @@
         width: 80%;
         padding: 20px;
         font-size: 14px;
-    }
-    .texto-projeto-lup {
-        font-size: 96%;
-        bottom: 144px;
-        right: 0px;
-        padding: 11px;
     }
     /* ---------------------- */
 }
@@ -1957,12 +1933,6 @@
         padding: 20px;
         font-size: 14px;
     }
-    .texto-projeto-lup {
-        font-size: 81%;
-        bottom: 110px;
-        right: 0px;
-        padding: 11px;
-    }
     /* ---------------------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
@@ -2259,12 +2229,6 @@
         width: 80%;
         padding: 20px;
         font-size: 14px;
-    }
-    .texto-projeto-lup {
-        font-size: 95%;
-        bottom: 102px;
-        right: 0px;
-        padding: 11px;
     }
     /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
     /* DESIGN PROJETOS */
@@ -2613,12 +2577,6 @@
         width: 88%;
         padding: 20px;
         font-size: 13px;
-    }
-    .texto-projeto-lup {
-        font-size: 80%;
-        bottom: 98px;
-        right: 0px;
-        padding: 11px;
     }
     .texto-ver-info {
         font-size: 16px;
