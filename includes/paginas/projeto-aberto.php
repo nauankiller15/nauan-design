@@ -196,7 +196,7 @@
 <div id="segundo-projeto">
     <div class="entrada-projeto">
     <ul>
-            <h2 style="animation: TrabalhoIni 3.0s;">Aprecie Modas e Acessórios</h2>
+            <h2 style="animation: TrabalhoIni 3.0s;">Aprecie Moda e Acessórios</h2>
             <div class="posicionar-centro">
                 <div class="posicao-aprs-img">
                     <div id="abrir-IMG-Gal8" class="apresentacao-img">
