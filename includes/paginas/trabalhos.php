@@ -36,79 +36,16 @@
                                         <img src="https://1.bp.blogspot.com/-q-Vhw8oxVo8/X52e_drIPgI/AAAAAAAAGdM/kxS0iZMdEX42VreFhoO8EW77LZ3aoiS3QCLcBGAsYHQ/s0/trabalho1.png" alt="img">
                                     </div>
 
-                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups">
+                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups branding uiuxkits">
                                         <div class="overlay">
                                             <li class="lupa-abrir" id="projeto2">
                                                 <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </li>
-                                        </div>
-                                        <img src="https://1.bp.blogspot.com/-QRtwV7wqQI4/X4ylM_fIoFI/AAAAAAAAGZE/wxpf3Bpe_YIST95YeSoNcXpNiGFnvPWDwCLcBGAsYHQ/s0/2.jpg" alt="img">
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesign">
-                                        <div class="overlay">
-                                            <li class="lupa-abrir" id="projeto3">
-                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
-                                            </li>
                                             <a href="#">
                                                 <div class="text"><i class="fas fa-link"></i></div>
                                             </a>
                                         </div>
-                                        <img src="https://1.bp.blogspot.com/-aAVZA7HJ408/X4ylMwSoHjI/AAAAAAAAGY8/_ZDJvZsqbnEyLMylIqQysPsgot6F7ySUQCLcBGAsYHQ/s0/3.jpg" alt="img">
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups webdesign">
-                                        <div class="overlay">
-                                            <li class="lupa-abrir" id="projeto4">
-                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
-                                            </li>
-                                            <a href="#">
-                                                <div class="text"><i class="fas fa-link"></i></div>
-                                            </a>
-                                        </div>
-                                        <img src="https://1.bp.blogspot.com/-Xp2OKy4wGQQ/X4ylNR4DN0I/AAAAAAAAGZM/1Fv8hsGzmlcM3-jNQqcKxjIL0WEOXj5UwCLcBGAsYHQ/s0/4.jpg" alt="img">
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding uiuxkits">
-                                        <div class="overlay">
-                                            <li class="lupa-abrir" id="projeto5">
-                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
-                                            </li>
-                                        </div>
-                                        <img src="https://1.bp.blogspot.com/-ElOFepd4Cq4/X4ylNSfXmbI/AAAAAAAAGZI/l1Q2KX_i5x8z_Yxh930T4m_cSKCJCaPCwCLcBGAsYHQ/s0/5.jpg" alt="img">
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uiuxkits webdesign">
-                                        <div class="overlay">
-                                            <li class="lupa-abrir" id="projeto6">
-                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
-                                            </li>
-                                            <a href="#">
-                                                <div class="text"><i class="fas fa-link"></i></div>
-                                            </a>
-                                        </div>
-                                        <img src="https://1.bp.blogspot.com/-IYDsnUzxQro/X4ylNbfVaDI/AAAAAAAAGZQ/Nj-pJPut8P0w1Q_JTtELH2Xu7bf4C2hKQCLcBGAsYHQ/s0/6.jpg" alt="img">
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups uiuxkits webdesign">
-                                        <div class="overlay">
-                                            <li class="lupa-abrir" id="projeto7">
-                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
-                                            </li>
-                                        </div>
-                                        <img src="https://1.bp.blogspot.com/-zKJVg4MLwSA/X5RlwiY8dwI/AAAAAAAAGZ8/RG55qBtNKr03RurBG2ze3Gsa4Wx8GBUkQCLcBGAsYHQ/s0/7.jpg" alt="img">
-                                    </div>
-
-                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups branding webdesign">
-                                        <div class="overlay">
-                                            <li class="lupa-abrir" id="projeto8">
-                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
-                                            </li>
-                                            <a href="#">
-                                                <div class="text"><i class="fas fa-link"></i></div>
-                                            </a>
-                                        </div>
-                                        <img src="https://1.bp.blogspot.com/-tUDiZJk1ARQ/X5Rn_h3UOjI/AAAAAAAAGaI/pFiguw_2UrMF2DWPvjo7GlYS53AR25kVwCLcBGAsYHQ/s0/8.jpg" alt="img">
+                                        <img src="https://1.bp.blogspot.com/-VQ1piPSKODg/X7unoPL9N7I/AAAAAAAAGew/ZXpdppTRD4AiwII3bQF8arLRVLLegd_rwCLcBGAsYHQ/s0/brandlogo.png" alt="img">
                                     </div>
 
                                 </div>
