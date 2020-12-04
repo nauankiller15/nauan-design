@@ -195,7 +195,7 @@
 <!-- Segundo Projeto -->
 <div id="segundo-projeto">
     <div class="entrada-projeto">
-    <ul>
+        <ul>
             <h2 style="animation: TrabalhoIni 3.0s;">Aprecie Moda e Acessórios</h2>
             <div class="posicionar-centro">
                 <div class="posicao-aprs-img">
@@ -204,7 +204,7 @@
                     </div>
                 </div>
                 <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                    <a class="popup-img1" title="Nauan-Design - Tela inicial" href="https://1.bp.blogspot.com/-PWQ2KrBJMJQ/X78DSt1dw4I/AAAAAAAAGg4/WIV7OgLXpNYDnyxri6q6iIh9tPglCh9lQCLcBGAsYHQ/s16000/InstaLogo.png">
+                    <a class="popup-img8" title="Nauan-Design - Tela inicial" href="https://1.bp.blogspot.com/-PWQ2KrBJMJQ/X78DSt1dw4I/AAAAAAAAGg4/WIV7OgLXpNYDnyxri6q6iIh9tPglCh9lQCLcBGAsYHQ/s16000/InstaLogo.png">
                         <img src="https://1.bp.blogspot.com/-PWQ2KrBJMJQ/X78DSt1dw4I/AAAAAAAAGg4/WIV7OgLXpNYDnyxri6q6iIh9tPglCh9lQCLcBGAsYHQ/s16000/InstaLogo.png">
                     </a>
                 </div>
