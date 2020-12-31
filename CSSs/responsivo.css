@@ -1372,10 +1372,10 @@
         display: inline-block;
     }
     .portfolio-thumbnail {
-        margin-bottom: 10px;
-        margin-right: 10px;
-        min-height: 30px;
-        width: 47%;
+        margin-bottom: 8px;
+        margin-right: 8px;
+        min-height: 80px;
+        width: 80%;
     }
     #portfolio .portfolio-list .nav li {
         padding: 1px;
@@ -1660,10 +1660,10 @@
         display: inline-block;
     }
     .portfolio-thumbnail {
-        margin-bottom: 10px;
-        margin-right: 10px;
-        min-height: 30px;
-        width: 47%;
+        margin-bottom: 8px;
+        margin-right: 8px;
+        min-height: 80px;
+        width: 80%;
     }
     #portfolio .portfolio-list .nav li {
         padding: 1px;
@@ -1953,10 +1953,10 @@
         display: inline-block;
     }
     .portfolio-thumbnail {
-        margin-bottom: 10px;
-        margin-right: 10px;
-        min-height: 30px;
-        width: 46%;
+        margin-bottom: 8px;
+        margin-right: 8px;
+        min-height: 80px;
+        width: 80%;
     }
     #portfolio .portfolio-list .nav li {
         padding: 1px;
@@ -1981,12 +1981,12 @@
         min-height: 35px;
     }
     .text {
-        font-size: 22px;
+        font-size: 31px;
         top: 50%;
         left: 50%;
         -webkit-transform: translate(224%, 36%);
         -ms-transform: translate(224%, 36%);
-        transform: translate(166%, -11%);
+        transform: translate(249%, 50%);
     }
     .link-margem {
         margin-top: 28px;
@@ -2274,18 +2274,18 @@
     .portfolio-thumbnail {
         margin-bottom: 8px;
         margin-right: 8px;
-        min-height: 32px;
-        width: 44%;
+        min-height: 80px;
+        width: 80%;
     }
     #portfolio .portfolio-list .nav li {
         padding: 1px;
         font-size: 15px;
-        line-height: 26px;
+        line-height: 29px;
     }
     #portfolio .portfolio-list .nav li:hover,
     #portfolio .portfolio-list .nav li.filter-active {
         font-size: 16px;
-        line-height: 26px;
+        line-height: 29px;
     }
     /* Titulo Trabalho (max-width: 390px) */
     .trabalhos h2 {
@@ -2300,12 +2300,12 @@
         min-height: 35px;
     }
     .text {
-        font-size: 22px;
+        font-size: 31px;
         top: 50%;
         left: 50%;
         -webkit-transform: translate(224%, 36%);
         -ms-transform: translate(224%, 36%);
-        transform: translate(136%, -55%);
+        transform: translate(249%, 50%);
     }
     .link-margem {
         margin-top: 28px;
