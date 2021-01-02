@@ -2256,6 +2256,13 @@
         padding: 20px;
         font-size: 14px;
     }
+    .texto-ver-info {
+        font-size: 16px;
+        padding: 14px;
+        margin-top: 21px;
+        border-radius: 9px;
+        width: 32%;
+    }
     /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
@@ -2634,7 +2641,7 @@
         width: 32%;
     }
     .texto-galeria {
-        width: 50%;
+        width: 100%;
         font-size: 30px;
         padding: 15px;
     }

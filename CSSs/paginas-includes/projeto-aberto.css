@@ -363,7 +363,7 @@
     
     .texto-galeria {
         border-bottom: 1px #fff solid;
-        width: 50%;
+        width: 100%;
         font-size: 42px;
         padding: 15px;
         text-align: center;
@@ -400,7 +400,7 @@
         color: #ffffff;
         margin-top: 21px;
         border-radius: 9px;
-        width: 33%;
+        width: 100%;
     }
     
     .texto-ver-info:hover {

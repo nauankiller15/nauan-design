@@ -41,7 +41,7 @@
                                             <li class="lupa-abrir" id="projeto2">
                                                 <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </li>
-                                            <a href="#">
+                                            <a href="https://www.instagram.com/apreciemodaeacessorios/" target="_blank">
                                                 <div class="text"><i class="fas fa-link"></i></div>
                                             </a>
                                         </div>
