@@ -7,7 +7,7 @@
             <div class="Centrosobre">
                 <div id="separarImg">
                     <div class="imagePotrait">
-                        <img src="imagens/portfolio/me.jpg" alt="img">
+                        <img src="https://1.bp.blogspot.com/-HrqEN225zm0/X_Duia5YSeI/AAAAAAAAGig/e8x9iX8jQj895rxGuc36GoT8U9NMi278gCLcBGAsYHQ/s16000/euo.png" alt="img">
                     </div>
                 </div>
                 <p style="margin-right: 20px;"> Desde que me conheço como gente, sou apaixonado por computador. Meu primeiro contato foi quando tinha 5 anos de idade.

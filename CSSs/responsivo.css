@@ -1726,7 +1726,7 @@
     .landscape img {
         height: 100%;
         position: absolute;
-        left: -283px;
+        left: 0px;
         bottom: 1px;
     }
     .sobre h2 {
@@ -2019,7 +2019,7 @@
     .landscape img {
         height: 100%;
         position: absolute;
-        left: -283px;
+        left: 0px;
         bottom: 1px;
     }
     .sobre h2 {
@@ -2345,7 +2345,7 @@
     .landscape img {
         height: 100%;
         position: absolute;
-        left: -283px;
+        left: 0px;
         bottom: 1px;
     }
     .sobre h2 {
@@ -2727,7 +2727,7 @@
     .landscape img {
         height: 100%;
         position: absolute;
-        left: -267px;
+        left: 0px;
         bottom: 1px;
     }
     .sobre h2 {
