@@ -541,13 +541,12 @@
     
     .text-galeria {
         color: #ffffff;
-        font-size: 420%;
-        position: absolute;
-        top: 35%;
-        left: 40%;
-        -webkit-transform: translate(50%, 50%);
-        -ms-transform: translate(50, 50%);
-        transform: translate(50%, 50%);
+        font-size: 250%;
+        position: relative;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
         text-align: center;
     }
     /*  */

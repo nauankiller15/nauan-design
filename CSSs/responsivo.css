@@ -232,7 +232,7 @@
         width: 30%;
     }
     .overlay-galeria {
-        height: 192px;
+        min-height: 265px;
     }
     /*  */
     /* Meus Projetos .Overlay > Text ------ */
@@ -430,7 +430,7 @@
         width: 30%;
     }
     .overlay-galeria {
-        height: 192px;
+        min-height: 160px;
     }
     #posicao-outras-imagens h2 {
         font-size: 37px;
@@ -670,7 +670,7 @@
         width: 31%;
     }
     .overlay-galeria {
-        height: 70px;
+        min-height: 160px;
     }
     #posicao-outras-imagens h2 {
         font-size: 37px;
@@ -745,7 +745,7 @@
         transform: translate(180%, 29%);
     }
     .link-margem {
-        margin-top: 28px;
+        margin-top: 40px;
     }
     /* --------- SOBRE MIM (max-width: 767px) ---------- */
     .exp {
@@ -819,7 +819,7 @@
         width: 31%;
     }
     .overlay-galeria {
-        height: 70px;
+        min-height: 160px;
     }
     #posicao-outras-imagens h2 {
         font-size: 37px;
@@ -862,7 +862,7 @@
         width: 33%;
     }
     .overlay-galeria {
-        height: 70px;
+        min-height: 160px;
     }
     #posicao-outras-imagens h2 {
         font-size: 37px;
@@ -999,7 +999,7 @@
         width: 33%;
     }
     .overlay-galeria {
-        height: 70px;
+        min-height: 160px;
     }
     #posicao-outras-imagens h2 {
         font-size: 37px;
@@ -1075,7 +1075,7 @@
         transform: translate(166%, -11%);
     }
     .link-margem {
-        margin-top: 28px;
+        margin-top: 40px;
     }
     /* --------- SOBRE MIM (max-width: 600px) ---------- */
     .exp {
@@ -1135,7 +1135,7 @@
         width: 33%;
     }
     .overlay-galeria {
-        height: 70px;
+        min-height: 160px;
     }
     #posicao-outras-imagens h2 {
         font-size: 37px;
@@ -1167,7 +1167,7 @@
         width: 33%;
     }
     .overlay-galeria {
-        height: 70px;
+        min-height: 160px;
     }
     #posicao-outras-imagens h2 {
         font-size: 37px;
@@ -1322,7 +1322,7 @@
         width: 33%;
     }
     .overlay-galeria {
-        height: 70px;
+        min-height: 160px;
     }
     #posicao-outras-imagens h2 {
         font-size: 37px;
@@ -1408,7 +1408,7 @@
         transform: translate(166%, -11%);
     }
     .link-margem {
-        margin-top: 28px;
+        margin-top: 40px;
     }
     /* --------- SOBRE MIM (max-width: 480px) ---------- */
     .exp {
@@ -1476,7 +1476,7 @@
         width: 33%;
     }
     .overlay-galeria {
-        height: 70px;
+        min-height: 160px;
     }
     #posicao-outras-imagens h2 {
         font-size: 37px;
@@ -1696,7 +1696,7 @@
         transform: translate(166%, -11%);
     }
     .link-margem {
-        margin-top: 28px;
+        margin-top: 40px;
     }
     /* --------- SOBRE MIM (max-width: 440px) ---------- */
     .exp {
@@ -1900,7 +1900,7 @@
         width: 33%;
     }
     .overlay-galeria {
-        height: 70px;
+        min-height: 130px;
     }
     #posicao-outras-imagens h2 {
         font-size: 37px;
@@ -1989,7 +1989,7 @@
         transform: translate(249%, 50%);
     }
     .link-margem {
-        margin-top: 28px;
+        margin-top: 40px;
     }
     /* --------- SOBRE MIM (max-width: 420px) ---------- */
     .exp {
@@ -2222,7 +2222,7 @@
         width: 33%;
     }
     .overlay-galeria {
-        height: 70px;
+        min-height: 130px;
     }
     #posicao-outras-imagens h2 {
         font-size: 37px;
@@ -2308,7 +2308,7 @@
         transform: translate(249%, 50%);
     }
     .link-margem {
-        margin-top: 28px;
+        margin-top: 40px;
     }
     /* --------- SOBRE MIM (max-width: 390px) ---------- */
     .exp {
@@ -2567,7 +2567,7 @@
         width: 33%;
     }
     .overlay-galeria {
-        height: 70px;
+        min-height: 130px;
     }
     #posicao-outras-imagens h2 {
         font-size: 37px;
@@ -2690,7 +2690,7 @@
         transform: translate(118%, -64%);
     }
     .link-margem {
-        margin-top: 28px;
+        margin-top: 40px;
     }
     /* --------- SOBRE MIM (max-width: 320px) ---------- */
     .exp {
