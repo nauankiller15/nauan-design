@@ -828,6 +828,26 @@
         text-align: center;
     }
     /* POSIÇOES MISC (max-width: 695px) -------------*/
+    /* MENU SIDEBAR */
+    .abrir-menu-gal {
+        display: block;
+    }
+    .menu-galeria {
+        margin-left: 4px;
+        font-size: 20px;
+        padding: 17px;
+    }
+    .fechar-menu-gal {
+        height: 38px;
+        width: 37px;
+        margin-left: 105px;
+    }
+    .portfolio-list-galeria ul {
+        padding-top: 17px;
+        left: 0px;
+        width: 184px;
+        display: none;
+    }
     .utilizados {
         font-size: 17px;
         top: 308px;
@@ -871,6 +891,26 @@
         text-align: center;
     }
     /* POSIÇOES MISC (max-width: 625px) -------------*/
+    /* MENU SIDEBAR */
+    .abrir-menu-gal {
+        display: block;
+    }
+    .menu-galeria {
+        margin-left: 4px;
+        font-size: 20px;
+        padding: 17px;
+    }
+    .fechar-menu-gal {
+        height: 38px;
+        width: 37px;
+        margin-left: 105px;
+    }
+    .portfolio-list-galeria ul {
+        padding-top: 17px;
+        left: 0px;
+        width: 184px;
+        display: none;
+    }
     .utilizados {
         font-size: 17px;
         top: 308px;
@@ -1008,6 +1048,26 @@
         text-align: center;
     }
     /* POSIÇOES MISC (max-width: 600px) -------------*/
+    /* MENU SIDEBAR */
+    .abrir-menu-gal {
+        display: block;
+    }
+    .menu-galeria {
+        margin-left: 4px;
+        font-size: 20px;
+        padding: 17px;
+    }
+    .fechar-menu-gal {
+        height: 38px;
+        width: 37px;
+        margin-left: 105px;
+    }
+    .portfolio-list-galeria ul {
+        padding-top: 17px;
+        left: 0px;
+        width: 184px;
+        display: none;
+    }
     .utilizados {
         font-size: 17px;
         top: 308px;
@@ -1177,6 +1237,26 @@
     }
     /*  */
     /* POSIÇOES MISC (max-width: 506px) -------------*/
+    /* MENU SIDEBAR */
+    .abrir-menu-gal {
+        display: block;
+    }
+    .menu-galeria {
+        margin-left: 4px;
+        font-size: 20px;
+        padding: 17px;
+    }
+    .fechar-menu-gal {
+        height: 38px;
+        width: 37px;
+        margin-left: 105px;
+    }
+    .portfolio-list-galeria ul {
+        padding-top: 17px;
+        left: 0px;
+        width: 184px;
+        display: none;
+    }
     /* CABEÇALHO */
     .entrada-projeto h2 {
         font-size: 38px;
@@ -1332,6 +1412,26 @@
     }
     /*  */
     /* POSIÇOES MISC (max-width: 480px) -------------*/
+    /* MENU SIDEBAR */
+    .abrir-menu-gal {
+        display: block;
+    }
+    .menu-galeria {
+        margin-left: 4px;
+        font-size: 20px;
+        padding: 17px;
+    }
+    .fechar-menu-gal {
+        height: 38px;
+        width: 37px;
+        margin-left: 105px;
+    }
+    .portfolio-list-galeria ul {
+        padding-top: 17px;
+        left: 0px;
+        width: 184px;
+        display: none;
+    }
     /* CABEÇALHO */
     .entrada-projeto h2 {
         font-size: 38px;
@@ -1486,6 +1586,26 @@
     }
     /*  */
     /* POSIÇOES MISC (max-width: 458px) -------------*/
+    /* MENU SIDEBAR */
+    .abrir-menu-gal {
+        display: block;
+    }
+    .menu-galeria {
+        margin-left: 4px;
+        font-size: 20px;
+        padding: 17px;
+    }
+    .fechar-menu-gal {
+        height: 38px;
+        width: 37px;
+        margin-left: 105px;
+    }
+    .portfolio-list-galeria ul {
+        padding-top: 17px;
+        left: 0px;
+        width: 184px;
+        display: none;
+    }
     /* CABEÇALHO */
     .entrada-projeto h2 {
         font-size: 38px;
@@ -1914,6 +2034,26 @@
     }
     /*  */
     /* POSIÇOES MISC (max-width: 420px) -------------*/
+    /* MENU SIDEBAR */
+    .abrir-menu-gal {
+        display: block;
+    }
+    .menu-galeria {
+        margin-left: 4px;
+        font-size: 20px;
+        padding: 17px;
+    }
+    .fechar-menu-gal {
+        height: 38px;
+        width: 37px;
+        margin-left: 105px;
+    }
+    .portfolio-list-galeria ul {
+        padding-top: 17px;
+        left: 0px;
+        width: 184px;
+        display: none;
+    }
     /* CABEÇALHO */
     .entrada-projeto h2 {
         font-size: 31px;
@@ -2234,6 +2374,26 @@
     }
     /*  */
     /* POSIÇOES MISC (max-width: 390px) -------------*/
+    /* MENU SIDEBAR */
+    .abrir-menu-gal {
+        display: block;
+    }
+    .menu-galeria {
+        margin-left: 4px;
+        font-size: 20px;
+        padding: 17px;
+    }
+    .fechar-menu-gal {
+        height: 38px;
+        width: 37px;
+        margin-left: 105px;
+    }
+    .portfolio-list-galeria ul {
+        padding-top: 17px;
+        left: 0px;
+        width: 184px;
+        display: none;
+    }
     /* CABEÇALHO */
     .entrada-projeto h2 {
         font-size: 38px;
@@ -2596,6 +2756,9 @@
     /*  */
     /* POSIÇOES MISC (max-width: 320px) -------------*/
     /* MENU SIDEBAR */
+    .abrir-menu-gal {
+        display: block;
+    }
     .menu-galeria {
         margin-left: 4px;
         font-size: 20px;
@@ -2610,6 +2773,7 @@
         padding-top: 17px;
         left: 0px;
         width: 184px;
+        display: none;
     }
     /*  */
     /* CABEÇALHO */
