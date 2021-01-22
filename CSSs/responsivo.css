@@ -21,7 +21,7 @@
     }
 }
 
-@media (min-width: 1701px) {
+@media (min-width: 1401px) {
     /* GALERIA PROJETOS -------- */
     .posicao-aprs-img {
         left: 310px;
@@ -37,9 +37,19 @@
         padding: 15px;
     }
     /*  */
+    /* SLIDE */
+    #slider figure {
+        width: 1000%;
+        height: 320px;
+    }
+    #slider figure img {
+        width: 10%;
+        max-width: 300%;
+        min-height: 300%;
+    }
 }
 
-@media (max-width: 1700px) {
+@media (max-width: 1400px) {
     /* GALERIA PROJETOS -------- */
     .hover-gal-abrir {
         font-size: 23px;
@@ -96,7 +106,21 @@
 
 /*  */
 
-@media (max-width: 1666px) {
+@media (max-width: 1706px) {
+    /* SLIDE */
+    #slider figure {
+        width: 1000%;
+        height: 400px;
+        /* 100% for each picture, 10 pictures = 1000% */
+    }
+    #slider figure img {
+        width: 10%;
+        max-width: 300%;
+        min-height: 300%;
+    }
+}
+
+@media (max-width: 1366px) {
     /* GALERIA PROJETOS ------------*/
     #posicao-outras-imagens {
         margin-top: 20px;
@@ -130,7 +154,7 @@
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1200px) {
     /* GALERIA PROJETOS ------------*/
     #posicao-outras-imagens {
         margin-top: 20px;
