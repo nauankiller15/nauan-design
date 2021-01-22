@@ -21,7 +21,7 @@
     }
 }
 
-@media (min-width: 1401px) {
+@media (min-width: 1701px) {
     /* GALERIA PROJETOS -------- */
     .posicao-aprs-img {
         left: 310px;
@@ -39,7 +39,7 @@
     /*  */
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1700px) {
     /* GALERIA PROJETOS -------- */
     .hover-gal-abrir {
         font-size: 23px;
@@ -96,7 +96,7 @@
 
 /*  */
 
-@media (max-width: 1366px) {
+@media (max-width: 1666px) {
     /* GALERIA PROJETOS ------------*/
     #posicao-outras-imagens {
         margin-top: 20px;
@@ -130,7 +130,7 @@
     }
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1300px) {
     /* GALERIA PROJETOS ------------*/
     #posicao-outras-imagens {
         margin-top: 20px;
