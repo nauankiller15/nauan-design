@@ -337,7 +337,7 @@
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
-        background-image: url('https://1.bp.blogspot.com/-4u7w9U7sw2I/X4riNOP0fGI/AAAAAAAAGYw/rg316jkMvXo641MmzBgCu5eOcZgjJyBoQCLcBGAsYHQ/s0/square-index-menor.png');
+        background-image: url('https://1.bp.blogspot.com/-wd37qLwFIys/YAr6PrjdcmI/AAAAAAAAGj4/i9CqcmLpBxAoHKqsna2iE1Fl9-3Vn37qwCLcBGAsYHQ/s0/Nauan-Design-logo-brand-menor.png');
     }
     .quadradoUtilites {
         top: 47px;
@@ -355,14 +355,16 @@
     }
     /* ------- Dentro Quadrado (min-width: 768px) and (max-width: 991px) */
     .designn {
-        font-size: 37px;
+        /* font-size: 37px;
         left: 15px;
-        top: 277px;
+        top: 277px; */
+        display: none;
     }
     .nauan {
-        font-size: 46px;
+        /* font-size: 46px;
         left: 10px;
-        top: 230px;
+        top: 230px; */
+        display: none;
     }
     /*  */
     .menuhambur {
@@ -581,7 +583,7 @@
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
-        background-image: url('https://1.bp.blogspot.com/-4u7w9U7sw2I/X4riNOP0fGI/AAAAAAAAGYw/rg316jkMvXo641MmzBgCu5eOcZgjJyBoQCLcBGAsYHQ/s0/square-index-menor.png');
+        background-image: url('https://1.bp.blogspot.com/-wd37qLwFIys/YAr6PrjdcmI/AAAAAAAAGj4/i9CqcmLpBxAoHKqsna2iE1Fl9-3Vn37qwCLcBGAsYHQ/s0/Nauan-Design-logo-brand-menor.png');
     }
     .quadradoUtilites {
         top: 46px;
@@ -599,14 +601,16 @@
     }
     /* ------- Dentro Quadrado (max-width: 767px) */
     .designn {
-        font-size: 37px;
+        /* font-size: 37px;
         left: 15px;
-        top: 277px;
+        top: 277px; */
+        display: none;
     }
     .nauan {
-        font-size: 46px;
+        /* font-size: 46px;
         left: 10px;
-        top: 230px;
+        top: 230px; */
+        display: none;
     }
     /*  */
     .menu {
@@ -950,7 +954,7 @@
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
-        background-image: url('https://1.bp.blogspot.com/-4u7w9U7sw2I/X4riNOP0fGI/AAAAAAAAGYw/rg316jkMvXo641MmzBgCu5eOcZgjJyBoQCLcBGAsYHQ/s0/square-index-menor.png');
+        background-image: url('https://1.bp.blogspot.com/-wd37qLwFIys/YAr6PrjdcmI/AAAAAAAAGj4/i9CqcmLpBxAoHKqsna2iE1Fl9-3Vn37qwCLcBGAsYHQ/s0/Nauan-Design-logo-brand-menor.png');
     }
     .quadradoUtilites {
         top: 47px;
@@ -968,14 +972,16 @@
     }
     /* ------- Dentro Quadrado (max-width: 600px) */
     .designn {
-        font-size: 37px;
+        /* font-size: 37px;
         left: 15px;
-        top: 277px;
+        top: 277px; */
+        display: none;
     }
     .nauan {
-        font-size: 46px;
+        /* font-size: 46px;
         left: 10px;
-        top: 230px;
+        top: 230px; */
+        display: none;
     }
     /*  */
     .menu {
@@ -1309,7 +1315,7 @@
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
-        background-image: url('https://1.bp.blogspot.com/-4u7w9U7sw2I/X4riNOP0fGI/AAAAAAAAGYw/rg316jkMvXo641MmzBgCu5eOcZgjJyBoQCLcBGAsYHQ/s0/square-index-menor.png');
+        background-image: url('https://1.bp.blogspot.com/-wd37qLwFIys/YAr6PrjdcmI/AAAAAAAAGj4/i9CqcmLpBxAoHKqsna2iE1Fl9-3Vn37qwCLcBGAsYHQ/s0/Nauan-Design-logo-brand-menor.png');
     }
     .quadradoUtilites {
         top: 47px;
@@ -1327,14 +1333,16 @@
     }
     /* ------- Dentro Quadrado (max-width: 480px) */
     .designn {
-        font-size: 37px;
+        /* font-size: 37px;
         left: 15px;
-        top: 277px;
+        top: 277px; */
+        display: none;
     }
     .nauan {
-        font-size: 46px;
+        /* font-size: 46px;
         left: 10px;
-        top: 230px;
+        top: 230px; */
+        display: none;
     }
     /*  */
     .menu {
@@ -1691,7 +1699,7 @@
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
-        background-image: url('https://1.bp.blogspot.com/-4u7w9U7sw2I/X4riNOP0fGI/AAAAAAAAGYw/rg316jkMvXo641MmzBgCu5eOcZgjJyBoQCLcBGAsYHQ/s0/square-index-menor.png');
+        background-image: url('https://1.bp.blogspot.com/-wd37qLwFIys/YAr6PrjdcmI/AAAAAAAAGj4/i9CqcmLpBxAoHKqsna2iE1Fl9-3Vn37qwCLcBGAsYHQ/s0/Nauan-Design-logo-brand-menor.png');
     }
     .quadradoUtilites {
         top: 38px;
@@ -1709,14 +1717,16 @@
     }
     /* ------- Dentro Quadrado (max-width: 440px) */
     .designn {
-        font-size: 33px;
+        /* font-size: 33px;
         left: 9px;
-        top: 249px;
+        top: 249px; */
+        display: none;
     }
     .nauan {
-        font-size: 41px;
+        /* font-size: 41px;
         left: 10px;
-        top: 207px;
+        top: 207px; */
+        display: none;
     }
     .menu {
         top: 403px;
@@ -1927,7 +1937,7 @@
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
-        background-image: url('https://1.bp.blogspot.com/-4u7w9U7sw2I/X4riNOP0fGI/AAAAAAAAGYw/rg316jkMvXo641MmzBgCu5eOcZgjJyBoQCLcBGAsYHQ/s0/square-index-menor.png');
+        background-image: url('https://1.bp.blogspot.com/-wd37qLwFIys/YAr6PrjdcmI/AAAAAAAAGj4/i9CqcmLpBxAoHKqsna2iE1Fl9-3Vn37qwCLcBGAsYHQ/s0/Nauan-Design-logo-brand-menor.png');
     }
     .quadradoUtilites {
         top: 38px;
@@ -1945,14 +1955,16 @@
     }
     /* ------- Dentro Quadrado (max-width: 420px) */
     .designn {
-        font-size: 33px;
+        /* font-size: 33px;
         left: 9px;
-        top: 249px;
+        top: 249px; */
+        display: none;
     }
     .nauan {
-        font-size: 41px;
+        /* font-size: 41px;
         left: 10px;
-        top: 207px;
+        top: 207px; */
+        display: none;
     }
     .menu {
         top: 403px;
@@ -2291,14 +2303,16 @@
     }
     /* ------- Dentro Quadrado (max-width: 390px) */
     .designn {
-        font-size: 30px;
+        /* font-size: 30px;
         left: 15px;
-        top: 249px;
+        top: 249px; */
+        display: none;
     }
     .nauan {
-        font-size: 38px;
+        /* font-size: 38px;
         left: 14px;
-        top: 207px;
+        top: 207px; */
+        display: none;
     }
     /*  */
     /* ---------- OUTRAS PÁGINAS (max-width: 390px) -------- */
@@ -2647,7 +2661,7 @@
         position: absolute;
         transition: 1.0s;
         animation: quadradoAnim 2.0s, fadeIn 3.0s ease-in-out;
-        background-image: url('https://1.bp.blogspot.com/-4u7w9U7sw2I/X4riNOP0fGI/AAAAAAAAGYw/rg316jkMvXo641MmzBgCu5eOcZgjJyBoQCLcBGAsYHQ/s0/square-index-menor.png');
+        background-image: url('https://1.bp.blogspot.com/-wd37qLwFIys/YAr6PrjdcmI/AAAAAAAAGj4/i9CqcmLpBxAoHKqsna2iE1Fl9-3Vn37qwCLcBGAsYHQ/s0/Nauan-Design-logo-brand-menor.png');
     }
     .quadradoUtilites {
         top: 33px;
@@ -2665,14 +2679,16 @@
     }
     /* ------- Dentro Quadrado (max-width: 320px) */
     .designn {
-        font-size: 30px;
+        /* font-size: 30px;
         left: 24px;
-        top: 236px;
+        top: 236px; */
+        display: none;
     }
     .nauan {
-        font-size: 38px;
+        /* font-size: 38px;
         left: 10px;
-        top: 196px;
+        top: 196px; */
+        display: none;
     }
     /*  */
     /* ---------- OUTRAS PÁGINAS (max-width: 320px) -------- */

@@ -26,12 +26,12 @@
             <div class="quadrado-index">
 
             </div>
-            <div class="quadradoUtilites">
+            <!-- <div class="quadradoUtilites">
                 <li style="animation: go-back1 3.5s infinite alternate, LiAnim 3.5s;" class="Infograficos">UI/UX Kits</li>
                 <li style="animation: go-back1 4.6s infinite alternate, LiAnim 4.5s;" class="Web-Design">Web-Design</li>
                 <li style="animation: go-back1 5.7s infinite alternate, LiAnim 5.5s;" class="Mockups">Mockups</li>
                 <li style="animation: go-back1 6.8s infinite alternate, LiAnim 6.5s;" class="Web-Dev">Web-Dev</li>
-            </div>
+            </div> -->
         </div>
     </div>
     <?php include("includes/footer.php"); ?>
