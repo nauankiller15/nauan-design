@@ -62,7 +62,7 @@ a:hover {
 
 #quadrado-position {
     position: fixed;
-    top: 90px;
+    top: 140px;
     left: 230px;
     z-index: 999;
 }
