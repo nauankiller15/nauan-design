@@ -68,29 +68,33 @@ a:hover {
 }
 
 .nauan {
+    z-index: 10;
+    color: black;
     font-size: 65px;
     font-family: Bahnschrift;
     font-style: inherit;
     cursor: default;
     position: absolute;
-    left: 177px;
-    top: 499px;
+    left: 192px;
+    top: 215px;
     text-transform: uppercase;
-    animation: H2Slide 3.5s ease-in-out;
-    text-shadow: 2px 2px 3px #000000;
+    animation: H2Slide 2.5s ease-in-out;
+    text-shadow: 3px 3px 10px #ffff;
 }
 
 .designn {
+    z-index: 10;
     font-size: 41px;
     font-family: Bahnschrift;
     font-style: inherit;
     cursor: default;
     position: absolute;
-    left: 210px;
-    top: 557px;
+    left: 233px;
+    top: 276px;
     text-transform: uppercase;
-    animation: H2Slide 5.5s ease-in-out;
-    text-shadow: 2px 2px 2px #000000;
+    animation: H2Slide 3.2s ease-in-out;
+    text-shadow: 5px 5px 5px #fff;
+    color: black;
 }
 
 .euSou {
