@@ -65,6 +65,16 @@
                     </div>
                     <div id="posicao-outras-imagens">
                         <div class="galeria-imagens">
+
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img1" title="BRANDING - Nova Logo do Projeto" href="https://1.bp.blogspot.com/-t5IRgp-RbYw/YBXdYaLzEyI/AAAAAAAAGkg/DNmC9A6HCmET1GgQ_0Ruu3km1G6SAkkpgCLcBGAsYHQ/s0/trabalho1.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-t5IRgp-RbYw/YBXdYaLzEyI/AAAAAAAAGkg/DNmC9A6HCmET1GgQ_0Ruu3km1G6SAkkpgCLcBGAsYHQ/s0/trabalho1.png" alt="img">
+                            </div>
+
                             <div class="thumbnail all branding">
                                 <div class="overlay-galeria">
                                     <a class="popup-img1" title="BRANDING - Flores Obscuras - Nauan-Design" href="https://1.bp.blogspot.com/-hJgAap3oEfQ/X52RlfvjinI/AAAAAAAAGb0/sydDv1KfXHQ8IYZZdEIysxNzLkIzRVQqgCLcBGAsYHQ/s0/Background1.png">
@@ -199,18 +209,18 @@
             <h2 style="animation: TrabalhoIni 3.0s;">Aprecie Moda e Acessórios</h2>
             <div class="posicionar-centro">
                 <div class="posicao-aprs-img">
-                    <div id="abrir-IMG-Gal8" class="apresentacao-img">
+                    <div id="abrir-IMG-Gal2" class="apresentacao-img">
                         <i style="margin-top: 17px;width: 100%;text-align: center;font-size: 80px;" class="fas fa-image" aria-hidden="true"></i>
                     </div>
                 </div>
                 <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
-                    <a class="popup-img8" title="Nauan-Design - Tela inicial" href="https://1.bp.blogspot.com/-PWQ2KrBJMJQ/X78DSt1dw4I/AAAAAAAAGg4/WIV7OgLXpNYDnyxri6q6iIh9tPglCh9lQCLcBGAsYHQ/s16000/InstaLogo.png">
+                    <a class="popup-img2" title="Nauan-Design - Tela inicial" href="https://1.bp.blogspot.com/-PWQ2KrBJMJQ/X78DSt1dw4I/AAAAAAAAGg4/WIV7OgLXpNYDnyxri6q6iIh9tPglCh9lQCLcBGAsYHQ/s16000/InstaLogo.png">
                         <img src="https://1.bp.blogspot.com/-PWQ2KrBJMJQ/X78DSt1dw4I/AAAAAAAAGg4/WIV7OgLXpNYDnyxri6q6iIh9tPglCh9lQCLcBGAsYHQ/s16000/InstaLogo.png">
                     </a>
                 </div>
                 <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
                     <div class="posicao-gal-abrir">
-                        <div class="hover-gal-abrir" id="esconder-apresentacao8"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                        <div class="hover-gal-abrir" id="esconder-apresentacao2"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
                     </div>
                     <p>Criação da marca autorizada Aprecie Modas e Acessórios.</p>
                     <p>------------------------</p>
@@ -227,23 +237,23 @@
                     </div>
                 </div>
                 <div class="posicao-info">
-                    <div class="texto-ver-info" id="abrir-apresentacao8"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
+                    <div class="texto-ver-info" id="abrir-apresentacao2"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
                 </div>
                 <div class="texto-galeria"><i style="margin-right:9px;" class="fas fa-images"></i>Galeria</div>
                 <div class="row">
                     <div class="col-md-12">
-                        <div id="abrir-menu-gal8" class="abrir-menu-gal">
+                        <div id="abrir-menu-gal2" class="abrir-menu-gal">
                             <i style="position: absolute;top: 7px;left: 8px;font-size: 28px;" class="fas fa-bars" aria-hidden="true"></i>
                         </div>
                         <div class="portfolio-list-galeria">
                             <ul class="nav list-unstyled" id="portfolio-flters-galera">
-                                <div id="fechar-menu-gal8" class="fechar-menu-gal">
+                                <div id="fechar-menu-gal2" class="fechar-menu-gal">
                                     <i class="fas fa-times" aria-hidden="true" style="padding-left: 9px;padding-top: 6px;font-size: 23px;"></i>
                                 </div>
                                 <div class="menu-galeria"><i style="margin-right:5px" class="fas fa-bars"></i>Menu</div>
                                 <div class="FiltroGal"><i style="margin-right:5px;" class="fas fa-images"></i>Galeria <p style="margin-left:26px;">Filtrar:</p>
                                 </div>
-                                <li id="FiltrarGaleria8" class="filter filter-active galeria-animation" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
+                                <li id="FiltrarGaleria2" class="filter filter-active galeria-animation" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
                                 <li class="filter" data-filter=".branding"><i class="galeria-animation fas fa-brush"></i> Branding</li>
                                 <li class="filter" data-filter=".uiuxkits"><i class="galeria-animation fas fa-paint-brush"></i> Ui/Ux Kits</li>
                             </ul>
@@ -253,7 +263,7 @@
                         <div class="galeria-imagens">
                             <div class="thumbnail all branding">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img8" title="BRANDING - Logo" href="https://1.bp.blogspot.com/-tqjdMsLHLA4/X778xR6z4vI/AAAAAAAAGfE/G-IHr4Y0Lkg50necVXF0TeYrCxLl6Sd_gCLcBGAsYHQ/s0/Aprecie%2Blogo%2BPerfil.png">
+                                    <a class="popup-img2" title="BRANDING - Logo" href="https://1.bp.blogspot.com/-tqjdMsLHLA4/X778xR6z4vI/AAAAAAAAGfE/G-IHr4Y0Lkg50necVXF0TeYrCxLl6Sd_gCLcBGAsYHQ/s0/Aprecie%2Blogo%2BPerfil.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
@@ -262,7 +272,7 @@
 
                             <div class="thumbnail all branding">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img8" title="BRANDING - Logo Original" href="https://1.bp.blogspot.com/-AJFAJpvhpUU/X78GNZUKB1I/AAAAAAAAGhE/QdIHIT0MrMsLerRtRn7mrK_5FHTCXXFOgCLcBGAsYHQ/s16000/brandlogo.png">
+                                    <a class="popup-img2" title="BRANDING - Logo Original" href="https://1.bp.blogspot.com/-AJFAJpvhpUU/X78GNZUKB1I/AAAAAAAAGhE/QdIHIT0MrMsLerRtRn7mrK_5FHTCXXFOgCLcBGAsYHQ/s16000/brandlogo.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
@@ -271,7 +281,7 @@
 
                             <div class="thumbnail all uiuxkits">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img8" title="UI/UX KITS - Marcas Rodapé" href="https://1.bp.blogspot.com/-400JdnEiOe4/X778wvvdEKI/AAAAAAAAGe8/HLGNOh0MSfgK6LiTYT5LcsWY1EgURRDewCLcBGAsYHQ/s0/Aprecie%2BLogo%2BRodape.png">
+                                    <a class="popup-img2" title="UI/UX KITS - Marcas Rodapé" href="https://1.bp.blogspot.com/-400JdnEiOe4/X778wvvdEKI/AAAAAAAAGe8/HLGNOh0MSfgK6LiTYT5LcsWY1EgURRDewCLcBGAsYHQ/s0/Aprecie%2BLogo%2BRodape.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
@@ -280,7 +290,7 @@
 
                             <div class="thumbnail all branding">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img8" title="BRANDING - Marca na Sacola" href="https://1.bp.blogspot.com/-NcWSSi3w_AQ/X78GnqLF7gI/AAAAAAAAGhM/FPoUMPLAXZkLnhK-wC7HMetbIZRRk7_CwCLcBGAsYHQ/s16000/Aprecie%2BLogo%2BSacolaa.png">
+                                    <a class="popup-img2" title="BRANDING - Marca na Sacola" href="https://1.bp.blogspot.com/-NcWSSi3w_AQ/X78GnqLF7gI/AAAAAAAAGhM/FPoUMPLAXZkLnhK-wC7HMetbIZRRk7_CwCLcBGAsYHQ/s16000/Aprecie%2BLogo%2BSacolaa.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
@@ -289,7 +299,7 @@
 
                             <div class="thumbnail all uiuxkits">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img8" title="UI/UX KITS - Envios" href="https://1.bp.blogspot.com/-IIonKuSDZ6k/X78ASJbXhuI/AAAAAAAAGfk/CIyitAiSqPU19OCB2nEf2uVE0dFGApGMgCLcBGAsYHQ/s320/envios.png">
+                                    <a class="popup-img2" title="UI/UX KITS - Envios" href="https://1.bp.blogspot.com/-IIonKuSDZ6k/X78ASJbXhuI/AAAAAAAAGfk/CIyitAiSqPU19OCB2nEf2uVE0dFGApGMgCLcBGAsYHQ/s320/envios.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
@@ -298,7 +308,7 @@
 
                             <div class="thumbnail all uiuxkits">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img8" title="UI/UX KITS - Bolsas" href="https://1.bp.blogspot.com/-GFYawDXanQA/X78BRIeY1WI/AAAAAAAAGgA/Dum-9ZmiOXYaEul8K5m4aHRrlKzezaeCwCLcBGAsYHQ/s320/bolsas%2B%25281%2529.png">
+                                    <a class="popup-img2" title="UI/UX KITS - Bolsas" href="https://1.bp.blogspot.com/-GFYawDXanQA/X78BRIeY1WI/AAAAAAAAGgA/Dum-9ZmiOXYaEul8K5m4aHRrlKzezaeCwCLcBGAsYHQ/s320/bolsas%2B%25281%2529.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
@@ -307,7 +317,7 @@
 
                             <div class="thumbnail all uiuxkits">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img8" title="UI/UX KITS - Clientes" href="https://1.bp.blogspot.com/-L9oQ0qlYdgI/X78BSxQgnGI/AAAAAAAAGgM/yvIf4L5q4JAdcD5h0_h8u50cQUKMjrSlwCLcBGAsYHQ/s320/clientes%2B%25281%2529.png">
+                                    <a class="popup-img2" title="UI/UX KITS - Clientes" href="https://1.bp.blogspot.com/-L9oQ0qlYdgI/X78BSxQgnGI/AAAAAAAAGgM/yvIf4L5q4JAdcD5h0_h8u50cQUKMjrSlwCLcBGAsYHQ/s320/clientes%2B%25281%2529.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
@@ -316,7 +326,7 @@
 
                             <div class="thumbnail all uiuxkits">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img8" title="UI/UX KITS - Coleções" href="https://1.bp.blogspot.com/-obEYVOVHB-s/X78BS4v_LyI/AAAAAAAAGgI/0G6M23ge4FEO-HHvWZQYsx6ptvZOtPmmgCLcBGAsYHQ/s320/cole%25C3%25A7%25C3%25B5es%2B%25281%2529.png">
+                                    <a class="popup-img2" title="UI/UX KITS - Coleções" href="https://1.bp.blogspot.com/-obEYVOVHB-s/X78BS4v_LyI/AAAAAAAAGgI/0G6M23ge4FEO-HHvWZQYsx6ptvZOtPmmgCLcBGAsYHQ/s320/cole%25C3%25A7%25C3%25B5es%2B%25281%2529.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
@@ -326,7 +336,7 @@
 
                             <div class="thumbnail all uiuxkits">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img8" title="UI/UX KITS - Formas de Pagamento" href="https://1.bp.blogspot.com/-KtIOM6Nxn18/X78BTykDAcI/AAAAAAAAGgQ/1sGMUK8YZ3k7RG6pnXBBw2cZJEh6vAAlwCLcBGAsYHQ/s320/formas%2Bde%2Bpagamento.png">
+                                    <a class="popup-img2" title="UI/UX KITS - Formas de Pagamento" href="https://1.bp.blogspot.com/-KtIOM6Nxn18/X78BTykDAcI/AAAAAAAAGgQ/1sGMUK8YZ3k7RG6pnXBBw2cZJEh6vAAlwCLcBGAsYHQ/s320/formas%2Bde%2Bpagamento.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
@@ -335,7 +345,7 @@
 
                             <div class="thumbnail all uiuxkits">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img8" title="UI/UX KITS - Informações" href="https://1.bp.blogspot.com/-EXLLl0WTQqE/X78BT0silNI/AAAAAAAAGgU/p6cLGTiiLQUEJ2b3qKCE220OIqxcsQScQCLcBGAsYHQ/s320/informa%25C3%25A7%25C3%25A3o.png">
+                                    <a class="popup-img2" title="UI/UX KITS - Informações" href="https://1.bp.blogspot.com/-EXLLl0WTQqE/X78BT0silNI/AAAAAAAAGgU/p6cLGTiiLQUEJ2b3qKCE220OIqxcsQScQCLcBGAsYHQ/s320/informa%25C3%25A7%25C3%25A3o.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
@@ -344,7 +354,7 @@
 
                             <div class="thumbnail all uiuxkits">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img8" title="UI/UX KITS - T-Shirts" href="https://1.bp.blogspot.com/-5k6FhbM6iV8/X78BUDBiDBI/AAAAAAAAGgY/UPm8wLFUmuwXHS9OJCudJaiJNClqYcq7gCLcBGAsYHQ/s320/tshirt.png">
+                                    <a class="popup-img2" title="UI/UX KITS - T-Shirts" href="https://1.bp.blogspot.com/-5k6FhbM6iV8/X78BUDBiDBI/AAAAAAAAGgY/UPm8wLFUmuwXHS9OJCudJaiJNClqYcq7gCLcBGAsYHQ/s320/tshirt.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
@@ -353,13 +363,127 @@
 
                             <div class="thumbnail all uiuxkits">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img8" title="UI/UX KITS - Óculos" href="https://1.bp.blogspot.com/-uNpMh8TRNq8/X78BUoUnevI/AAAAAAAAGgc/UFGkCTi9tV4IOQ39QIipsmzXEGucD8FOQCLcBGAsYHQ/s320/%25C3%25B3culos.png">
+                                    <a class="popup-img2" title="UI/UX KITS - Óculos" href="https://1.bp.blogspot.com/-uNpMh8TRNq8/X78BUoUnevI/AAAAAAAAGgc/UFGkCTi9tV4IOQ39QIipsmzXEGucD8FOQCLcBGAsYHQ/s320/%25C3%25B3culos.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
                                 <img src="https://1.bp.blogspot.com/-uNpMh8TRNq8/X78BUoUnevI/AAAAAAAAGgc/UFGkCTi9tV4IOQ39QIipsmzXEGucD8FOQCLcBGAsYHQ/s320/%25C3%25B3culos.png" alt="img">
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </div>
+</div>
+
+
+<!-- Terceiro Projeto -->
+<div id="terceiro-projeto">
+    <div class="entrada-projeto">
+        <ul>
+            <h2 style="animation: TrabalhoIni 3.0s;">Projeto de Insigna</h2>
+            <div class="posicionar-centro">
+                <div class="posicao-aprs-img">
+                    <div id="abrir-IMG-Gal3" class="apresentacao-img">
+                        <i style="margin-top: 17px;width: 100%;text-align: center;font-size: 80px;" class="fas fa-image" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
+                    <a class="popup-img3" title="Nauan-Design - Tela inicial" href="https://1.bp.blogspot.com/-UIeW1FOIc5g/YBXjt0MIeeI/AAAAAAAAGks/2DF_cand7towEfboq-EmrSzTorejH00vgCLcBGAsYHQ/s0/Projeto%2BNauan-Design.png">
+                        <img src="https://1.bp.blogspot.com/-UIeW1FOIc5g/YBXjt0MIeeI/AAAAAAAAGks/2DF_cand7towEfboq-EmrSzTorejH00vgCLcBGAsYHQ/s0/Projeto%2BNauan-Design.png">
+                    </a>
+                </div>
+                <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
+                    <div class="posicao-gal-abrir">
+                        <div class="hover-gal-abrir" id="esconder-apresentacao3"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                    </div>
+                    <p>Criação da marca autorizada Insigna.</p>
+                    <p>------------------------</p>
+                    Galeria de apresentação do projeto, com as imagens registradas da marca, não utilizável para uso terceiros. Proibido a utilização das imagens sob uso impróprio da marca.
+                    Todo conteúdo apresentado foi criado com seus dévidos créditos.
+                    <p>-----</p>
+                    <p>© Todos os direitos reservados 2021.</p>
+                </div>
+
+                <div class="utilizados">
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup">Abrir Imagem: <i class="fas fa-search"></i></div>
+                    <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
+                        <i class="fas fa-brush"></i> Branding
+                    </div>
+                </div>
+                <div class="posicao-info">
+                    <div class="texto-ver-info" id="abrir-apresentacao3"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
+                </div>
+                <div class="texto-galeria"><i style="margin-right:9px;" class="fas fa-images"></i>Galeria</div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="abrir-menu-gal3" class="abrir-menu-gal">
+                            <i style="position: absolute;top: 7px;left: 8px;font-size: 28px;" class="fas fa-bars" aria-hidden="true"></i>
+                        </div>
+                        <div class="portfolio-list-galeria">
+                            <ul class="nav list-unstyled" id="portfolio-flters-galera">
+                                <div id="fechar-menu-gal3" class="fechar-menu-gal">
+                                    <i class="fas fa-times" aria-hidden="true" style="padding-left: 9px;padding-top: 6px;font-size: 23px;"></i>
+                                </div>
+                                <div class="menu-galeria"><i style="margin-right:5px" class="fas fa-bars"></i>Menu</div>
+                                <div class="FiltroGal"><i style="margin-right:5px;" class="fas fa-images"></i>Galeria <p style="margin-left:26px;">Filtrar:</p>
+                                </div>
+                                <li id="FiltrarGaleria3" class="filter filter-active galeria-animation" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
+                                <li class="filter" data-filter=".branding"><i class="galeria-animation fas fa-brush"></i> Branding</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="posicao-outras-imagens">
+                        <div class="galeria-imagens">
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img3" title="BRANDING - Primeira fase" href="https://1.bp.blogspot.com/-bq6QKsaGN-M/YBXlAfypF2I/AAAAAAAAGk0/jFYoGTXQcPYF8lqQ0VeL499StfOatJHfwCLcBGAsYHQ/s0/1Desenvolvimento.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-bq6QKsaGN-M/YBXlAfypF2I/AAAAAAAAGk0/jFYoGTXQcPYF8lqQ0VeL499StfOatJHfwCLcBGAsYHQ/s0/1Desenvolvimento.png" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img3" title="BRANDING - Segunda fase" href="https://1.bp.blogspot.com/-EauEFQWFSBA/YBXlJILLwXI/AAAAAAAAGk4/K2R-lnYjI9AhPwMAPvcFXTDsrsWATnrsACLcBGAsYHQ/s0/2Insigna.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-EauEFQWFSBA/YBXlJILLwXI/AAAAAAAAGk4/K2R-lnYjI9AhPwMAPvcFXTDsrsWATnrsACLcBGAsYHQ/s0/2Insigna.png" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img3" title="BRANDING - Terceira fase" href="https://1.bp.blogspot.com/-Wl6ssC5QffI/YBXla69HXMI/AAAAAAAAGlE/bQR4NS4YmwsxPzkEqau67PGlIju37M6bQCLcBGAsYHQ/s0/3Adicionando%2Bdetalhes.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-Wl6ssC5QffI/YBXla69HXMI/AAAAAAAAGlE/bQR4NS4YmwsxPzkEqau67PGlIju37M6bQCLcBGAsYHQ/s0/3Adicionando%2Bdetalhes.png" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img3" title="BRANDING - Quarta fase" href="https://1.bp.blogspot.com/-n6bPySz_4Xg/YBXlk2xYWaI/AAAAAAAAGlI/-xu20klESD432aZcSx1IcPPV1RDbbz6QgCLcBGAsYHQ/s0/4Design%2BFinal.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-n6bPySz_4Xg/YBXlk2xYWaI/AAAAAAAAGlI/-xu20klESD432aZcSx1IcPPV1RDbbz6QgCLcBGAsYHQ/s0/4Design%2BFinal.png" alt="img">
+                            </div>
+
+                            
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img3" title="BRANDING - Quinta fase" href="https://1.bp.blogspot.com/-RjkeKLR18Sc/YBXltAy9R0I/AAAAAAAAGlQ/nOk3oiAapLQIlnU8sLOQdqtaNrMyVUvhACLcBGAsYHQ/s0/5Projeto%2BFinal.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-RjkeKLR18Sc/YBXltAy9R0I/AAAAAAAAGlQ/nOk3oiAapLQIlnU8sLOQdqtaNrMyVUvhACLcBGAsYHQ/s0/5Projeto%2BFinal.png" alt="img">
+                            </div>
+
+                        </div>
+                        
                     </div>
                 </div>
             </div>

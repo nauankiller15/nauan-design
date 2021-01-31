@@ -19,8 +19,8 @@ $("#esconder-apresentacao").on('click', function() {
     // 
 
 
-// OITAVO PROJETO
-$("#esconder-apresentacao8").on('click', function() {
+// SEGUNDO PROJETO
+$("#esconder-apresentacao2").on('click', function() {
         $(".margem-div").fadeOut('600');
         $(".posicaoimagem").fadeOut('600');
         $(".apresentacao-img").fadeIn('600');
@@ -31,10 +31,28 @@ $("#esconder-apresentacao8").on('click', function() {
         $(".utilizados").fadeOut('600');
         $(".portfolio-list-galeria").fadeIn('600');
         $(".galeria-imagens").fadeIn('600');
-        $('#FiltrarGaleria8').trigger('click');
+        $('#FiltrarGaleria2').trigger('click');
         $(".abrir-menu-gal").fadeOut('600');
     })
     // -------------
+
+// TERCEIRO PROJETO
+$("#esconder-apresentacao3").on('click', function() {
+        $(".margem-div").fadeOut('600');
+        $(".posicaoimagem").fadeOut('600');
+        $(".apresentacao-img").fadeIn('600');
+        $(".hover-gal-abrir").fadeOut('600');
+        $(".posicao-info").fadeIn('600');
+        $(".texto-galeria").fadeIn('600');
+        $(".texto-projeto").fadeOut('600');
+        $(".utilizados").fadeOut('600');
+        $(".portfolio-list-galeria").fadeIn('600');
+        $(".galeria-imagens").fadeIn('600');
+        $('#FiltrarGaleria3').trigger('click');
+        $(".abrir-menu-gal").fadeOut('600');
+    })
+    // -------------
+
 
 // abrir imagem -----
 $("#abrir-IMG-Gal").on('click', function() {
@@ -42,7 +60,12 @@ $("#abrir-IMG-Gal").on('click', function() {
         $(".apresentacao-img").fadeOut('600');
     })
     // 
-$("#abrir-IMG-Gal8").on('click', function() {
+$("#abrir-IMG-Gal2").on('click', function() {
+        $(".posicaoimagem").fadeIn('600');
+        $(".apresentacao-img").fadeOut('600');
+    })
+    // 
+$("#abrir-IMG-Gal3").on('click', function() {
         $(".posicaoimagem").fadeIn('600');
         $(".apresentacao-img").fadeOut('600');
     })
@@ -62,7 +85,7 @@ $("#abrir-apresentacao").on('click', function() {
         $(".abrir-menu-gal").fadeOut('600');
     })
     // 
-$("#abrir-apresentacao8").on('click', function() {
+$("#abrir-apresentacao2").on('click', function() {
         $(".posicaoimagem").fadeIn('600');
         $(".apresentacao-img").fadeOut('600');
         $(".margem-div").fadeIn('600');
@@ -77,7 +100,21 @@ $("#abrir-apresentacao8").on('click', function() {
     })
     // -------------
 
-// FECHAR TODOS PROJETOS
+$("#abrir-apresentacao3").on('click', function() {
+        $(".posicaoimagem").fadeIn('600');
+        $(".apresentacao-img").fadeOut('600');
+        $(".margem-div").fadeIn('600');
+        $(".hover-gal-abrir").fadeIn('600');
+        $(".posicao-info").fadeOut('600');
+        $(".texto-galeria").fadeOut('600');
+        $(".texto-projeto").fadeIn('600');
+        $(".utilizados").fadeIn('600');
+        $(".portfolio-list-galeria").fadeOut('600');
+        $(".galeria-imagens").fadeOut('600');
+        $(".abrir-menu-gal").fadeOut('600');
+    })
+    // -------------
+    // FECHAR TODOS PROJETOS
 $("#fechar-projeto").on('click', function() {
     $(".fundo-ul").fadeOut('500');
     $("#trabalhos").fadeIn('300');
@@ -106,13 +143,26 @@ $("#abrir-menu-gal").on('click', function() {
     })
     // -------------
 
-$("#fechar-menu-gal8").on('click', function() {
+$("#fechar-menu-gal2").on('click', function() {
     $(".portfolio-list-galeria").fadeOut('600');
     $(".abrir-menu-gal").fadeIn('600');
 })
-$("#abrir-menu-gal8").on('click', function() {
-        $(".portfolio-list-galeria").fadeIn('600');
-        $(".abrir-menu-gal").fadeOut('600');
-    })
-    // ------------------
-    //
+$("#abrir-menu-gal2").on('click', function() {
+    $(".portfolio-list-galeria").fadeIn('600');
+    $(".abrir-menu-gal").fadeOut('600');
+})
+
+// ------------------
+//
+
+$("#fechar-menu-gal3").on('click', function() {
+    $(".portfolio-list-galeria").fadeOut('600');
+    $(".abrir-menu-gal").fadeIn('600');
+})
+$("#abrir-menu-gal3").on('click', function() {
+    $(".portfolio-list-galeria").fadeIn('600');
+    $(".abrir-menu-gal").fadeOut('600');
+})
+
+// ------------------
+//

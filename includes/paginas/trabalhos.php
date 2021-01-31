@@ -27,13 +27,17 @@
                                 </div>
 
                                 <div class="portfolio-container">
-                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesign uiuxkits">
+                                
+                                <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups branding">
                                         <div class="overlay">
-                                            <li class="lupa-abrir" id="projeto1">
+                                            <li class="lupa-abrir" id="projeto3">
                                                 <div class="text link-margem"><i class="fas fa-search"></i></div>
                                             </li>
+                                            <a href="https://www.instagram.com/p/CKr3O4AnXfW/" target="_blank">
+                                                <div class="text"><i class="fas fa-link"></i></div>
+                                            </a>
                                         </div>
-                                        <img src="https://1.bp.blogspot.com/-q-Vhw8oxVo8/X52e_drIPgI/AAAAAAAAGdM/kxS0iZMdEX42VreFhoO8EW77LZ3aoiS3QCLcBGAsYHQ/s0/trabalho1.png" alt="img">
+                                        <img src="https://1.bp.blogspot.com/-9_nRcGx4b5M/YBXbYAYb6LI/AAAAAAAAGkU/1XaidIQOXjwRp3oaWucPJDYLxBKcAbaUQCLcBGAsYHQ/s0/trabalho2.png" alt="img">
                                     </div>
 
                                     <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups branding uiuxkits">
@@ -47,6 +51,16 @@
                                         </div>
                                         <img src="https://1.bp.blogspot.com/-VQ1piPSKODg/X7unoPL9N7I/AAAAAAAAGew/ZXpdppTRD4AiwII3bQF8arLRVLLegd_rwCLcBGAsYHQ/s0/brandlogo.png" alt="img">
                                     </div>
+
+                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding webdesign uiuxkits">
+                                        <div class="overlay">
+                                            <li class="lupa-abrir" id="projeto1">
+                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
+                                            </li>
+                                        </div>
+                                        <img src="https://1.bp.blogspot.com/-t5IRgp-RbYw/YBXdYaLzEyI/AAAAAAAAGkg/DNmC9A6HCmET1GgQ_0Ruu3km1G6SAkkpgCLcBGAsYHQ/s0/trabalho1.png" alt="img">
+                                    </div>
+
 
                                 </div>
                             </div>
