@@ -68,8 +68,10 @@ a:hover {
 }
 
 .nauan {
+    border-radius: 5px;
+    background: black;
     z-index: 10;
-    color: black;
+    color: white;
     font-size: 65px;
     font-family: Bahnschrift;
     font-style: inherit;
@@ -79,10 +81,14 @@ a:hover {
     top: 215px;
     text-transform: uppercase;
     animation: H2Slide 2.5s ease-in-out;
-    text-shadow: 3px 3px 10px #ffff;
+    /* text-shadow: 3px 3px 10px #ffff; */
+    padding-left: 8px;
+    padding-right: 8px;
 }
 
 .designn {
+    border-radius: 5px;
+    background: black;
     z-index: 10;
     font-size: 41px;
     font-family: Bahnschrift;
@@ -93,8 +99,10 @@ a:hover {
     top: 276px;
     text-transform: uppercase;
     animation: H2Slide 3.2s ease-in-out;
-    text-shadow: 5px 5px 5px #fff;
-    color: black;
+    /* text-shadow: 5px 5px 5px #fff; */
+    color: white;
+    padding-left: 6px;
+    padding-right: 6px;
 }
 
 .euSou {

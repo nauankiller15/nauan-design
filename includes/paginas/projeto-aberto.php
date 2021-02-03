@@ -472,7 +472,6 @@
                                 <img src="https://1.bp.blogspot.com/-n6bPySz_4Xg/YBXlk2xYWaI/AAAAAAAAGlI/-xu20klESD432aZcSx1IcPPV1RDbbz6QgCLcBGAsYHQ/s0/4Design%2BFinal.png" alt="img">
                             </div>
 
-                            
                             <div class="thumbnail all branding">
                                 <div class="overlay-galeria">
                                     <a class="popup-img3" title="BRANDING - Quinta fase" href="https://1.bp.blogspot.com/-RjkeKLR18Sc/YBXltAy9R0I/AAAAAAAAGlQ/nOk3oiAapLQIlnU8sLOQdqtaNrMyVUvhACLcBGAsYHQ/s0/5Projeto%2BFinal.png">
@@ -482,8 +481,63 @@
                                 <img src="https://1.bp.blogspot.com/-RjkeKLR18Sc/YBXltAy9R0I/AAAAAAAAGlQ/nOk3oiAapLQIlnU8sLOQdqtaNrMyVUvhACLcBGAsYHQ/s0/5Projeto%2BFinal.png" alt="img">
                             </div>
 
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img3" title="BRANDING - Extras 1" href="https://1.bp.blogspot.com/-7XLMxVL0b9s/YBn6X1ZledI/AAAAAAAAGnA/Rvr7XccGAWw_yfvfhFVBjSjiEBsu-INwACLcBGAsYHQ/s0/INSINIGA%2B3%2BSECTION.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-7XLMxVL0b9s/YBn6X1ZledI/AAAAAAAAGnA/Rvr7XccGAWw_yfvfhFVBjSjiEBsu-INwACLcBGAsYHQ/s0/INSINIGA%2B3%2BSECTION.png" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img3" title="BRANDING - Extras 2" href="https://1.bp.blogspot.com/-ub01CQ9IGpU/YBn6cViI1nI/AAAAAAAAGnE/4frEXOs0u-ov9ZJttOa5iTC51gTrcjFWwCLcBGAsYHQ/s0/INSINIGA%2B7SECTION-Recuperado.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-ub01CQ9IGpU/YBn6cViI1nI/AAAAAAAAGnE/4frEXOs0u-ov9ZJttOa5iTC51gTrcjFWwCLcBGAsYHQ/s0/INSINIGA%2B7SECTION-Recuperado.png" alt="img">
+                            </div>
+                            
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img3" title="BRANDING - Extras 3" href="https://1.bp.blogspot.com/-a5-d6tV70Wo/YBn6eSgtO-I/AAAAAAAAGnI/nsyRRFTXLbAyoVzRY2Cn6mf5saUa3mwgwCLcBGAsYHQ/s0/INSINIGA%2B3%2BSECTION.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-a5-d6tV70Wo/YBn6eSgtO-I/AAAAAAAAGnI/nsyRRFTXLbAyoVzRY2Cn6mf5saUa3mwgwCLcBGAsYHQ/s0/INSINIGA%2B3%2BSECTION.png" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img3" title="BRANDING - Extras 4" href="https://1.bp.blogspot.com/-3nSndIpAra4/YBn6i-dxuNI/AAAAAAAAGnM/0x1N7_0CjpgKDRBYlqsY-cT0t3FJ0qoDgCLcBGAsYHQ/s0/INSINIGA%2B7SECTION-Recuperado.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-3nSndIpAra4/YBn6i-dxuNI/AAAAAAAAGnM/0x1N7_0CjpgKDRBYlqsY-cT0t3FJ0qoDgCLcBGAsYHQ/s0/INSINIGA%2B7SECTION-Recuperado.png" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img3" title="BRANDING - Extras 5" href="https://1.bp.blogspot.com/-7v46FLbKoOY/YBn6mUaCajI/AAAAAAAAGnQ/3QfaAlECQNMWnPoQ9Pr8eRNPCvLnInPXQCLcBGAsYHQ/s0/INSINIGA%2B5%2BSECTION.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-7v46FLbKoOY/YBn6mUaCajI/AAAAAAAAGnQ/3QfaAlECQNMWnPoQ9Pr8eRNPCvLnInPXQCLcBGAsYHQ/s0/INSINIGA%2B5%2BSECTION.png" alt="img">
+                            </div>
+
+                            
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img3" title="BRANDING - Extras 6" href="https://1.bp.blogspot.com/-9eAsuCuhQ7M/YBn6rCyZiHI/AAAAAAAAGnY/augbtuZACUYNh8l2ExSsmHxoENwqzApaQCLcBGAsYHQ/s0/INSINIGA%2B3png.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-9eAsuCuhQ7M/YBn6rCyZiHI/AAAAAAAAGnY/augbtuZACUYNh8l2ExSsmHxoENwqzApaQCLcBGAsYHQ/s0/INSINIGA%2B3png.png" alt="img">
+                            </div>
+
                         </div>
-                        
+
                     </div>
                 </div>
             </div>

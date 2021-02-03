@@ -81,7 +81,7 @@
     
     .fundo-ul {
         position: fixed;
-        background: #181818;
+        background: url('https://1.bp.blogspot.com/-sFTXHg1H7rY/YBnsJVagd6I/AAAAAAAAGm0/FZlXElYWMnw0nbEANu7E9KzlX_suhluyACLcBGAsYHQ/s0/backgraynau.png') #181818;
         height: 100%;
         width: 100%;
         z-index: 10002;
