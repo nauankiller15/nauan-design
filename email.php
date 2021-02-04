@@ -7,7 +7,7 @@ $assunto	= $_POST["assunto"];	// Pega os valores do campo Mensagem
 
 // Variável que junta os valores acima e monta o corpo do email
 
-$Vai 		= "Nome: $nome\n\n\n\n\n\nE-mail: $email\n\n\n\n\n\nTelefone: $fone\n\n\n\n\n\nAssunto: $assunto\n\n\n\n\n\nMensagem: $mensagem\n";
+$Vai = "Nome: $nome\n\n\n\n\n\nE-mail: $email\n\n\n\n\n\nTelefone: $fone\n\n\n\n\n\nMensagem: $mensagem\n";
 
 require_once("phpmailer/class.phpmailer.php");
 
@@ -41,7 +41,7 @@ function smtpmailer($para, $de, $de_nome, $assunto, $corpo) {
 // // Insira abaixo o email que irá receber a mensagem, o email que irá enviar (o mesmo da variável GUSER), 
 // o nome do email que envia a mensagem, o Assunto da mensagem e por último a variável com o corpo do email.
 
- if (smtpmailer('nauanxdesign@gmail.com', 'nauanxdesign@gmail.com', 'Nome do Enviador', 'Assunto do Email', $Vai)) {
+ if (smtpmailer('nauanxdesign@gmail.com', 'Nauan-Design', 'Nauan-Design', $assunto, $Vai)) {
 
 	Header("location:index.php"); // Redireciona para uma página de obrigado.
 
