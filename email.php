@@ -7,7 +7,10 @@ $assunto	= $_POST["assunto"];	// Pega os valores do campo Mensagem
 
 // Variável que junta os valores acima e monta o corpo do email
 
-$Vai = "Nome: $nome\n\n\n\n\n\nE-mail: $email\n\n\n\n\n\nTelefone: $fone\n\n\n\n\n\nMensagem: $mensagem\n";
+$Vai = "Nome: $nome\n\n\n\n\n\n
+E-mail: $email\n\n\n\n\n\n
+Telefone: $fone\n\n\n\n\n\n 
+Mensagem: $mensagem\n";
 
 require_once("phpmailer/class.phpmailer.php");
 
