@@ -3,10 +3,11 @@ $nome		= $_POST["nome"];	// Pega o valor do campo Nome
 $fone		= $_POST["fone"];	// Pega o valor do campo Telefone
 $email		= $_POST["email"];	// Pega o valor do campo Email
 $mensagem	= $_POST["mensagem"];	// Pega os valores do campo Mensagem
+$assunto	= $_POST["assunto"];	// Pega os valores do campo Mensagem
 
 // Variável que junta os valores acima e monta o corpo do email
 
-$Vai 		= "Nome: $nome\n\nE-mail: $email\n\nTelefone: $fone\n\nMensagem: $mensagem\n";
+$Vai 		= "Nome: $nome\n\n\n\n\n\nE-mail: $email\n\n\n\n\n\nTelefone: $fone\n\n\n\n\n\nAssunto: $assunto\n\n\n\n\n\nMensagem: $mensagem\n";
 
 require_once("phpmailer/class.phpmailer.php");
 

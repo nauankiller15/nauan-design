@@ -35,6 +35,13 @@
                         </label>
                     </div>
 
+                    <div style="animation: H2Slide 3.6s ease-in-out;" class="wrap-input100 validate-input">
+                        <input id="subject" class="input100" type="text" name="assunto" placeholder="Assunto...">
+                        <span class="focus-input100"></span>
+                        <label class="label-input100" for="phone">
+                            <span class="lnr lnr-flag m-b-2"></span>
+                        </label>
+                    </div>
 
                     <div style="animation: H2Slide 3.9s ease-in-out;" class="wrap-input100 validate-input">
                         <textarea id="message" class="input100" name="mensagem" placeholder="Digite aqui as observações..."></textarea>
