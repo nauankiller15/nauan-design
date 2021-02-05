@@ -177,7 +177,8 @@
 }
 
 .fundoPreto {
-    background: url('https://1.bp.blogspot.com/-2KFSkZvmu80/YBnjk_kCa7I/AAAAAAAAGmA/ITC9hADr5jwx0W9ALPL-Lrs5OAxi258IACLcBGAsYHQ/s0/backnauan.png') #000000;
+    background: url('https://1.bp.blogspot.com/-zH7e_Emag6k/YBytPcMbmrI/AAAAAAAAGoY/rHyMvPK4JXIAF3lpPoDZ4EMd9gfdmpEKwCLcBGAsYHQ/s0/newbacknau.png') #000000 no-repeat;
+    background-position: center;
     position: fixed;
     height: 100%;
     width: 100%;
