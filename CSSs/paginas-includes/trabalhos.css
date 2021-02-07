@@ -132,6 +132,7 @@
     min-height: 265px;
     width: 42%;
     display: inline-block;
+    border: 1px solid #191919;
 }
 
 .overlay {

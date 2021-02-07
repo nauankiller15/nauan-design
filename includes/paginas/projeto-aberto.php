@@ -33,7 +33,7 @@
                 </div>
 
                 <div class="utilizados">
-                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup">Abrir Imagem: <i class="fas fa-search"></i></div>
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <b><i class="fab fa-js-square"></i> Jquery, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3, <i class="fas fa-brush"></i> Branding.
                     </div>
@@ -231,7 +231,7 @@
                 </div>
 
                 <div class="utilizados">
-                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup">Abrir Imagem: <i class="fas fa-search"></i></div>
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <i class="fas fa-brush"></i> Branding, <i class="galeria-animation fas fa-paint-brush"></i> Ui/Ux Kits</li>
                     </div>
@@ -407,7 +407,7 @@
                 </div>
 
                 <div class="utilizados">
-                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup">Abrir Imagem: <i class="fas fa-search"></i></div>
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
                         <i class="fas fa-brush"></i> Branding
                     </div>
