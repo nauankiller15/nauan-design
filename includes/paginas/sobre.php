@@ -26,7 +26,7 @@
 
                 <div class="MinhasUtilites">
                     <div class="exp" style="animation: SobreIni 5.2s; color:#ffffff;">
-                        <b><i class="fab fa-js-square"></i> Jquery/Javascript, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3, <i class="fas fa-database"></i> MYSQL</b>.
+                        <b><i class="fab fa-js-square"></i> Javascript, <i class="fab fa-html5"></i> HTML 5, <i class="fab fa-css3-alt"></i> CSS3, <i class="fas fa-database"></i> MYSQL</b>.
                     </div>
                     <li style="animation: go-back1 3.5s infinite alternate, LiAnim2 2.5s;" class="Infograficos">UI/UX Kits:</li>
                     <p style="animation: LiAnim2 4.5s;">Umas das melhores <b>ferramentas</b> para apresentar seu <b>Serviço</b> ou seu <b>Projeto</b> para uma <b>Reunião</b>,
