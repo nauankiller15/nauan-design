@@ -82,7 +82,7 @@
     color: #ffffff;
     padding: 3px;
     border-radius: 10px 10px 0px 0px;
-    width: 120%;
+    width: 100%;
 }
 
 #portfolio .portfolio-list .nav li {
@@ -145,11 +145,13 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #000000c9;
+    background-color: #000000ce;
 }
 
 .overlay:hover {
+    transition: 0.5s;
     opacity: 1;
+    left: 0;
 }
 
 .text {

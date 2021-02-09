@@ -36,10 +36,11 @@
 }
 
 .CentroContato {
+    background-color: #000;
     top: 127px;
     width: 58%;
     padding: 25px;
-    border: 1px solid #ffffff59;
+    border: 1px solid #81818159;
     animation: ContatoCaixa 1.7s ease-in-out;
     position: absolute;
     font-size: 18px;

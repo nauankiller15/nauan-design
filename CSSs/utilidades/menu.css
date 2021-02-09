@@ -177,13 +177,13 @@
 }
 
 .fundoPreto {
-    background: url('https://1.bp.blogspot.com/-zH7e_Emag6k/YBytPcMbmrI/AAAAAAAAGoY/rHyMvPK4JXIAF3lpPoDZ4EMd9gfdmpEKwCLcBGAsYHQ/s0/newbacknau.png') #000000 no-repeat;
+    background: url('https://1.bp.blogspot.com/-BDYNDk9ZRpA/YCHNskAq7bI/AAAAAAAAGo0/HoeAulKs-aUE_Z56qKjcrS8VDGid2HJWQCLcBGAsYHQ/s0/newbacknaudes.png') #000000 no-repeat;
     background-position: center;
     position: fixed;
     height: 100%;
     width: 100%;
     display: none;
-    z-index: 1000;
+    z-index: 1200;
     animation: FundoPreto 1.1s ease-in-out;
     overflow: hidden;
 }

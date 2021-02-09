@@ -12,6 +12,7 @@
 <script src="JS/animations.js"></script>
 <script src="JS/projetos-anim.js"></script>
 <script src="JS/activemenu.js"></script>
+
 <!-- Library -->
 <script src="Lib/typed/typed.js"></script>
 <script src="Lib/owlcarousel/owl.carousel.min.js"></script>

@@ -115,6 +115,25 @@ a:hover {
     width: 520px;
 }
 
+.euSou-Contato {
+    text-transform: uppercase;
+    text-shadow: 3px 2px 3px #000000;
+    font-family: Bahnschrift;
+    padding-bottom: 25px;
+}
+
+.euSou-Contato h1 {
+    text-transform: uppercase;
+    padding: 1px;
+    font-family: Bahnschrift;
+}
+
+.euSou-Contato p {
+    text-transform: uppercase;
+    padding: 1px;
+    font-family: Bahnschrift;
+}
+
 @keyframes euSou {
     from {
         transform: translateX(-1250px);
@@ -290,7 +309,7 @@ a:hover {
     font-weight: bold;
     font-family: sans-serif;
     width: 100%;
-    z-index: 10000;
+    z-index: 1000;
     background: #141414;
     color: #ffffff;
     animation: slideFooter 3.5s;

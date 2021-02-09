@@ -351,7 +351,7 @@
     /* ----- MENU  */
     #quadrado-position {
         position: fixed;
-        top: 105px;
+        top: 86px;
         left: 15px;
         z-index: 999;
     }
@@ -396,7 +396,7 @@
         right: 16px;
     }
     .menu {
-        top: 456px;
+        top: 380px;
         right: 74px;
     }
     /* ---------- OUTRAS PÁGINAS (min-width: 768px) and (max-width: 991px) -------- */
@@ -597,7 +597,7 @@
     /* ----- MENU */
     #quadrado-position {
         position: fixed;
-        top: 105px;
+        top: 86px;
         left: 2px;
         z-index: 999;
     }
@@ -638,7 +638,7 @@
     }
     /*  */
     .menu {
-        top: 407px;
+        top: 365px;
         right: 94px;
     }
     /* ---------- OUTRAS PÁGINAS (max-width: 767px) -------- */
@@ -1009,7 +1009,7 @@
     }
     /*  */
     .menu {
-        top: 407px;
+        top: 365px;
         right: 94px;
     }
     /* ---------- OUTRAS PÁGINAS (max-width: 600px) -------- */
@@ -1329,7 +1329,7 @@
     /*  */
     #quadrado-position {
         position: fixed;
-        top: 70px;
+        top: 30px;
         left: 45px;
         z-index: 999;
     }
@@ -1370,7 +1370,7 @@
     }
     /*  */
     .menu {
-        top: 425px;
+        top: 360px;
         right: 123px;
     }
     /* ---------- OUTRAS PÁGINAS (max-width: 480px) -------- */
@@ -1674,7 +1674,7 @@
     /* ------------ PÁGINA INICIAL (max-width: 440px) ---------- */
     /* ----- MENU */
     .menu {
-        top: 415px;
+        top: 360px;
         right: 80px;
     }
     .menu ul {
@@ -1713,7 +1713,7 @@
     /*  */
     #quadrado-position {
         position: fixed;
-        top: 85px;
+        top: 30px;
         left: 25px;
         z-index: 999;
     }
@@ -1753,7 +1753,7 @@
         display: none;
     }
     .menu {
-        top: 403px;
+        top: 360px;
         right: 80px;
     }
     /*  */
@@ -1842,15 +1842,15 @@
         min-height: 35px;
     }
     .text {
-        font-size: 22px;
+        font-size: 23px;
         top: 50%;
         left: 50%;
         -webkit-transform: translate(224%, 36%);
         -ms-transform: translate(224%, 36%);
-        transform: translate(166%, -11%);
+        transform: translate(249%, 23%);
     }
     .link-margem {
-        margin-top: 40px;
+        margin-top: 52px;
     }
     /* --------- SOBRE MIM (max-width: 440px) ---------- */
     .exp {
@@ -1912,7 +1912,7 @@
     /* ------------ PÁGINA INICIAL (max-width: 420px) ---------- */
     /* ----- MENU */
     .menu {
-        top: 415px;
+        top: 360px;
         right: 80px;
     }
     .menu ul {
@@ -1951,7 +1951,7 @@
     /*  */
     #quadrado-position {
         position: fixed;
-        top: 85px;
+        top: 30px;
         left: 25px;
         z-index: 999;
     }
@@ -1991,7 +1991,7 @@
         display: none;
     }
     .menu {
-        top: 403px;
+        top: 360px;
         right: 80px;
     }
     /*  */
@@ -2163,10 +2163,10 @@
         left: 50%;
         -webkit-transform: translate(224%, 36%);
         -ms-transform: translate(224%, 36%);
-        transform: translate(249%, 50%);
+        transform: translate(249%, 23%);
     }
     .link-margem {
-        margin-top: 40px;
+        margin-top: 52px;
     }
     /* --------- SOBRE MIM (max-width: 420px) ---------- */
     .exp {
@@ -2239,7 +2239,7 @@
     /*  */
     /* ----- MENU */
     .menu {
-        top: 370px;
+        top: 360px;
         right: 95px;
     }
     .menu ul {
@@ -2300,7 +2300,7 @@
     /*  */
     #quadrado-position {
         position: fixed;
-        top: 70px;
+        top: 40px;
         left: 19px;
         z-index: 999;
     }
@@ -2512,7 +2512,7 @@
         left: 50%;
         -webkit-transform: translate(224%, 36%);
         -ms-transform: translate(224%, 36%);
-        transform: translate(249%, 50%);
+        transform: translate(249%, 23%);
     }
     .link-margem {
         margin-top: 40px;
@@ -2577,7 +2577,7 @@
     /* ------------ PÁGINA INICIAL (max-width: 375px) ---------- */
     #quadrado-position {
         position: fixed;
-        top: 67px;
+        top: 40px;
         left: 11px;
         z-index: 999;
     }
@@ -2614,7 +2614,7 @@
     }
     /* ----- MENU */
     .menu {
-        top: 340px;
+        top: 302px;
         right: 62px;
     }
     .menu ul {
@@ -2675,7 +2675,7 @@
     /*  */
     #quadrado-position {
         position: fixed;
-        top: 67px;
+        top: 0px;
         left: -5px;
         z-index: 999;
     }
@@ -2901,10 +2901,10 @@
         left: 50%;
         -webkit-transform: translate(224%, 36%);
         -ms-transform: translate(224%, 36%);
-        transform: translate(118%, -64%);
+        transform: translate(118%, -106%);
     }
     .link-margem {
-        margin-top: 40px;
+        margin-top: 38px;
     }
     /* --------- SOBRE MIM (max-width: 320px) ---------- */
     .exp {
