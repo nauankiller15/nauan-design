@@ -498,7 +498,7 @@
                                 </div>
                                 <img src="https://1.bp.blogspot.com/-ub01CQ9IGpU/YBn6cViI1nI/AAAAAAAAGnE/4frEXOs0u-ov9ZJttOa5iTC51gTrcjFWwCLcBGAsYHQ/s0/INSINIGA%2B7SECTION-Recuperado.png" alt="img">
                             </div>
-                            
+
                             <div class="thumbnail all branding">
                                 <div class="overlay-galeria">
                                     <a class="popup-img3" title="BRANDING - Extras 3" href="https://1.bp.blogspot.com/-a5-d6tV70Wo/YBn6eSgtO-I/AAAAAAAAGnI/nsyRRFTXLbAyoVzRY2Cn6mf5saUa3mwgwCLcBGAsYHQ/s0/INSINIGA%2B3%2BSECTION.png">
@@ -526,7 +526,7 @@
                                 <img src="https://1.bp.blogspot.com/-7v46FLbKoOY/YBn6mUaCajI/AAAAAAAAGnQ/3QfaAlECQNMWnPoQ9Pr8eRNPCvLnInPXQCLcBGAsYHQ/s0/INSINIGA%2B5%2BSECTION.png" alt="img">
                             </div>
 
-                            
+
                             <div class="thumbnail all branding">
                                 <div class="overlay-galeria">
                                     <a class="popup-img3" title="BRANDING - Extras 6" href="https://1.bp.blogspot.com/-9eAsuCuhQ7M/YBn6rCyZiHI/AAAAAAAAGnY/augbtuZACUYNh8l2ExSsmHxoENwqzApaQCLcBGAsYHQ/s0/INSINIGA%2B3png.png">
@@ -535,6 +535,101 @@
                                 </div>
                                 <img src="https://1.bp.blogspot.com/-9eAsuCuhQ7M/YBn6rCyZiHI/AAAAAAAAGnY/augbtuZACUYNh8l2ExSsmHxoENwqzApaQCLcBGAsYHQ/s0/INSINIGA%2B3png.png" alt="img">
                             </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </ul>
+    </div>
+</div>
+
+<!-- Quarto Projeto -->
+<div id="quarto-projeto">
+    <div class="entrada-projeto">
+        <ul>
+            <h2 style="animation: TrabalhoIni 3.0s;">Projeto de Barbearia Bela Arte</h2>
+            <div class="posicionar-centro">
+                <div class="posicao-aprs-img">
+                    <div id="abrir-IMG-Gal4" class="apresentacao-img">
+                        <i style="margin-top: 17px;width: 100%;text-align: center;font-size: 80px;" class="fas fa-image" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div class="posicaoimagem" style="animation: fadeIn 2.0s, imageProjeto 2.8s ease-in-out;">
+                    <a class="popup-img4" title="Nauan-Design - Tela inicial" href="https://1.bp.blogspot.com/--2fdYnxDxIY/YCgsDDfhGcI/AAAAAAAAGp8/J0Wmc5pT0Qw9m-Cqtyvm7nM53oQAb2mUQCLcBGAsYHQ/s0/Barbearia%2Bbela%2Barte%2Blogo.png">
+                        <img src="https://1.bp.blogspot.com/--2fdYnxDxIY/YCgsDDfhGcI/AAAAAAAAGp8/J0Wmc5pT0Qw9m-Cqtyvm7nM53oQAb2mUQCLcBGAsYHQ/s0/Barbearia%2Bbela%2Barte%2Blogo.png">
+                    </a>
+                </div>
+                <div class="texto-projeto" style="animation: imageProjeto 2.2s;">
+                    <div class="posicao-gal-abrir">
+                        <div class="hover-gal-abrir" id="esconder-apresentacao4"><i style="margin-right:9px;" class="fas fa-images"></i>Ver Galeria</div>
+                    </div>
+                    <p>Criação da marca autorizada Barbearia Bela Arte.</p>
+                    <p>------------------------</p>
+                    Galeria de apresentação do projeto, com as imagens registradas da marca, não utilizável para uso terceiros. Proibido a utilização das imagens sob uso impróprio da marca.
+                    Todo conteúdo apresentado foi criado com seus dévidos créditos.
+                    <p>-----</p>
+                    <p>© Todos os direitos reservados 2021.</p>
+                </div>
+
+                <div class="utilizados">
+                    <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
+                    <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
+                        <i class="fas fa-brush"></i> Branding
+                    </div>
+                </div>
+                <div class="posicao-info">
+                    <div class="texto-ver-info" id="abrir-apresentacao4"><i style="margin-right:9px;" class="fas fa-info"></i>Ver Informações</div>
+                </div>
+                <div class="texto-galeria"><i style="margin-right:9px;" class="fas fa-images"></i>Galeria</div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="abrir-menu-gal4" class="abrir-menu-gal">
+                            <i style="position: absolute;top: 7px;left: 8px;font-size: 28px;" class="fas fa-bars" aria-hidden="true"></i>
+                        </div>
+                        <div class="portfolio-list-galeria">
+                            <ul class="nav list-unstyled" id="portfolio-flters-galera">
+                                <div id="fechar-menu-gal4" class="fechar-menu-gal">
+                                    <i class="fas fa-times" aria-hidden="true" style="padding-left: 9px;padding-top: 6px;font-size: 23px;"></i>
+                                </div>
+                                <div class="menu-galeria"><i style="margin-right:5px" class="fas fa-bars"></i>Menu</div>
+                                <div class="FiltroGal"><i style="margin-right:5px;" class="fas fa-images"></i>Galeria <p style="margin-left:26px;">Filtrar:</p>
+                                </div>
+                                <li id="FiltrarGaleria4" class="filter filter-active galeria-animation" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
+                                <li class="filter" data-filter=".branding"><i class="galeria-animation fas fa-brush"></i> Branding</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="posicao-outras-imagens">
+                        <div class="galeria-imagens">
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="BRANDING - Logo Instagram" href="https://1.bp.blogspot.com/-bEbiQnUBT_I/YCgmtIGHvaI/AAAAAAAAGpY/fftRclhE8NM5g3ha5501WSCUnpcFGGFJgCLcBGAsYHQ/s0/barbearia%2Bpost%2Binstagram.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-bEbiQnUBT_I/YCgmtIGHvaI/AAAAAAAAGpY/fftRclhE8NM5g3ha5501WSCUnpcFGGFJgCLcBGAsYHQ/s0/barbearia%2Bpost%2Binstagram.png" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="BRANDING - Variações Logo" href="https://1.bp.blogspot.com/-QHJVJAtM0XE/YCgmwvqMN1I/AAAAAAAAGpk/at9x-7ivfeIGU9q6bkRRVbqbSnLQUj_1ACLcBGAsYHQ/s0/barbearia%2Bfull%2Bhd.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-QHJVJAtM0XE/YCgmwvqMN1I/AAAAAAAAGpk/at9x-7ivfeIGU9q6bkRRVbqbSnLQUj_1ACLcBGAsYHQ/s0/barbearia%2Bfull%2Bhd.png" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="BRANDING - Story Instagram" href="https://1.bp.blogspot.com/-jFMp_FxSxRE/YCgmuOHFZCI/AAAAAAAAGpg/-W51j6v1KV82ro5qkCYT5ZEdh_864kNZwCLcBGAsYHQ/s0/tela%2Bdo%2Bcelular.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-jFMp_FxSxRE/YCgmuOHFZCI/AAAAAAAAGpg/-W51j6v1KV82ro5qkCYT5ZEdh_864kNZwCLcBGAsYHQ/s0/tela%2Bdo%2Bcelular.png" alt="img">
+                            </div>
+
 
                         </div>
 

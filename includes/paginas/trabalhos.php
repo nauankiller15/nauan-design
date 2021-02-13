@@ -27,8 +27,21 @@
                                 </div>
 
                                 <div class="portfolio-container">
-                                
-                                <div class="col-lg-4 col-md-6 portfolio-thumbnail all mockups branding">
+
+                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding">
+                                        <div class="overlay">
+                                            <li class="lupa-abrir" id="projeto4">
+                                                <div class="text link-margem"><i class="fas fa-search"></i></div>
+                                            </li>
+                                            <a href="https://www.instagram.com/p/CLNkLiqn6M-/" target="_blank">
+                                                <div class="text"><i class="fas fa-link"></i></div>
+                                            </a>
+                                        </div>
+                                        <img src="https://1.bp.blogspot.com/-Y44BG9FG4Y8/YCgk4uX8GuI/AAAAAAAAGpI/PAx6px8_zEcOkVy2OJW6cCWOEKiqBB1PgCLcBGAsYHQ/s0/trabalho3.png" alt="img">
+                                    </div>
+
+
+                                    <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding">
                                         <div class="overlay">
                                             <li class="lupa-abrir" id="projeto3">
                                                 <div class="text link-margem"><i class="fas fa-search"></i></div>
