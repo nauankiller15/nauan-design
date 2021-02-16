@@ -1,5 +1,5 @@
-
 <div id="contato">
+    <div class="hoverBackContato">
         <div class="contato">
             <h2 style="animation: ContatoIni 2.2s;">Contato</h2>
         </div>
@@ -60,3 +60,4 @@
             </div>
         </div>
     </div>
+</div>
