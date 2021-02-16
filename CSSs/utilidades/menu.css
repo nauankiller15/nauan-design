@@ -1,270 +1,271 @@
-.menu {
-    top: 275px;
-    right: 215px;
-    position: fixed;
-    z-index: 4000;
-    box-sizing: border-box;
-    position: fixed;
-}
-
-@keyframes MenuAnim {
-    from {
-        transform: translateY(2350px);
+    .menu {
+        top: 275px;
+        right: 215px;
+        position: fixed;
+        z-index: 4000;
+        box-sizing: border-box;
+        position: fixed;
     }
-    to {
-        transform: translateY(0);
+    
+    @keyframes MenuAnim {
+        from {
+            transform: translateY(2350px);
+        }
+        to {
+            transform: translateY(0);
+        }
     }
-}
-
-.menu ul {
-    padding: 15px;
-    border: 2px #242424 solid;
-    font-family: Bahnschrift;
-    text-transform: uppercase;
-    width: 265px;
-    font-size: 24px;
-    font-weight: 100;
-    animation: MenuAnim 3.0s ease-in-out;
-    border-radius: 10px;
-    background: #141414;
-    box-shadow: 2px 2px 4px #000000;
-}
-
-.menu li {
-    text-align: center;
-    margin: 5px auto 5px;
-    padding: 8px;
-    list-style: none;
-    transition-timing-function: ease-in-out;
-    cursor: pointer;
-    transition: 0.5s;
-    background: #242424;
-    color: #ffffff;
-    border-right: 1px #ffffff solid;
-}
-
-.menu li:hover {
-    background: #ffffff;
-    border-radius: 25px 0px 0px 25px;
-    color: #000000;
-}
-
-.menu li.active {
-    background: #ffffff;
-    border-radius: 25px 0px 0px 25px;
-    color: #000000;
-}
-
-.menu a.active {
-    background: #ffffff;
-    border-radius: 25px 0px 0px 25px;
-    color: #000000;
-}
-
-.li-projetos::before {
-    font-size: 23px;
-    content: "\f0b1";
-    font-family: FontAwesome;
-    display: inline-block;
-    margin-left: -56px;
-    width: 43px;
-    z-index: 99;
-}
-
-.li-contato::before {
-    font-size: 23px;
-    content: "\f2c1";
-    font-family: FontAwesome;
-    display: inline-block;
-    margin-left: -70px;
-    width: 44px;
-    z-index: 99;
-}
-
-.li-experiencias::before {
-    font-size: 23px;
-    content: "\f518";
-    font-family: FontAwesome;
-    display: inline-block;
-    margin-left: -11px;
-    width: 51px;
-    z-index: 99;
-}
-
-.li-servico::before {
-    font-size: 23px;
-    content: "\f086";
-    font-family: FontAwesome;
-    display: inline-block;
-    margin-left: -51px;
-    width: 68px;
-    z-index: 99;
-}
-
-@keyframes slideMenu {
-    from {
-        transform: translateY(-2350px);
+    
+    .menu ul {
+        padding: 15px;
+        border: 2px #242424 solid;
+        font-family: Bahnschrift;
+        text-transform: uppercase;
+        width: 265px;
+        font-size: 24px;
+        font-weight: 100;
+        animation: MenuAnim 3.0s ease-in-out;
+        border-radius: 10px;
+        background: #141414;
+        box-shadow: 2px 2px 4px #000000;
     }
-    to {
-        transform: translateY(0px);
+    
+    .menu li {
+        text-align: center;
+        margin: 5px auto 5px;
+        padding: 8px;
+        list-style: none;
+        transition-timing-function: ease-in-out;
+        cursor: pointer;
+        transition: 0.5s;
+        background: #242424;
+        color: #ffffff;
+        border-right: 1px #ffffff solid;
     }
-}
-
-@keyframes glow1 {
-    from {
-        text-shadow: 0 0 3px #88b4ee, 0 0 5px #fff, 0 0 3px #88b4ee, 0 0 5px #88b4ee, 0 0 5px #88b4ee, 0 0 5px #88b4ee, 0 0 9px #88b4ee;
+    
+    .menu li:hover {
+        background: #ffffff;
+        border-radius: 25px 0px 0px 25px;
+        color: #000000;
     }
-    to {
-        text-shadow: 0 0 2px #88b4ee, 0 0 5px #88b4ee, 0 0 5px #88b4ee, 0 0 10px #88b4ee, 0 0 10px #88b4ee, 0 0 8px #88b4ee, 0 0 8px #88b4ee;
+    
+    .menu li.active {
+        background: #ffffff;
+        border-radius: 25px 0px 0px 25px;
+        color: #000000;
     }
-}
-
-#fechar {
-    z-index: 1002;
-    text-align: center;
-    position: fixed;
-    margin-top: -65px;
-    margin-left: 5px;
-    font-size: 24px;
-    color: #ffffff;
-    padding: 10px;
-    transition: 0.5s;
-    display: none;
-    border-radius: 10px 10px 0px 0px;
-    background: #242424;
-    border: none;
-    box-sizing: border-box;
-    animation: 1.0s fadeIn ease-in-out;
-}
-
-#fechar:hover {
-    background: #ffffff;
-    color: #000000;
-}
-
-.slideOut {
-    animation: slideOut 1.0s;
-}
-
-.LogoMenu {
-    top: 0;
-    animation: TrabalhoIni 1.0s;
-    font-family: Bahnschrift;
-    right: 230px;
-    position: fixed;
-    z-index: 9300;
-    text-align: center;
-    background: #141414;
-    border: 2px #242424 solid;
-    box-shadow: 2px 2px 4px #000000;
-    padding: 25px;
-    border-radius: 0px 0px 10px 10px;
-    cursor: default;
-    display: none;
-}
-
-.nauan-sub {
-    font-size: 45px;
-    text-transform: uppercase;
-    text-shadow: 2px 1px 2px #000000;
-}
-
-.design-sub {
-    font-size: 30px;
-    text-transform: uppercase;
-    text-shadow: 2px 1px 2px #000000;
-    animation: go-back2 5.2s infinite alternate;
-}
-
-.fundoPreto {
-    background: url('https://1.bp.blogspot.com/-bxjIMGoog54/YCsTKKXpuEI/AAAAAAAAGqc/x6hz5fBqwoAIt81iuBeID-R4JB9fGapSACLcBGAsYHQ/s0/newbacknau2png.png') #000000 no-repeat;
-    background-position: center;
-    position: fixed;
-    height: 100%;
-    width: 100%;
-    display: none;
-    z-index: 1200;
-    animation: FundoPreto 1.1s ease-in-out;
-    overflow: hidden;
-}
-
-@keyframes FundoPreto {
-    from {
-        transform: translateY(1350px);
+    
+    .menu a.active {
+        background: #ffffff;
+        border-radius: 25px 0px 0px 25px;
+        color: #000000;
     }
-    to {
-        transform: translateY(0);
+    
+    .li-projetos::before {
+        font-size: 23px;
+        content: "\f0b1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -56px;
+        width: 43px;
+        z-index: 99;
     }
-}
-
-@keyframes hoverback {
-    from {
-        transform: translateY(-1350px);
+    
+    .li-contato::before {
+        font-size: 23px;
+        content: "\f2c1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -70px;
+        width: 44px;
+        z-index: 99;
     }
-    to {
-        transform: translateY(0);
+    
+    .li-experiencias::before {
+        font-size: 23px;
+        content: "\f518";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -11px;
+        width: 51px;
+        z-index: 99;
     }
-}
-
-@keyframes hoverBackContato {
-    from {
-        transform: translateX(1360px);
+    
+    .li-servico::before {
+        font-size: 23px;
+        content: "\f086";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: -51px;
+        width: 68px;
+        z-index: 99;
     }
-    to {
-        transform: translateX(0);
+    
+    @keyframes slideMenu {
+        from {
+            transform: translateY(-2350px);
+        }
+        to {
+            transform: translateY(0px);
+        }
     }
-}
-
-@keyframes hoverBackOrca {
-    from {
-        transform: translateY(1360px);
+    
+    @keyframes glow1 {
+        from {
+            text-shadow: 0 0 3px #88b4ee, 0 0 5px #fff, 0 0 3px #88b4ee, 0 0 5px #88b4ee, 0 0 5px #88b4ee, 0 0 5px #88b4ee, 0 0 9px #88b4ee;
+        }
+        to {
+            text-shadow: 0 0 2px #88b4ee, 0 0 5px #88b4ee, 0 0 5px #88b4ee, 0 0 10px #88b4ee, 0 0 10px #88b4ee, 0 0 8px #88b4ee, 0 0 8px #88b4ee;
+        }
     }
-    to {
-        transform: translateY(0);
+    
+    #fechar {
+        z-index: 1002;
+        text-align: center;
+        position: fixed;
+        margin-top: -65px;
+        margin-left: 5px;
+        font-size: 24px;
+        color: #ffffff;
+        padding: 10px;
+        transition: 0.5s;
+        display: none;
+        border-radius: 10px 10px 0px 0px;
+        background: #242424;
+        border: none;
+        box-sizing: border-box;
+        animation: 1.0s fadeIn ease-in-out;
     }
-}
-
-@keyframes hoverBackTrab {
-    from {
-        transform: translateX(-1360px);
+    
+    #fechar:hover {
+        background: #ffffff;
+        color: #000000;
     }
-    to {
-        transform: translateX(0);
+    
+    .slideOut {
+        animation: slideOut 1.0s;
     }
-}
-
-.hoverBack {
-    background: url('https://1.bp.blogspot.com/-WWoK1cz-LkI/YCsPFAaoHWI/AAAAAAAAGqM/Qc5S96qUnXoWUbHMEYYjOM74H8Cb7l3rwCLcBGAsYHQ/s0/hoverback.png') no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    z-index: 6300;
-    animation: hoverback 1.9s ease-in-out;
-}
-
-.hoverBackContato {
-    background: url('https://1.bp.blogspot.com/-_n1u1patcqM/YCsY4awyhhI/AAAAAAAAGrI/-kpQTw8O_4Q6NplxXsaIr7N_NHwm7JN5gCLcBGAsYHQ/s0/hoverbackcontat.png') no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    z-index: 6300;
-    animation: hoverBackContato 1.9s ease-in-out;
-}
-
-.hoverBackOrca {
-    background: url('https://1.bp.blogspot.com/-GNP-v5dVGTc/YCsdPA1dvRI/AAAAAAAAGrk/k0_e8TogQ_4QEbtIrttbJSby7oNnR38JACLcBGAsYHQ/s0/hoverOrca.png') no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    z-index: 6300;
-    animation: hoverBackOrca 1.9s ease-in-out;
-}
-
-.hoverBackTrab {
-    background: url('https://1.bp.blogspot.com/-wYjbY6RWftE/YCseN7u154I/AAAAAAAAGr4/RKXMN2Po48MRP_5hSIaDf9uuYIA0ofbWwCLcBGAsYHQ/s0/hoverbacktrab.png') no-repeat;
-    background-position: center;
-    height: 100%;
-    width: 100%;
-    z-index: 6300;
-    animation: hoverBackTrab 1.9s ease-in-out;
-}
+    
+    .LogoMenu {
+        top: 0;
+        animation: TrabalhoIni 1.0s;
+        font-family: Bahnschrift;
+        right: 230px;
+        position: fixed;
+        z-index: 9300;
+        text-align: center;
+        background: #141414;
+        border: 2px #242424 solid;
+        box-shadow: 2px 2px 4px #000000;
+        padding: 25px;
+        border-radius: 0px 0px 10px 10px;
+        cursor: default;
+        display: none;
+    }
+    
+    .nauan-sub {
+        font-size: 45px;
+        text-transform: uppercase;
+        text-shadow: 2px 1px 2px #000000;
+    }
+    
+    .design-sub {
+        font-size: 30px;
+        text-transform: uppercase;
+        text-shadow: 2px 1px 2px #000000;
+        animation: go-back2 5.2s infinite alternate;
+    }
+    
+    .fundoPreto {
+        background: url('https://1.bp.blogspot.com/-bxjIMGoog54/YCsTKKXpuEI/AAAAAAAAGqc/x6hz5fBqwoAIt81iuBeID-R4JB9fGapSACLcBGAsYHQ/s0/newbacknau2png.png') #000000 no-repeat;
+        background-position: center;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        display: none;
+        z-index: 1200;
+        animation: FundoPreto 1.1s ease-in-out;
+        overflow: hidden;
+    }
+    
+    @keyframes FundoPreto {
+        from {
+            transform: translateY(1350px);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes hoverback {
+        from {
+            transform: translateY(-1350px);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes hoverBackContato {
+        from {
+            transform: translateX(1360px);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    
+    @keyframes hoverBackOrca {
+        from {
+            transform: translateY(1360px);
+        }
+        to {
+            transform: translateY(0);
+        }
+    }
+    
+    @keyframes hoverBackTrab {
+        from {
+            transform: translateX(-1360px);
+        }
+        to {
+            transform: translateX(0);
+        }
+    }
+    
+    .hoverBack {
+        background: url('https://1.bp.blogspot.com/-WWoK1cz-LkI/YCsPFAaoHWI/AAAAAAAAGqM/Qc5S96qUnXoWUbHMEYYjOM74H8Cb7l3rwCLcBGAsYHQ/s0/hoverback.png') no-repeat;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        z-index: 1300;
+        animation: hoverback 1.9s ease-in-out;
+    }
+    
+    @media only screen and (min-width: 975px) {
+        .hoverBackContato {
+            background: url('https://1.bp.blogspot.com/-_n1u1patcqM/YCsY4awyhhI/AAAAAAAAGrI/-kpQTw8O_4Q6NplxXsaIr7N_NHwm7JN5gCLcBGAsYHQ/s0/hoverbackcontat.png') no-repeat;
+            background-position: center;
+            height: 100%;
+            width: 100%;
+            z-index: 1300;
+            animation: hoverBackContato 1.9s ease-in-out;
+        }
+        .hoverBackTrab {
+            background: url('https://1.bp.blogspot.com/-wYjbY6RWftE/YCseN7u154I/AAAAAAAAGr4/RKXMN2Po48MRP_5hSIaDf9uuYIA0ofbWwCLcBGAsYHQ/s0/hoverbacktrab.png') no-repeat;
+            background-position: center;
+            height: 100%;
+            width: 100%;
+            z-index: 1300;
+            animation: hoverBackTrab 1.9s ease-in-out;
+        }
+    }
+    
+    .hoverBackOrca {
+        background: url('https://1.bp.blogspot.com/-GNP-v5dVGTc/YCsdPA1dvRI/AAAAAAAAGrk/k0_e8TogQ_4QEbtIrttbJSby7oNnR38JACLcBGAsYHQ/s0/hoverOrca.png') no-repeat;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        z-index: 1300;
+        animation: hoverBackOrca 1.9s ease-in-out;
+    }
