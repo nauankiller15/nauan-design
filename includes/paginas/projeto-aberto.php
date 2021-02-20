@@ -549,7 +549,7 @@
 <div id="quarto-projeto">
     <div class="entrada-projeto">
         <ul>
-            <h2 style="animation: TrabalhoIni 3.0s;">Projeto de Barbearia Bela Arte</h2>
+            <h2 style="animation: TrabalhoIni 3.0s;">Barbearia Bela Arte</h2>
             <div class="posicionar-centro">
                 <div class="posicao-aprs-img">
                     <div id="abrir-IMG-Gal4" class="apresentacao-img">
@@ -576,7 +576,7 @@
                 <div class="utilizados">
                     <div style="animation: fadeIn 5.0s, imageProjeto 3.8s ease-in-out;" class="texto-projeto-lup"><i class="fas fa-search"></i></div>
                     <div class="expProjetos" style="animation: SobreIni 3.3s ease-in-out; color:#ffffff;">
-                        <i class="fas fa-brush"></i> Branding
+                        <i class="fas fa-brush"></i> Branding, <i class="fas fa-draw-polygon"></i> Mockup
                     </div>
                 </div>
                 <div class="posicao-info">
@@ -598,6 +598,7 @@
                                 </div>
                                 <li id="FiltrarGaleria4" class="filter filter-active galeria-animation" data-filter=".all"><i class="fas fa-folder-open"></i> todos</li>
                                 <li class="filter" data-filter=".branding"><i class="galeria-animation fas fa-brush"></i> Branding</li>
+                                <li class="filter" data-filter=".mockup"><i class="fas fa-draw-polygon"></i> Mockup</li>
                             </ul>
                         </div>
                     </div>
@@ -614,13 +615,23 @@
 
                             <div class="thumbnail all branding">
                                 <div class="overlay-galeria">
-                                    <a class="popup-img4" title="BRANDING - Variações Logo" href="https://1.bp.blogspot.com/-QHJVJAtM0XE/YCgmwvqMN1I/AAAAAAAAGpk/at9x-7ivfeIGU9q6bkRRVbqbSnLQUj_1ACLcBGAsYHQ/s0/barbearia%2Bfull%2Bhd.png">
+                                    <a class="popup-img4" title="BRANDING - Logo Instagram 2" href="https://1.bp.blogspot.com/-v0CrC5BqyLM/YDF8TBbN-NI/AAAAAAAAGu8/ShpuNag71IE4V-D9-HaXwOHOx7aNoaSZACLcBGAsYHQ/s0/barbearia%2Bpost%2Binstagram.png">
                                         <div class="text-galeria"><i class="fas fa-search"></i></div>
                                     </a>
                                 </div>
-                                <img src="https://1.bp.blogspot.com/-QHJVJAtM0XE/YCgmwvqMN1I/AAAAAAAAGpk/at9x-7ivfeIGU9q6bkRRVbqbSnLQUj_1ACLcBGAsYHQ/s0/barbearia%2Bfull%2Bhd.png" alt="img">
+                                <img src="https://1.bp.blogspot.com/-v0CrC5BqyLM/YDF8TBbN-NI/AAAAAAAAGu8/ShpuNag71IE4V-D9-HaXwOHOx7aNoaSZACLcBGAsYHQ/s0/barbearia%2Bpost%2Binstagram.png" alt="img">
                             </div>
 
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="BRANDING - Logo Alternativa" href="https://1.bp.blogspot.com/-8P1rS9xjcac/YDF4UAYIPjI/AAAAAAAAGuI/bKi5fE_bbWoxSavL50lrjVwz1vy9yXyVQCLcBGAsYHQ/s0/barbearia%2Bpost%2Binstagram2.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-8P1rS9xjcac/YDF4UAYIPjI/AAAAAAAAGuI/bKi5fE_bbWoxSavL50lrjVwz1vy9yXyVQCLcBGAsYHQ/s0/barbearia%2Bpost%2Binstagram2.png" alt="img">
+                            </div>
+                            
+                            <!-- Story Instagram -->
                             <div class="thumbnail all branding">
                                 <div class="overlay-galeria">
                                     <a class="popup-img4" title="BRANDING - Story Instagram" href="https://1.bp.blogspot.com/-jFMp_FxSxRE/YCgmuOHFZCI/AAAAAAAAGpg/-W51j6v1KV82ro5qkCYT5ZEdh_864kNZwCLcBGAsYHQ/s0/tela%2Bdo%2Bcelular.png">
@@ -630,6 +641,89 @@
                                 <img src="https://1.bp.blogspot.com/-jFMp_FxSxRE/YCgmuOHFZCI/AAAAAAAAGpg/-W51j6v1KV82ro5qkCYT5ZEdh_864kNZwCLcBGAsYHQ/s0/tela%2Bdo%2Bcelular.png" alt="img">
                             </div>
 
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="BRANDING - Story Instagram 2" href="https://1.bp.blogspot.com/-oLJxnsuyrbc/YDF4R2ABseI/AAAAAAAAGto/n1c1gwUEg445O_TtCSG07BRTnu0Tgac_gCLcBGAsYHQ/s0/Bom%2Bdia%2BJa%2BEstamos%2Bfuncionando.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-oLJxnsuyrbc/YDF4R2ABseI/AAAAAAAAGto/n1c1gwUEg445O_TtCSG07BRTnu0Tgac_gCLcBGAsYHQ/s0/Bom%2Bdia%2BJa%2BEstamos%2Bfuncionando.png" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="BRANDING - Story Instagram 3" href="https://1.bp.blogspot.com/-qjOrR7aQhfo/YDF4SrEKCxI/AAAAAAAAGtw/YXkAn-pRHFQncnCcaUZuRwvZlnxXYFcowCLcBGAsYHQ/s0/MODELO%2BPOSTAGEM%2BINSTAGRAM.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-qjOrR7aQhfo/YDF4SrEKCxI/AAAAAAAAGtw/YXkAn-pRHFQncnCcaUZuRwvZlnxXYFcowCLcBGAsYHQ/s0/MODELO%2BPOSTAGEM%2BINSTAGRAM.png" alt="img">
+                            </div>
+ 
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="BRANDING - Story Instagram 5" href="https://1.bp.blogspot.com/-21lfVSCWfQk/YDF4TA4ru2I/AAAAAAAAGt0/1Z3hcaLgOO4r55_205pBvInqDqn5RfgkwCLcBGAsYHQ/s0/Post%2BInstagram%2B2.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-21lfVSCWfQk/YDF4TA4ru2I/AAAAAAAAGt0/1Z3hcaLgOO4r55_205pBvInqDqn5RfgkwCLcBGAsYHQ/s0/Post%2BInstagram%2B2.png" alt="img">
+                            </div>
+                            
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="BRANDING - Story Instagram 6" href="https://1.bp.blogspot.com/-pnZOoA7sj44/YDF4TLkfpJI/AAAAAAAAGt4/8gYB0XhTtSImmNCGQE1q_Fg3IwcQGkT0gCLcBGAsYHQ/s0/Post%2BInstagram%2BMinoxidil.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-pnZOoA7sj44/YDF4TLkfpJI/AAAAAAAAGt4/8gYB0XhTtSImmNCGQE1q_Fg3IwcQGkT0gCLcBGAsYHQ/s0/Post%2BInstagram%2BMinoxidil.png" alt="img">
+                            </div>
+
+                            <div class="thumbnail all branding">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="BRANDING - Story Instagram 7" href="https://1.bp.blogspot.com/-BYxE-bX_eWs/YDF4Tpf10CI/AAAAAAAAGt8/7bzEttO00I4ksLvxXUDhItjE2xX929NUQCLcBGAsYHQ/s0/Post%2BInstagram%2BSextou.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-BYxE-bX_eWs/YDF4Tpf10CI/AAAAAAAAGt8/7bzEttO00I4ksLvxXUDhItjE2xX929NUQCLcBGAsYHQ/s0/Post%2BInstagram%2BSextou.png" alt="img">
+                            </div>
+                            <!--  -->
+
+                            <!-- Cartões Visita -->
+                            <div class="thumbnail all mockup">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="MOCKUP - Cartões Visita 1" href="https://1.bp.blogspot.com/-Gtga_igiIYs/YDF4R6xk7rI/AAAAAAAAGts/nBRo9DPd0TwNHl83SJIsiHBRjSD3iPoFACLcBGAsYHQ/s0/Cart%25C3%25B5es%2BVisita3.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-Gtga_igiIYs/YDF4R6xk7rI/AAAAAAAAGts/nBRo9DPd0TwNHl83SJIsiHBRjSD3iPoFACLcBGAsYHQ/s0/Cart%25C3%25B5es%2BVisita3.png" alt="img">
+                            </div>
+
+                            <div class="thumbnail all  mockup">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="MOCKUP - Cartões Visita 2" href="https://1.bp.blogspot.com/-OiLMJYqmQHY/YDF4R34zeoI/AAAAAAAAGtk/gJPiSpYQxo0Cb3slEK3nBSANJ_w8npINACLcBGAsYHQ/s0/Cart%25C3%25B5es%2BVisita2.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-OiLMJYqmQHY/YDF4R34zeoI/AAAAAAAAGtk/gJPiSpYQxo0Cb3slEK3nBSANJ_w8npINACLcBGAsYHQ/s0/Cart%25C3%25B5es%2BVisita2.png" alt="img">
+                            </div>
+
+                            <div class="thumbnail all  mockup">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="MOCKUP - Cartões Visita 3" href="https://1.bp.blogspot.com/-zvJl0CzRwJ8/YDF79QF-jZI/AAAAAAAAGu0/qgkliMDjXMMeOPjcFToLnSm6Y8mX2UEngCLcBGAsYHQ/s0/Cart%25C3%25B5es%2BVisita%2B2%2BEDIIT%2BInsta.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-zvJl0CzRwJ8/YDF79QF-jZI/AAAAAAAAGu0/qgkliMDjXMMeOPjcFToLnSm6Y8mX2UEngCLcBGAsYHQ/s0/Cart%25C3%25B5es%2BVisita%2B2%2BEDIIT%2BInsta.png" alt="img">
+                            </div>
+
+                          
+                            <div class="thumbnail all mockup">
+                                <div class="overlay-galeria">
+                                    <a class="popup-img4" title="MOCKUP - Marca de Camisa" href="https://1.bp.blogspot.com/-t_5pesdSrKU/YDF4T7XVZ-I/AAAAAAAAGuE/3_xwVwjtjY4wCTvbg-TdxrdgYoo2vSNYACLcBGAsYHQ/s0/Roupa%2BEdit.png">
+                                        <div class="text-galeria"><i class="fas fa-search"></i></div>
+                                    </a>
+                                </div>
+                                <img src="https://1.bp.blogspot.com/-t_5pesdSrKU/YDF4T7XVZ-I/AAAAAAAAGuE/3_xwVwjtjY4wCTvbg-TdxrdgYoo2vSNYACLcBGAsYHQ/s0/Roupa%2BEdit.png" alt="img">
+                            </div>
 
                         </div>
 

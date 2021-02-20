@@ -28,7 +28,7 @@
 
                                     <div class="portfolio-container">
 
-                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding">
+                                        <div class="col-lg-4 col-md-6 portfolio-thumbnail all branding mockups">
                                             <div class="overlay">
                                                 <li class="lupa-abrir" id="projeto4">
                                                     <div class="text link-margem"><i class="fas fa-search"></i></div>
