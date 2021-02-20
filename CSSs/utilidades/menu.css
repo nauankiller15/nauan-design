@@ -244,12 +244,12 @@
     
     @media only screen and (min-width: 975px) {
         .hoverBackContato {
-            background: url('https://1.bp.blogspot.com/-_n1u1patcqM/YCsY4awyhhI/AAAAAAAAGrI/-kpQTw8O_4Q6NplxXsaIr7N_NHwm7JN5gCLcBGAsYHQ/s0/hoverbackcontat.png') no-repeat;
+            background: url('https://1.bp.blogspot.com/-wYjbY6RWftE/YCseN7u154I/AAAAAAAAGr4/RKXMN2Po48MRP_5hSIaDf9uuYIA0ofbWwCLcBGAsYHQ/s0/hoverbacktrab.png') no-repeat;
             background-position: center;
             height: 100%;
             width: 100%;
             z-index: 1300;
-            animation: hoverBackContato 1.9s ease-in-out;
+            animation: hoverBackTrab 1.9s ease-in-out;
         }
         .hoverBackTrab {
             background: url('https://1.bp.blogspot.com/-wYjbY6RWftE/YCseN7u154I/AAAAAAAAGr4/RKXMN2Po48MRP_5hSIaDf9uuYIA0ofbWwCLcBGAsYHQ/s0/hoverbacktrab.png') no-repeat;
@@ -262,7 +262,7 @@
     }
     
     .hoverBackOrca {
-        background: url('https://1.bp.blogspot.com/-GNP-v5dVGTc/YCsdPA1dvRI/AAAAAAAAGrk/k0_e8TogQ_4QEbtIrttbJSby7oNnR38JACLcBGAsYHQ/s0/hoverOrca.png') no-repeat;
+        background: url('https://1.bp.blogspot.com/-WWoK1cz-LkI/YCsPFAaoHWI/AAAAAAAAGqM/Qc5S96qUnXoWUbHMEYYjOM74H8Cb7l3rwCLcBGAsYHQ/s0/hoverback.png') no-repeat;
         background-position: center;
         height: 100%;
         width: 100%;
