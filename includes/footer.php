@@ -12,6 +12,7 @@
 <script src="JS/animations.js"></script>
 <script src="JS/projetos-anim.js"></script>
 <script src="JS/activemenu.js"></script>
+<script src="JS/slide-stories.js"></script>
 
 <!-- Library -->
 <script src="Lib/typed/typed.js"></script>
