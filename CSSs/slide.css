@@ -137,8 +137,8 @@
     .slide-thumb>span {
         flex: 1;
         display: block;
-        height: 3px;
-        background: rgba(0, 0, 0, 0.4);
+        height: 7px;
+        background: rgba(0, 0, 0, 0.7);
         margin: 5px;
         border-radius: 3px;
         overflow: hidden;
