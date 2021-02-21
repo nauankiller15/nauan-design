@@ -1,181 +1,256 @@
-/* SLIDE SHOW INSTA */
-
-.slide {
-    max-width: 100%;
-    margin: 4px auto;
-    display: grid;
-    box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
-}
-
-.slide-items {
-    position: relative;
-    grid-area: 1/1;
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.slide-nav {
-    grid-area: 1/1;
-    z-index: 1;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: auto 1fr;
-}
-
-.slide-nav button {
-    -webkit-appearance: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-    opacity: 0;
-}
-
-.slide-items>* {
-    position: absolute;
-    top: 0px;
-    opacity: 0;
-    pointer-events: none;
-}
-
-.slide-items>.active {
-    position: relative;
-    opacity: 1;
-    pointer-events: initial;
-}
-
-.slide-thumb {
-    display: flex;
-    grid-column: 1 / 3;
-}
-
-.slide-thumb>span {
-    flex: 1;
-    display: block;
-    height: 3px;
-    background: rgba(0, 0, 0, 0.4);
-    margin: 5px;
-    border-radius: 3px;
-    overflow: hidden;
-}
-
-.slide-thumb>span.active::after {
-    content: '';
-    display: block;
-    height: inherit;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 3px;
-    transform: translateX(-100%);
-    animation: thumb 5s forwards linear;
-}
-
-@keyframes thumb {
-    to {
-        transform: initial;
+    /* SLIDE SHOW INSTA */
+    
+    .slide {
+        max-width: 100%;
+        margin: 4px auto;
+        display: grid;
+        box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
+        z-index: 100;
     }
-}
-
-
-/*  */
-
-.fundo-prot {
-    background: url("https://1.bp.blogspot.com/-_tAvmsMaPjY/X52al0CStbI/AAAAAAAAGc0/NyOCkIowxqYn3RRJk3wwgISWNDPnpEdawCLcBGAsYHQ/s0/fundo-prote%25C3%25A7ao.png") repeat;
-    background-color: rgba(0, 0, 0, 0.459)000;
-    opacity: 6;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    position: fixed;
-    z-index: 800;
-    animation: fadeIn 7s;
-}
-
-#slider {
-    position: fixed;
-    overflow: hidden;
-    z-index: 900;
-    animation: fadeIn 9s;
-    top: 0;
-}
-
-#slider figure {
-    position: relative;
-    width: 1000%;
-    /* 100% for each picture, 10 pictures = 1000% */
-    margin: 0;
-    left: 0;
-    animation: 80s sliderIMG infinite ease-in-out;
-}
-
-#slider figure img {
-    width: 10%;
-    /* 100 / 10 pictures = 10% */
-    float: left;
-    /*  next 2 to continue responsive with the maximum height  */
-    max-width: 300%;
-    min-height: 300%;
-    object-fit: cover;
-}
-
-@keyframes sliderIMG {
-    0% {
+    
+    @media only screen and (min-width: 975px) {
+        .slide-next {
+            position: absolute;
+            top: 30%;
+            font-size: 48px;
+            color: #fff;
+            z-index: 1;
+            text-align: center;
+            right: 0;
+            font-family: sans-serif;
+            font-weight: bold;
+            background-color: #000;
+            padding: 40px;
+            opacity: 5;
+        }
+        .slide-prev {
+            position: absolute;
+            top: 30%;
+            font-size: 48px;
+            color: #fff;
+            line-height: 48px;
+            z-index: 1;
+            text-align: center;
+            left: 0;
+            font-family: sans-serif;
+            font-weight: bold;
+            background-color: #000;
+            padding: 40px;
+            opacity: 5;
+        }
+    }
+    
+    .message {
+        display: none;
+    }
+    
+    @media only screen and (min-width: 965px) {
+        .message {
+            display: block;
+            height: 10%;
+            width: 19%;
+            top: 34px;
+            padding: 30px;
+            position: absolute;
+            color: #fff;
+            display: flex;
+            z-index: 999;
+            background: #000;
+            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        .message img {
+            left: 30px;
+            border: 2px solid;
+            width: 53px;
+            height: 54px;
+            border-radius: 90px;
+            top: 23px;
+            position: absolute;
+            padding: 3px;
+        }
+        .message b {
+            left: 94px;
+            font-size: 18px;
+            top: 30px;
+            color: #fff;
+            position: absolute;
+            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+        .message i {
+            left: 94px;
+            font-size: 13px;
+            top: 52px;
+            color: #ccc;
+            position: absolute;
+            font-family: "Poppins", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        }
+    }
+    
+    .slide-items {
+        position: relative;
+        grid-area: 1/1;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    
+    .slide-nav {
+        grid-area: 1/1;
+        z-index: 1;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto 1fr;
+    }
+    
+    .slide-nav button {
+        opacity: 5;
+    }
+    
+    .slide-items>* {
+        position: absolute;
+        top: 0px;
+        opacity: 0;
+        pointer-events: none;
+    }
+    
+    .slide-items>.active {
+        position: relative;
+        opacity: 1;
+        pointer-events: initial;
+    }
+    
+    .slide-thumb {
+        display: flex;
+        grid-column: 1 / 3;
+    }
+    
+    .slide-thumb>span {
+        flex: 1;
+        display: block;
+        height: 3px;
+        background: rgba(0, 0, 0, 0.4);
+        margin: 5px;
+        border-radius: 3px;
+        overflow: hidden;
+    }
+    
+    .slide-thumb>span.active::after {
+        content: '';
+        display: block;
+        height: inherit;
+        background: rgba(255, 255, 255, 0.9);
+        border-radius: 3px;
+        transform: translateX(-100%);
+        animation: thumb 5s forwards linear;
+    }
+    
+    @keyframes thumb {
+        to {
+            transform: initial;
+        }
+    }
+    /*  */
+    
+    .fundo-prot {
+        background: url("https://1.bp.blogspot.com/-_tAvmsMaPjY/X52al0CStbI/AAAAAAAAGc0/NyOCkIowxqYn3RRJk3wwgISWNDPnpEdawCLcBGAsYHQ/s0/fundo-prote%25C3%25A7ao.png") repeat;
+        background-color: rgba(0, 0, 0, 0.459)000;
+        opacity: 6;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        z-index: 990;
+        animation: fadeIn 7s;
+    }
+    
+    #slider {
+        position: fixed;
+        overflow: hidden;
+        z-index: 900;
+        animation: fadeIn 9s;
+        top: 0;
+    }
+    
+    #slider figure {
+        position: relative;
+        width: 1000%;
+        /* 100% for each picture, 10 pictures = 1000% */
+        margin: 0;
         left: 0;
+        animation: 80s sliderIMG infinite ease-in-out;
     }
-    /* you must divide 100% fot the amout of images you have */
-    7% {
-        left: 0%;
+    
+    #slider figure img {
+        width: 10%;
+        /* 100 / 10 pictures = 10% */
+        float: left;
+        /*  next 2 to continue responsive with the maximum height  */
+        max-width: 300%;
+        min-height: 300%;
+        object-fit: cover;
     }
-    /* these intermediate steps (7%, 17%, 27%, ... will make the transition speed faster */
-    10% {
-        left: -100%;
+    
+    @keyframes sliderIMG {
+        0% {
+            left: 0;
+        }
+        /* you must divide 100% fot the amout of images you have */
+        7% {
+            left: 0%;
+        }
+        /* these intermediate steps (7%, 17%, 27%, ... will make the transition speed faster */
+        10% {
+            left: -100%;
+        }
+        /* because my total width: 1000% (10x 100% for 10 images), I will use 10% for each image */
+        17% {
+            left: -100%;
+        }
+        20% {
+            left: -200%;
+        }
+        27% {
+            left: -200%;
+        }
+        30% {
+            left: -300%;
+        }
+        37% {
+            left: -300%;
+        }
+        40% {
+            left: -400%;
+        }
+        47% {
+            left: -400%;
+        }
+        50% {
+            left: -500%;
+        }
+        57% {
+            left: -500%;
+        }
+        60% {
+            left: -600%;
+        }
+        67% {
+            left: -600%;
+        }
+        70% {
+            left: -700%;
+        }
+        77% {
+            left: -700%;
+        }
+        80% {
+            left: -800%;
+        }
+        87% {
+            left: -800%;
+        }
+        90% {
+            left: -900%;
+        }
+        100% {
+            left: -900%;
+        }
     }
-    /* because my total width: 1000% (10x 100% for 10 images), I will use 10% for each image */
-    17% {
-        left: -100%;
-    }
-    20% {
-        left: -200%;
-    }
-    27% {
-        left: -200%;
-    }
-    30% {
-        left: -300%;
-    }
-    37% {
-        left: -300%;
-    }
-    40% {
-        left: -400%;
-    }
-    47% {
-        left: -400%;
-    }
-    50% {
-        left: -500%;
-    }
-    57% {
-        left: -500%;
-    }
-    60% {
-        left: -600%;
-    }
-    67% {
-        left: -600%;
-    }
-    70% {
-        left: -700%;
-    }
-    77% {
-        left: -700%;
-    }
-    80% {
-        left: -800%;
-    }
-    87% {
-        left: -800%;
-    }
-    90% {
-        left: -900%;
-    }
-    100% {
-        left: -900%;
-    }
-}
