@@ -1,3 +1,13 @@
+// 
+// 
+// 
+// TELA DE CARREGAMENTO
+$(window).on("load", function() {
+    $(".loader-wrapper").fadeOut("slow");
+});
+// 
+// ---------------
+
 // // *****
 // Animação Menu -------------- ****
 $('#trabalhosAbrir').on('click', function() {

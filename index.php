@@ -10,6 +10,11 @@
 <!-- fim -->
 
 <body>
+<!-- TELA DE CARREGAMENTO -->
+    <div class="loader-wrapper">
+    <div class="spinner"></div>
+    </div>
+<!--  -->
     <div class="pagina">
         <div class="LogoMenu">
             <h2 class="nauan-sub">Nauan</h2>
