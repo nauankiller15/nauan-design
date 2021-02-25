@@ -30,7 +30,7 @@
         <nav class="slide-nav">
             <div class="slide-thumb"></div>
             <button class="slide-prev">
-                <</button>
-                    <button class="slide-next">></button>
+                d</button>
+                    <button class="slide-next">d</button>
         </nav>
     </div>

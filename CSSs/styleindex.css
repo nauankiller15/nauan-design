@@ -1,6 +1,8 @@
 @font-face {
     font-family: "Bahnschrift";
     src: url("../fonts/bahnschrift.ttf") format("truetype");
+    font-family: "arrow_7";
+    src: url("../fonts/arrow_7.ttf") format("truetype");
 }
 
 * {
