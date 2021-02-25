@@ -30,7 +30,7 @@
         <nav class="slide-nav">
             <div class="slide-thumb"></div>
             <button class="slide-prev">
-                d</button>
-                    <button class="slide-next">d</button>
+            <i class="fas fa-angle-left"></i></button>
+                    <button class="slide-next"><i class="fas fa-angle-right"></i></button>
         </nav>
     </div>
