@@ -157,10 +157,15 @@
         background: #141414;
         border: 2px #242424 solid;
         box-shadow: 2px 2px 4px #000000;
-        padding: 25px;
+        padding: 8px;
         border-radius: 0px 0px 10px 10px;
         cursor: default;
         display: none;
+    }
+    
+    .LogoMenu img {
+        width: 105px;
+        height: 84px;
     }
     
     .nauan-sub {

@@ -17,8 +17,7 @@
 <!--  -->
     <div class="pagina">
         <div class="LogoMenu">
-            <h2 class="nauan-sub">Nauan</h2>
-            <h2 class="design-sub">Design</h2>
+        <img src="https://1.bp.blogspot.com/-kxwlsl8gb_E/YAr4MtQDSMI/AAAAAAAAGjs/PjD4X1OIkjYFi-F_UpEG22ttIY6OOnM5QCLcBGAsYHQ/s0/Nauan-Design-logo-brand.png">
         </div>
 
         <?php include("includes/BackSlide.php"); ?>
