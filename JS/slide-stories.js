@@ -38,13 +38,16 @@ class SlideStories {
     }
 
     addThumbItems() {
+
         this.items.forEach(() => (this.thumb.innerHTML += `<span></span>`));
         this.thumbItems = Array.from(this.thumb.children);
     }
 
+
+
     autoSlide() {
         clearTimeout(this.timeout);
-        this.timeout = setTimeout(this.next, 5000);
+        this.timeout = setTimeout(this.next, 9000);
     }
 
     init() {

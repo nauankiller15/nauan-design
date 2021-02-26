@@ -12,7 +12,7 @@
 <body>
 <!-- TELA DE CARREGAMENTO -->
     <div class="loader-wrapper">
-    <div class="spinner"></div>
+    <div class="spinner">ND</div>
     </div>
 <!--  -->
     <div class="pagina">
