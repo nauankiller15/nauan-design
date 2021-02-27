@@ -71,6 +71,7 @@
 }
 
 .imagePotrait {
+    border-radius: 194px;
     width: 340px;
     height: 490px;
     background-color: #141414;
