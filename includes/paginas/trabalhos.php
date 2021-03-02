@@ -2,7 +2,7 @@
     <div id="trabalhos">
         <div class="hoverBackTrab">
             <div class="trabalhos">
-                <h2 style="animation: TrabalhoIni 2.0s;">Meus Projetos<h2>
+                <h2 style="animation: TrabalhoIni 2.0s;">Projetos<h2>
             </div>
             <div id="caixatrabalhos">
                 <div class="Centrotrabalhos">

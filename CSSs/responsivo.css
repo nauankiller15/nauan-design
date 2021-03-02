@@ -297,7 +297,7 @@
     .LogoMenu {
         top: 0;
         right: 90px;
-        padding: 10px;
+        padding: 6px;
         position: absolute;
     }
     /*  */
@@ -403,7 +403,7 @@
     /* Logo Menu */
     .LogoMenu {
         right: 6px;
-        padding: 10px;
+        padding: 6px;
         position: absolute;
     }
     .nauan-sub {
@@ -645,7 +645,7 @@
     /* Logo Menu */
     .LogoMenu {
         right: 6px;
-        padding: 10px;
+        padding: 6px;
         position: absolute;
     }
     .nauan-sub {
@@ -1016,7 +1016,7 @@
     /* Logo Menu */
     .LogoMenu {
         right: 6px;
-        padding: 10px;
+        padding: 6px;
         position: absolute;
     }
     .nauan-sub {
@@ -1377,7 +1377,7 @@
     /* Logo Menu */
     .LogoMenu {
         right: 6px;
-        padding: 10px;
+        padding: 0px;
         position: absolute;
     }
     .nauan-sub {
@@ -1752,16 +1752,12 @@
         top: 207px; */
         display: none;
     }
-    .menu {
-        top: 360px;
-        right: 80px;
-    }
     /*  */
     /* ---------- OUTRAS PÁGINAS (max-width: 440px) -------- */
     /* Logo Menu */
     .LogoMenu {
         right: 6px;
-        padding: 10px;
+        padding: 0px;
         position: absolute;
     }
     .nauan-sub {
@@ -1912,14 +1908,46 @@
     /* ------------ PÁGINA INICIAL (max-width: 420px) ---------- */
     /* ----- MENU */
     .menu {
-        top: 360px;
-        right: 80px;
+        top: 628px;
+        right: 0px;
     }
     .menu ul {
-        padding: 17px;
-        width: 265px;
+        display: none;
+    }
+    .mobile {
+        height: 65px;
+        padding: 4px;
+        width: 415px;
         font-size: 23px;
     }
+    .menu li {
+        float: RIGHT;
+        text-align: center;
+        margin: 5px 20px auto 5px;
+        padding: 8px;
+        list-style: none;
+        transition-timing-function: ease-in-out;
+        cursor: pointer;
+        transition: 0.5s;
+        background: #242424;
+        color: #ffffff;
+        /* border-right: 1px #ffffff solid; */
+    }
+    /* NAVEGADORES LI */
+    .li-servico::before {
+        font-size: 18px;
+        margin-left: 0;
+    }
+    .li-experiencias::before {
+        font-size: 18px;
+    }
+    .li-contato::before {
+        font-size: 18px;
+    }
+    .li-projetos::before {
+        font-size: 19px;
+    }
+    /*  */
     .clicarFechar {
         display: block;
     }
@@ -1990,16 +2018,12 @@
         top: 207px; */
         display: none;
     }
-    .menu {
-        top: 360px;
-        right: 80px;
-    }
     /*  */
     /* ---------- OUTRAS PÁGINAS (max-width: 420px) -------- */
     /* Logo Menu */
     .LogoMenu {
         right: 6px;
-        padding: 10px;
+        padding: 0px;
         position: absolute;
     }
     .nauan-sub {
@@ -2343,7 +2367,7 @@
     /* Logo Menu */
     .LogoMenu {
         right: 6px;
-        padding: 10px;
+        padding: 0px;
         position: absolute;
     }
     .nauan-sub {
@@ -2719,7 +2743,7 @@
     /* Logo Menu */
     .LogoMenu {
         right: 6px;
-        padding: 10px;
+        padding: 0px;
         position: absolute;
     }
     .nauan-sub {

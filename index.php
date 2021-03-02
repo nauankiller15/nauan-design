@@ -10,14 +10,15 @@
 <!-- fim -->
 
 <body>
-<!-- TELA DE CARREGAMENTO -->
+    <!-- TELA DE CARREGAMENTO -->
     <div class="loader-wrapper">
-    <div class="spinner">ND</div>
+        <div class="spinner">ND</div>
     </div>
-<!--  -->
+    <!-- fim -->
+
     <div class="pagina">
         <div class="LogoMenu">
-        <img src="https://1.bp.blogspot.com/-kxwlsl8gb_E/YAr4MtQDSMI/AAAAAAAAGjs/PjD4X1OIkjYFi-F_UpEG22ttIY6OOnM5QCLcBGAsYHQ/s0/Nauan-Design-logo-brand.png">
+            <img src="https://1.bp.blogspot.com/-kxwlsl8gb_E/YAr4MtQDSMI/AAAAAAAAGjs/PjD4X1OIkjYFi-F_UpEG22ttIY6OOnM5QCLcBGAsYHQ/s0/Nauan-Design-logo-brand.png">
         </div>
 
         <?php include("includes/BackSlide.php"); ?>
