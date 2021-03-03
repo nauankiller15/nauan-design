@@ -121,7 +121,7 @@ a:hover {
     position: fixed;
     top: 138px;
     left: 177px;
-    z-index: 999;
+    z-index: 4001;
 }
 
 .nauan {

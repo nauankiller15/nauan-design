@@ -1335,7 +1335,7 @@
     .menu ul {
         height: 71px;
         padding: 4px;
-        width: 415px;
+        width: 490px;
         font-size: 23px;
         border-radius: 0;
     }
@@ -1407,13 +1407,13 @@
     }
     #fechar {
         margin-top: 4px;
-        margin-left: 15px;
+        margin-left: 38px;
         font-size: 23px;
         padding: 9px;
         transition: 0.5s;
         border-radius: 12px;
     }
-    /*  */
+    /*      480px */
     #quadrado-position {
         position: fixed;
         top: 30px;
@@ -1584,6 +1584,10 @@
         float: none;
         margin: 2px;
         display: inline-block;
+        padding: 5px;
+        font-size: 17px;
+        line-height: 26px;
+        border-radius: 6px;
     }
     .portfolio-thumbnail {
         margin-bottom: 8px;
@@ -1591,13 +1595,9 @@
         min-height: 80px;
         width: 80%;
     }
-    #portfolio .portfolio-list .nav li {
-        padding: 1px;
-        font-size: 15px;
-        line-height: 26px;
-    }
     #portfolio .portfolio-list .nav li:hover,
     #portfolio .portfolio-list .nav li.filter-active {
+        border-radius: 6px;
         font-size: 16px;
         line-height: 26px;
     }
@@ -1763,7 +1763,7 @@
     .menu ul {
         height: 71px;
         padding: 4px;
-        width: 415px;
+        width: 490px;
         font-size: 23px;
         border-radius: 0;
     }
@@ -1855,7 +1855,7 @@
     .Web-Dev::before {
         font-size: 20px;
     }
-    /*  */
+    /*      440px */
     #quadrado-position {
         position: fixed;
         top: 30px;
@@ -1950,9 +1950,13 @@
     }
     /* ----- DESIGN PORTFOLIO (max-width: 440px) */
     #portfolio .portfolio-list .nav li {
+        border-radius: 6px;
         float: none;
         margin: 2px;
         display: inline-block;
+        padding: 5px;
+        font-size: 17px;
+        line-height: 26px;
     }
     .portfolio-thumbnail {
         margin-bottom: 8px;
@@ -1960,13 +1964,9 @@
         min-height: 80px;
         width: 80%;
     }
-    #portfolio .portfolio-list .nav li {
-        padding: 1px;
-        font-size: 17px;
-        line-height: 32px;
-    }
     #portfolio .portfolio-list .nav li:hover,
     #portfolio .portfolio-list .nav li.filter-active {
+        border-radius: 6px;
         font-size: 18px;
         line-height: 26px;
     }
@@ -1974,8 +1974,8 @@
     .trabalhos h2 {
         left: 45px;
         width: 60%;
-        top: 21px;
-        font-size: 34px;
+        top: 26px;
+        font-size: 42px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 440px) */
@@ -2045,6 +2045,47 @@
 }
 
 @media (max-width: 420px) {
+    /* SLIDE BACK */
+    .slide-next {
+        top: 4%;
+        font-size: 25px;
+        right: -16px;
+        background-color: #141414a6;
+        padding: 24px;
+        border-radius: 51px;
+    }
+    .slide-next:hover {
+        transform: scale(1.2);
+        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+    .slide-prev {
+        top: 4%;
+        font-size: 25px;
+        z-index: 1;
+        left: -16px;
+        background-color: #141414a6;
+        padding: 24px;
+    }
+    /*  */
+    /* MESSAGE TOP */
+    .message {
+        width: 298px;
+        top: 34px;
+        left: 56px;
+    }
+    .message img {
+        left: 26px;
+        top: 23px;
+    }
+    .message b {
+        left: 91px;
+        top: 28px;
+    }
+    .message i {
+        left: 91px;
+        top: 51px;
+    }
+    /*  */
     /* ----------- FOOTER (max-width: 420px) ------------ */
     .footer {
         bottom: 65px;
@@ -2060,7 +2101,7 @@
     .menu ul {
         height: 71px;
         padding: 4px;
-        width: 415px;
+        width: 490px;
         font-size: 23px;
         border-radius: 0;
     }
@@ -2132,7 +2173,7 @@
     }
     #fechar {
         margin-top: 4px;
-        margin-left: 28px;
+        margin-left: 103px;
         font-size: 23px;
         padding: 9px;
         transition: 0.5s;
@@ -2152,10 +2193,10 @@
     .Web-Dev::before {
         font-size: 20px;
     }
-    /*  */
+    /*      420px */
     #quadrado-position {
         position: fixed;
-        top: 30px;
+        top: 154px;
         left: 25px;
         z-index: 999;
     }
@@ -2325,9 +2366,13 @@
     }
     /* ----- DESIGN PORTFOLIO (max-width: 420px) */
     #portfolio .portfolio-list .nav li {
+        border-radius: 6px;
         float: none;
         margin: 2px;
         display: inline-block;
+        padding: 5px;
+        font-size: 17px;
+        line-height: 26px;
     }
     .portfolio-thumbnail {
         margin-bottom: 8px;
@@ -2335,13 +2380,9 @@
         min-height: 80px;
         width: 80%;
     }
-    #portfolio .portfolio-list .nav li {
-        padding: 1px;
-        font-size: 17px;
-        line-height: 26px;
-    }
     #portfolio .portfolio-list .nav li:hover,
     #portfolio .portfolio-list .nav li.filter-active {
+        border-radius: 6px;
         font-size: 18px;
         line-height: 26px;
     }
@@ -2349,8 +2390,8 @@
     .trabalhos h2 {
         left: 45px;
         width: 60%;
-        top: 21px;
-        font-size: 34px;
+        top: 26px;
+        font-size: 42px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 420px) */
@@ -2435,7 +2476,7 @@
     .menu ul {
         height: 71px;
         padding: 4px;
-        width: 415px;
+        width: 490px;
         font-size: 23px;
         border-radius: 0;
     }
@@ -2527,7 +2568,7 @@
     .Web-Dev::before {
         font-size: 20px;
     }
-    /*  */
+    /*      390px */
     #quadrado-position {
         position: fixed;
         top: 40px;
@@ -2706,6 +2747,10 @@
     }
     /* ----- DESIGN PORTFOLIO (max-width: 390px) */
     #portfolio .portfolio-list .nav li {
+        border-radius: 6px;
+        padding: 7px;
+        font-size: 15px;
+        line-height: 25px;
         float: none;
         margin: 2px;
         display: inline-block;
@@ -2716,13 +2761,9 @@
         min-height: 80px;
         width: 80%;
     }
-    #portfolio .portfolio-list .nav li {
-        padding: 1px;
-        font-size: 15px;
-        line-height: 25px;
-    }
     #portfolio .portfolio-list .nav li:hover,
     #portfolio .portfolio-list .nav li.filter-active {
+        border-radius: 6px;
         font-size: 16px;
         line-height: 25px;
     }
@@ -2801,11 +2842,55 @@
 }
 
 @media (max-width: 375px) {
+    /* SLIDE BACK */
+    .slide-next {
+        top: 4%;
+        font-size: 25px;
+        right: -16px;
+        background-color: #141414a6;
+        padding: 24px;
+        border-radius: 51px;
+    }
+    .slide-next:hover {
+        transform: scale(1.2);
+        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+    .slide-prev {
+        top: 4%;
+        font-size: 25px;
+        z-index: 1;
+        left: -16px;
+        background-color: #141414a6;
+        padding: 24px;
+    }
+    /*  */
+    /* MESSAGE TOP */
+    .message {
+        width: 257px;
+        top: 34px;
+        left: 52px;
+        height: 87px;
+    }
+    .message img {
+        left: 27px;
+        top: 16px;
+    }
+    .message b {
+        font-size: 17px;
+        left: 91px;
+        top: 24px;
+    }
+    .message i {
+        font-size: 12px;
+        left: 91px;
+        top: 46px;
+    }
+    /*  */
     /* ----------- FOOTER (max-width: 375px) ------------ */
     .footer {
-        bottom: 65px;
-        padding: 12px;
-        font-size: 11px;
+        bottom: 71px;
+        padding: 5px;
+        font-size: 10px;
     }
     /* ------------ PÁGINA INICIAL (max-width: 375px) ---------- */
     /* ----- MENU */
@@ -2816,7 +2901,7 @@
     .menu ul {
         height: 71px;
         padding: 4px;
-        width: 415px;
+        width: 490px;
         font-size: 23px;
         border-radius: 0;
     }
@@ -2888,16 +2973,16 @@
     }
     #fechar {
         margin-top: 4px;
-        margin-left: 75px;
+        margin-left: 145px;
         font-size: 23px;
         padding: 9px;
         transition: 0.5s;
         border-radius: 12px;
     }
-    /*  */
+    /*      375px */
     #quadrado-position {
         position: fixed;
-        top: 40px;
+        top: 149px;
         left: 11px;
         z-index: 999;
     }
@@ -2916,6 +3001,50 @@
 }
 
 @media (max-width: 320px) {
+    /* SLIDE BACK */
+    .slide-next {
+        top: 4%;
+        font-size: 25px;
+        right: -16px;
+        background-color: #141414a6;
+        padding: 24px;
+        border-radius: 51px;
+    }
+    .slide-next:hover {
+        transform: scale(1.2);
+        /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    }
+    .slide-prev {
+        top: 4%;
+        font-size: 25px;
+        z-index: 1;
+        left: -16px;
+        background-color: #141414a6;
+        padding: 24px;
+    }
+    /*  */
+    /* MESSAGE TOP */
+    .message {
+        width: 225px;
+        top: 38px;
+        left: 48px;
+        height: 83px;
+    }
+    .message img {
+        left: 15px;
+        top: 14px;
+    }
+    .message b {
+        font-size: 16px;
+        left: 76px;
+        top: 22px;
+    }
+    .message i {
+        font-size: 11px;
+        left: 77px;
+        top: 43px;
+    }
+    /*  */
     /* ----------- FOOTER (max-width: 320px) ------------ */
     .footer {
         bottom: 65px;
@@ -2931,14 +3060,14 @@
     .menu ul {
         height: 71px;
         padding: 4px;
-        width: 415px;
+        width: 490px;
         font-size: 23px;
         border-radius: 0;
     }
     .menu li {
         float: RIGHT;
         text-align: center;
-        margin: 5px 0px auto 5px;
+        margin: 5px 1px auto 5px;
         padding: 8px;
         list-style: none;
         transition-timing-function: ease-in-out;
@@ -3003,12 +3132,11 @@
     }
     #fechar {
         margin-top: 5px;
-        margin-left: 105px;
+        margin-left: 179px;
         font-size: 22px;
         padding: 9px;
         transition: 0.5s;
         border-radius: 12px;
-        /* z-index: 99923923234; */
     }
     /*  */
     /* Slide */
@@ -3034,10 +3162,10 @@
     .Web-Dev::before {
         font-size: 17px;
     }
-    /*  */
+    /*      320px */
     #quadrado-position {
         position: fixed;
-        top: 0px;
+        top: 146px;
         left: -5px;
         z-index: 999;
     }
@@ -3225,6 +3353,10 @@
     }
     /* ----- DESIGN PORTFOLIO (max-width: 320px) */
     #portfolio .portfolio-list .nav li {
+        border-radius: 6px;
+        padding: 5px;
+        font-size: 14px;
+        line-height: 24px;
         float: none;
         margin: 2px;
         display: inline-block;
@@ -3235,13 +3367,9 @@
         min-height: 28px;
         width: 46%;
     }
-    #portfolio .portfolio-list .nav li {
-        padding: 1px;
-        font-size: 14px;
-        line-height: 24px;
-    }
     #portfolio .portfolio-list .nav li:hover,
     #portfolio .portfolio-list .nav li.filter-active {
+        border-radius: 6px;
         font-size: 15px;
         line-height: 24px;
     }
