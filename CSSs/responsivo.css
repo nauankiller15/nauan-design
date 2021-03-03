@@ -2067,7 +2067,7 @@
     .menu li {
         float: RIGHT;
         text-align: center;
-        margin: 5px 20px auto 5px;
+        margin: 5px 15px auto 5px;
         padding: 8px;
         list-style: none;
         transition-timing-function: ease-in-out;
@@ -2132,7 +2132,7 @@
     }
     #fechar {
         margin-top: 4px;
-        margin-left: 15px;
+        margin-left: 28px;
         font-size: 23px;
         padding: 9px;
         transition: 0.5s;
@@ -2823,7 +2823,7 @@
     .menu li {
         float: RIGHT;
         text-align: center;
-        margin: 5px 7px auto 5px;
+        margin: 5px 5px auto 5px;
         padding: 8px;
         list-style: none;
         transition-timing-function: ease-in-out;
@@ -2888,7 +2888,7 @@
     }
     #fechar {
         margin-top: 4px;
-        margin-left: 63px;
+        margin-left: 75px;
         font-size: 23px;
         padding: 9px;
         transition: 0.5s;
@@ -2938,7 +2938,7 @@
     .menu li {
         float: RIGHT;
         text-align: center;
-        margin: 5px 2px auto 5px;
+        margin: 5px 0px auto 5px;
         padding: 8px;
         list-style: none;
         transition-timing-function: ease-in-out;
@@ -3003,7 +3003,7 @@
     }
     #fechar {
         margin-top: 5px;
-        margin-left: 97px;
+        margin-left: 105px;
         font-size: 22px;
         padding: 9px;
         transition: 0.5s;
@@ -3092,10 +3092,10 @@
     }
     /* --------- SERVIÇOS (max-width: 320px) ---------- */
     .CentroServico {
-        top: 84px;
+        top: 103px;
         width: 90%;
-        left: 21px;
-        padding: 21px;
+        left: 0px;
+        padding: 3px;
         font-size: 15px;
     }
     .servico h2 {
