@@ -22,6 +22,10 @@
 }
 
 @media (min-width: 1401px) {
+    .menu {
+        top: 265px;
+        right: 215px;
+    }
     /* GALERIA PROJETOS -------- */
     .posicao-aprs-img {
         right: 169px;
@@ -49,6 +53,13 @@
     }
 }
 
+@media (min-width: 500px) {
+    .menu {
+        top: 265px;
+        right: 215px;
+    }
+}
+
 @media (max-width: 1400px) {
     /* GALERIA PROJETOS -------- */
     .hover-gal-abrir {
@@ -64,7 +75,6 @@
         display: block;
     }
     .menu {
-        top: 275px;
         right: 42px;
         display: block;
     }
@@ -142,7 +152,6 @@
         left: 115px;
     }
     .menu {
-        top: 203px;
         right: 115px;
     }
     .menuhambur {
@@ -178,7 +187,6 @@
         z-index: 1000;
     }
     .menu {
-        top: 422px;
         right: 65px;
     }
     #esconder-menu {
@@ -396,7 +404,6 @@
         right: 16px;
     }
     .menu {
-        top: 380px;
         right: 74px;
     }
     /* ---------- OUTRAS PÁGINAS (min-width: 768px) and (max-width: 991px) -------- */
@@ -638,7 +645,6 @@
     }
     /*  */
     .menu {
-        top: 365px;
         right: 94px;
     }
     /* ---------- OUTRAS PÁGINAS (max-width: 767px) -------- */
@@ -1009,7 +1015,6 @@
     }
     /*  */
     .menu {
-        top: 365px;
         right: 94px;
     }
     /* ---------- OUTRAS PÁGINAS (max-width: 600px) -------- */
@@ -1317,14 +1322,96 @@
 @media (max-width: 480px) {
     /* ----------- FOOTER (max-width: 480px) ------------ */
     .footer {
+        bottom: 65px;
         padding: 12px;
         font-size: 11px;
     }
     /* ------------ PÁGINA INICIAL (max-width: 480px) ---------- */
     /* ----- MENU */
+    .menu {
+        bottom: 0px;
+        right: 0px;
+    }
+    .menu ul {
+        height: 71px;
+        padding: 4px;
+        width: 415px;
+        font-size: 23px;
+        border-radius: 0;
+    }
+    .menu li {
+        float: RIGHT;
+        text-align: center;
+        margin: 5px 20px auto 5px;
+        padding: 8px;
+        list-style: none;
+        transition-timing-function: ease-in-out;
+        cursor: pointer;
+        transition: 0.5s;
+        background: #242424;
+        color: #ffffff;
+        border: none;
+        border-radius: 15px;
+    }
+    .menu li.active {
+        background: #ffffff;
+        border-radius: 15px;
+        color: #000000;
+    }
+    .menu g {
+        display: none;
+    }
+    /* NAVEGADORES LI */
+    .li-projetos::before {
+        font-size: 23px;
+        content: "\f0b1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-contato::before {
+        font-size: 23px;
+        content: "\f2c1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-experiencias::before {
+        font-size: 23px;
+        content: "\f518";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-servico::before {
+        font-size: 23px;
+        content: "\f086";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    /*  */
+    .clicarFechar {
+        display: block;
+    }
     .menuhambur {
-        top: 437px;
-        right: 65px;
+        display: none;
+    }
+    #fechar {
+        margin-top: 4px;
+        margin-left: 15px;
+        font-size: 23px;
+        padding: 9px;
+        transition: 0.5s;
+        border-radius: 12px;
     }
     /*  */
     #quadrado-position {
@@ -1367,11 +1454,6 @@
         left: 10px;
         top: 230px; */
         display: none;
-    }
-    /*  */
-    .menu {
-        top: 360px;
-        right: 123px;
     }
     /* ---------- OUTRAS PÁGINAS (max-width: 480px) -------- */
     /* Logo Menu */
@@ -1668,33 +1750,96 @@
 @media (max-width: 440px) {
     /* ----------- FOOTER (max-width: 440px) ------------ */
     .footer {
+        bottom: 65px;
         padding: 12px;
         font-size: 11px;
     }
     /* ------------ PÁGINA INICIAL (max-width: 440px) ---------- */
     /* ----- MENU */
     .menu {
-        top: 360px;
-        right: 80px;
+        bottom: 0px;
+        right: 0px;
     }
     .menu ul {
-        padding: 17px;
-        width: 257px;
+        height: 71px;
+        padding: 4px;
+        width: 415px;
         font-size: 23px;
+        border-radius: 0;
     }
+    .menu li {
+        float: RIGHT;
+        text-align: center;
+        margin: 5px 20px auto 5px;
+        padding: 8px;
+        list-style: none;
+        transition-timing-function: ease-in-out;
+        cursor: pointer;
+        transition: 0.5s;
+        background: #242424;
+        color: #ffffff;
+        border: none;
+        border-radius: 15px;
+    }
+    .menu li.active {
+        background: #ffffff;
+        border-radius: 15px;
+        color: #000000;
+    }
+    .menu g {
+        display: none;
+    }
+    /* NAVEGADORES LI */
+    .li-projetos::before {
+        font-size: 23px;
+        content: "\f0b1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-contato::before {
+        font-size: 23px;
+        content: "\f2c1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-experiencias::before {
+        font-size: 23px;
+        content: "\f518";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-servico::before {
+        font-size: 23px;
+        content: "\f086";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    /*  */
     .clicarFechar {
         display: block;
     }
     .menuhambur {
-        top: 432px;
-        right: 22px;
+        display: none;
     }
     #fechar {
-        margin-top: -69px;
-        margin-left: 2px;
+        margin-top: 4px;
+        margin-left: 15px;
         font-size: 23px;
-        padding: 12px;
+        padding: 9px;
         transition: 0.5s;
+        border-radius: 12px;
     }
     /*  */
     /* li util */
@@ -1909,7 +2054,7 @@
     /* ------------ PÁGINA INICIAL (max-width: 420px) ---------- */
     /* ----- MENU */
     .menu {
-        top: 666px;
+        bottom: 0px;
         right: 0px;
     }
     .menu ul {
@@ -2277,66 +2422,96 @@
 @media (max-width: 390px) {
     /* ----------- FOOTER (max-width: 390px) ------------ */
     .footer {
+        bottom: 65px;
         padding: 12px;
-        font-size: 9px;
+        font-size: 11px;
     }
     /* ------------ PÁGINA INICIAL (max-width: 390px) ---------- */
-    /* Slide */
-    #slider figure {
-        width: 1000%;
-        height: 600px;
-        /* 100% for each picture, 10 pictures = 1000% */
-    }
-    #slider figure {
-        width: 1000%;
-        height: 195px;
-    }
-    /*  */
     /* ----- MENU */
     .menu {
-        top: 360px;
-        right: 95px;
+        bottom: 0px;
+        right: 0px;
     }
     .menu ul {
-        padding: 12px;
-        width: 235px;
-        font-size: 14px;
+        height: 71px;
+        padding: 4px;
+        width: 415px;
+        font-size: 23px;
+        border-radius: 0;
+    }
+    .menu li {
+        float: RIGHT;
+        text-align: center;
+        margin: 5px 20px auto 5px;
+        padding: 8px;
+        list-style: none;
+        transition-timing-function: ease-in-out;
+        cursor: pointer;
+        transition: 0.5s;
+        background: #242424;
+        color: #ffffff;
+        border: none;
+        border-radius: 15px;
+    }
+    .menu li.active {
+        background: #ffffff;
+        border-radius: 15px;
+        color: #000000;
+    }
+    .menu g {
+        display: none;
     }
     /* NAVEGADORES LI */
-    .li-servico::before {
-        font-size: 18px;
-        margin-left: -26px;
-        width: 45px;
-    }
-    .li-experiencias::before {
-        font-size: 18px;
-        margin-left: -59px;
-        width: 46px;
+    .li-projetos::before {
+        font-size: 23px;
+        content: "\f0b1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
     }
     .li-contato::before {
-        font-size: 18px;
-        margin-left: -93px;
-        width: 44px;
+        font-size: 23px;
+        content: "\f2c1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
     }
-    .li-projetos::before {
-        font-size: 19px;
-        margin-left: -86px;
-        width: 45px;
+    .li-experiencias::before {
+        font-size: 23px;
+        content: "\f518";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-servico::before {
+        font-size: 23px;
+        content: "\f086";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
     }
     /*  */
     .clicarFechar {
         display: block;
     }
     .menuhambur {
-        top: 385px;
-        right: 36px;
+        display: none;
     }
     #fechar {
-        margin-top: -57px;
-        margin-left: 3px;
-        font-size: 21px;
-        padding: 10px;
+        margin-top: 4px;
+        margin-left: 15px;
+        font-size: 23px;
+        padding: 9px;
         transition: 0.5s;
+        border-radius: 12px;
     }
     /*  */
     /* li util */
@@ -2410,9 +2585,9 @@
     /*  */
     /* --------- SERVIÇOS (max-width: 390px) ---------- */
     .CentroServico {
-        top: 120px;
-        width: 90%;
-        left: 21px;
+        top: 110px;
+        width: 91%;
+        left: 0px;
         padding: 21px;
         font-size: 15px;
     }
@@ -2422,20 +2597,22 @@
         font-size: 38px;
     }
     .separarCima {
-        width: 80%;
+        width: 100%;
         font-size: 21px;
         padding: 12px;
+        margin-left: 13px;
     }
     .separarT {
-        width: 80%;
+        width: 98%;
         font-size: 14px;
         margin-top: 7px;
-        padding: 6px;
-        margin-bottom: 62px;
+        padding: 7px;
+        margin-bottom: 8px;
     }
     .call-buttons {
-        width: 73%;
-        margin: 35px auto;
+        width: 87%;
+        margin: 14px auto;
+        padding-bottom: 68px;
     }
     /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
     /* GALERIA PROJETOS (max-width: 390px)------------*/
@@ -2600,7 +2777,7 @@
     .landscape img {
         height: 100%;
         position: absolute;
-        left: 0px;
+        left: -56px;
         bottom: 1px;
     }
     .sobre h2 {
@@ -2626,10 +2803,98 @@
 @media (max-width: 375px) {
     /* ----------- FOOTER (max-width: 375px) ------------ */
     .footer {
-        padding: 10px;
-        font-size: 9px;
+        bottom: 65px;
+        padding: 12px;
+        font-size: 11px;
     }
     /* ------------ PÁGINA INICIAL (max-width: 375px) ---------- */
+    /* ----- MENU */
+    .menu {
+        bottom: 0px;
+        right: 0px;
+    }
+    .menu ul {
+        height: 71px;
+        padding: 4px;
+        width: 415px;
+        font-size: 23px;
+        border-radius: 0;
+    }
+    .menu li {
+        float: RIGHT;
+        text-align: center;
+        margin: 5px 7px auto 5px;
+        padding: 8px;
+        list-style: none;
+        transition-timing-function: ease-in-out;
+        cursor: pointer;
+        transition: 0.5s;
+        background: #242424;
+        color: #ffffff;
+        border: none;
+        border-radius: 15px;
+    }
+    .menu li.active {
+        background: #ffffff;
+        border-radius: 15px;
+        color: #000000;
+    }
+    .menu g {
+        display: none;
+    }
+    /* NAVEGADORES LI */
+    .li-projetos::before {
+        font-size: 23px;
+        content: "\f0b1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-contato::before {
+        font-size: 23px;
+        content: "\f2c1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-experiencias::before {
+        font-size: 23px;
+        content: "\f518";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-servico::before {
+        font-size: 23px;
+        content: "\f086";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    /*  */
+    .clicarFechar {
+        display: block;
+    }
+    .menuhambur {
+        display: none;
+    }
+    #fechar {
+        margin-top: 4px;
+        margin-left: 63px;
+        font-size: 23px;
+        padding: 9px;
+        transition: 0.5s;
+        border-radius: 12px;
+    }
+    /*  */
     #quadrado-position {
         position: fixed;
         top: 40px;
@@ -2653,10 +2918,99 @@
 @media (max-width: 320px) {
     /* ----------- FOOTER (max-width: 320px) ------------ */
     .footer {
-        padding: 12px;
-        font-size: 8px;
+        bottom: 65px;
+        padding: 6px;
+        font-size: 9px;
     }
     /* ------------ PÁGINA INICIAL (max-width: 320px) ---------- */
+    /* ----- MENU */
+    .menu {
+        bottom: -6px;
+        right: 0px;
+    }
+    .menu ul {
+        height: 71px;
+        padding: 4px;
+        width: 415px;
+        font-size: 23px;
+        border-radius: 0;
+    }
+    .menu li {
+        float: RIGHT;
+        text-align: center;
+        margin: 5px 2px auto 5px;
+        padding: 8px;
+        list-style: none;
+        transition-timing-function: ease-in-out;
+        cursor: pointer;
+        transition: 0.5s;
+        background: #242424;
+        color: #ffffff;
+        border: none;
+        border-radius: 15px;
+    }
+    .menu li.active {
+        background: #ffffff;
+        border-radius: 15px;
+        color: #000000;
+    }
+    .menu g {
+        display: none;
+    }
+    /* NAVEGADORES LI */
+    .li-projetos::before {
+        font-size: 23px;
+        content: "\f0b1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-contato::before {
+        font-size: 23px;
+        content: "\f2c1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-experiencias::before {
+        font-size: 23px;
+        content: "\f518";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-servico::before {
+        font-size: 23px;
+        content: "\f086";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    /*  */
+    .clicarFechar {
+        display: block;
+    }
+    .menuhambur {
+        display: none;
+    }
+    #fechar {
+        margin-top: 5px;
+        margin-left: 97px;
+        font-size: 22px;
+        padding: 9px;
+        transition: 0.5s;
+        border-radius: 12px;
+        /* z-index: 99923923234; */
+    }
+    /*  */
     /* Slide */
     #slider figure {
         width: 1000%;
@@ -2667,53 +3021,6 @@
         width: 1000%;
         height: 195px;
     }
-    /* ----- MENU */
-    .menu {
-        top: 302px;
-        right: 62px;
-    }
-    .menu ul {
-        padding: 10px;
-        width: 215px;
-        font-size: 15px;
-    }
-    /* NAVEGADORES LI */
-    .li-servico::before {
-        font-size: 18px;
-        margin-left: -26px;
-        width: 45px;
-    }
-    .li-experiencias::before {
-        font-size: 18px;
-        margin-left: -59px;
-        width: 46px;
-    }
-    .li-contato::before {
-        font-size: 18px;
-        margin-left: -93px;
-        width: 44px;
-    }
-    .li-projetos::before {
-        font-size: 19px;
-        margin-left: -86px;
-        width: 45px;
-    }
-    /*  */
-    .clicarFechar {
-        display: block;
-    }
-    .menuhambur {
-        top: 385px;
-        right: 4px;
-    }
-    #fechar {
-        margin-top: -51px;
-        margin-left: 14px;
-        font-size: 16px;
-        padding: 10px;
-        transition: 0.5s;
-    }
-    /*  */
     /* li util */
     .Infograficos::before {
         font-size: 17px;
@@ -2802,11 +3109,11 @@
         padding: 12px;
     }
     .separarT {
-        width: 93%;
-        font-size: 13px;
+        width: 98%;
+        font-size: 14px;
         margin-top: 7px;
-        padding: 6px;
-        margin-bottom: 62px;
+        padding: 7px;
+        margin-bottom: 8px;
     }
     .call-buttons {
         width: 73%;
@@ -2989,7 +3296,7 @@
     .landscape img {
         height: 100%;
         position: absolute;
-        left: 0px;
+        left: -59px;
         bottom: 1px;
     }
     .sobre h2 {
