@@ -1636,8 +1636,7 @@
         top: 72px;
         width: 90%;
         left: 33px;
-        padding: 25px;
-        margin-bottom: 80px;
+        padding: 1px 1px 50px 1px;
         font-size: 18px;
     }
     .imagePotrait {
@@ -2005,8 +2004,7 @@
         top: 72px;
         width: 88%;
         left: 32px;
-        padding: 1px;
-        margin-bottom: 80px;
+        padding: 1px 1px 50px 1px;
         font-size: 18px;
     }
     #separarImg {
@@ -2422,8 +2420,7 @@
         top: 72px;
         width: 88%;
         left: 32px;
-        padding: 1px;
-        margin-bottom: 80px;
+        padding: 1px 1px 50px 1px;
         font-size: 18px;
     }
     #separarImg {
@@ -2802,9 +2799,8 @@
     .Centrosobre {
         top: 72px;
         width: 80%;
-        left: 42px;
-        padding: 1px;
-        margin-bottom: 80px;
+        left: 32px;
+        padding: 1px 1px 90px 1px;
         font-size: 18px;
     }
     #separarImg {
@@ -3408,9 +3404,8 @@
     .Centrosobre {
         top: 72px;
         width: 80%;
-        left: 42px;
-        padding: 1px;
-        margin-bottom: 80px;
+        left: 32px;
+        padding: 1px 1px 90px 1px;
         font-size: 18px;
     }
     #separarImg {

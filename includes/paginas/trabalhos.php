@@ -9,7 +9,7 @@
                     <div id="portfolio">
                         <div class="container">
                             <div class="section-title text-center">
-                                <h2>Selecione por categoria:</h2>
+                                <b>Selecione por categoria:</b>
                             </div>
                         </div>
                         <div class="container">

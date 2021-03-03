@@ -126,6 +126,12 @@
     position: absolute;
 }
 
+.section-title {
+    margin-left: 6px;
+    font-family: "Bahnschrift";
+    font-size: 24px;
+}
+
 .portfolio-thumbnail {
     margin-bottom: 10px;
     margin-right: 10px;
