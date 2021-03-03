@@ -28,7 +28,7 @@
     }
     /* GALERIA PROJETOS -------- */
     .posicao-aprs-img {
-        right: 169px;
+        left: 298px;
         top: 75px;
         position: absolute;
     }
@@ -2732,7 +2732,7 @@
         padding: 14px;
         margin-top: 21px;
         border-radius: 9px;
-        width: 32%;
+        width: 275px;
     }
     /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
     /* DESIGN PROJETOS */
@@ -3332,7 +3332,7 @@
         padding: 14px;
         margin-top: 21px;
         border-radius: 9px;
-        width: 32%;
+        width: 275px;
     }
     .texto-galeria {
         width: 100%;
