@@ -1902,23 +1902,22 @@
 @media (max-width: 420px) {
     /* ----------- FOOTER (max-width: 420px) ------------ */
     .footer {
+        bottom: 65px;
         padding: 12px;
         font-size: 11px;
     }
     /* ------------ PÁGINA INICIAL (max-width: 420px) ---------- */
     /* ----- MENU */
     .menu {
-        top: 628px;
+        top: 666px;
         right: 0px;
     }
     .menu ul {
-        display: none;
-    }
-    .mobile {
-        height: 65px;
+        height: 71px;
         padding: 4px;
         width: 415px;
         font-size: 23px;
+        border-radius: 0;
     }
     .menu li {
         float: RIGHT;
@@ -1931,36 +1930,63 @@
         transition: 0.5s;
         background: #242424;
         color: #ffffff;
-        /* border-right: 1px #ffffff solid; */
+        border: none;
+        border-radius: 15px;
+    }
+    .menu g {
+        display: none;
     }
     /* NAVEGADORES LI */
-    .li-servico::before {
-        font-size: 18px;
+    .li-projetos::before {
+        font-size: 23px;
+        content: "\f0b1";
+        font-family: FontAwesome;
+        display: inline-block;
         margin-left: 0;
-    }
-    .li-experiencias::before {
-        font-size: 18px;
+        width: 40px;
+        z-index: 99;
     }
     .li-contato::before {
-        font-size: 18px;
+        font-size: 23px;
+        content: "\f2c1";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
     }
-    .li-projetos::before {
-        font-size: 19px;
+    .li-experiencias::before {
+        font-size: 23px;
+        content: "\f518";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
+    }
+    .li-servico::before {
+        font-size: 23px;
+        content: "\f086";
+        font-family: FontAwesome;
+        display: inline-block;
+        margin-left: 0;
+        width: 40px;
+        z-index: 99;
     }
     /*  */
     .clicarFechar {
         display: block;
     }
     .menuhambur {
-        top: 432px;
-        right: 22px;
+        display: none;
     }
     #fechar {
-        margin-top: -69px;
-        margin-left: 2px;
+        margin-top: 4px;
+        margin-left: 15px;
         font-size: 23px;
-        padding: 12px;
+        padding: 8px;
         transition: 0.5s;
+        border-radius: 12px;
     }
     /*  */
     /* li util */
