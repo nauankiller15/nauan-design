@@ -2069,21 +2069,22 @@
     /*  */
     /* MESSAGE TOP */
     .message {
-        width: 298px;
+        height: 91px;
+        width: 263px;
         top: 34px;
-        left: 56px;
+        left: 18%;
     }
     .message img {
-        left: 26px;
-        top: 23px;
+        left: 23px;
+        top: 17px;
     }
     .message b {
-        left: 91px;
-        top: 28px;
+        left: 85px;
+        top: 22px;
     }
     .message i {
-        left: 91px;
-        top: 51px;
+        left: 85px;
+        top: 46px;
     }
     /*  */
     /* ----------- FOOTER (max-width: 420px) ------------ */
