@@ -31,6 +31,7 @@
             <div class="slide-thumb"></div>
             <button class="slide-prev">
                 <i class="fas fa-angle-left"></i></button>
-            <button class="slide-next"><i class="fas fa-angle-right"></i></button>
+            <button class="slide-next">
+                <i class="fas fa-angle-right"></i></button>
         </nav>
     </div>

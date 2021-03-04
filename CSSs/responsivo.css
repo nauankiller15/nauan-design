@@ -1322,27 +1322,34 @@
 @media (max-width: 480px) {
     /* SETA HOMEPAGE MOBILE 480px */
     .mobile-set {
-        color: #242424;
         position: fixed;
-        bottom: -56%;
-        left: 42%;
-        font-size: 86px;
-        display: block;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
-        z-index: 999;
+        bottom: -52%;
+        left: 43%;
         top: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
     }
     .mobile-set:before {
+        bottom: 45%;
         position: fixed;
-        color: #ffffff;
+        color: #242424;
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 76px;
-        display: block;
+        font-size: 81px;
+        display: flex;
+        align-items: center;
+    }
+    .mobile-set:after {
+        position: fixed;
+        color: #fff;
+        font-family: FontAwesome;
+        content: "\f107";
+        left: 15%;
+        font-size: 82px;
+        display: flex;
         align-items: center;
     }
     /*  */
@@ -1776,27 +1783,34 @@
 @media (max-width: 440px) {
     /* SETA HOMEPAGE MOBILE 440px */
     .mobile-set {
-        color: #242424;
         position: fixed;
-        bottom: -56%;
-        left: 42%;
-        font-size: 86px;
-        display: block;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
-        z-index: 999;
+        bottom: -52%;
+        left: 43%;
         top: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
     }
     .mobile-set:before {
+        bottom: 45%;
         position: fixed;
-        color: #ffffff;
+        color: #242424;
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 76px;
-        display: block;
+        font-size: 81px;
+        display: flex;
+        align-items: center;
+    }
+    .mobile-set:after {
+        position: fixed;
+        color: #fff;
+        font-family: FontAwesome;
+        content: "\f107";
+        left: 15%;
+        font-size: 82px;
+        display: flex;
         align-items: center;
     }
     /*  */
@@ -2141,27 +2155,34 @@
     /*  */
     /* SETA HOMEPAGE MOBILE 420px */
     .mobile-set {
-        color: #242424;
         position: fixed;
-        bottom: -56%;
-        left: 42%;
-        font-size: 86px;
-        display: block;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
-        z-index: 999;
+        bottom: -52%;
+        left: 43%;
         top: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
     }
     .mobile-set:before {
+        bottom: 45%;
         position: fixed;
-        color: #ffffff;
+        color: #242424;
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 76px;
-        display: block;
+        font-size: 81px;
+        display: flex;
+        align-items: center;
+    }
+    .mobile-set:after {
+        position: fixed;
+        color: #fff;
+        font-family: FontAwesome;
+        content: "\f107";
+        left: 15%;
+        font-size: 82px;
+        display: flex;
         align-items: center;
     }
     /*  */
@@ -2543,27 +2564,34 @@
 @media (max-width: 390px) {
     /* SETA HOMEPAGE MOBILE 390px */
     .mobile-set {
-        color: #242424;
         position: fixed;
-        bottom: -56%;
-        left: 42%;
-        font-size: 86px;
-        display: block;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
-        z-index: 999;
+        bottom: -52%;
+        left: 43%;
         top: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
     }
     .mobile-set:before {
+        bottom: 45%;
         position: fixed;
-        color: #ffffff;
+        color: #242424;
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 76px;
-        display: block;
+        font-size: 81px;
+        display: flex;
+        align-items: center;
+    }
+    .mobile-set:after {
+        position: fixed;
+        color: #fff;
+        font-family: FontAwesome;
+        content: "\f107";
+        left: 15%;
+        font-size: 82px;
+        display: flex;
         align-items: center;
     }
     /*  */
@@ -2991,31 +3019,6 @@
         top: 46px;
     }
     /*  */
-    /* SETA HOMEPAGE MOBILE 420px */
-    .mobile-set {
-        color: #242424;
-        position: fixed;
-        bottom: -56%;
-        left: 42%;
-        font-size: 86px;
-        display: block;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
-        z-index: 999;
-        top: 0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .mobile-set:before {
-        position: fixed;
-        color: #ffffff;
-        font-family: FontAwesome;
-        content: "\f107";
-        left: 15%;
-        font-size: 76px;
-        display: block;
-        align-items: center;
-    }
     /*  */
     /* ----------- FOOTER (max-width: 375px) ------------ */
     .footer {
@@ -3178,27 +3181,34 @@
     /*  */
     /* SETA HOMEPAGE MOBILE 320px */
     .mobile-set {
-        color: #242424;
         position: fixed;
-        bottom: -55%;
-        left: 47%;
-        font-size: 39px;
-        display: block;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
-        z-index: 999;
+        bottom: -54%;
+        left: 45%;
         top: 0;
         display: flex;
         justify-content: center;
         align-items: center;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
     }
     .mobile-set:before {
+        bottom: 46%;
         position: fixed;
-        color: #ffffff;
+        color: #242424;
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 41px;
-        display: block;
+        font-size: 53px;
+        display: flex;
+        align-items: center;
+    }
+    .mobile-set:after {
+        position: fixed;
+        color: #fff;
+        font-family: FontAwesome;
+        content: "\f107";
+        left: 15%;
+        font-size: 53px;
+        display: flex;
         align-items: center;
     }
     /*  */

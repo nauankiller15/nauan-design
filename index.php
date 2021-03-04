@@ -38,7 +38,7 @@
             </div>
             <!--  mobile css seta -->
             <div class="mobile-set">
-                <i class="fas fa-angle-down">
+                
             </div>
             <!--  -->
         </div>
