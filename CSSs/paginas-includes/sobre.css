@@ -222,3 +222,17 @@
     width: 555px;
     text-align: center;
 }
+
+.photoBlured {
+    left: 597px;
+    top: 265px;
+    background: url(https://1.bp.blogspot.com/-HrqEN225zm0/X_Duia5YSeI/AAAAAAAAGig/e8x9iX8jQj895rxGuc36GoT8U9NMi278gCLcBGAsYHQ/s16000/euo.png) no-repeat;
+    width: 20%;
+    height: 39%;
+    background-position: center;
+    filter: blur(120px);
+    -webkit-filter: blur(117px);
+    padding: 180px;
+    position: absolute;
+    animation: sobreCaixa 2.2s ease-in-out;
+}

@@ -1,10 +1,10 @@
         <div id="sobre">
+        <div class="photoBlured"></div>
             <div class="hoverBack">
                 <div class="sobre">
                     <h2 style="animation: SobreIni 2.2s ease-in-out;">Sobre mim<h2>
                 </div>
                 <div id="caixasobre">
-
                     <div class="Centrosobre">
                         <div id="separarImg">
                             <div class="imagePotrait">

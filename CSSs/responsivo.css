@@ -2165,6 +2165,14 @@
         padding: 1px 1px 50px 1px;
         font-size: 18px;
     }
+    .photoBlured {
+        left: 95px;
+        top: 175px;
+        width: 7%;
+        height: 52%;
+        padding: 100px;
+        position: absolute;
+    }
     #separarImg {
         float: right;
         height: 405px;
