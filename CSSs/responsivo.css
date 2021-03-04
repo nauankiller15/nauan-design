@@ -1609,9 +1609,9 @@
     /* ---------------------- */
     /* DESIGN PROJETOS (max-width: 480px) */
     .Centrotrabalhos {
-        top: 65px;
+        top: 64px;
         width: 97%;
-        left: 10px;
+        left: -2px;
         padding: 21px;
         font-size: 15px;
     }
@@ -1619,6 +1619,13 @@
         top: 55px;
         width: 98%;
         left: -5px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .Centrotemplates {
+        top: 55px;
+        width: 98%;
+        left: 2px;
         padding: 21px;
         font-size: 15px;
     }
@@ -1662,6 +1669,13 @@
         width: 60%;
         top: 21px;
         font-size: 48px;
+        text-align: center;
+    }
+    .templates h2 {
+        left: 25px;
+        width: 60%;
+        top: 21px;
+        font-size: 46px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 480px) */
@@ -2032,9 +2046,9 @@
     /* --------- MEUS PROJETOS (max-width: 440px) ---------- */
     /* DESIGN PROJETOS (max-width: 440px) */
     .Centrotrabalhos {
-        top: 91px;
+        top: 64px;
         width: 97%;
-        left: 10px;
+        left: -2px;
         padding: 21px;
         font-size: 15px;
     }
@@ -2042,6 +2056,13 @@
         top: 55px;
         width: 98%;
         left: -5px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .Centrotemplates {
+        top: 55px;
+        width: 98%;
+        left: 2px;
         padding: 21px;
         font-size: 15px;
     }
@@ -2085,6 +2106,13 @@
         width: 60%;
         top: 21px;
         font-size: 48px;
+        text-align: center;
+    }
+    .templates h2 {
+        left: 25px;
+        width: 60%;
+        top: 21px;
+        font-size: 46px;
         text-align: center;
     }
     .section-title {
@@ -2507,9 +2535,9 @@
     /* ---------------------- */
     /* DESIGN PROJETOS (max-width: 420px) */
     .Centrotrabalhos {
-        top: 81px;
+        top: 64px;
         width: 97%;
-        left: 0px;
+        left: -2px;
         padding: 21px;
         font-size: 15px;
     }
@@ -2517,6 +2545,13 @@
         top: 55px;
         width: 98%;
         left: -5px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .Centrotemplates {
+        top: 55px;
+        width: 98%;
+        left: 2px;
         padding: 21px;
         font-size: 15px;
     }
@@ -2559,6 +2594,13 @@
         width: 60%;
         top: 21px;
         font-size: 48px;
+        text-align: center;
+    }
+    .templates h2 {
+        left: 25px;
+        width: 60%;
+        top: 21px;
+        font-size: 46px;
         text-align: center;
     }
     .section-title {
@@ -2956,6 +2998,13 @@
         padding: 21px;
         font-size: 15px;
     }
+    .Centrotemplates {
+        top: 51px;
+        width: 91%;
+        left: -14px;
+        padding: 21px;
+        font-size: 15px;
+    }
     /* BOTÃO TELA BRANDING (420px) */
     .clickbtn {
         margin: 39px;
@@ -2992,6 +3041,13 @@
         text-align: center;
     }
     .brands h2 {
+        left: 20px;
+        width: 60%;
+        top: 21px;
+        font-size: 34px;
+        text-align: center;
+    }
+    .templates h2 {
         left: 20px;
         width: 60%;
         top: 21px;
@@ -3622,6 +3678,13 @@
         padding: 21px;
         font-size: 15px;
     }
+    .Centrotemplates {
+        top: 76px;
+        width: 97%;
+        left: -3px;
+        padding: 21px;
+        font-size: 15px;
+    }
     /* BOTÃO TELA BRANDING (420px) */
     .clickbtn {
         margin: 39px;
@@ -3662,6 +3725,13 @@
         width: 60%;
         top: 38px;
         font-size: 37px;
+        text-align: center;
+    }
+    .templates h2 {
+        left: 13px;
+        width: 60%;
+        top: 31px;
+        font-size: 31px;
         text-align: center;
     }
     .section-title {

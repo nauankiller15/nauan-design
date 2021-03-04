@@ -19,6 +19,23 @@ $('#brandsAbrir').on('click', function() {
     $('#servico').fadeOut("700");
     $('#contato').fadeOut('600');
     $('#trabalhos').fadeOut('600');
+    $("#templates").fadeOut('600');
+    $(".fundoPreto").fadeIn('500');
+    $('#fechar').fadeIn('13000');
+    $("#sobre").fadeOut('600');
+    $('.LogoMenu').fadeIn('1300');
+    $('#IA-MenuBar').fadeIn('200');
+})
+
+$('#templatesAbrir').on('click', function() {
+    $(window).scrollTop(0);
+    $("#templates").fadeIn('600');
+    $('#TodosFiltrar').trigger('click');
+    $('#contato').fadeOut('1300');
+    $('#servico').fadeOut("700");
+    $('#contato').fadeOut('600');
+    $('#trabalhos').fadeOut('600');
+    $('#brands').fadeOut('600');
     $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('13000');
     $("#sobre").fadeOut('600');
@@ -34,6 +51,7 @@ $('#trabalhosAbrir').on('click', function() {
     $('#servico').fadeOut("700");
     $('#contato').fadeOut('600');
     $('#brands').fadeOut('600');
+    $("#templates").fadeOut('600');
     $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('13000');
     $("#sobre").fadeOut('600');
@@ -49,6 +67,7 @@ $('#contatoAbrir').on('click', function() {
     $("#sobre").fadeOut('600');
     $("#brands").fadeOut('600');
     $('#trabalhos').fadeOut('600');
+    $("#templates").fadeOut('600');
     $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('13000');
     $('.LogoMenu').fadeIn('1300');
@@ -62,6 +81,7 @@ $('#sobreAbrir').on('click', function() {
     $("#contato").fadeOut('600');
     $("#brands").fadeOut('600');
     $('#trabalhos').fadeOut('600');
+    $("#templates").fadeOut('600');
     $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('13000');
     $('.LogoMenu').fadeIn('1300');
@@ -76,6 +96,7 @@ $('#servicoAbrir').on('click', function() {
     $("#brands").fadeOut('600');
     $('#contato').fadeOut('700');
     $('#trabalhos').fadeOut('600');
+    $("#templates").fadeOut('600');
     $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('13000');
     $('.LogoMenu').fadeIn('1200');
@@ -88,6 +109,7 @@ $('#fechar').on('click', function() {
         $("#brands").fadeOut('600');
         $('#contato').fadeOut('600');
         $('#trabalhos').fadeOut('600');
+        $("#templates").fadeOut('600');
         $('.fundoPreto').slideUp('35530');
         $('#fechar').fadeOut('1300');
         $("#sobre").fadeOut('600');
