@@ -191,6 +191,15 @@
         overflow: hidden;
     }
     
+    .hoverBackTemplate {
+        background: url('https://1.bp.blogspot.com/-81N4sSUWjJQ/YEFNhS29TAI/AAAAAAAAGwQ/7YXid9GC7MUHZe1LZvt0p8f_0mjk-0-QgCLcBGAsYHQ/s0/background6.png') no-repeat;
+        background-position: center;
+        height: 100%;
+        width: 100%;
+        z-index: 1300;
+        animation: hoverback 1.9s ease-in-out;
+    }
+    
     @keyframes FundoPreto {
         from {
             transform: translateY(1350px);

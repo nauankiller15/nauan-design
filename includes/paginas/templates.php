@@ -1,5 +1,5 @@
 <div id="templates">
-    <div class="hoverBack">
+    <div class="hoverBackTemplate">
         <div class="templates">
             <h2 style="animation: TrabalhoIni 2.0s;">Templates<h2>
         </div>

@@ -51,6 +51,7 @@
     font-size: 18px;
     margin-bottom: 75px;
     overflow: hidden;
+    text-shadow: 1px 2px 2px rgb(0 0 0);
 }
 
 @keyframes templatesCaixa {
