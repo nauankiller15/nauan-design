@@ -2466,7 +2466,7 @@
     /* ---------------------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
-        top: 91px;
+        top: 81px;
         width: 97%;
         left: 0px;
         padding: 21px;
@@ -2496,10 +2496,10 @@
     }
     /* Titulo Trabalho (max-width: 420px) */
     .trabalhos h2 {
-        left: 45px;
+        left: 17px;
         width: 60%;
         top: 26px;
-        font-size: 42px;
+        font-size: 48px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 420px) */
@@ -2526,7 +2526,7 @@
         font-size: 18px;
     }
     .Centrosobre {
-        top: 72px;
+        top: 86px;
         width: 88%;
         left: 32px;
         padding: 1px 1px 50px 1px;
@@ -2548,10 +2548,10 @@
         bottom: 1px;
     }
     .sobre h2 {
-        left: 36px;
+        left: 28px;
         width: 70%;
-        top: 38px;
-        font-size: 36px;
+        top: 22px;
+        font-size: 47px;
     }
     /* --------- CONTATO (max-width: 420px) ---------- */
     .CentroContato {
@@ -2562,8 +2562,8 @@
     }
     .contato h2 {
         width: 61%;
-        top: 38px;
-        left: 20px;
+        top: 34px;
+        left: 32px;
     }
 }
 
@@ -2881,7 +2881,7 @@
     /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
-        top: 101px;
+        top: 82px;
         width: 98%;
         left: 0px;
         padding: 19px;
@@ -2911,10 +2911,10 @@
     }
     /* Titulo Trabalho (max-width: 390px) */
     .trabalhos h2 {
-        left: 45px;
+        left: 15px;
         width: 60%;
         top: 31px;
-        font-size: 34px;
+        font-size: 41px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 390px) */
@@ -2963,22 +2963,23 @@
         bottom: 1px;
     }
     .sobre h2 {
-        left: 36px;
-        width: 70%;
-        top: 38px;
-        font-size: 36px;
+        left: 16px;
+        width: 71%;
+        top: 22px;
+        font-size: 41px;
     }
     /* --------- CONTATO (max-width: 390px) ---------- */
     .CentroContato {
-        top: 127px;
+        top: 103px;
         width: 93%;
         padding: 25px;
         left: 12px;
     }
     .contato h2 {
+        font-size: 48px;
         width: 61%;
-        top: 38px;
-        left: 20px;
+        top: 33px;
+        left: 11px;
     }
 }
 
@@ -3405,8 +3406,8 @@
     }
     .servico h2 {
         width: 75%;
-        top: 26px;
-        font-size: 33px;
+        top: 18px;
+        font-size: 32px;
     }
     .separarCima {
         width: 93%;
@@ -3523,7 +3524,7 @@
     /* --------- MEUS PROJETOS (max-width: 320px) ---------- */
     /* DESIGN PROJETOS */
     .Centrotrabalhos {
-        top: 99px;
+        top: 83px;
         width: 100%;
         left: 0px;
         padding: 19px;
@@ -3553,10 +3554,10 @@
     }
     /* Titulo Trabalho (max-width: 320px) */
     .trabalhos h2 {
-        left: 24px;
+        left: 11px;
         width: 60%;
         top: 31px;
-        font-size: 32px;
+        font-size: 36px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 320px) */
@@ -3605,10 +3606,10 @@
         bottom: 1px;
     }
     .sobre h2 {
-        left: 37px;
+        left: 16px;
         width: 70%;
-        top: 38px;
-        font-size: 31px;
+        top: 23px;
+        font-size: 35px;
     }
     /* --------- CONTATO (max-width: 320px) ---------- */
     .CentroContato {
@@ -3619,7 +3620,7 @@
     }
     .contato h2 {
         width: 61%;
-        top: 16px;
+        top: 23px;
         left: 4px;
         font-size: 39px;
     }
