@@ -8,6 +8,13 @@
     z-index: 3900;
 }
 
+.template-title {
+    margin-left: 153px;
+    font-family: "Bahnschrift";
+    font-size: 24px;
+    padding-bottom: 10px;
+}
+
 .templates {
     display: flex;
     flex-wrap: wrap;
@@ -43,6 +50,7 @@
     position: absolute;
     font-size: 18px;
     margin-bottom: 75px;
+    overflow: hidden;
 }
 
 @keyframes templatesCaixa {

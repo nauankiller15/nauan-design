@@ -21,6 +21,7 @@
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/formbox.css">
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/projeto-aberto.css">
     <link rel="stylesheet" type="text/css" href="CSSs/slide.css">
+    <link rel="stylesheet" type="text/css" href="CSSs/slideTemplates.css">
     <link rel="stylesheet" type="text/css" href="CSSs/responsivo.css">
     <link rel="stylesheet" type="text/css" href="Lib/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
