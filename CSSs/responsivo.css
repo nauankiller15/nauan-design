@@ -2565,8 +2565,8 @@
     /* SETA HOMEPAGE MOBILE 390px */
     .mobile-set {
         position: fixed;
-        bottom: -52%;
-        left: 43%;
+        bottom: -54%;
+        left: 45%;
         top: 0;
         display: flex;
         justify-content: center;
@@ -2574,13 +2574,13 @@
         animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
     }
     .mobile-set:before {
-        bottom: 45%;
+        bottom: 46%;
         position: fixed;
         color: #242424;
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 81px;
+        font-size: 53px;
         display: flex;
         align-items: center;
     }
@@ -2590,7 +2590,7 @@
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 82px;
+        font-size: 53px;
         display: flex;
         align-items: center;
     }
