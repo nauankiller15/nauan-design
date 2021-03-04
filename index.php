@@ -36,6 +36,11 @@
                 <li style="animation: go-back1 6.8s infinite alternate, LiAnim 6.5s;" class="Web-Dev">Web-Dev</li>
             </div> -->
             </div>
+            <!--  mobile css seta -->
+            <div class="mobile-set">
+                <i class="fas fa-angle-down">
+            </div>
+            <!--  -->
         </div>
         <?php include("includes/footer.php"); ?>
 

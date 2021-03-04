@@ -8,7 +8,7 @@
                 <div class="Centrotrabalhos">
                     <div id="portfolio">
                         <div class="container">
-                            <div class="section-title text-center">
+                            <div class="section-title">
                                 <b>Selecione por categoria:</b>
                             </div>
                         </div>

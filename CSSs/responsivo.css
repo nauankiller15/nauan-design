@@ -1320,6 +1320,22 @@
 }
 
 @media (max-width: 480px) {
+    /* SETA HOMEPAGE MOBILE */
+    .mobile-set {
+        color: #000;
+        position: fixed;
+        bottom: -56%;
+        left: 45%;
+        font-size: 73px;
+        display: block;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.3s infinite alternate, setaPosit 0.72s infinite alternate;
+        z-index: 999;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*  */
     /* ----------- FOOTER (max-width: 480px) ------------ */
     .footer {
         bottom: 65px;
@@ -1747,6 +1763,22 @@
 }
 
 @media (max-width: 440px) {
+    /* SETA HOMEPAGE MOBILE */
+    .mobile-set {
+        color: #000;
+        position: fixed;
+        bottom: -56%;
+        left: 45%;
+        font-size: 73px;
+        display: block;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.3s infinite alternate, setaPosit 0.72s infinite alternate;
+        z-index: 999;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*  */
     /* ----------- FOOTER (max-width: 440px) ------------ */
     .footer {
         bottom: 65px;
@@ -2084,6 +2116,23 @@
         left: 85px;
         top: 46px;
     }
+    /*  */
+    /* SETA HOMEPAGE MOBILE */
+    .mobile-set {
+        color: #000;
+        position: fixed;
+        bottom: -56%;
+        left: 45%;
+        font-size: 73px;
+        display: block;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.3s infinite alternate, setaPosit 0.72s infinite alternate;
+        z-index: 999;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*  */
     /*  */
     /* ----------- FOOTER (max-width: 420px) ------------ */
     .footer {
@@ -2459,6 +2508,22 @@
 }
 
 @media (max-width: 390px) {
+    /* SETA HOMEPAGE MOBILE */
+    .mobile-set {
+        color: #000;
+        position: fixed;
+        bottom: -56%;
+        left: 45%;
+        font-size: 73px;
+        display: block;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.3s infinite alternate, setaPosit 0.72s infinite alternate;
+        z-index: 999;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*  */
     /* ----------- FOOTER (max-width: 390px) ------------ */
     .footer {
         bottom: 65px;
@@ -2883,6 +2948,22 @@
         top: 46px;
     }
     /*  */
+    /* SETA HOMEPAGE MOBILE */
+    .mobile-set {
+        color: #000;
+        position: fixed;
+        bottom: -56%;
+        left: 45%;
+        font-size: 73px;
+        display: block;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.3s infinite alternate, setaPosit 0.72s infinite alternate;
+        z-index: 999;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    /*  */
     /* ----------- FOOTER (max-width: 375px) ------------ */
     .footer {
         bottom: 71px;
@@ -3040,6 +3121,22 @@
         font-size: 11px;
         left: 77px;
         top: 43px;
+    }
+    /*  */
+    /* SETA HOMEPAGE MOBILE */
+    .mobile-set {
+        color: #000;
+        position: fixed;
+        bottom: -56%;
+        left: 45%;
+        font-size: 73px;
+        display: block;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.3s infinite alternate, setaPosit 0.72s infinite alternate;
+        z-index: 999;
+        top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     /*  */
     /* ----------- FOOTER (max-width: 320px) ------------ */

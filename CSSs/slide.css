@@ -222,6 +222,51 @@
 
 /*  */
 
+
+/* SETA HOMEPAGE MOBILE */
+
+.mobile-set {
+    display: none;
+}
+
+@keyframes posicaoTp {
+    from {
+        transform: translateY(1350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes setaPosit {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(15px);
+    }
+}
+
+@keyframes scrollPos {
+    0% {
+        opacity: 0;
+    }
+    10% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(15px);
+        opacity: 0;
+    }
+}
+
+
+/*  */
+
+
+/*  */
+
 .fundo-prot {
     background: url("https://1.bp.blogspot.com/-_tAvmsMaPjY/X52al0CStbI/AAAAAAAAGc0/NyOCkIowxqYn3RRJk3wwgISWNDPnpEdawCLcBGAsYHQ/s0/fundo-prote%25C3%25A7ao.png") repeat;
     background-color: rgba(0, 0, 0, 0.459)000;
