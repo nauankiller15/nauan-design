@@ -1624,8 +1624,8 @@
     }
     .Centrotemplates {
         top: 55px;
-        width: 91%;
-        left: 2px;
+        width: 100%;
+        left: -4px;
         padding: 21px;
         font-size: 15px;
     }
@@ -2061,8 +2061,8 @@
     }
     .Centrotemplates {
         top: 55px;
-        width: 91%;
-        left: 2px;
+        width: 100%;
+        left: -4px;
         padding: 21px;
         font-size: 15px;
     }
@@ -2555,11 +2555,10 @@
     }
     .Centrotemplates {
         top: 55px;
-        width: 99%;
-        left: -7px;
+        width: 100%;
+        left: -4px;
         padding: 21px;
         font-size: 15px;
-        overflow: hidden;
     }
     /* BOTÃO TELA BRANDING (420px) */
     .clickbtn {
