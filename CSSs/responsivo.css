@@ -1320,7 +1320,7 @@
 }
 
 @media (max-width: 480px) {
-    /* SETA HOMEPAGE MOBILE 420px */
+    /* SETA HOMEPAGE MOBILE 480px */
     .mobile-set {
         color: #242424;
         position: fixed;
@@ -1519,6 +1519,7 @@
         padding: 6px;
     }
     .call-buttons {
+        padding-bottom: 48px;
         width: 73%;
         margin: 35px auto;
     }
@@ -1773,7 +1774,7 @@
 }
 
 @media (max-width: 440px) {
-    /* SETA HOMEPAGE MOBILE 420px */
+    /* SETA HOMEPAGE MOBILE 440px */
     .mobile-set {
         color: #242424;
         position: fixed;
@@ -1989,6 +1990,7 @@
     .call-buttons {
         width: 73%;
         margin: 35px auto;
+        padding-bottom: 58px;
     }
     /* --------- MEUS PROJETOS (max-width: 440px) ---------- */
     /* DESIGN PROJETOS */
@@ -2353,8 +2355,9 @@
         margin-bottom: 22px;
     }
     .call-buttons {
+        padding-bottom: 61px;
         width: 73%;
-        margin: 35px auto;
+        margin: 21px auto;
     }
     /* --------- MEUS PROJETOS (max-width: 420px) ---------- */
     /* GALERIA PROJETOS (max-width: 420px)------------*/
@@ -2538,7 +2541,7 @@
 }
 
 @media (max-width: 390px) {
-    /* SETA HOMEPAGE MOBILE 420px */
+    /* SETA HOMEPAGE MOBILE 390px */
     .mobile-set {
         color: #242424;
         position: fixed;
@@ -3110,8 +3113,8 @@
     /*      375px */
     #quadrado-position {
         position: fixed;
-        top: 149px;
-        left: 11px;
+        top: 152px;
+        left: -5px;
         z-index: 999;
     }
     /* ----- MENU */
@@ -3173,13 +3176,13 @@
         top: 43px;
     }
     /*  */
-    /* SETA HOMEPAGE MOBILE 420px */
+    /* SETA HOMEPAGE MOBILE 320px */
     .mobile-set {
         color: #242424;
         position: fixed;
-        bottom: -56%;
-        left: 42%;
-        font-size: 86px;
+        bottom: -55%;
+        left: 47%;
+        font-size: 39px;
         display: block;
         animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
         z-index: 999;
@@ -3194,7 +3197,7 @@
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 76px;
+        font-size: 41px;
         display: block;
         align-items: center;
     }
@@ -3319,7 +3322,7 @@
     /*      320px */
     #quadrado-position {
         position: fixed;
-        top: 146px;
+        top: 128px;
         left: -5px;
         z-index: 999;
     }
@@ -3400,6 +3403,7 @@
     .call-buttons {
         width: 73%;
         margin: 35px auto;
+        padding-bottom: 68px;
     }
     /* --------- MEUS PROJETOS (max-width: 320px) ---------- */
     /* GALERIA PROJETOS (max-width: 320px)------------*/
