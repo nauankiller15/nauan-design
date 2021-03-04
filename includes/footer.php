@@ -13,6 +13,7 @@
 <script src="JS/projetos-anim.js"></script>
 <script src="JS/activemenu.js"></script>
 <script src="JS/slide-stories.js"></script>
+<script src="JS/modernizr.custom.js"></script>
 
 <!-- Library -->
 <script src="Lib/typed/typed.js"></script>

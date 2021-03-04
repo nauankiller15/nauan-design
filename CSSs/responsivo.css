@@ -1616,12 +1616,17 @@
         font-size: 15px;
     }
     .Centrobrands {
-        top: 82px;
-        width: 97%;
-        left: 10px;
+        top: 55px;
+        width: 98%;
+        left: -5px;
         padding: 21px;
         font-size: 15px;
     }
+    /* BOTÃO TELA BRANDING (420px) */
+    .clickbtn {
+        margin: 39px;
+    }
+    /*  */
     /* ----- DESIGN PORTFOLIO (max-width: 480px) */
     #portfolio .portfolio-list .nav li {
         float: none;
@@ -1653,10 +1658,10 @@
         text-align: center;
     }
     .brands h2 {
-        left: 12px;
+        left: 10px;
         width: 60%;
         top: 21px;
-        font-size: 42px;
+        font-size: 48px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 480px) */
@@ -2025,7 +2030,7 @@
         padding-bottom: 58px;
     }
     /* --------- MEUS PROJETOS (max-width: 440px) ---------- */
-    /* DESIGN PROJETOS (max-width: 420px) */
+    /* DESIGN PROJETOS (max-width: 440px) */
     .Centrotrabalhos {
         top: 91px;
         width: 97%;
@@ -2034,12 +2039,17 @@
         font-size: 15px;
     }
     .Centrobrands {
-        top: 82px;
-        width: 97%;
-        left: 10px;
+        top: 55px;
+        width: 98%;
+        left: -5px;
         padding: 21px;
         font-size: 15px;
     }
+    /* BOTÃO TELA BRANDING (420px) */
+    .clickbtn {
+        margin: 39px;
+    }
+    /*  */
     /* ----- DESIGN PORTFOLIO (max-width: 440px) */
     #portfolio .portfolio-list .nav li {
         border-radius: 6px;
@@ -2071,10 +2081,10 @@
         text-align: center;
     }
     .brands h2 {
-        left: 12px;
+        left: 10px;
         width: 60%;
         top: 21px;
-        font-size: 42px;
+        font-size: 48px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 440px) */
@@ -2178,11 +2188,11 @@
     }
     .message b {
         left: 85px;
-        top: 22px;
+        top: 23px;
     }
     .message i {
         left: 85px;
-        top: 46px;
+        top: 45px;
     }
     /*  */
     /* SETA HOMEPAGE MOBILE 420px */
@@ -2501,11 +2511,15 @@
         font-size: 15px;
     }
     .Centrobrands {
-        top: 82px;
-        width: 97%;
-        left: 10px;
+        top: 55px;
+        width: 98%;
+        left: -5px;
         padding: 21px;
         font-size: 15px;
+    }
+    /* BOTÃO TELA BRANDING (420px) */
+    .clickbtn {
+        margin: 39px;
     }
     /* ----- DESIGN PORTFOLIO (max-width: 420px) */
     #portfolio .portfolio-list .nav li {
@@ -2538,10 +2552,10 @@
         text-align: center;
     }
     .brands h2 {
-        left: 12px;
+        left: 10px;
         width: 60%;
         top: 21px;
-        font-size: 42px;
+        font-size: 48px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 420px) */
@@ -2930,12 +2944,17 @@
         font-size: 15px;
     }
     .Centrobrands {
-        top: 65px;
+        top: 51px;
         width: 97%;
-        left: 10px;
+        left: -5px;
         padding: 21px;
         font-size: 15px;
     }
+    /* BOTÃO TELA BRANDING (420px) */
+    .clickbtn {
+        margin: 39px;
+    }
+    /*  */
     /* ----- DESIGN PORTFOLIO (max-width: 390px) */
     #portfolio .portfolio-list .nav li {
         border-radius: 6px;
@@ -2967,10 +2986,10 @@
         text-align: center;
     }
     .brands h2 {
-        left: 12px;
+        left: 20px;
         width: 60%;
         top: 21px;
-        font-size: 42px;
+        font-size: 34px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 390px) */
@@ -3587,12 +3606,17 @@
         font-size: 14px;
     }
     .Centrobrands {
-        top: 65px;
+        top: 76px;
         width: 97%;
-        left: 10px;
+        left: 2px;
         padding: 21px;
         font-size: 15px;
     }
+    /* BOTÃO TELA BRANDING (420px) */
+    .clickbtn {
+        margin: 39px;
+    }
+    /*  */
     /* ----- DESIGN PORTFOLIO (max-width: 320px) */
     #portfolio .portfolio-list .nav li {
         border-radius: 6px;
@@ -3624,10 +3648,10 @@
         text-align: center;
     }
     .brands h2 {
-        left: 45px;
+        left: 19px;
         width: 60%;
-        top: 21px;
-        font-size: 34px;
+        top: 38px;
+        font-size: 37px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 320px) */

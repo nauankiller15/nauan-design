@@ -37,7 +37,7 @@
 .Centrobrands {
     top: 156px;
     width: 70%;
-    left: 100px;
+    left: 53px;
     padding: 25px;
     animation: brandsCaixa 1.5s ease-in-out;
     position: absolute;
@@ -130,6 +130,7 @@
     margin-left: 6px;
     font-family: "Bahnschrift";
     font-size: 24px;
+    padding-bottom: 10px;
 }
 
 .portfolio-thumbnail {
@@ -182,4 +183,279 @@
 
 .link-margem {
     margin-top: 70px;
+}
+
+
+/* -------------------------------------------------------------------------------------------------- */
+
+
+/* ******************************* /*  TELA DE ANIMAÇÃO ROTACIONAL* / **************************** */
+
+
+/*************************************
+Build the scene and rotate on hover
+**************************************/
+
+.scene {
+    width: 260px;
+    height: 400px;
+    margin: 30px;
+    float: left;
+    -webkit-perspective: 1000px;
+    -moz-perspective: 1000px;
+    perspective: 1000px;
+}
+
+.movie {
+    width: 260px;
+    height: 400px;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transform: translateZ(-130px);
+    -moz-transform: translateZ(-130px);
+    transform: translateZ(-130px);
+    -webkit-transition: -webkit-transform 350ms;
+    -moz-transition: -moz-transform 350ms;
+    transition: transform 350ms;
+}
+
+.movie:hover {
+    -webkit-transform: rotateY(-78deg) translateZ(20px);
+    -moz-transform: rotateY(-78deg) translateZ(20px);
+    transform: rotateY(-78deg) translateZ(20px);
+}
+
+
+/*************************************
+Transform and style the two planes
+**************************************/
+
+.movie .poster,
+.movie .info {
+    position: absolute;
+    width: 260px;
+    height: 400px;
+    background-color: #fff;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.movie .poster {
+    -webkit-transform: translateZ(130px);
+    -moz-transform: translateZ(130px);
+    transform: translateZ(130px);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.movie .info {
+    -webkit-transform: rotateY(90deg) translateZ(130px);
+    -moz-transform: rotateY(90deg) translateZ(130px);
+    transform: rotateY(90deg) translateZ(130px);
+    border: 1px solid #B8B5B5;
+    font-size: 0.75em;
+}
+
+
+/*************************************
+Shadow beneath the 3D object
+**************************************/
+
+.csstransforms3d .movie::after {
+    content: '';
+    width: 260px;
+    height: 260px;
+    position: absolute;
+    bottom: 0;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.3);
+    -webkit-transform-origin: 100% 100%;
+    -moz-transform-origin: 100% 100%;
+    transform-origin: 100% 100%;
+    -webkit-transform: rotateX(90deg) translateY(130px);
+    -moz-transform: rotateX(90deg) translateY(130px);
+    transform: rotateX(90deg) translateY(130px);
+    -webkit-transition: box-shadow 350ms;
+    -moz-transition: box-shadow 350ms;
+    transition: box-shadow 350ms;
+}
+
+.csstransforms3d .movie:hover::after {
+    box-shadow: 20px -5px 50px rgba(0, 0, 0, 0.3);
+}
+
+
+/*************************************
+Movie information
+**************************************/
+
+.info header {
+    font-size: 16px;
+    color: #ffffff;
+    padding: 7px 11px;
+    font-weight: bold;
+    height: 195px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-shadow: 1px 2px 3px rgb(0 0 0);
+    text-align: center;
+}
+
+.info header h1 {
+    color: #fff;
+    /* margin: 0 0 2px; */
+    font-size: 1.4em;
+    background: #000000b3;
+    border-radius: 3px;
+    padding: 4px;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.info header .consideracoes {
+    border-radius: 25px;
+    padding: 5px;
+    text-align: center;
+    float: center;
+}
+
+.info p {
+    padding: 1.2em 1.4em;
+    margin: 2px 0 0;
+    font-weight: 700;
+    color: #080808;
+    line-height: 1.4em;
+    border-top: 7px solid #242424;
+}
+
+.clickbtn {
+    margin: 2px 45px 1px 45px;
+    text-align: center;
+    background: #000000;
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px rgb(0 0 0);
+    list-style: none;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.clickbtn:hover {
+    text-align: center;
+    background: #ffffff;
+    padding: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px rgb(0 0 0);
+    list-style: none;
+}
+
+
+/*************************************
+Generate "lighting" using box shadows
+**************************************/
+
+.movie .poster,
+.movie .info,
+.movie .info header {
+    -webkit-transition: box-shadow 350ms;
+    -moz-transition: box-shadow 350ms;
+    transition: box-shadow 350ms;
+}
+
+.csstransforms3d .movie .poster {
+    box-shadow: inset 0px 0px 40px rgba(255, 255, 255, 0);
+}
+
+.csstransforms3d .movie:hover .poster {
+    box-shadow: inset 300px 0px 40px rgba(102, 102, 102, 0.8);
+}
+
+.csstransforms3d .movie .info,
+.csstransforms3d .movie .info header {
+    box-shadow: inset -300px 0px 40px rgba(0, 0, 0, 0.5);
+}
+
+.csstransforms3d .movie:hover .info,
+.csstransforms3d .movie:hover .info header {
+    box-shadow: inset 0px 0px 40px rgb(45 45 45);
+}
+
+
+/*************************************
+Posters and still images
+**************************************/
+
+
+/* POSTER BRANDING */
+
+.scene:nth-child(1) .movie .poster {
+    background-image: url('https://1.bp.blogspot.com/-fdRi53hlhN8/YEEWMko4RaI/AAAAAAAAGvY/z9iV7nmaz6UDXW5pcOzU3NHlsKZzRzoUQCLcBGAsYHQ/s0/POSTER%2BBRANDING.png');
+}
+
+
+/*  */
+
+
+/* POSTER TEMPLATE WEBSITES */
+
+.scene:nth-child(2) .poster {
+    background-image: url('https://1.bp.blogspot.com/-1yaU838lbFo/YEEkM0-tmRI/AAAAAAAAGv4/EHUcyRA8mjMzupoMLfBBhHKGPVM6OEi2ACLcBGAsYHQ/s0/POSTER%2BTEMPLATE%2BWEBSITES.png');
+}
+
+
+/*  */
+
+.scene:nth-child(3) .poster {
+    background-image: url(../img/poster03.jpg);
+}
+
+
+/* STILL POSTER BRANDING */
+
+.scene:nth-child(1) .info header {
+    background-image: url('https://1.bp.blogspot.com/-BQ-kCQnmrnI/YEEXj4-vVEI/AAAAAAAAGvg/CwaI7Zbkc1gzE1qIxL_Wp2_PNg0qU8X5ACLcBGAsYHQ/s0/poster%2Bstill01.png');
+}
+
+
+/*  */
+
+
+/* STILL POSTER TEMPLATE WEBSITES */
+
+.scene:nth-child(2) .info header {
+    background-image: url('https://1.bp.blogspot.com/-09ynQVu5MwA/YEEgXdZXqRI/AAAAAAAAGvw/080ITazGN4YfYPorNW8aVxVCtsMpSJ8ngCLcBGAsYHQ/s0/poster%2Bstill02.png');
+}
+
+
+/*  */
+
+.scene:nth-child(3) .info header {
+    background-image: url(../img/still03.jpg);
+}
+
+
+/*************************************
+Fallback
+**************************************/
+
+.no-csstransforms3d .movie .poster,
+.no-csstransforms3d .movie .info {
+    position: relative;
+}
+
+
+/*************************************
+Media Queries
+**************************************/
+
+@media screen and (max-width: 60.75em) {
+    .scene {
+        float: none;
+        margin: 30px auto 60px;
+    }
 }
