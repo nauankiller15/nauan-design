@@ -87,6 +87,7 @@
 .whatssapp-btn:hover {
     background: #06a700;
     border: 1px #ffffff solid;
+    color: #fff;
 }
 
 .insta-btn {
@@ -104,6 +105,7 @@
 .insta-btn:hover {
     background: #a70067;
     border: 1px #ffffff solid;
+    color: #fff;
 }
 
 

@@ -1,0 +1,185 @@
+#brands {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: none;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    z-index: 3900;
+}
+
+.brands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.brands h2 {
+    width: 45%;
+    top: 70px;
+    color: #ffffff;
+    font-family: Bahnschrift;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: left;
+    position: absolute;
+    cursor: default;
+}
+
+#caixabrands {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.Centrobrands {
+    top: 156px;
+    width: 70%;
+    left: 100px;
+    padding: 25px;
+    animation: brandsCaixa 1.5s ease-in-out;
+    position: absolute;
+    font-size: 18px;
+    margin-bottom: 75px;
+}
+
+@keyframes brandsCaixa {
+    from {
+        transform: translateY(2350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+@keyframes TrabalhoIni {
+    from {
+        transform: translateY(-2350px);
+    }
+    to {
+        transform: translateY(0);
+    }
+}
+
+
+/* ------------- PORTFOLIO CSS -------------- */
+
+#portfolio {
+    position: relative;
+    padding-bottom: 40px;
+}
+
+#portfolio .portfolio-list {
+    margin-bottom: 10px;
+    z-index: 2000;
+}
+
+#portfolio .portfolio-list .nav {
+    display: inline-block;
+    margin-top: 15px;
+    color: #ffffff;
+    padding: 3px;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+}
+
+#portfolio .portfolio-list .nav li {
+    padding: 15px;
+    border: 2px #242424 solid;
+    background: #141414;
+    box-shadow: 2px 2px 4px #000000;
+    float: left;
+    font-size: 22px;
+    color: #ffffff;
+    line-height: 16px;
+    cursor: pointer;
+    font-family: Bahnschrift;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#portfolio .portfolio-list .nav li:hover,
+#portfolio .portfolio-list .nav li.filter-active {
+    color: #000000;
+    font-size: 23px;
+    border-radius: 10px 10px 0px 0px;
+    background: #ffffff;
+    -moz-transition: all 0.5s ease-in-out 0s;
+    -ms-transition: all 0.5s ease-in-out 0s;
+    -o-transition: all 0.5s ease-in-out 0s;
+    -webkit-transition: all 0.5s ease-in-out 0s;
+    transition: all 0.5s ease-in-out 0s;
+}
+
+#portfolio .portfolio-container {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+    position: absolute;
+}
+
+.section-title {
+    margin-left: 6px;
+    font-family: "Bahnschrift";
+    font-size: 24px;
+}
+
+.portfolio-thumbnail {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    min-height: 265px;
+    width: 42%;
+    display: inline-block;
+    border: 1px solid #191919;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    min-height: 265px;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #000000ce;
+}
+
+.overlay:hover {
+    transition: 0.5s;
+    opacity: 1;
+    left: 0;
+}
+
+.text {
+    color: #ffffff;
+    font-size: 45px;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    -webkit-transform: translate(224%, 36%);
+    -ms-transform: translate(224%, 36%);
+    transform: translate(258%, 35%);
+    text-align: center;
+}
+
+.portfolio-thumbnail img {
+    max-width: 100%;
+    max-height: 50%;
+    display: inline-block;
+    transition: 0.5s;
+    z-index: 100;
+}
+
+.link-margem {
+    margin-top: 70px;
+}

@@ -1324,24 +1324,24 @@
     .mobile-set {
         position: fixed;
         bottom: -52%;
-        left: 43%;
+        left: 45%;
         top: 0;
         display: flex;
         justify-content: center;
         align-items: center;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
+        animation: posicaoTp 3.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
     }
     .mobile-set:before {
-        bottom: 45%;
+        bottom: 46%;
         position: fixed;
         color: #242424;
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 81px;
+        font-size: 61px;
         display: flex;
         align-items: center;
-        animation: posicaoTp 4.2s ease-in-out;
+        animation: posicaoTp 3.2s ease-in-out;
     }
     .mobile-set:after {
         position: fixed;
@@ -1349,10 +1349,10 @@
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 82px;
+        font-size: 56px;
         display: flex;
         align-items: center;
-        animation: posicaoTp 4.6s ease-in-out;
+        animation: posicaoTp 3.6s ease-in-out;
     }
     /*  */
     /* ----------- FOOTER (max-width: 480px) ------------ */
@@ -1607,9 +1607,16 @@
         font-size: 14px;
     }
     /* ---------------------- */
-    /* DESIGN PROJETOS */
+    /* DESIGN PROJETOS (max-width: 480px) */
     .Centrotrabalhos {
         top: 65px;
+        width: 97%;
+        left: 10px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .Centrobrands {
+        top: 82px;
         width: 97%;
         left: 10px;
         padding: 21px;
@@ -1643,6 +1650,13 @@
         width: 60%;
         top: 21px;
         font-size: 34px;
+        text-align: center;
+    }
+    .brands h2 {
+        left: 12px;
+        width: 60%;
+        top: 21px;
+        font-size: 42px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 480px) */
@@ -1787,24 +1801,24 @@
     .mobile-set {
         position: fixed;
         bottom: -52%;
-        left: 43%;
+        left: 45%;
         top: 0;
         display: flex;
         justify-content: center;
         align-items: center;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
+        animation: posicaoTp 3.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
     }
     .mobile-set:before {
-        bottom: 45%;
+        bottom: 46%;
         position: fixed;
         color: #242424;
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 81px;
+        font-size: 61px;
         display: flex;
         align-items: center;
-        animation: posicaoTp 4.2s ease-in-out;
+        animation: posicaoTp 3.2s ease-in-out;
     }
     .mobile-set:after {
         position: fixed;
@@ -1812,10 +1826,10 @@
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 82px;
+        font-size: 56px;
         display: flex;
         align-items: center;
-        animation: posicaoTp 4.6s ease-in-out;
+        animation: posicaoTp 3.6s ease-in-out;
     }
     /*  */
     /* ----------- FOOTER (max-width: 440px) ------------ */
@@ -2011,9 +2025,16 @@
         padding-bottom: 58px;
     }
     /* --------- MEUS PROJETOS (max-width: 440px) ---------- */
-    /* DESIGN PROJETOS */
+    /* DESIGN PROJETOS (max-width: 420px) */
     .Centrotrabalhos {
         top: 91px;
+        width: 97%;
+        left: 10px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .Centrobrands {
+        top: 82px;
         width: 97%;
         left: 10px;
         padding: 21px;
@@ -2046,6 +2067,13 @@
         left: 45px;
         width: 60%;
         top: 26px;
+        font-size: 42px;
+        text-align: center;
+    }
+    .brands h2 {
+        left: 12px;
+        width: 60%;
+        top: 21px;
         font-size: 42px;
         text-align: center;
     }
@@ -2161,7 +2189,7 @@
     .mobile-set {
         position: fixed;
         bottom: -52%;
-        left: 43%;
+        left: 45%;
         top: 0;
         display: flex;
         justify-content: center;
@@ -2169,16 +2197,16 @@
         animation: posicaoTp 3.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
     }
     .mobile-set:before {
-        bottom: 45%;
+        bottom: 46%;
         position: fixed;
         color: #242424;
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 81px;
+        font-size: 61px;
         display: flex;
         align-items: center;
-        animation: posicaoTp 4.2s ease-in-out;
+        animation: posicaoTp 3.2s ease-in-out;
     }
     .mobile-set:after {
         position: fixed;
@@ -2186,10 +2214,10 @@
         font-family: FontAwesome;
         content: "\f107";
         left: 15%;
-        font-size: 82px;
+        font-size: 56px;
         display: flex;
         align-items: center;
-        animation: posicaoTp 4.6s ease-in-out;
+        animation: posicaoTp 3.6s ease-in-out;
     }
     /*  */
     /*  */
@@ -2464,11 +2492,18 @@
         font-size: 14px;
     }
     /* ---------------------- */
-    /* DESIGN PROJETOS */
+    /* DESIGN PROJETOS (max-width: 420px) */
     .Centrotrabalhos {
         top: 81px;
         width: 97%;
         left: 0px;
+        padding: 21px;
+        font-size: 15px;
+    }
+    .Centrobrands {
+        top: 82px;
+        width: 97%;
+        left: 10px;
         padding: 21px;
         font-size: 15px;
     }
@@ -2500,6 +2535,13 @@
         width: 60%;
         top: 26px;
         font-size: 48px;
+        text-align: center;
+    }
+    .brands h2 {
+        left: 12px;
+        width: 60%;
+        top: 21px;
+        font-size: 42px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 420px) */
@@ -2589,7 +2631,7 @@
         font-size: 53px;
         display: flex;
         align-items: center;
-        animation: posicaoTp 4.2s ease-in-out;
+        animation: posicaoTp 3.2s ease-in-out;
     }
     .mobile-set:after {
         position: fixed;
@@ -2600,7 +2642,7 @@
         font-size: 53px;
         display: flex;
         align-items: center;
-        animation: posicaoTp 4.6s ease-in-out;
+        animation: posicaoTp 3.6s ease-in-out;
     }
     /*  */
     /* ----------- FOOTER (max-width: 390px) ------------ */
@@ -2879,12 +2921,19 @@
         width: 275px;
     }
     /* --------- MEUS PROJETOS (max-width: 390px) ---------- */
-    /* DESIGN PROJETOS */
+    /* DESIGN PROJETOS (max-width: 390px) */
     .Centrotrabalhos {
         top: 82px;
         width: 98%;
         left: 0px;
         padding: 19px;
+        font-size: 15px;
+    }
+    .Centrobrands {
+        top: 65px;
+        width: 97%;
+        left: 10px;
+        padding: 21px;
         font-size: 15px;
     }
     /* ----- DESIGN PORTFOLIO (max-width: 390px) */
@@ -2915,6 +2964,13 @@
         width: 60%;
         top: 31px;
         font-size: 41px;
+        text-align: center;
+    }
+    .brands h2 {
+        left: 12px;
+        width: 60%;
+        top: 21px;
+        font-size: 42px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 390px) */
@@ -3209,7 +3265,7 @@
         font-size: 53px;
         display: flex;
         align-items: center;
-        animation: posicaoTp 4.2s ease-in-out;
+        animation: posicaoTp 3.2s ease-in-out;
     }
     .mobile-set:after {
         position: fixed;
@@ -3220,7 +3276,7 @@
         font-size: 53px;
         display: flex;
         align-items: center;
-        animation: posicaoTp 4.6s ease-in-out;
+        animation: posicaoTp 3.6s ease-in-out;
     }
     /*  */
     /* ----------- FOOTER (max-width: 320px) ------------ */
@@ -3522,13 +3578,20 @@
         padding: 15px;
     }
     /* --------- MEUS PROJETOS (max-width: 320px) ---------- */
-    /* DESIGN PROJETOS */
+    /* DESIGN PROJETOS (max-width: 320px) */
     .Centrotrabalhos {
         top: 83px;
         width: 100%;
         left: 0px;
         padding: 19px;
         font-size: 14px;
+    }
+    .Centrobrands {
+        top: 65px;
+        width: 97%;
+        left: 10px;
+        padding: 21px;
+        font-size: 15px;
     }
     /* ----- DESIGN PORTFOLIO (max-width: 320px) */
     #portfolio .portfolio-list .nav li {
@@ -3558,6 +3621,13 @@
         width: 60%;
         top: 31px;
         font-size: 36px;
+        text-align: center;
+    }
+    .brands h2 {
+        left: 45px;
+        width: 60%;
+        top: 21px;
+        font-size: 34px;
         text-align: center;
     }
     /* Texto Overlay (max-width: 320px) */

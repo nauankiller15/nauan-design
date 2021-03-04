@@ -11,13 +11,14 @@ $(window).on("load", function() {
 // // *****
 // Animação Menu -------------- ****
 
-$('#trabalhosAbrir').on('click', function() {
+$('#brandsAbrir').on('click', function() {
     $(window).scrollTop(0);
-    $("#trabalhos").fadeIn('600');
+    $("#brands").fadeIn('600');
     $('#TodosFiltrar').trigger('click');
     $('#contato').fadeOut('1300');
     $('#servico').fadeOut("700");
     $('#contato').fadeOut('600');
+    $('#trabalhos').fadeOut('600');
     $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('13000');
     $("#sobre").fadeOut('600');
@@ -25,12 +26,29 @@ $('#trabalhosAbrir').on('click', function() {
     $('#IA-MenuBar').fadeIn('200');
 })
 
+$('#trabalhosAbrir').on('click', function() {
+    $(window).scrollTop(0);
+    $("#trabalhos").fadeIn('600');
+    $('#TodosFiltrar').trigger('click');
+    $('#contato').fadeOut('1300');
+    $('#servico').fadeOut("700");
+    $('#contato').fadeOut('600');
+    $('#brands').fadeOut('600');
+    $(".fundoPreto").fadeIn('500');
+    $('#fechar').fadeIn('13000');
+    $("#sobre").fadeOut('600');
+    $('.LogoMenu').fadeIn('1300');
+    $('#IA-MenuBar').fadeIn('200');
+})
+
+
 $('#contatoAbrir').on('click', function() {
     $(window).scrollTop(0);
     $('#contato').fadeIn('400');
     $('#servico').fadeOut("700");
     $("#sobre").fadeOut('600');
-    $("#trabalhos").fadeOut('600');
+    $("#brands").fadeOut('600');
+    $('#trabalhos').fadeOut('600');
     $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('13000');
     $('.LogoMenu').fadeIn('1300');
@@ -42,7 +60,8 @@ $('#sobreAbrir').on('click', function() {
     $('#sobre').fadeIn('400');
     $('#servico').fadeOut("700");
     $("#contato").fadeOut('600');
-    $("#trabalhos").fadeOut('600');
+    $("#brands").fadeOut('600');
+    $('#trabalhos').fadeOut('600');
     $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('13000');
     $('.LogoMenu').fadeIn('1300');
@@ -54,8 +73,9 @@ $('#servicoAbrir').on('click', function() {
     $("#servico").fadeIn('1300');
     $('#contato').fadeOut('1300');
     $('#sobre').fadeOut('1300');
-    $("#trabalhos").fadeOut('600');
+    $("#brands").fadeOut('600');
     $('#contato').fadeOut('700');
+    $('#trabalhos').fadeOut('600');
     $(".fundoPreto").fadeIn('500');
     $('#fechar').fadeIn('13000');
     $('.LogoMenu').fadeIn('1200');
@@ -65,8 +85,9 @@ $('#servicoAbrir').on('click', function() {
 $('#fechar').on('click', function() {
         $('#servico').fadeOut("700");
         $('#contato').fadeIn('700');
-        $("#trabalhos").fadeOut('600');
+        $("#brands").fadeOut('600');
         $('#contato').fadeOut('600');
+        $('#trabalhos').fadeOut('600');
         $('.fundoPreto').slideUp('35530');
         $('#fechar').fadeOut('1300');
         $("#sobre").fadeOut('600');
@@ -100,7 +121,7 @@ $('#IA-MenuOpen').on('click', function() {
 //         //     $(".fundoPreto").fadeOut('600');
 //         //     $("#sobre").fadeOut('700');
 //         //     $("#contato").fadeOut('700');
-//         //     $('#trabalhos').fadeOut('300');
+//         //     $('#brands').fadeOut('300');
 //         //     $('#fechar').fadeOut('1300');
 //         //     $('.menu li.active').removeClass('active');
 //         //     $('.menu a.active').removeClass('active');

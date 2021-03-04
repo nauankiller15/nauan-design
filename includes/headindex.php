@@ -14,6 +14,7 @@
     <link rel="stylesheet" type="text/css" href="CSSs/utilidades/menu-hamburguer.css">
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/servico.css">
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/trabalhos.css">
+    <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/brands.css">
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/sobre.css">
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/contato.css">
     <link rel="stylesheet" type="text/css" href="CSSs/paginas-includes/formbox.css">

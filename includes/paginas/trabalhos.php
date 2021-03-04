@@ -1,4 +1,3 @@
-<div id="fundoPreto">
     <div id="trabalhos">
         <div class="hoverBackTrab">
             <div class="trabalhos">
@@ -84,4 +83,3 @@
             </div>
         </div>
     </div>
-</div>

@@ -13,12 +13,12 @@
                 <div class="call-buttons">
                     <a href="https://api.whatsapp.com/message/HQZ2ICED6X64G1" target="_blank">
                         <div style="animation: flip 3.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse backwards;" class="whatssapp-btn">
-                            <i style="margin-right:8px;" class="fab fa-whatsapp"></i>Chamar Whatssapp
+                            <i style="margin-right:8px;" class="fab fa-whatsapp"></i>Whatssapp
                         </div>
                     </a>
                     <a href="https://www.instagram.com/nauandesign/" target="_blank">
                         <div style="animation: flip 4.5s cubic-bezier(0.455, 0.030, 0.515, 0.955) reverse backwards;" class="insta-btn">
-                            <i style="margin-right:8px;" class="fab fa-instagram"></i>Chamar Direct
+                            <i style="margin-right:8px;" class="fab fa-instagram"></i>Direct
                         </div>
                     </a>
                 </div>
