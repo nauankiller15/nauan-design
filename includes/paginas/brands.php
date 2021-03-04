@@ -40,26 +40,10 @@
                                                     <span class="consideracoes">Templates de websites</span>
                                                 </header>
                                                 <p>
-                                                    Modelos de Websites criados por mim, venha ver se algum desses te agrada, aproveita e faz um orçamento da sua identidade visual junto com o pacote do website.
+                                                    Modelos de Websites criados por mim. Venha ver se algum desses te agrada. 
+                                                    Aproveita e faz um orçamento da sua identidade visual junto com o pacote do Website.
                                                 </p>
                                                 <div id="templatesAbrir" class="clickbtn">CLIQUE AQUI</div>
-                                            </div>
-                                        </div>
-                                    </li>
-
-                                    <li class="scene">
-                                        <div class="movie" onclick="return true">
-                                            <div class="poster"></div>
-                                            <div class="info">
-                                                <header>
-                                                    <h1>The Gold Rush</h1>
-                                                    <span class="year">1925</span>
-                                                    <span class="rating">NR</span>
-                                                    <span class="duration">95 minutes</span>
-                                                </header>
-                                                <p>
-                                                    The Tramp travels to the Yukon to take part in the Klondike Gold Rush. He gets mixed up with some burly characters and falls in love with the beautiful Georgia. He tries to win her heart with his singular charm.
-                                                </p>
                                             </div>
                                         </div>
                                     </li>

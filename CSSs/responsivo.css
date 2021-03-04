@@ -218,7 +218,7 @@
         position: fixed;
         top: 165px;
         left: 78px;
-        z-index: 999;
+        z-index: 4001;
     }
     /* SLIDE */
     #slider figure {
@@ -361,7 +361,7 @@
         position: fixed;
         top: 86px;
         left: 15px;
-        z-index: 999;
+        z-index: 4001;
     }
     .quadrado-index {
         background-size: 65%;
@@ -606,7 +606,7 @@
         position: fixed;
         top: 86px;
         left: 2px;
-        z-index: 999;
+        z-index: 4001;
     }
     .quadrado-index {
         background-size: 65%;
@@ -976,7 +976,7 @@
         position: fixed;
         top: 60px;
         left: 60px;
-        z-index: 999;
+        z-index: 4001;
     }
     .quadrado-index {
         background-size: 65%;
@@ -1453,7 +1453,7 @@
         position: fixed;
         top: 30px;
         left: 45px;
-        z-index: 999;
+        z-index: 4001;
     }
     .quadrado-index {
         background-size: 65%;
@@ -1949,7 +1949,7 @@
         position: fixed;
         top: 30px;
         left: 25px;
-        z-index: 999;
+        z-index: 4001;
     }
     .quadrado-index {
         background-size: 59%;
@@ -2086,6 +2086,9 @@
         top: 21px;
         font-size: 48px;
         text-align: center;
+    }
+    .section-title {
+        margin-left: 6px;
     }
     /* Texto Overlay (max-width: 440px) */
     .overlay {
@@ -2343,7 +2346,7 @@
         position: fixed;
         top: 154px;
         left: 25px;
-        z-index: 999;
+        z-index: 4001;
     }
     .quadrado-index {
         background-size: 59%;
@@ -2558,6 +2561,9 @@
         font-size: 48px;
         text-align: center;
     }
+    .section-title {
+        margin-left: 6px;
+    }
     /* Texto Overlay (max-width: 420px) */
     .overlay {
         min-height: 35px;
@@ -2771,7 +2777,7 @@
         position: fixed;
         top: 40px;
         left: 19px;
-        z-index: 999;
+        z-index: 4001;
     }
     .quadrado-index {
         background-size: 59%;
@@ -2992,6 +2998,10 @@
         font-size: 34px;
         text-align: center;
     }
+    .section-title {
+        margin-left: 32px;
+        font-size: 19px;
+    }
     /* Texto Overlay (max-width: 390px) */
     .overlay {
         min-height: 35px;
@@ -3202,7 +3212,7 @@
         position: fixed;
         top: 152px;
         left: -5px;
-        z-index: 999;
+        z-index: 4001;
     }
     /* ----- MENU */
     /* Slide */
@@ -3420,7 +3430,7 @@
         position: fixed;
         top: 128px;
         left: -5px;
-        z-index: 999;
+        z-index: 4001;
     }
     .quadrado-index {
         background-size: 55%;
@@ -3653,6 +3663,10 @@
         top: 38px;
         font-size: 37px;
         text-align: center;
+    }
+    .section-title {
+        margin-left: 7px;
+        font-size: 23px;
     }
     /* Texto Overlay (max-width: 320px) */
     .overlay {

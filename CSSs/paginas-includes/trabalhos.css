@@ -126,10 +126,11 @@
     position: absolute;
 }
 
-.section-title {
+.branding-title {
     margin-left: 6px;
     font-family: "Bahnschrift";
     font-size: 24px;
+    padding-bottom: 10px;
 }
 
 .portfolio-thumbnail {

@@ -127,7 +127,7 @@
 }
 
 .section-title {
-    margin-left: 6px;
+    margin-left: 35px;
     font-family: "Bahnschrift";
     font-size: 24px;
     padding-bottom: 10px;
@@ -410,10 +410,6 @@ Posters and still images
 
 /*  */
 
-.scene:nth-child(3) .poster {
-    background-image: url(../img/poster03.jpg);
-}
-
 
 /* STILL POSTER BRANDING */
 
@@ -433,10 +429,6 @@ Posters and still images
 
 
 /*  */
-
-.scene:nth-child(3) .info header {
-    background-image: url(../img/still03.jpg);
-}
 
 
 /*************************************
