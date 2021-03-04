@@ -1320,19 +1320,29 @@
 }
 
 @media (max-width: 480px) {
-    /* SETA HOMEPAGE MOBILE */
+    /* SETA HOMEPAGE MOBILE 420px */
     .mobile-set {
-        color: #000;
+        color: #242424;
         position: fixed;
         bottom: -56%;
-        left: 45%;
-        font-size: 73px;
+        left: 42%;
+        font-size: 86px;
         display: block;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.3s infinite alternate, setaPosit 0.72s infinite alternate;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
         z-index: 999;
         top: 0;
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+    .mobile-set:before {
+        position: fixed;
+        color: #ffffff;
+        font-family: FontAwesome;
+        content: "\f107";
+        left: 15%;
+        font-size: 76px;
+        display: block;
         align-items: center;
     }
     /*  */
@@ -1763,19 +1773,29 @@
 }
 
 @media (max-width: 440px) {
-    /* SETA HOMEPAGE MOBILE */
+    /* SETA HOMEPAGE MOBILE 420px */
     .mobile-set {
-        color: #000;
+        color: #242424;
         position: fixed;
         bottom: -56%;
-        left: 45%;
-        font-size: 73px;
+        left: 42%;
+        font-size: 86px;
         display: block;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.3s infinite alternate, setaPosit 0.72s infinite alternate;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
         z-index: 999;
         top: 0;
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+    .mobile-set:before {
+        position: fixed;
+        color: #ffffff;
+        font-family: FontAwesome;
+        content: "\f107";
+        left: 15%;
+        font-size: 76px;
+        display: block;
         align-items: center;
     }
     /*  */
@@ -2117,19 +2137,29 @@
         top: 46px;
     }
     /*  */
-    /* SETA HOMEPAGE MOBILE */
+    /* SETA HOMEPAGE MOBILE 420px */
     .mobile-set {
-        color: #000;
+        color: #242424;
         position: fixed;
         bottom: -56%;
-        left: 45%;
-        font-size: 73px;
+        left: 42%;
+        font-size: 86px;
         display: block;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.3s infinite alternate, setaPosit 0.72s infinite alternate;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
         z-index: 999;
         top: 0;
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+    .mobile-set:before {
+        position: fixed;
+        color: #ffffff;
+        font-family: FontAwesome;
+        content: "\f107";
+        left: 15%;
+        font-size: 76px;
+        display: block;
         align-items: center;
     }
     /*  */
@@ -2508,19 +2538,29 @@
 }
 
 @media (max-width: 390px) {
-    /* SETA HOMEPAGE MOBILE */
+    /* SETA HOMEPAGE MOBILE 420px */
     .mobile-set {
-        color: #000;
+        color: #242424;
         position: fixed;
         bottom: -56%;
-        left: 45%;
-        font-size: 73px;
+        left: 42%;
+        font-size: 86px;
         display: block;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.3s infinite alternate, setaPosit 0.72s infinite alternate;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
         z-index: 999;
         top: 0;
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+    .mobile-set:before {
+        position: fixed;
+        color: #ffffff;
+        font-family: FontAwesome;
+        content: "\f107";
+        left: 15%;
+        font-size: 76px;
+        display: block;
         align-items: center;
     }
     /*  */
@@ -2948,19 +2988,29 @@
         top: 46px;
     }
     /*  */
-    /* SETA HOMEPAGE MOBILE */
+    /* SETA HOMEPAGE MOBILE 420px */
     .mobile-set {
-        color: #000;
+        color: #242424;
         position: fixed;
         bottom: -56%;
-        left: 45%;
-        font-size: 73px;
+        left: 42%;
+        font-size: 86px;
         display: block;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.3s infinite alternate, setaPosit 0.72s infinite alternate;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
         z-index: 999;
         top: 0;
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+    .mobile-set:before {
+        position: fixed;
+        color: #ffffff;
+        font-family: FontAwesome;
+        content: "\f107";
+        left: 15%;
+        font-size: 76px;
+        display: block;
         align-items: center;
     }
     /*  */
@@ -3123,19 +3173,29 @@
         top: 43px;
     }
     /*  */
-    /* SETA HOMEPAGE MOBILE */
+    /* SETA HOMEPAGE MOBILE 420px */
     .mobile-set {
-        color: #000;
+        color: #242424;
         position: fixed;
         bottom: -56%;
-        left: 45%;
-        font-size: 73px;
+        left: 42%;
+        font-size: 86px;
         display: block;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.3s infinite alternate, setaPosit 0.72s infinite alternate;
+        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
         z-index: 999;
         top: 0;
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+    .mobile-set:before {
+        position: fixed;
+        color: #ffffff;
+        font-family: FontAwesome;
+        content: "\f107";
+        left: 15%;
+        font-size: 76px;
+        display: block;
         align-items: center;
     }
     /*  */
