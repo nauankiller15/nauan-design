@@ -21,6 +21,7 @@ $('#brandsAbrir').on('click', function() {
     $('#trabalhos').fadeOut('600');
     $("#templates").fadeOut('600');
     $(".fundoPreto").fadeIn('500');
+    $(".fundoBranding").fadeOut('500');
     $('#fechar').fadeIn('13000');
     $("#sobre").fadeOut('600');
     $('.LogoMenu').fadeIn('1300');
@@ -37,6 +38,7 @@ $('#templatesAbrir').on('click', function() {
     $('#trabalhos').fadeOut('600');
     $('#brands').fadeOut('600');
     $(".fundoPreto").fadeIn('500');
+    $(".fundoBranding").fadeOut('500');
     $('#fechar').fadeIn('13000');
     $("#sobre").fadeOut('600');
     $('.LogoMenu').fadeIn('1300');
@@ -52,7 +54,7 @@ $('#trabalhosAbrir').on('click', function() {
     $('#contato').fadeOut('600');
     $('#brands').fadeOut('600');
     $("#templates").fadeOut('600');
-    $(".fundoPreto").fadeIn('500');
+    $(".fundoBranding").fadeIn('500');
     $('#fechar').fadeIn('13000');
     $("#sobre").fadeOut('600');
     $('.LogoMenu').fadeIn('1300');
@@ -69,6 +71,7 @@ $('#contatoAbrir').on('click', function() {
     $('#trabalhos').fadeOut('600');
     $("#templates").fadeOut('600');
     $(".fundoPreto").fadeIn('500');
+    $(".fundoBranding").fadeOut('500');
     $('#fechar').fadeIn('13000');
     $('.LogoMenu').fadeIn('1300');
     $('#IA-MenuBar').fadeIn('200');
@@ -83,6 +86,7 @@ $('#sobreAbrir').on('click', function() {
     $('#trabalhos').fadeOut('600');
     $("#templates").fadeOut('600');
     $(".fundoPreto").fadeIn('500');
+    $(".fundoBranding").fadeOut('500');
     $('#fechar').fadeIn('13000');
     $('.LogoMenu').fadeIn('1300');
     $('#IA-MenuBar').fadeIn('200');
@@ -98,6 +102,7 @@ $('#servicoAbrir').on('click', function() {
     $('#trabalhos').fadeOut('600');
     $("#templates").fadeOut('600');
     $(".fundoPreto").fadeIn('500');
+    $(".fundoBranding").fadeOut('500');
     $('#fechar').fadeIn('13000');
     $('.LogoMenu').fadeIn('1200');
     $('#IA-MenuBar').fadeIn('200');
@@ -111,6 +116,7 @@ $('#fechar').on('click', function() {
         $('#trabalhos').fadeOut('600');
         $("#templates").fadeOut('600');
         $('.fundoPreto').slideUp('35530');
+        $(".fundoBranding").fadeOut('500');
         $('#fechar').fadeOut('1300');
         $("#sobre").fadeOut('600');
         $('.LogoMenu').slideUp('1300');

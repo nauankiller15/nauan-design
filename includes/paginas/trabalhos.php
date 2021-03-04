@@ -1,5 +1,5 @@
     <div id="trabalhos">
-        <div class="hoverBackTrab">
+        <div class="hoverBackBranding">
             <div class="trabalhos">
                 <h2 style="animation: TrabalhoIni 2.0s;">BRANDING<h2>
             </div>
