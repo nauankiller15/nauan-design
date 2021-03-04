@@ -1341,6 +1341,7 @@
         font-size: 81px;
         display: flex;
         align-items: center;
+        animation: posicaoTp 4.2s ease-in-out;
     }
     .mobile-set:after {
         position: fixed;
@@ -1351,6 +1352,7 @@
         font-size: 82px;
         display: flex;
         align-items: center;
+        animation: posicaoTp 4.6s ease-in-out;
     }
     /*  */
     /* ----------- FOOTER (max-width: 480px) ------------ */
@@ -1802,6 +1804,7 @@
         font-size: 81px;
         display: flex;
         align-items: center;
+        animation: posicaoTp 4.2s ease-in-out;
     }
     .mobile-set:after {
         position: fixed;
@@ -1812,6 +1815,7 @@
         font-size: 82px;
         display: flex;
         align-items: center;
+        animation: posicaoTp 4.6s ease-in-out;
     }
     /*  */
     /* ----------- FOOTER (max-width: 440px) ------------ */
@@ -2162,7 +2166,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        animation: posicaoTp 4.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
+        animation: posicaoTp 3.2s ease-in-out, scrollPos 1.4s infinite alternate, setaPosit 0.62s infinite alternate;
     }
     .mobile-set:before {
         bottom: 45%;
@@ -2174,6 +2178,7 @@
         font-size: 81px;
         display: flex;
         align-items: center;
+        animation: posicaoTp 4.2s ease-in-out;
     }
     .mobile-set:after {
         position: fixed;
@@ -2184,6 +2189,7 @@
         font-size: 82px;
         display: flex;
         align-items: center;
+        animation: posicaoTp 4.6s ease-in-out;
     }
     /*  */
     /*  */
@@ -2583,6 +2589,7 @@
         font-size: 53px;
         display: flex;
         align-items: center;
+        animation: posicaoTp 4.2s ease-in-out;
     }
     .mobile-set:after {
         position: fixed;
@@ -2593,6 +2600,7 @@
         font-size: 53px;
         display: flex;
         align-items: center;
+        animation: posicaoTp 4.6s ease-in-out;
     }
     /*  */
     /* ----------- FOOTER (max-width: 390px) ------------ */
@@ -3200,6 +3208,7 @@
         font-size: 53px;
         display: flex;
         align-items: center;
+        animation: posicaoTp 4.2s ease-in-out;
     }
     .mobile-set:after {
         position: fixed;
@@ -3210,6 +3219,7 @@
         font-size: 53px;
         display: flex;
         align-items: center;
+        animation: posicaoTp 4.6s ease-in-out;
     }
     /*  */
     /* ----------- FOOTER (max-width: 320px) ------------ */

@@ -9,6 +9,24 @@
     object-fit: cover;
 }
 
+@keyframes nextpost {
+    from {
+        transform: translateX(1550px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
+@keyframes prevpost {
+    from {
+        transform: translateX(-1550px);
+    }
+    to {
+        transform: translateX(0px);
+    }
+}
+
 .slide-next {
     position: absolute;
     top: 30%;
@@ -22,7 +40,7 @@
     background-color: #141414a6;
     padding: 40px;
     border-radius: 51px;
-    animation: 1.2s rotacionarRight ease-in-out;
+    animation: nextpost 2.5s ease-in-out, rotacionarRight 1.2s ease-in-out;
     transition: transform .3s;
     /* Animation */
 }
@@ -45,7 +63,7 @@
     font-weight: bold;
     background-color: #141414a6;
     padding: 40px;
-    animation: 1.2s rotacionarLeft ease-in-out;
+    animation: prevpost 2.5s ease-in-out, rotacionarRight 1.2s ease-in-out;
     transition: transform .3s;
     /* Animation */
 }
@@ -231,7 +249,7 @@
 
 @keyframes posicaoTp {
     from {
-        transform: translateY(1350px);
+        transform: translateY(1750px);
     }
     to {
         transform: translateY(0);
