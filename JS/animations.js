@@ -21,7 +21,7 @@ $('#brandsAbrir').on('click', function() {
     $('#trabalhos').fadeOut('600');
     $("#templates").fadeOut('600');
     $(".fundoPreto").fadeIn('500');
-    $(".fundoBranding").fadeOut('500');
+    $(".fundoBranding").fadeIn('500');
     $(".fundoTemplates").fadeOut('500');
     $('#fechar').fadeIn('13000');
     $("#sobre").fadeOut('600');
@@ -57,7 +57,7 @@ $('#trabalhosAbrir').on('click', function() {
     $('#brands').fadeOut('600');
     $("#templates").fadeOut('600');
     $(".fundoBranding").fadeIn('500');
-    $(".fundoPreto").fadeOut('500');
+    $(".fundoPreto").fadeIn('500');
     $(".fundoTemplates").fadeOut('500');
     $('#fechar').fadeIn('13000');
     $("#sobre").fadeOut('600');
