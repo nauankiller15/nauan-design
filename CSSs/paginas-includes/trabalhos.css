@@ -153,7 +153,7 @@
     width: 100%;
     opacity: 0;
     transition: .5s ease;
-    background-color: #000000ce;
+    background: linear-gradient(transparent, black);
 }
 
 .overlay:hover {
