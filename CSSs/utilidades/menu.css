@@ -192,8 +192,18 @@
     }
     
     .fundoBranding {
-        background-color: #9f641d;
-        background-position: center;
+        background-color: #b2640b;
+        position: fixed;
+        height: 100%;
+        width: 100%;
+        display: none;
+        z-index: 1200;
+        animation: FundoPreto 1.1s ease-in-out;
+        overflow: hidden;
+    }
+    
+    .fundoTemplates {
+        background-color: #0089f0;
         position: fixed;
         height: 100%;
         width: 100%;
@@ -213,7 +223,7 @@
     }
     
     .hoverBackBranding {
-        background: url('https://1.bp.blogspot.com/-FpHx4_NL9Wc/YEFS0_nviJI/AAAAAAAAGwg/WuJF762k4-M0VwkucI_ZptxKRAnI9NdBgCLcBGAsYHQ/s0/backgroundBranding.png') repeat;
+        background: url('https://1.bp.blogspot.com/-9vn0O4pTv3g/YEFqaQTB2gI/AAAAAAAAGwo/dKtdRMRVxSoRmGlfihJjeb9zGmIgcp5LACLcBGAsYHQ/s0/backgroundBranding.png') no-repeat;
         background-position: center;
         height: 124%;
         width: 100%;

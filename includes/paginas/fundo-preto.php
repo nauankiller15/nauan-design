@@ -4,3 +4,5 @@
 </div>
 <div class="fundoBranding">
 </div>
+<div class="fundoTemplates">
+</div>
