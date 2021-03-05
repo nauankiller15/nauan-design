@@ -1610,10 +1610,15 @@
     /* DESIGN PROJETOS (max-width: 480px) */
     .Centrotrabalhos {
         top: 64px;
-        width: 97%;
-        left: -2px;
+        width: 96%;
+        left: -1px;
         padding: 21px;
         font-size: 15px;
+    }
+    #portfolio .portfolio-container {
+        margin-bottom: 10px;
+        width: 97%;
+        left: 47px;
     }
     .hoverBackBranding {
         background: url('https://1.bp.blogspot.com/-FpHx4_NL9Wc/YEFS0_nviJI/AAAAAAAAGwg/WuJF762k4-M0VwkucI_ZptxKRAnI9NdBgCLcBGAsYHQ/s0/backgroundBranding.png');
@@ -2054,10 +2059,15 @@
     /* DESIGN PROJETOS (max-width: 440px) */
     .Centrotrabalhos {
         top: 64px;
-        width: 97%;
-        left: -2px;
+        width: 96%;
+        left: -1px;
         padding: 21px;
         font-size: 15px;
+    }
+    #portfolio .portfolio-container {
+        margin-bottom: 10px;
+        width: 97%;
+        left: 47px;
     }
     .hoverBackBranding {
         background: url('https://1.bp.blogspot.com/-FpHx4_NL9Wc/YEFS0_nviJI/AAAAAAAAGwg/WuJF762k4-M0VwkucI_ZptxKRAnI9NdBgCLcBGAsYHQ/s0/backgroundBranding.png');
@@ -2568,10 +2578,15 @@
     /* DESIGN PROJETOS (max-width: 420px) */
     .Centrotrabalhos {
         top: 64px;
-        width: 97%;
-        left: -2px;
+        width: 96%;
+        left: -1px;
         padding: 21px;
         font-size: 15px;
+    }
+    #portfolio .portfolio-container {
+        margin-bottom: 10px;
+        width: 97%;
+        left: 47px;
     }
     .hoverBackBranding {
         background: url('https://1.bp.blogspot.com/-FpHx4_NL9Wc/YEFS0_nviJI/AAAAAAAAGwg/WuJF762k4-M0VwkucI_ZptxKRAnI9NdBgCLcBGAsYHQ/s0/backgroundBranding.png');
@@ -3039,6 +3054,11 @@
         left: 0px;
         padding: 19px;
         font-size: 15px;
+    }
+    #portfolio .portfolio-container {
+        margin-bottom: 10px;
+        width: 96%;
+        left: 39px;
     }
     .hoverBackBranding {
         background: url('https://1.bp.blogspot.com/-FpHx4_NL9Wc/YEFS0_nviJI/AAAAAAAAGwg/WuJF762k4-M0VwkucI_ZptxKRAnI9NdBgCLcBGAsYHQ/s0/backgroundBranding.png');
@@ -3736,6 +3756,11 @@
         left: 0px;
         padding: 19px;
         font-size: 14px;
+    }
+    #portfolio .portfolio-container {
+        margin-bottom: 10px;
+        width: 100%;
+        left: 6px;
     }
     .Centrobrands {
         top: 76px;
