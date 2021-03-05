@@ -234,5 +234,5 @@
     -webkit-filter: blur(117px);
     padding: 180px;
     position: absolute;
-    animation: sobreCaixa 2.2s ease-in-out;
+    animation: fadeIn 5.2s ease-in-out;
 }
