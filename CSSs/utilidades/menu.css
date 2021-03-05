@@ -231,6 +231,15 @@
     animation: hoverBackTrab 1.9s ease-in-out;
 }
 
+.hoverBackBrands {
+    background: url('https://1.bp.blogspot.com/-Krc0jY9l1-U/YEGxqdVLRiI/AAAAAAAAGxQ/QdP_dASwXIApP_4ui9M2OkZaO2FouUoLACLcBGAsYHQ/s0/hoverbackbrands.png') no-repeat;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1300;
+    animation: hoverBackTrab 1.9s ease-in-out;
+}
+
 @keyframes FundoPreto {
     from {
         transform: translateY(1350px);
