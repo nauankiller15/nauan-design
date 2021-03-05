@@ -2589,7 +2589,7 @@
     .Centrotemplates {
         top: 81px;
         width: 100%;
-        left: -4px;
+        left: -6px;
         padding: 21px;
         font-size: 15px;
         padding-bottom: 55px;
@@ -2636,7 +2636,7 @@
         text-align: center;
     }
     .templates h2 {
-        left: 25px;
+        left: 22px;
         width: 60%;
         top: 21px;
         font-size: 46px;
