@@ -1365,7 +1365,7 @@
     /* ----- MENU */
     .menu {
         bottom: 0px;
-        right: 0px;
+        right: -1px;
     }
     .menu ul {
         height: 71px;
@@ -1873,7 +1873,7 @@
     /* ----- MENU */
     .menu {
         bottom: 0px;
-        right: 0px;
+        right: -1px;
     }
     .menu ul {
         height: 71px;
@@ -2314,7 +2314,7 @@
     /* ----- MENU */
     .menu {
         bottom: 0px;
-        right: 0px;
+        right: -1px;
     }
     .menu ul {
         height: 71px;
@@ -2344,6 +2344,9 @@
     }
     .menu g {
         display: none;
+    }
+    #botao-share {
+        display: block;
     }
     /* NAVEGADORES LI */
     .li-projetos::before {
@@ -2781,7 +2784,7 @@
     /* ----- MENU */
     .menu {
         bottom: 0px;
-        right: 0px;
+        right: -1px;
     }
     .menu ul {
         height: 71px;
@@ -3266,7 +3269,7 @@
     /* ----- MENU */
     .menu {
         bottom: 0px;
-        right: 0px;
+        right: -1px;
     }
     .menu ul {
         height: 71px;
@@ -3460,7 +3463,7 @@
     /* ----- MENU */
     .menu {
         bottom: -6px;
-        right: 0px;
+        right: -1px;
     }
     .menu ul {
         height: 71px;

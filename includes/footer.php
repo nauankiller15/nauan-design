@@ -22,6 +22,7 @@
 <script src="Lib/owlcarousel/owl.carousel.min.js"></script>
 <script src="Lib/magnific-popup/magnific-popup.min.js"></script>
 <script src="Lib/isotope/isotope.pkgd.min.js"></script>
+<script src="https://assets.website-files.com/6022ffeab6f354c9aa1eb2a2/js/webflow.70bcbf178.js" type="text/javascript"></script>
 <script>
 	MenuAtivo();
 	// fecharpopup();
