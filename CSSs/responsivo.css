@@ -1396,6 +1396,9 @@
     .menu g {
         display: none;
     }
+    .posit-menu {
+        padding-left: 14px;
+    }
     /* NAVEGADORES LI */
     .li-projetos::before {
         font-size: 23px;
@@ -1444,7 +1447,7 @@
         margin-top: 4px;
         margin-left: 38px;
         font-size: 23px;
-        padding: 9px;
+        padding-left: 14px;
         transition: 0.5s;
         border-radius: 12px;
     }
@@ -1952,7 +1955,7 @@
         margin-top: 4px;
         margin-left: 15px;
         font-size: 23px;
-        padding: 9px;
+        padding-left: 14px;
         transition: 0.5s;
         border-radius: 12px;
     }
@@ -2348,6 +2351,9 @@
     #botao-share {
         display: block;
     }
+    .posit-menu {
+        padding-left: 14px;
+    }
     /* NAVEGADORES LI */
     .li-projetos::before {
         font-size: 23px;
@@ -2396,7 +2402,7 @@
         margin-top: 4px;
         margin-left: 103px;
         font-size: 23px;
-        padding: 9px;
+        padding-left: 14px;
         transition: 0.5s;
         border-radius: 12px;
     }
@@ -2815,6 +2821,9 @@
     .menu g {
         display: none;
     }
+    .posit-menu {
+        padding-left: 14px;
+    }
     /* NAVEGADORES LI */
     .li-projetos::before {
         font-size: 23px;
@@ -2863,7 +2872,7 @@
         margin-top: 4px;
         margin-left: 15px;
         font-size: 23px;
-        padding: 9px;
+        padding-left: 14px;
         transition: 0.5s;
         border-radius: 12px;
     }
@@ -3281,7 +3290,7 @@
     .menu li {
         float: RIGHT;
         text-align: center;
-        margin: 5px 5px auto 5px;
+        margin: 5px 7px auto 5px;
         padding: 8px;
         list-style: none;
         transition-timing-function: ease-in-out;
@@ -3299,6 +3308,9 @@
     }
     .menu g {
         display: none;
+    }
+    .posit-menu {
+        padding-left: 14px;
     }
     /* NAVEGADORES LI */
     .li-projetos::before {
@@ -3346,9 +3358,9 @@
     }
     #fechar {
         margin-top: 4px;
-        margin-left: 145px;
+        margin-left: 143px;
         font-size: 23px;
-        padding: 9px;
+        padding-left: 14px;
         transition: 0.5s;
         border-radius: 12px;
     }
@@ -3494,6 +3506,9 @@
     .menu g {
         display: none;
     }
+    .posit-menu {
+        padding-left: 14px;
+    }
     /* NAVEGADORES LI */
     .li-projetos::before {
         font-size: 23px;
@@ -3542,7 +3557,7 @@
         margin-top: 5px;
         margin-left: 179px;
         font-size: 22px;
-        padding: 9px;
+        padding-left: 14px;
         transition: 0.5s;
         border-radius: 12px;
     }
