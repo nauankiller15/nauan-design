@@ -16,9 +16,9 @@
                             <h1 style="animation: euSou 2.5s ease-in-out;"><span class="typed"></span></h1>
                             <b style="animation: animSou 2.3s ease-in-out;">Venha desenvolver junto comigo.</b>
                         </div>
-                        Desde que me conheço como gente, sou apaixonado por scomputador. Meu primeiro contato foi quando tinha 5 anos de idade.
+                        Desde que me conheço como gente, sou apaixonado por computador. Meu primeiro contato foi quando tinha 5 anos de idade.
                         Comecei a fuçar e aprender a programar quando tinha meus 12 anos de idade. Criava Websites sem mesmo ter alguma experiência na área.
-                        Até que então me identifiquei nso ramo e comecei a procurar a me aprofundar na área.
+                        Até que então me identifiquei no ramo e comecei a procurar a me aprofundar na área.
                         Comecei com cursos, especializações e aprendendo autonomamente.
                         Minha paixão é <b><i class="fas fa-mug-hot"></i> Café </b>, nas horas vagas arranho <b><i class="fas fa-guitar"></i> Violão, Guitarra</b> e me arrisco um pouquinho a <b><i class="fas fa-microphone-alt"></i> Cantar</b> também.
                         Sempre busco realizar meus compromissos, por mais que tenha dificuldade sempre busco resolver a situação. Adoro desafios e experiências novas também.
