@@ -8,7 +8,8 @@
                 <div id="portfolio">
                     <div class="container">
                         <div class="template-title-premium">
-                            Modelos <b><i style="margin-right:4px;" class="fas fa-star"></i>PREMIUM:</b>
+                            Modelos
+                            <!--- <b><i style="margin-right:4px;" class="fas fa-star"></i>PREMIUM:</b> ---> Disponiveis
                         </div>
                     </div>
                     <div class="w-gallery">
@@ -73,9 +74,9 @@
                             </ul>
                         </section>
                     </div>
-                    <div class="container">
+                    <!-- <div class="container">
                         <div class="template-title-premium">
-                            Modelos <i style="margin-right:4px;"  class="fas fa-tag"></i>Gratuítos:
+                            Modelos <i style="margin-right:4px;" class="fas fa-tag"></i>Gratuítos:
                         </div>
                     </div>
                     <div class="w-gallery">
@@ -139,7 +140,7 @@
                                 </li>
                             </ul>
                         </section>
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
