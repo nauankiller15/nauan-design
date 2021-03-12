@@ -88,6 +88,9 @@
 .rotateSlides {
     transform-style: preserve-3d;
     animation: 3s rotateSlide ease-in-out;
+    background-size: cover;
+    margin: auto;
+    align-items: center;
 }
 
 @keyframes rotateSlide {
@@ -179,6 +182,7 @@
     grid-area: 1/1;
     border-radius: 5px;
     overflow: hidden;
+    align-items: center;
 }
 
 .slide-nav {
