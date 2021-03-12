@@ -43,7 +43,7 @@
                             <div class="sidebar-link-text">Instagram</div>
                         </a><a href="#" target="_blank" class="add-link w-inline-block" tabindex="0"><i style="margin-right:8px;" class="fab fa-facebook sidebar-icon"></i>
                             <div class="sidebar-link-text">Facebook</div>
-                        </a><a href="#" class="add-link w-inline-block" tabindex="0"><i style="margin-right:8px;" class="fas fa-envelope sidebar-icon"></i>
+                        </a><a href="mailto:nauanxdesign@gmail.com?subject=Olá%20Nauan..." class="add-link w-inline-block" tabindex="0"><i style="margin-right:8px;" class="fas fa-envelope sidebar-icon"></i>
                             <div class="sidebar-link-text">Email</div>
                         </a>
                     </nav>
