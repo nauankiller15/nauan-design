@@ -30,7 +30,7 @@
             <li class="li-servico" id="servicoAbrir" style="animation: fadeIn 10.0s, slideMenu 2.5s;">
                 <g>Solicitar Serviço</g>
             </li>
-            <li class="caixabotao" id="botao-share">
+            <li style="animation: fadeIn 10.0s, slideMenu 2.7s;" class="caixabotao" id="botao-share">
                 <div data-hover="" data-delay="0" class="new-button w-dropdown">
                     <div class="new-button-toggle w-dropdown-toggle" id="w-dropdown-toggle-4" aria-controls="w-dropdown-list-4" aria-haspopup="menu" aria-expanded="false" role="button" tabindex="0">
                         <div>+</div>
