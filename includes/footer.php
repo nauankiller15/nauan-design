@@ -25,5 +25,4 @@
 <script src="Lib/isotope/isotope.pkgd.min.js"></script>
 <script>
 	MenuAtivo();
-	// fecharpopup();
 </script>
