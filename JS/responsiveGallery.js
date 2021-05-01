@@ -15,7 +15,6 @@ $(function() {
     });
 });
 
-;
 (function($) {
     $.fn.responsiveGallery = function(option) {
         var opts = $.extend({}, $.fn.responsiveGallery.defaults, option), //配置选项
