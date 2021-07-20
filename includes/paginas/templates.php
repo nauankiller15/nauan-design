@@ -5,11 +5,14 @@
         </div>
         <div id="caixatemplates">
             <div class="Centrotemplates">
-                <div id="portfolio">
+                <div class="template-title-premium">
+                    <b> Em breve será postado! </b>
+                </div>
+                <!-- <div id="portfolio">
                     <div class="container">
                         <div class="template-title-premium">
                             Modelos
-                            <!--- <b><i style="margin-right:4px;" class="fas fa-star"></i>PREMIUM:</b> ---> Disponiveis
+                            - <b><i style="margin-right:4px;" class="fas fa-star"></i>PREMIUM:</b> - Disponiveis
                         </div>
                     </div>
                     <div class="w-gallery">
@@ -74,7 +77,7 @@
                             </ul>
                         </section>
                     </div>
-                    <!-- <div class="container">
+                    <div class="container">
                         <div class="template-title-premium">
                             Modelos <i style="margin-right:4px;" class="fas fa-tag"></i>Gratuítos:
                         </div>
@@ -140,8 +143,8 @@
                                 </li>
                             </ul>
                         </section>
-                    </div> -->
-                </div>
+                    </div>
+                </div> -->
             </div>
         </div>
     </div>
