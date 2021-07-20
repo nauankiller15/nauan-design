@@ -8,7 +8,7 @@
                     <div class="Centrosobre">
                         <div id="separarImg">
                             <div class="imagePotrait">
-                                <img src="https://1.bp.blogspot.com/-HrqEN225zm0/X_Duia5YSeI/AAAAAAAAGig/e8x9iX8jQj895rxGuc36GoT8U9NMi278gCLcBGAsYHQ/s16000/euo.png" alt="img">
+                                <img src="https://1.bp.blogspot.com/-AqH2Ld7t13k/YPc4MDgr5XI/AAAAAAAAHXY/43bWt5HWpewf9Ub3Q_hX0oyUIG_ZueCQQCLcBGAsYHQ/s0/106182240_273437783966589_6416016797263594864_n.jpg" alt="img">
                             </div>
                         </div>
                         <p style="margin-right: 2px;">

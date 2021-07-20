@@ -4,7 +4,6 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-    <link rel="icon" href="imagens/favicon.ico" type="image/ico">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex,nofollow">
     <meta name="Description" CONTENT="Author: Nauan, Designer, Mockups, Web-Dev">
@@ -26,6 +25,7 @@
     <link rel="stylesheet" type="text/css" href="Lib/magnific-popup/magnific-popup.css">
     <link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
     <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <link rel="icon" href="Imagens/favicon-32x32.png" type="image/png">
 
     <title>Nauan - Design</title>
 
