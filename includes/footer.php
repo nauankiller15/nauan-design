@@ -6,10 +6,10 @@
 <script src="JS/activemenu.js"></script>
 <script src="Lib/jquery/jquery.min.js"></script>
 <script src="Lib/jquery/jquery-migrate.min.js"></script>
-<script src="JS/checkbox-botao.js"></script>
-<script src="JS/main.js"></script>
-<script src="JS/misc.js"></script>
-<script src="JS/contact-form.js"></script>
+<script src="JS/checkbox-botao.min.js"></script>
+<script src="JS/main.min.js"></script>
+<script src="JS/mis.minc.js"></script>
+<script src="JS/contact-form.min.js"></script>
 <script src="JS/animations.js"></script>
 <script src="JS/projetos-anim.js"></script>
 <script src="JS/slide-stories.js"></script>

@@ -4,7 +4,7 @@
 // TELA DE CARREGAMENTO
 setTimeout(function() {
      $('.loader-wrapper, .spinner').fadeOut(250);
-}, 1800);
+}, 2500);
 // 
 // ---------------
 function MenuAtivo() {
