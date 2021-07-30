@@ -19,4 +19,4 @@ ExpiresDefault "access 1 month"
 
 RewriteEngine on
 RewriteCond %{HTTP_REFERER} !^$
-RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?yourdomain.com [NC] RewriteRule .(jpg|jpeg|png|gif)$ – [NC,F,L]
+RewriteCond %{HTTP_REFERER} !^http(s)?://(www.)?nauandesign.com.br [NC] RewriteRule .(jpg|jpeg|png|gif)$ – [NC,F,L]
