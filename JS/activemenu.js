@@ -2,9 +2,9 @@
 // 
 // 
 // TELA DE CARREGAMENTO
-$(window).on('load', function() {
-    $('.loader-wrapper, .spinner').fadeOut(250);
-});
+setTimeout(function() {
+     $('.loader-wrapper, .spinner').fadeOut(250);
+}, 1800);
 // 
 // ---------------
 function MenuAtivo() {
